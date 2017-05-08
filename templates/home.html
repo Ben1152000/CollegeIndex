@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block style %}
+  <style>
+    #map {height: 400px; width: 100%;}
+    .gsdf {
+      position: absolute; top: 50%; left: 50%; height: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <div id="map" class="marketing"></div>
+  <meta id="schools" data="{{schools}}">
+  <script>
+    function initMap() {
+      var kehillah = {lat: 37.424910, lng: -122.104568};
+      var center = {lat: 40.819934, lng: -96.701856};
+      //var point = { Kehillah: {lat: 37.424910, lng: -122.104568}};
+      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false});
+      
+        // This example uses a local copy of the GeoJSON stored at
+        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+
+      var marker2 = new google.maps.Marker({position: kehillah, map: map});
+      var marker = new google.maps.Marker({position: kehillah, map: map});
+      //var infowindow = new google.maps.InfoWindow({content:"Kehillah Jewish High School"});
+      //google.maps.event.addListener(marker, 'click', function() {infowindow.open(map, marker);});
+    }
+    function JSONloader(input) {
+      this.input 	= input;
+      this.data 	= {};
+      this.init();
+    }
+    JSONloader.prototype.init = function() {
+      document.getElementById(this.input).addEventListener('change', this.read);
+    }
+    JSONloader.prototype.read = function(e) {
+      var el = e.target;
+      if(el.files && el.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          var data = window.atob(e.target.result.replace('data:;base64,', ''));
+          console.log(data);
+        }
+        reader.readAsDataURL(el.files[0]);
+      }
+    }
+  </script>
+  <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB65Hg1ByHjRCA3riW0ShafytFRCSUOm6U&callback=initMap">
+  </script>
+  <div class="jumbotron" style="padding: 15px">
+    <div style="float: right;">
+      <form class="navbar-form" role="search">
+        <div class="input-group add-on">
+          <input class="form-control" placeholder="Search" name="query" id="query" type="text">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit" style="height: 34px; width: 34px"><i class="glyphicon glyphicon-search" style="font-size: 12pt; position: absolute; top: 50%; left: 50%; height: 50%; transform: translate(-50%, -50%);"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="jumbotron" style="padding: 40px 20px">
+        <h3>Kehillah Jewish High School<h3><br>
+        <div style="overflow: auto">
+          
+          <div class="col-sm-6" style="height: 100%; border: 1px solid #a0a0a0; border-radius: 25px; padding: 20px">
+            <h3>Statistics:</h3>
+            <p>Taste: 6/10</p>
+            <p>Texture: 8/10</p>
+            <p>Tummy Feel: 7/10</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="https://igx.4sqi.net/img/general/original/114682_VgDJYmezDEaGFx57M1_J-7hbmwoTnfRCffSR53VB7as.jpg" style="width: 100%">
+          </div>
+          
+        </div>
+        <br>
+        <h3>
+          John Barnard:
+        </h3>
+        <p style="text-align: justify">
+          Nunc iaculis magna at nibh feugiat sagittis. Aenean aliquam est eget risus tristique vehicula vitae ut nisl. Praesent vulputate hendrerit consequat. Curabitur rhoncus, neque ac rutrum sollicitudin, sem dui sodales mauris, nec malesuada lorem quam eget eros. Proin sodales lorem vel convallis lobortis. Nulla dapibus velit sed lectus accumsan gravida. Ut tincidunt ante sit amet enim euismod eleifend.
+          Pellentesque scelerisque tortor dignissim lectus eleifend tristique. Curabitur ut mauris nec ipsum lobortis volutpat eget ut metus. Vestibulum feugiat malesuada elit in pulvinar. Ut ac iaculis metus, vitae laoreet nunc. Nulla faucibus lacinia quam, sit amet egestas ex pharetra vitae. Integer vel.
+        </p>
+        <h3>
+          Gregor Mendel:
+        </h3>
+        <p style="text-align: justify">
+          Donec in neque nec urna semper efficitur. Morbi vel placerat purus. Sed finibus, dolor a aliquet sollicitudin, purus mi maximus orci, in faucibus mi lectus id nunc. Sed dapibus tortor a tempor ornare. Praesent quis dignissim lorem. Cras eleifend quam ac euismod placerat. Aenean et velit placerat, facilisis turpis sit amet, viverra metus. Cras nec risus sapien. Proin lacus ante, sollicitudin sed odio quis, semper venenatis mi.
+        <h3>
+          Wilhelmina Navisson:
+        </h3>
+        <p style="text-align: justify">
+          Pellentesque eu massa feugiat neque pharetra tincidunt quis non orci. Sed rhoncus tellus id imperdiet ultricies. Ut eu cursus arcu. Sed non pharetra lectus. Vivamus tempus eros lorem, quis cursus ipsum rhoncus sit amet.
+          Duis pulvinar porta neque nec vehicula. Praesent iaculis ante eget ultricies blandit. Vivamus convallis, mi eget ultrices eleifend, nisi purus efficitur ex, scelerisque facilisis dolor lacus sit amet sapien. Vivamus gravida viverra ultricies. Mauris a urna eu ex tempus blandit. Nullam quis sapien facilisis, egestas dolor sed, feugiat velit. Aenean imperdiet turpis nec massa ornare porta. Phasellus eu mattis eros, in luctus velit. In dictum lorem ut massa tincidunt dapibus eget sed tellus.
+          Etiam interdum eros justo, nec egestas turpis maximus ut. Suspendisse auctor mattis erat. In hac habitasse platea dictumst. Donec molestie turpis leo, ac iaculis dolor vehicula vel. Integer semper elit congue.
+        </p>
+    </div>
+  </div>
+{% endblock %}

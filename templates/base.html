@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>College Index</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon_16.ico') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon_32.ico') }}">
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <style>
+      body { /* Space out content a bit */
+          background-color: royalblue;
+          background-size: cover;
+          background-attachment: fixed;
+      }
+      .header, .marketing, .footer { /* Everything but the jumbotron gets side spacing for mobile first views */
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+      .header { /* Custom page header */
+          padding-bottom: 20px;
+          border-bottom: 1px
+          solid #e5e5e5;
+      }
+      .header h3 { /* Make the masthead heading the same height as the navigation */
+          margin-top: 0;
+          margin-bottom: 0;
+          line-height: 40px;
+      }
+      .footer { /* Custom page footer */
+          padding-top: 19px;
+          color: #777;
+          border-top: 1px solid #e5e5e5;
+      }
+      @media (min-width: 768px) { /* Customize container */
+          .container {
+              max-width: 730px;
+          }
+      }
+      .container-narrow > hr {
+          margin: 30px 0;
+      }
+      .jumbotron { /* Main marketing message and sign up button */
+          text-align: center;
+          border-bottom: 1px solid #e5e5e5;
+          margin-top: 30px;
+      }
+      .jumbotron .btn {
+          padding: 14px 24px;
+          font-size: 21px;
+      }
+      .marketing { /* Supporting marketing content */
+          margin-bottom: 35px;
+          margin-top: 30px;
+      }
+      .marketing p + h4 {
+          margin-top: 28px;
+      }
+      @media screen and (min-width: 768px) { /* Responsive: Portrait tablets and up */
+          .header, /* Remove the padding we set earlier */
+          .marketing,
+          .footer {
+              padding-right: 0;
+              padding-left: 0;
+          }
+          .header { /* Space out the masthead */
+              margin-bottom: 30px;
+          }
+          .jumbotron { /* Remove the bottom border on the jumbotron for visual effect */
+              border-bottom: 0;
+          }
+      }
+      p {
+          font-size: 14pt !important;
+      }
+      h3 {
+          font-size: 14pt !important;
+      }
+      .copy-left {
+          display: inline-block;
+          text-align: right;
+          margin: 0px;
+          -moz-transform: scaleX(-1);
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          filter: FlipH;
+          -ms-filter: “FlipH”;
+      }
+      .blue {background-color: royalblue;}
+      .green {background-color: forestgreen;}
+      .sunset {background-color: #1c50aa; background-image: url("{{ url_for('static', filename='sunset.png') }}");}
+      .city {background-color: #051215; background-image: url("{{ url_for('static', filename='city.png') }}");}
+      .clouds {background-color: #436988; background-image: url("{{ url_for('static', filename='clouds.png') }}");}
+      .mountains {background-color: #60a3cc; background-image: url("{{ url_for('static', filename='mountains.png') }}");}
+      .tartan {background-color: hsl(2, 57%, 40%);}
+      .plaid {background-color: forestgreen;}
+      .plaid, .tartan {
+        background-image:
+          repeating-linear-gradient(transparent, transparent 27.5px,rgba(0,0,0,.4) 27.5px, rgba(0,0,0,.4) 29px, transparent 29px, transparent 34px, rgba(0,0,0,.4) 34px, rgba(0,0,0,.4) 35.5px, transparent 35.5px, transparent 60.5px, rgba(0,0,0,.5) 60.5px, rgba(0,0,0,.5) 85.5px, rgba(255,255,255,.2) 85.5px, rgba(255,255,255,.2) 87px, rgba(0,0,0,.5) 87px, rgba(0,0,0,.5) 92px, rgba(255,255,255,.2) 92px, rgba(255,255,255,.2) 93.5px, rgba(0,0,0,.5) 93.5px, rgba(0,0,0,.5) 118.5px, transparent 118.5px),
+          repeating-linear-gradient(270deg, transparent, transparent 27.5px,rgba(0,0,0,.4) 27.5px, rgba(0,0,0,.4) 29px, transparent 29px, transparent 34px, rgba(0,0,0,.4) 34px, rgba(0,0,0,.4) 35.5px, transparent 35.5px, transparent 60.5px, rgba(0,0,0,.5) 60.5px, rgba(0,0,0,.5) 85.5px, rgba(255,255,255,.2) 85.5px, rgba(255,255,255,.2) 87px, rgba(0,0,0,.5) 87px, rgba(0,0,0,.5) 92px, rgba(255,255,255,.2) 92px, rgba(255,255,255,.2) 93.5px, rgba(0,0,0,.5) 93.5px, rgba(0,0,0,.5) 118.5px, transparent 118.5px),
+          repeating-linear-gradient(125deg, transparent, transparent 1px, rgba(0,0,0,.2) 1px, rgba(0,0,0,.2) 2px, transparent 2px, transparent 4px, rgba(0,0,0,.2) 4px);
+      }
+    </style>
+    {% block style %}{% endblock %}
+  </head>
+  <body class="{{ session['bkgd'] }}">
+    <div class="container" style="background-color: white; padding: 20px 40px; height: 100%">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            {% if session.get('user') %}
+            <li role="presentation"><a href="/account">Account</a></li>
+            <li role="presentation"><a href="/logout">Log Out</a></li>
+            <li role="presentation" class="active"><a href="/submit">Submit</a></li>
+            {% else %}
+            <li role="presentation"><a href="/login">Log In</a></li>
+            <li role="presentation" class="active"><a href="/register">Sign Up</a></li>
+            {% endif %}
+          </ul>
+        </nav>
+        <h3 class="text-muted">
+          <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" style="height: 40px;" align="middle"></a>
+          <span>&nbsp;</span>
+        </h3>
+        {% if session.get('user') %}
+        <span style="margin-left: 60px">Greetings, {{session['name'][0]}} {{session['name'][1]}}!</span>
+        {% endif %}
+      </div>
+      {% block body %}{% endblock %}
+      <footer class="footer">
+        <p style="font-size: 10pt !important">
+          <span class="copy-left">&copy;</span>
+          <a href="mailto:kjhscollegeindex@gmail.com">Ben Darnell</a>
+          2017
+          <span style="float: right">
+            <a href="{{ url_for('settings') }}">Settings</a>
+            &nbsp·&nbsp
+            <a href="{{ url_for('about') }}">About Us</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

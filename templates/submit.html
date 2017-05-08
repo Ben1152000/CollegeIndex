@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <h2 style="margin-bottom: 50px">Submit Review</h2>
+    {% if error %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid Login Credentials.</div>
+    {% endif %}
+    <form class="form-signin" action="{{ url_for('submit') }}" method="post">
+      <div id="name" class="container" style="margin-bottom: 40px">
+        <p style="line-height: 10pt">Which college did you visit? (<a href="/" target="_blank">Not on the list?</a>)</p>
+        <select type="rating" name="taste" class="form-control">
+          {% for item in data %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div id="ratings" class="container" style="margin-bottom: 40px">
+        <h3 style="margin-bottom: 20px">Ratings:</h3>
+        <div class="col-sm-4">
+          <p style="line-height: 10pt">Taste:</p>
+          <p style="font-size: 10pt !important">(Quality of Education)</p>
+          <select type="rating" name="taste" class="form-control">
+            <option value="1">1</option><option value="2">2</option>
+            <option value="3">3</option><option value="4">4</option>
+            <option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option>
+            <option value="9">9</option><option value="10">10</option>
+          </select>
+        </div>
+        <div class="col-sm-4">
+          <p style="line-height: 10pt">Texture:</p>
+          <p style="font-size: 10pt !important">(Quality of Life)</p>
+          <select type="rating" name="texture" class="form-control">
+            <option value="1">1</option><option value="2">2</option>
+            <option value="3">3</option><option value="4">4</option>
+            <option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option>
+            <option value="9">9</option><option value="10">10</option>
+          </select>
+        </div>
+        <div class="col-sm-4">
+          <p style="line-height: 10pt">Tummy Feel:</p>
+          <p style="font-size: 10pt !important">(Gut feeling)</p>
+          <select type="rating" name="tummy feel" class="form-control">
+            <option value="1">1</option><option value="2">2</option>
+            <option value="3">3</option><option value="4">4</option>
+            <option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option>
+            <option value="9">9</option><option value="10">10</option>
+          </select>
+        </div>
+      </div>
+      <div id="responses" class="container" style="margin-bottom: 40px">
+        <h3 style="margin-bottom: 20px">Responses:</h3>
+        <p style="font-size: 14pt; text-align: left">What are the main highlights of the college? (100 words max.)</p>
+        <textarea name="message" rows=8 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">What are some negative/unsatisfactory aspects of the college? (100 words max.)</p>
+        <textarea name="message" rows=8 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">How does the college stand out academically? (100 words max.)</p>
+        <textarea name="message" rows=8 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">How is the school's residential/student life? (100 words max.)</p>
+        <textarea name="message" rows=8 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">Describe the stereotypical student. Do they like sports, math, etc.? (50 words max.)</p>
+        <textarea name="message" rows=4 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">After visiting, do you want to apply? If so, why? (50 words max.)</p>
+        <textarea name="message" rows=4 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">Is there anything else you feel others should know about this school? (50 words max.)</p>
+        <textarea name="message" rows=4 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+        <p style="font-size: 14pt; text-align: left">Please post any links relating to statistics or other reviews for this college. (E.G., <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>, <a href="https://bigfuture.collegeboard.org/college-search" target="_blank">BigFuture</a>)</p>
+        <textarea name="message" rows=4 class="form-control" style="width: 100%; margin-bottom: 20px"></textarea>
+      </div>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </form>
+  </div>
+{% endblock %}

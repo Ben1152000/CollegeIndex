@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron" style="padding: 40px 20px">
+    <h2 style="margin-bottom: 40px">Settings<h2>
+    <div>
+      <h3 style="margin-bottom: 30px">Background Image:</h3>
+      <div class="col-sm-6">
+        <a href="{{ url_for('bkgdblue') }}"><div class="blue" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+        <a href="{{ url_for('bkgdsunset') }}"><img src="{{ url_for('static', filename='sunset.png') }}" style="width: 100%; height: 180px; margin-bottom: 20px"></a>
+        <a href="{{ url_for('bkgdclouds') }}"><img src="{{ url_for('static', filename='clouds.png') }}" style="width: 100%; height: 180px; margin-bottom: 20px"></a>
+        <a href="{{ url_for('bkgdtartan') }}"><div class="tartan" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+      </div>
+      <div class="col-sm-6">
+        <a href="{{ url_for('bkgdgreen') }}"><div class="green" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+        <a href="{{ url_for('bkgdcity') }}"><img src="{{ url_for('static', filename='city.png') }}" style="width: 100%; height: 180px; margin-bottom: 20px"></a>
+        <a href="{{ url_for('bkgdmountains') }}"><img src="{{ url_for('static', filename='mountains.png') }}" style="width: 100%; height: 180px; margin-bottom: 20px"></a>
+        <a href="{{ url_for('bkgdplaid') }}"><div class="plaid" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+      </div>
+      <p style="font-size: 18px; line-height: 25px">If you have questions or concerns, please contact me at: <a href="mailto:kjhscollegeindex@gmail.com">kjhscollegeindex@gmail.com</a></p>
+    </div>
+  </div>
+{% endblock %}

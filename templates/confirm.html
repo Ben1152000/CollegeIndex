@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <h2>Confirm your Account</h2>
+    <br>
+    {% if error==1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid code.</div>
+    {% endif %}
+    <br>
+    <p>Please enter the confirmation code sent to your email: (<a href="{{ url_for('send_confirmation') }}">resend</a>)</p>
+    <form class="form-signin" action="{{ url_for('confirm') }}" method="post">
+      <label for="confirmCode" class="sr-only">Confirmation Code</label>
+      <input type="code" name="confirmCode" id="confirmCode" class="form-control" placeholder="Confirmation Code" style="margin: auto; width: 50%;" required autofocus>
+      <br><br>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Confirm</button>
+    </form>
+  </div>
+{% endblock %}

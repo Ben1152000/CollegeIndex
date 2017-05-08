@@ -1,0 +1,3 @@
+Flask==0.12.1
+Flask_Mail==0.9.1
+flask-sijax==0.4.1

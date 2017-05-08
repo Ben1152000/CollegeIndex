@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <h2>Sign Up</h2>
+    <br>
+    {% if error==1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Passwords do not match.</div>
+    {% elif error==2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username taken.</div>
+    {% elif error==3 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Sorry, registration is not open at this time.</div>
+    {% elif error==4 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid First/Last Name. Begin name with a capital.</div>
+    {% elif error==4.1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username must contain only letters, numbers, dashes, or underscores.</div>
+    {% elif error==4.2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid email address.</div>
+    {% elif error==4.3 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Password must be at least 6 characters.</div>
+    {% endif %}
+    <form class="form-signin" action="{{ url_for('register') }}" method="post">
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="firstName" class="sr-only" style="width: 50%">First Name</label>
+          <input type="name" name="firstName" id="firstName" class="form-control" placeholder="First Name" required autofocus>
+        </div>
+        <div class="col-sm-6">
+          <label for="secondName" class="sr-only">Last Name</label>
+          <input type="name" name="secondName" id="secondName" class="form-control" placeholder="Last Name" required autofocus>
+        </div>
+      </div>
+      <br>
+      <label for="inputName" class="sr-only">Username</label>
+      <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Username" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
+      <br>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" title="Valid email address." required autofocus>
+      <br>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" pattern=".{6,}" title="Must be at least 6 characters." required>
+      <br>
+      <label for="verifyPassword" class="sr-only">Verify Password</label>
+      <input type="password" name="verifyPassword" id="verifyPassword" class="form-control" placeholder="Retype password" pattern=".{6,}" title="Must be at least 6 characters." required>
+      <br><br>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    </form>
+  </div>
+{% endblock %}
