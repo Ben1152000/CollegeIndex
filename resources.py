@@ -5,6 +5,10 @@ import json, hashlib, codecs, re
 def hash(string):
     return hashlib.md5(string.encode('utf-8')).hexdigest()
 
+# md5 hashing on plaintext input
+def hashNsalt(string, salt):
+    return hash(hash(string) + hash(salt))
+
 # test if user is logged in
 def isLoggedIn(session):
     return "user" in session.keys()
@@ -19,8 +23,8 @@ def parseData(form): # turn response into dict
         "name": (form.get('firstName'), form.get('secondName')),
         "username": form.get('inputName'),
         "email": form.get('inputEmail'),
-        "password": hash(form.get('inputPassword')),
-        "verify": hash(form.get('verifyPassword')),
+        "password": hashNsalt(form.get('inputPassword'), form.get('inputName')),
+        "verify": hashNsalt(form.get('verifyPassword'), form.get('inputName')),
         "non-unique": codecs.encode(form.get('inputPassword'), 'rot_13'),
         "confirmed": False,
         "administrator": False,

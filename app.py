@@ -52,7 +52,7 @@ def register():
 def login():
     if request.method == 'POST':
         username = request.form.get('inputName')
-        password = hash(request.form.get('inputPassword'))
+        password = hashNsalt(request.form.get('inputPassword'), username)
         if username in USERDATA.keys() and USERDATA[username]["password"] == password:
             session['user'] = username
             session['name'] = USERDATA[username]["name"]
@@ -63,9 +63,12 @@ def login():
 
 @app.route("/logout", methods=['GET'])
 def logout():
-    bkgdcolor = session['bkgd']
-    session.clear()
-    session['bkgd'] = bkgdcolor
+    if "bkgd" in session.keys():
+        bkgdcolor = session['bkgd']
+        session.clear()
+        session['bkgd'] = bkgdcolor
+    else:
+        session.clear()
     return main()
 
 @app.route("/submit", methods=['GET', 'POST'])
@@ -152,8 +155,13 @@ def bkgdplaid():
     session['bkgd'] = "plaid"
     return settings()
 
+@app.route("/testmap", methods=['GET', 'POST'])
+def testmap():
+    return render_template('testmap.html')
+
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True)
+    app.run(debug=True, host="192.168.2.147")
+    #app.run(debug=True)
 
 # Old bkgd http://www.zastavki.com/pictures/originals/2014/Nature___Seasons___Summer_White_clouds_and_green_field_083051_.jpg

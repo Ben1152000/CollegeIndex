@@ -8,7 +8,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <style>
       body { /* Space out content a bit */
-          background-color: royalblue;
+          background-image: url("{{ url_for('static', filename='map.png') }}");
           background-size: cover;
           background-attachment: fixed;
       }
@@ -75,6 +75,10 @@
       h3 {
           font-size: 14pt !important;
       }
+      div {
+          background-size: cover;
+          background-attachment: fixed;
+      }
       .copy-left {
           display: inline-block;
           text-align: right;
@@ -86,8 +90,8 @@
           filter: FlipH;
           -ms-filter: “FlipH”;
       }
-      .blue {background-color: royalblue;}
-      .green {background-color: forestgreen;}
+      .blue {background-color: white; background-image: url("{{ url_for('static', filename='books.jpg') }}");}
+      .map {background-color: forestgreen; background-image: url("{{ url_for('static', filename='map.png') }}");}
       .sunset {background-color: #1c50aa; background-image: url("{{ url_for('static', filename='sunset.png') }}");}
       .city {background-color: #051215; background-image: url("{{ url_for('static', filename='city.png') }}");}
       .clouds {background-color: #436988; background-image: url("{{ url_for('static', filename='clouds.png') }}");}
