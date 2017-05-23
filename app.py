@@ -5,6 +5,7 @@ from resources import *
 
 app = Flask(__name__)
 
+# Configure Email Server
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'kjhscollegeindex@gmail.com'
@@ -13,11 +14,13 @@ app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
 
+# Implement Sijax
 path = os.path.join('.', os.path.dirname(__file__), 'static/js/sijax/')
 app.config['SIJAX_STATIC_PATH'] = path
 app.config['SIJAX_JSON_URI'] = '/static/js/sijax/json2.js'
 flask_sijax.Sijax(app)
 
+# Open json files
 USERDATA = json.load(open('users.json'))
 SCHOOLDATA = json.load(open('static/data/schools.json'))
 
@@ -41,6 +44,7 @@ def register():
         if result != 0:
             return render_template('register.html', session=session, error=result)
         else:
+            if "verify" in data: del data["verify"]
             USERDATA[data["username"]] = data
             write(USERDATA, 'users.json')
             session['user'] = data["username"]
@@ -115,49 +119,7 @@ def confirm():
         return render_template('confirm.html', session=session, error=0)
     return main()
 
-@app.route("/bkgdblue", methods=['GET', 'POST'])
-def bkgdblue():
-    session['bkgd'] = "blue"
-    return settings()
-
-@app.route("/bkgdgreen", methods=['GET', 'POST'])
-def bkgdgreen():
-    session['bkgd'] = "green"
-    return settings()
-
-@app.route("/bkgdsunset", methods=['GET', 'POST'])
-def bkgdsunset():
-    session['bkgd'] = "sunset"
-    return settings()
-
-@app.route("/bkgdcity", methods=['GET', 'POST'])
-def bkgdcity():
-    session['bkgd'] = "city"
-    return settings()
-
-@app.route("/bkgdclouds", methods=['GET', 'POST'])
-def bkgdclouds():
-    session['bkgd'] = "clouds"
-    return settings()
-
-@app.route("/bkgdmountains", methods=['GET', 'POST'])
-def bkgdmountains():
-    session['bkgd'] = "mountains"
-    return settings()
-
-@app.route("/bkgdtartan", methods=['GET', 'POST'])
-def bkgdtartan():
-    session['bkgd'] = "tartan"
-    return settings()
-
-@app.route("/bkgdplaid", methods=['GET', 'POST'])
-def bkgdplaid():
-    session['bkgd'] = "plaid"
-    return settings()
-
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     #app.run(debug=True, host="192.168.2.147")
     app.run(debug=True)
-
-# Old bkgd http://www.zastavki.com/pictures/originals/2014/Nature___Seasons___Summer_White_clouds_and_green_field_083051_.jpg
