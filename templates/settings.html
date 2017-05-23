@@ -6,16 +6,20 @@
     <div>
       <h3 style="margin-bottom: 30px">Background Image:</h3>
       <div class="col-sm-6">
-        <a href="{{ url_for('bkgdblue') }}"><div class="blue" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdsunset') }}"><div class="sunset" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdclouds') }}"><div class="clouds" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdtartan') }}"><div class="tartan" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+        <div id="s1" style="background-image: url('/static/books.jpg'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s1').click(function(e) {Cookies.set('bkgd', "url('/static/books.jpg')"); $("body").css("background-image", "url('/static/books.jpg')");} );} );</script>
+        <div id="s2" style="background-image: url('/static/sunset.png'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s2').click(function(e) {Cookies.set('bkgd', "url('/static/sunset.png')"); $("body").css("background-image", "url('/static/sunset.png')");} );} );</script>
+        <div id="s3" style="background-image: url('/static/clouds.png'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s3').click(function(e) {Cookies.set('bkgd', "url('/static/clouds.png')"); $("body").css("background-image", "url('/static/clouds.png')");} );} );</script>
       </div>
       <div class="col-sm-6">
-        <a href="{{ url_for('bkgdgreen') }}"><div class="map" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdcity') }}"><div class="city" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdmountains') }}"><div class="mountains" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
-        <a href="{{ url_for('bkgdplaid') }}"><div class="plaid" style="width: 100%; height: 180px; margin-bottom: 20px"></div></a>
+        <div id="s5" style="background-image: url('/static/map.png'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s5').click(function(e) {Cookies.set('bkgd', "url('/static/map.png')"); $("body").css("background-image", "url('/static/map.png')");} );} );</script>
+        <div id="s6" style="background-image: url('/static/city.png'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s6').click(function(e) {Cookies.set('bkgd', "url('/static/city.png')"); $("body").css("background-image", "url('/static/city.png')");} );} );</script>
+        <div id="s7" style="background-image: url('/static/mountains.png'); width: 100%; height: 180px; margin-bottom: 20px"></div>
+        <script>$(document).ready(function() {$('#s7').click(function(e) {Cookies.set('bkgd', "url('/static/mountains.png')"); $("body").css("background-image", "url('/static/mountains.png')");} );} );</script>
       </div>
       <p style="font-size: 18px; line-height: 25px">If you have questions or concerns, please contact me at: <a href="mailto:kjhscollegeindex@gmail.com">kjhscollegeindex@gmail.com</a></p>
     </div>

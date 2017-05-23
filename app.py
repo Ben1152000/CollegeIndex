@@ -155,13 +155,9 @@ def bkgdplaid():
     session['bkgd'] = "plaid"
     return settings()
 
-@app.route("/testmap", methods=['GET', 'POST'])
-def testmap():
-    return render_template('testmap.html')
-
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True, host="192.168.2.147")
-    #app.run(debug=True)
+    #app.run(debug=True, host="192.168.2.147")
+    app.run(debug=True)
 
 # Old bkgd http://www.zastavki.com/pictures/originals/2014/Nature___Seasons___Summer_White_clouds_and_green_field_083051_.jpg
