@@ -71,6 +71,15 @@
         </div>
       </form>
     </div>
+    <script>
+      $("#query").on("keyup", function() {
+        var g = $(this).val().toLowerCase();
+        $(".fbbox .fix label").each(function() {
+          var s = $(this).text().toLowerCase();
+          $(this).closest('.fbbox')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
+        });
+      });​
+    </script>
 
     <!-- School Description -->
     <div class="jumbotron" style="padding: 40px 20px">
