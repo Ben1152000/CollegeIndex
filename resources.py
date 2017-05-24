@@ -51,3 +51,11 @@ def verify_registration(data, userdata): # 0 means successful, positive integers
     else:
         print("register: return-code 0")
         return 0
+
+# College Search Algorithm
+def search(key, array):
+    results = []
+    for item in array:
+        if key.lower() in item.lower():
+            results.append(item)
+    return results

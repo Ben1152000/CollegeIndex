@@ -3,6 +3,7 @@ from flask_mail import Mail, Message
 import os, json, re, flask_sijax
 from resources import *
 
+
 app = Flask(__name__)
 
 # Configure Email Server
@@ -121,5 +122,6 @@ def confirm():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True, host="192.168.2.23")
+    #context = ('local.crt', 'local.key') # certificate and key files
+    app.run(debug=True, host="192.168.43.253") #,ssl_context=context)
     #app.run(debug=True)

@@ -66,55 +66,49 @@
         <div class="input-group add-on">
           <input class="form-control" placeholder="Search" name="query" id="query" type="text">
           <div class="input-group-btn">
-            <button class="btn btn-default" type="submit" style="height: 34px; width: 34px"><i class="glyphicon glyphicon-search" style="font-size: 12pt; position: absolute; top: 50%; left: 50%; height: 50%; transform: translate(-50%, -50%);"></i></button>
+            <button id="querybutton" class="btn btn-default" type="submit" style="height: 34px; width: 34px"><span class="glyphicon glyphicon-search" style="font-size: 12pt; position: absolute; top: 50%; left: 50%; height: 50%; transform: translate(-50%, -50%);"></span></button>
           </div>
         </div>
       </form>
     </div>
     <script>
-      $("#query").on("keyup", function() {
-        var g = $(this).val().toLowerCase();
-        $(".fbbox .fix label").each(function() {
-          var s = $(this).text().toLowerCase();
-          $(this).closest('.fbbox')[ s.indexOf(g) !== -1 ? 'show' : 'hide' ]();
-        });
-      });​
+      // Search Result Page
+      $("#querybutton").click(function() {
+        event.preventDefault();
+        var searchstring = $('#query').focus().val();
+        $("#query").closest('form').find("input[type=text], textarea").val(""); // empty query
+        var searchresults = '<h3>Results for "' + searchstring + '":</h3><br>';
+        for (i = 0; i < 5; i++) {
+          searchresults = searchresults + "\
+            <br>\
+            <div style='height: 100%; border-radius: 6px; padding: 20px; background-color: #d0d0d0'>\
+              <h3 style='text-align: left; font-size: 14pt !important; margin: 0px !important;'><a id='school'>Kehillah Jewish High School</a></h3>\
+              <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>Private Jewish High School</p>\
+              <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>Palo Alto, California</p>\
+            </div>";
+        }
+        var $elem = $('#center');
+        $elem.empty();
+        $elem.append(searchresults);
+      });
+
+      // Individual School Page
+      $(document).on('click', '#school', function(){ 
+        event.preventDefault(); 
+        var schoolname = $('#school').text()
+        var result = '<h3>' + schoolname + '</h3><br>';
+        var $elem = $('#center');
+        $elem.empty();
+        $elem.append(result);
+      });
+      
     </script>
 
     <!-- School Description -->
-    <div class="jumbotron" style="padding: 40px 20px">
-      <h3>Kehillah Jewish High School<h3><br>
-      <div style="overflow: auto">
-        <div class="col-sm-6" style="height: 100%; border: 1px solid #a0a0a0; border-radius: 25px; padding: 20px; background-color: #bbbbbb">
-          <h3>Statistics:</h3>
-          <p>Taste: 6/10</p>
-          <p>Texture: 8/10</p>
-          <p>Tummy Feel: 7/10</p>
-        </div>
-        <div class="col-sm-6">
-          <img src="https://igx.4sqi.net/img/general/original/114682_VgDJYmezDEaGFx57M1_J-7hbmwoTnfRCffSR53VB7as.jpg" style="width: 100%">
-        </div>
-      </div>
-      <br>
-      <h3>
-        John Barnard:
-      </h3>
-      <p style="text-align: justify">
-        Nunc iaculis magna at nibh feugiat sagittis. Aenean aliquam est eget risus tristique vehicula vitae ut nisl. Praesent vulputate hendrerit consequat. Curabitur rhoncus, neque ac rutrum sollicitudin, sem dui sodales mauris, nec malesuada lorem quam eget eros. Proin sodales lorem vel convallis lobortis. Nulla dapibus velit sed lectus accumsan gravida. Ut tincidunt ante sit amet enim euismod eleifend.
-        Pellentesque scelerisque tortor dignissim lectus eleifend tristique. Curabitur ut mauris nec ipsum lobortis volutpat eget ut metus. Vestibulum feugiat malesuada elit in pulvinar. Ut ac iaculis metus, vitae laoreet nunc. Nulla faucibus lacinia quam, sit amet egestas ex pharetra vitae. Integer vel.
-      </p>
-      <h3>
-        Gregor Mendel:
-      </h3>
-      <p style="text-align: justify">
-        Donec in neque nec urna semper efficitur. Morbi vel placerat purus. Sed finibus, dolor a aliquet sollicitudin, purus mi maximus orci, in faucibus mi lectus id nunc. Sed dapibus tortor a tempor ornare. Praesent quis dignissim lorem. Cras eleifend quam ac euismod placerat. Aenean et velit placerat, facilisis turpis sit amet, viverra metus. Cras nec risus sapien. Proin lacus ante, sollicitudin sed odio quis, semper venenatis mi.
-      <h3>
-        Wilhelmina Navisson:
-      </h3>
-      <p style="text-align: justify">
-        Pellentesque eu massa feugiat neque pharetra tincidunt quis non orci. Sed rhoncus tellus id imperdiet ultricies. Ut eu cursus arcu. Sed non pharetra lectus. Vivamus tempus eros lorem, quis cursus ipsum rhoncus sit amet.
-        Duis pulvinar porta neque nec vehicula. Praesent iaculis ante eget ultricies blandit. Vivamus convallis, mi eget ultrices eleifend, nisi purus efficitur ex, scelerisque facilisis dolor lacus sit amet sapien. Vivamus gravida viverra ultricies. Mauris a urna eu ex tempus blandit. Nullam quis sapien facilisis, egestas dolor sed, feugiat velit. Aenean imperdiet turpis nec massa ornare porta. Phasellus eu mattis eros, in luctus velit. In dictum lorem ut massa tincidunt dapibus eget sed tellus.
-        Etiam interdum eros justo, nec egestas turpis maximus ut. Suspendisse auctor mattis erat. In hac habitasse platea dictumst. Donec molestie turpis leo, ac iaculis dolor vehicula vel. Integer semper elit congue.
+    <div id="center" class="jumbotron" style="padding: 20px 20px">
+      <h2 style="margin: 30px 0px 0px 0px;">Welcome to College Index!<h2>
+      <p style="font-size: 16pt !important; line-height: 30px; margin: 0px;">
+        Thank you for using this tool for your college research. Please enter a college into the search bar or find its location on the map to see student reviews.
       </p>
     </div>
 
