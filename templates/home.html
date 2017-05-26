@@ -78,92 +78,94 @@
     </div>
     <script>
       // Search Result Page
-      $("#querybutton").click(function() {
-        event.preventDefault();
+      $(document).ready(function() {
+        $("#querybutton").click(function(event) {
+          event.preventDefault(event);
 
-        // Read search query:
-        var searchstring = $('#query').focus().val();
-        $("#query").closest('form').find("input[type=text], textarea").val(""); // empty query
-        var searchresults = '<h3 style="margin: 40px 0px 10px 0px !important;">Results for "' + searchstring + '":</h3><br>';
-        
-        // Read school data:
-        $.getJSON( "static/data/schools.json", function( data ) {
-          var results = {};
-          var counter = 0;
+          // Read search query:
+          var searchstring = $('#query').focus().val();
+          $("#query").closest('form').find("input[type=text], textarea").val(""); // empty query
+          var searchresults = '<h3 style="margin: 40px 0px 10px 0px !important;">Results for "' + searchstring + '":</h3><br>';
+          
+          // Read school data:
+          $.getJSON( "static/data/schools.json", function( data ) {
+            var results = {};
+            var counter = 0;
 
-          // Load Dictionary:
-          for (var key in data) {
-            if (counter == 100) {
-              break;
-            }
-            if (data.hasOwnProperty(key)) { // this will check if key is owned by data object and not by any of it's ancestors
-              if (key.toLowerCase().indexOf(searchstring.toLowerCase()) !== -1) {
-                results[key] = data[key];
-                counter++;
+            // Load Dictionary:
+            for (var key in data) {
+              if (counter == 100) {
+                break;
+              }
+              if (data.hasOwnProperty(key)) { // this will check if key is owned by data object and not by any of it's ancestors
+                if (key.toLowerCase().indexOf(searchstring.toLowerCase()) !== -1) {
+                  results[key] = data[key];
+                  counter++;
+                }
               }
             }
-          }
 
-          // Check Results Length (number of results):
-          var numresults = 0;
-          for (var result in results) {
-            if (results.hasOwnProperty(result)) numresults++;
-          }
-
-          // Display Results:
-          var counter = 0;
-          for (var result in results) {
-            if (counter > 0) {
-              searchresults = searchresults + "<br>";
+            // Check Results Length (number of results):
+            var numresults = 0;
+            for (var result in results) {
+              if (results.hasOwnProperty(result)) numresults++;
             }
-            searchresults = searchresults + "\
-              <div style='height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
-                <h3 style='text-align: left; font-size: 14pt !important; margin-top: 0px !important; cursor: pointer;'><a class='schoolLink' id=\"" + result + "\">" + result + "</a></h3>\
-                <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>Public/Private University</p>\
-                <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>" + results[result]["City"] + ", " + results[result]["State"] + "</p>\
-              </div>";
-            counter++;
-          }
-          if (numresults == 0) {
-            searchresults = searchresults + "<p style='margin: 0px 0px 0px 0px !important'>No Results Found</p><p>Try broadening your search.</p>";
-          } else if (numresults == 1) {
-            searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'> One Result Found";
-          } else if (numresults <= 50) {
-            searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>" + numresults + " Results Found";
-          } else if (numresults < 100) {
-            searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>" + numresults + " Results Found (50 Displayed)";
-          } else {
-            searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>&gt100 Results Found (50 Displayed)";
-          }
+
+            // Display Results:
+            var counter = 0;
+            for (var result in results) {
+              if (counter > 0) {
+                searchresults = searchresults + "<br>";
+              }
+              searchresults = searchresults + "\
+                <div style='height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
+                  <h3 style='text-align: left; font-size: 14pt !important; margin-top: 0px !important; cursor: pointer;'><a class='schoolLink' id=\"" + result + "\">" + result + "</a></h3>\
+                  <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>Public/Private University</p>\
+                  <p style='text-align: left; font-size: 12pt !important; margin-top: 10px !important; margin-bottom: 0px !important;'>" + results[result]["City"] + ", " + results[result]["State"] + "</p>\
+                </div>";
+              counter++;
+            }
+            if (numresults == 0) {
+              searchresults = searchresults + "<p style='margin: 0px 0px 0px 0px !important'>No Results Found</p><p>Try broadening your search.</p>";
+            } else if (numresults == 1) {
+              searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'> One Result Found";
+            } else if (numresults <= 50) {
+              searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>" + numresults + " Results Found";
+            } else if (numresults < 100) {
+              searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>" + numresults + " Results Found (50 Displayed)";
+            } else {
+              searchresults = searchresults + "<p style='margin: 30px 0px 0px 0px !important'>&gt100 Results Found (50 Displayed)";
+            }
+            var $elem = $('#center');
+            $elem.empty();
+            $elem.append(searchresults);
+          });
+          $('#submain').scrollView();
+          return false;
+        });
+
+        // Individual School Page
+        $(document).on('click', "a.schoolLink", function(event) { 
+          event.preventDefault(event); 
+          var schoolname = event.target.id;
+          var result = "<h3 style='margin: 40px 0px 0px 0px !important;'>" + schoolname + "</h3><br>";
+          result = result + "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit'>Submit a review of this school</a></p>";
           var $elem = $('#center');
           $elem.empty();
-          $elem.append(searchresults);
+          $elem.append(result);
+          $('#submain').scrollView();
+          return false;
         });
 
-        $('#submain').scrollView();
+        // Scroll to div:
+        $.fn.scrollView = function () {
+          return this.each(function () {
+            $('html, body').animate({
+              scrollTop: $(this).offset().top
+            }, 1000);
+          });
+        }
       });
-
-      // Individual School Page
-      $(document).on('click', "a.schoolLink", function() { 
-        event.preventDefault(); 
-        var schoolname = event.target.id;
-        var result = "<h3 style='margin: 40px 0px 0px 0px !important;'>" + schoolname + "</h3><br>";
-        result = result + "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit'>Submit a review of this school</a></p>";
-        var $elem = $('#center');
-        $elem.empty();
-        $elem.append(result);
-        $('#submain').scrollView();
-      });
-
-      // Scroll to div:
-      $.fn.scrollView = function () {
-        return this.each(function () {
-          $('html, body').animate({
-            scrollTop: $(this).offset().top
-          }, 1000);
-        });
-      }
-      
     </script>
 
     <!-- School Description -->
