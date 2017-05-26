@@ -1,2090 +1,2870 @@
 {
-   "Kehillah Jewish High School": {
-      "lat": 37.424910, 
-      "lng": -122.104568,
-      "taste": {},
-      "texture": {},
-      "tummy-feel": {},
-      "reviews": {}
+   "Adelphi University": {
+      "Lat": 40.71837902,
+      "Lon": -73.65306058,
+      "City": "Garden City",
+      "State": "New York"
    },
-   "Abilene Christian University": {
-      "lon": -99.71252388,
-      "lat": 32.46817992
+   "Agnes Scott College": {
+      "Lat": 33.76787362,
+      "Lon": -84.29590268,
+      "City": "Decatur",
+      "State": "Georgia"
    },
-   "Abraham Lincoln University": {
-      "lon": -118.3025535,
-      "lat": 34.06002012
+   "University of Alabama": {
+      "Lat": 33.21267432,
+      "Lon": -87.54049078,
+      "City": "Tuscaloosa",
+      "State": "Alabama"
    },
-   "American Business and Technology University": {
-      "lon": -94.82090013,
-      "lat": 39.77726037
+   "University of Alabama Birmingham": {
+      "Lat": 33.50077372,
+      "Lon": -86.80779368,
+      "City": "Birmingham",
+      "State": "Alabama"
    },
-   "American InterContinental University": {
-      "lon": -88.03375168,
-      "lat": 42.03181452
+   "University of Alabama Huntsville": {
+      "Lat": 34.72517402,
+      "Lon": -86.64104458,
+      "City": "Huntsville",
+      "State": "Alabama"
    },
-   "American Sentinel University": {
-      "lon": -104.8324004,
-      "lat": 39.67523572
+   "Albion College": {
+      "Lat": 42.24265742,
+      "Lon": -84.74652648,
+      "City": "Albion",
+      "State": "Michigan"
+   },
+   "Albright College": {
+      "Lat": 40.36015372,
+      "Lon": -75.91197798,
+      "City": "Reading",
+      "State": "Pennsylvania"
+   },
+   "Alfred University": {
+      "Lat": 42.25188912,
+      "Lon": -77.78896718,
+      "City": "Alfred",
+      "State": "New York"
+   },
+   "Allegheny College": {
+      "Lat": 41.64800002,
+      "Lon": -80.14629838,
+      "City": "Meadville",
+      "State": "Pennsylvania"
+   },
+   "Amherst College": {
+      "Lat": 42.36956142,
+      "Lon": -72.51835178,
+      "City": "Amherst",
+      "State": "Massachusetts"
+   },
+   "American International College": {
+      "Lat": 42.11150402,
+      "Lon": -72.55849298,
+      "City": "Springfield",
+      "State": "Massachusetts"
    },
    "American University": {
-      "lon": -77.09011548,
-      "lat": 38.93470002
-   },
-   "Arizona State University": {
-      "lon": -111.978976,
-      "lat": 33.3198608
-   },
-   "Asbury University": {
-      "lon": -84.66408258,
-      "lat": 37.86148352
-   },
-   "Ashford University": {
-      "lon": -117.1433789,
-      "lat": 32.82590877
-   },
-   "Aspen University": {
-      "lon": -104.9404569,
-      "lat": 39.68480952
-   },
-   "Athens State University": {
-      "lon": -86.96778968,
-      "lat": 34.80450432
-   },
-   "Auburn University-Montgomery": {
-      "lon": -86.17909398,
-      "lat": 32.36594102
-   },
-   "Austin Peay State University": {
-      "lon": -87.35521218,
-      "lat": 36.53185752
-   },
-   "Baker University": {
-      "lon": -95.19017118,
-      "lat": 38.77432697
-   },
-   "Baldwin-Wallace College": {
-      "lon": -81.84589298,
-      "lat": 41.36703982
-   },
-   "Barclay College": {
-      "lon": -99.10626298,
-      "lat": 37.61967302
-   },
-   "Belhaven University": {
-      "lon": -90.17069618,
-      "lat": 32.31845932
-   },
-   "Bellevue University": {
-      "lon": -95.91940178,
-      "lat": 41.14939122
-   },
-   "Benedictine University": {
-      "lon": -88.09624688,
-      "lat": 41.77751382
-   },
-   "Bentley University": {
-      "lon": -71.21995013,
-      "lat": 42.38579462
-   },
-   "Biola University": {
-      "lon": -118.019333,
-      "lat": 33.90423852
-   },
-   "Bluefield College": {
-      "lon": -81.24762968,
-      "lat": 37.24318962
-   },
-   "Boise State University": {
-      "lon": -116.208303,
-      "lat": 43.60373032
-   },
-   "Boston University": {
-      "lon": -71.10130438,
-      "lat": 42.34835562
-   },
-   "Bowling Green State University": {
-      "lon": -83.63807588,
-      "lat": 41.37325487
-   },
-   "Broward College": {
-      "lon": -80.14222743,
-      "lat": 26.11820222
-   },
-   "Buena Vista University": {
-      "lon": -95.20870828,
-      "lat": 42.64059252
-   },
-   "California Baptist University": {
-      "lon": -117.4281551,
-      "lat": 33.93013752
-   },
-   "California Coast University": {
-      "lon": -117.866587,
-      "lat": 33.75168502
-   },
-   "California Intercontinental University": {
-      "lon": -117.8523378,
-      "lat": 33.69507572
-   },
-   "California Southern University": {
-      "lon": -117.767615,
-      "lat": 33.69141902
-   },
-   "California State University - Fullerton": {
-      "lon": -117.8913742,
-      "lat": 33.87656142
-   },
-   "California State University - Sacramento": {
-      "lon": -121.4296668,
-      "lat": 38.56509782
-   },
-   "California State University - Bakersfield": {
-      "lon": -119.1045063,
-      "lat": 35.35007647
-   },
-   "California State University - Chico": {
-      "lon": -121.8475719,
-      "lat": 39.72676137
-   },
-   "California State University - Dominguez Hills": {
-      "lon": -118.256235,
-      "lat": 33.86585202
-   },
-   "California State University - East Bay": {
-      "lon": -122.0613846,
-      "lat": 37.65691912
-   },
-   "California State University - Fresno": {
-      "lon": -119.7475716,
-      "lat": 36.80947942
-   },
-   "California State University - Northridge": {
-      "lon": -118.5293743,
-      "lat": 34.23458392
-   },
-   "California State University - San Bernardino": {
-      "lon": -117.3237632,
-      "lat": 34.17679892
-   },
-   "California State University - Stanislaus": {
-      "lon": -120.8585046,
-      "lat": 37.52265592
-   },
-   "California University of Pennsylvania": {
-      "lon": -79.89483363,
-      "lat": 40.06088747
-   },
-   "Cameron University": {
-      "lon": -98.43414198,
-      "lat": 34.60753617
-   },
-   "Campbellsville University": {
-      "lon": -85.3502249,
-      "lat": 37.34302247
-   },
-   "Canisius College": {
-      "lon": -78.85419588,
-      "lat": 42.92587422
-   },
-   "Capella University": {
-      "lon": -93.26993578,
-      "lat": 44.97485852
-   },
-   "Capitol Technology University": {
-      "lon": -76.85348798,
-      "lat": 39.04569492
-   },
-   "Carnegie Mellon University": {
-      "lon": -79.94480568,
-      "lat": 40.44211682
-   },
-   "Carolina College of Biblical Studies": {
-      "lon": -78.94086613,
-      "lat": 35.05001262
-   },
-   "Case Western Reserve University": {
-      "lon": -81.61108408,
-      "lat": 41.50325782
-   },
-   "Casper College": {
-      "lon": -106.3289107,
-      "lat": 42.82943402
-   },
-   "Catholic University of America": {
-      "lon": -76.99775408,
-      "lat": 38.93173632
-   },
-   "Cedar Crest College": {
-      "lon": -75.52388648,
-      "lat": 40.58376047
-   },
-   "Central Christian College of Kansas": {
-      "lon": -97.66906598,
-      "lat": 38.35575892
-   },
-   "Central Methodist University": {
-      "lon": -92.68546968,
-      "lat": 39.14713627
-   },
-   "Central Michigan University": {
-      "lon": -84.77663863,
-      "lat": 43.58979362
-   },
-   "Central Penn College": {
-      "lon": -76.92814088,
-      "lat": 40.30047602
-   },
-   "Central Washington University": {
-      "lon": -120.5396075,
-      "lat": 47.00183977
-   },
-   "Chadron State College": {
-      "lon": -103.0032421,
-      "lat": 42.81993912
-   },
-   "Champlain College": {
-      "lon": -73.20705988,
-      "lat": 44.47416802
-   },
-   "Charter Oak State College": {
-      "lon": -72.76933263,
-      "lat": 41.68687672
-   },
-   "Chatham University": {
-      "lon": -79.926457,
-      "lat": 40.4439062
-   },
-   "Cincinnati State Technical and Community College": {
-      "lon": -84.53748278,
-      "lat": 39.14826842
-   },
-   "City University of Seattle": {
-      "lon": -122.3457964,
-      "lat": 47.61605592
-   },
-   "Clarks Summit University": {
-      "lon": -75.68677438,
-      "lat": 41.49377082
-   },
-   "Clarkson College": {
-      "lon": -95.97651128,
-      "lat": 41.25737592
-   },
-   "Cleary University": {
-      "lon": -83.69247638,
-      "lat": 42.30459512
-   },
-   "Clemson University": {
-      "lon": -82.83648048,
-      "lat": 34.67803842
-   },
-   "Cleveland State University": {
-      "lon": -81.67668488,
-      "lat": 41.50089162
-   },
-   "College of Southern Nevada": {
-      "lon": -115.2360348,
-      "lat": 36.15773037
-   },
-   "Colorado Christian University": {
-      "lon": -105.0953921,
-      "lat": 39.71097762
-   },
-   "Colorado Mesa University": {
-      "lon": -108.5554666,
-      "lat": 39.07754852
-   },
-   "Columbia College": {
-      "lon": -120.3874798,
-      "lat": 38.02742197
-   },
-   "Columbia International University": {
-      "lon": -81.07086658,
-      "lat": 34.07990372
-   },
-   "Columbia Southern University": {
-      "lon": -87.65438748,
-      "lat": 30.32773902
-   },
-   "Columbia University in the City of New York": {
-      "lon": -73.96454558,
-      "lat": 40.80658912
-   },
-   "Columbus State University": {
-      "lon": -84.93875648,
-      "lat": 32.50169562
-   },
-   "Community College of Vermont": {
-      "lon": -72.57535658,
-      "lat": 44.27946852
-   },
-   "Concord University": {
-      "lon": -81.0161104,
-      "lat": 37.42174652
-   },
-   "Concordia College": {
-      "lon": -96.77171498,
-      "lat": 46.86354742
-   },
-   "Concordia University": {
-      "lon": -83.68346788,
-      "lat": 42.27299902
-   },
-   "Corban University": {
-      "lon": -122.9625,
-      "lat": 44.88164402
-   },
-   "Cornell University": {
-      "lon": -76.48453248,
-      "lat": 42.44593242
-   },
-   "Cornerstone University": {
-      "lon": -85.59344128,
-      "lat": 42.97879832
-   },
-   "Craven Community College": {
-      "lon": -77.10358268,
-      "lat": 35.10897602
-   },
-   "Creighton University": {
-      "lon": -95.94964863,
-      "lat": 41.26397872
-   },
-   "Crown College": {
-      "lon": -93.74388568,
-      "lat": 44.88348902
-   },
-   "Dakota State University": {
-      "lon": -97.11140128,
-      "lat": 44.01221762
-   },
-   "Dallas Baptist University": {
-      "lon": -96.95285548,
-      "lat": 32.70884577
-   },
-   "Darton State College": {
-      "lon": -84.21508698,
-      "lat": 31.58043802
-   },
-   "Davis College": {
-      "lon": -75.96374748,
-      "lat": 42.09970662
-   },
-   "Daymar College - Owensboro": {
-      "lon": -87.14509063,
-      "lat": 37.73639662
-   },
-   "Delta State University": {
-      "lon": -90.73735818,
-      "lat": 33.74437982
-   },
-   "DeSales University": {
-      "lon": -75.37938098,
-      "lat": 40.53660812
-   },
-   "DeVry University": {
-      "lon": -88.00894963,
-      "lat": 41.83193987
-   },
-   "Doane College": {
-      "lon": -96.95322858,
-      "lat": 40.62127992
-   },
-   "Dominican University": {
-      "lon": -87.82346888,
-      "lat": 41.90133362
-   },
-   "Drexel University": {
-      "lon": -75.18820958,
-      "lat": 39.95274382
-   },
-   "Drury University": {
-      "lon": -93.28751443,
-      "lat": 37.21830422
-   },
-   "Duke University": {
-      "lon": -78.93883053,
-      "lat": 35.99983712
-   },
-   "Duquesne University": {
-      "lon": -79.99494008,
-      "lat": 40.43602082
-   },
-   "East Carolina University": {
-      "lon": -77.3730271,
-      "lat": 35.6024292
-   },
-   "East Tennessee State University": {
-      "lon": -82.36543328,
-      "lat": 36.30292802
-   },
-   "Eastern Illinois University": {
-      "lon": -88.17653228,
-      "lat": 39.48225222
-   },
-   "Eastern Kentucky University": {
-      "lon": -84.30513878,
-      "lat": 37.73638652
-   },
-   "Eastern Michigan University": {
-      "lon": -83.62583013,
-      "lat": 42.24466902
-   },
-   "Eastern New Mexico University": {
-      "lon": -103.3493319,
-      "lat": 34.17763322
-   },
-   "Eastern Washington University": {
-      "lon": -117.5793283,
-      "lat": 47.48947222
-   },
-   "Edinboro University of Pennsylvania": {
-      "lon": -80.12970958,
-      "lat": 41.86995122
-   },
-   "Edmonds Community College": {
-      "lon": -122.3282941,
-      "lat": 47.81486042
-   },
-   "Emporia State University": {
-      "lon": -96.18143878,
-      "lat": 38.41248482
-   },
-   "Everest University - Tampa": {
-      "lon": -82.49892563,
-      "lat": 27.99525662
-   },
-   "Excelsior College": {
-      "lon": -73.86486698,
-      "lat": 42.70452602
-   },
-   "Fayetteville State University": {
-      "lon": -78.89393918,
-      "lat": 35.07434082
-   },
-   "Fayetteville Technical Community College": {
-      "lon": -78.92722738,
-      "lat": 35.06529322
-   },
-   "Ferris State University": {
-      "lon": -85.48416548,
-      "lat": 43.68375172
-   },
-   "Fisher College": {
-      "lon": -71.07551898,
-      "lat": 42.35396102
-   },
-   "Fitchburg State University": {
-      "lon": -71.79118098,
-      "lat": 42.58686312
-   },
-   "Florida Agricultural and Mechanical University": {
-      "lon": -84.28697018,
-      "lat": 30.42553272
-   },
-   "Florida Atlantic University": {
-      "lon": -80.10371023,
-      "lat": 26.36406687
-   },
-   "Florida Gulf Coast University": {
-      "lon": -81.77738698,
-      "lat": 26.46222002
-   },
-   "Florida International University": {
-      "lon": -80.37309708,
-      "lat": 25.75879582
-   },
-   "Florida State University": {
-      "lon": -84.29323563,
-      "lat": 30.43938597
-   },
-   "Florida Technical College": {
-      "lon": -81.19781678,
-      "lat": 28.57186112
-   },
-   "Fordham University": {
-      "lon": -73.89058433,
-      "lat": 40.85987847
-   },
-   "Fort Hays State University": {
-      "lon": -99.34152618,
-      "lat": 38.87178122
-   },
-   "Framingham State University": {
-      "lon": -71.43752048,
-      "lat": 42.29699937
-   },
-   "Franklin Pierce University": {
-      "lon": -72.05799218,
-      "lat": 42.78042702
-   },
-   "Fresno Pacific University": {
-      "lon": -119.735569,
-      "lat": 36.72411002
-   },
-   "Front Range Community College": {
-      "lon": -105.0392345,
-      "lat": 39.90012412
-   },
-   "Full Sail University": {
-      "lon": -81.30269058,
-      "lat": 28.59520112
-   },
-   "Gardner-Webb University": {
-      "lon": -81.66841058,
-      "lat": 35.24792352
-   },
-   "George Mason University": {
-      "lon": -77.31309748,
-      "lat": 38.83017232
-   },
-   "George Washington University, The": {
-      "lon": -77.04900598,
-      "lat": 38.89964402
-   },
-   "Georgetown University": {
-      "lon": -77.07296198,
-      "lat": 38.90632392
-   },
-   "Georgia College and State University": {
-      "lon": -83.23323153,
-      "lat": 33.08140417
-   },
-   "Georgia Institute of Technology - Main Campus": {
-      "lon": -84.39614058,
-      "lat": 33.77106832
-   },
-   "Georgia Military College - Milledgeville": {
-      "lon": -83.22575198,
-      "lat": 33.07729902
-   },
-   "Georgia Southern University": {
-      "lon": -81.7997589,
-      "lat": 32.4056852
-   },
-   "Georgia State University": {
-      "lon": -84.38699458,
-      "lat": 33.75202342
-   },
-   "Georgian Court University": {
-      "lon": -74.22879878,
-      "lat": 40.09844082
-   },
-   "Gonzaga University": {
-      "lon": -117.4026829,
-      "lat": 47.66588642
-   },
-   "Graceland University": {
-      "lon": -93.92972328,
-      "lat": 40.61479962
-   },
-   "Grand Canyon University": {
-      "lon": -112.1321063,
-      "lat": 33.50872542
-   },
-   "Granite State College": {
-      "lon": -71.52861603,
-      "lat": 43.19155547
-   },
-   "Grantham University": {
-      "lon": -94.77340868,
-      "lat": 38.92184392
-   },
-   "Great Basin College": {
-      "lon": -115.768608,
-      "lat": 40.84192302
-   },
-   "Green Mountain College": {
-      "lon": -73.24155788,
-      "lat": 43.51520102
-   },
-   "Greenville College": {
-      "lon": -89.41041608,
-      "lat": 38.89144177
-   },
-   "Hamline University": {
-      "lon": -93.16759648,
-      "lat": 44.96457192
-   },
-   "Hampton University": {
-      "lon": -76.33796168,
-      "lat": 37.02034902
-   },
-   "Harding University": {
-      "lon": -91.72763088,
-      "lat": 35.24819177
-   },
-   "Hawaii Pacific University": {
-      "lon": -157.8610302,
-      "lat": 21.30896352
-   },
-   "Haywood Community College": {
-      "lon": -82.92943618,
-      "lat": 35.52400802
-   },
-   "Herkimer County Community College": {
-      "lon": -75.00759498,
-      "lat": 43.03093322
-   },
-   "Herzing University": {
-      "lon": -89.29306743,
-      "lat": 43.14274892
-   },
-   "Hodges University": {
-      "lon": -81.74222078,
-      "lat": 26.27574252
-   },
-   "Hofstra University": {
-      "lon": -73.59988258,
-      "lat": 40.71521862
-   },
-   "Holmes Community College": {
-      "lon": -89.91319908,
-      "lat": 32.97149012
-   },
-   "Hope International University": {
-      "lon": -117.8868095,
-      "lat": 33.87550292
-   },
-   "Howard University": {
-      "lon": -77.02244708,
-      "lat": 38.92109132
-   },
-   "Humboldt State University": {
-      "lon": -124.0805639,
-      "lat": 40.87202722
-   },
-   "Huntington University": {
-      "lon": -85.49863683,
-      "lat": 40.89680152
-   },
-   "Idaho State University": {
-      "lon": -112.4376665,
-      "lat": 42.86193497
-   },
-   "Illinois Institute of Technology": {
-      "lon": -87.62857998,
-      "lat": 41.83002962
-   },
-   "Independence University": {
-      "lon": -111.9007184,
-      "lat": 40.65410852
-   },
-   "Indiana Institute of Technology": {
-      "lon": -85.11974203,
-      "lat": 41.07635182
-   },
-   "Indiana State University": {
-      "lon": -87.40839583,
-      "lat": 39.46719992
-   },
-   "Indiana University Bloomington": {
-      "lon": -86.52788978,
-      "lat": 39.16478782
-   },
-   "Iowa State University": {
-      "lon": -93.64977603,
-      "lat": 42.02482422
-   },
-   "Jacksonville State University": {
-      "lon": -85.76468498,
-      "lat": 33.82216182
-   },
-   "Jacksonville University": {
-      "lon": -81.60767498,
-      "lat": 30.34944192
-   },
-   "James Madison University": {
-      "lon": -78.87642898,
-      "lat": 38.43884242
-   },
-   "John Brown University": {
-      "lon": -94.56000148,
-      "lat": 36.19022282
-   },
-   "Johns Hopkins University": {
-      "lon": -76.62139538,
-      "lat": 39.32914672
-   },
-   "Judson College": {
-      "lon": -87.31806573,
-      "lat": 32.63008132
-   },
-   "Judson University": {
-      "lon": -88.29264458,
-      "lat": 42.06042252
-   },
-   "Kansas Christian College": {
-      "lon": -94.58240238,
-      "lat": 38.94268952
-   },
-   "Kansas State University": {
-      "lon": -96.58234058,
-      "lat": 39.18654522
-   },
-   "Kaplan University": {
-      "lon": -90.55181658,
-      "lat": 41.55366172
-   },
-   "Kennesaw State University": {
-      "lon": -84.58292068,
-      "lat": 34.03672942
-   },
-   "Kent State University": {
-      "lon": -81.392454,
-      "lat": 41.1176459
-   },
-   "Kentucky State University": {
-      "lon": -84.85650228,
-      "lat": 38.19966522
-   },
-   "Keystone College": {
-      "lon": -75.77875398,
-      "lat": 41.55765802
-   },
-   "King University": {
-      "lon": -82.15782738,
-      "lat": 36.58464752
-   },
-   "Kirkwood Community College": {
-      "lon": -91.65178728,
-      "lat": 41.90421092
-   },
-   "Lamar University": {
-      "lon": -94.07461158,
-      "lat": 30.04211112
-   },
-   "Lansing Community College": {
-      "lon": -84.55520158,
-      "lat": 42.73613162
-   },
-   "Laramie County Community College": {
-      "lon": -104.779574,
-      "lat": 41.10280382
-   },
-   "Lasell College": {
-      "lon": -71.24483773,
-      "lat": 42.34124392
-   },
-   "Lawrence Technological University": {
-      "lon": -83.25139508,
-      "lat": 42.47430202
-   },
-   "Lehigh University": {
-      "lon": -75.38151828,
-      "lat": 40.60548582
-   },
-   "Lewis University": {
-      "lon": -88.08268238,
-      "lat": 41.60337552
-   },
-   "Limestone College": {
-      "lon": -81.64986128,
-      "lat": 35.05528212
-   },
-   "Louisiana State University at Shreveport": {
-      "lon": -93.70401478,
-      "lat": 32.42704042
-   },
-   "Louisiana Tech University": {
-      "lon": -92.64988998,
-      "lat": 32.52556502
-   },
-   "Loyola University New Orleans": {
-      "lon": -90.12223078,
-      "lat": 29.93343052
-   },
-   "Luther Rice College and Seminary": {
-      "lon": -84.12445408,
-      "lat": 33.69656962
-   },
-   "Lynn University": {
-      "lon": -80.12268038,
-      "lat": 26.38519392
-   },
-   "MacMurray College": {
-      "lon": -90.22406758,
-      "lat": 39.73070227
-   },
-   "Malone University": {
-      "lon": -81.38567238,
-      "lat": 40.82513242
-   },
-   "Manhattan College": {
-      "lon": -73.90984343,
-      "lat": 40.88929042
-   },
-   "Marist College": {
-      "lon": -73.93381408,
-      "lat": 41.72121132
-   },
-   "Marylhurst University": {
-      "lon": -122.6507974,
-      "lat": 45.39464922
-   },
-   "Maryville University of Saint Louis": {
-      "lon": -90.50653698,
-      "lat": 38.64651287
-   },
-   "McDaniel College": {
-      "lon": -77.00313918,
-      "lat": 39.58352782
-   },
-   "McKendree University": {
-      "lon": -89.81705068,
-      "lat": 38.60632312
-   },
-   "Medical University of South Carolina": {
-      "lon": -79.94881198,
-      "lat": 32.78454502
-   },
-   "Mercer University": {
-      "lon": -83.64899108,
-      "lat": 32.83001262
-   },
-   "Mercy College": {
-      "lon": -73.87466708,
-      "lat": 41.02055432
-   },
-   "Mercyhurst University": {
-      "lon": -80.05481278,
-      "lat": 42.10433482
-   },
-   "Michigan State University": {
-      "lon": -84.48287308,
-      "lat": 42.72829982
-   },
-   "Michigan Technological University": {
-      "lon": -88.54929698,
-      "lat": 47.11726402
-   },
-   "Mid-America Christian University": {
-      "lon": -97.57858598,
-      "lat": 35.34600002
-   },
-   "Mid-Atlantic Christian University": {
-      "lon": -76.21844898,
-      "lat": 36.30325102
-   },
-   "Minnesota State University - Moorhead": {
-      "lon": -96.76072518,
-      "lat": 46.86580887
-   },
-   "Misericordia University": {
-      "lon": -75.97465518,
-      "lat": 41.34302272
-   },
-   "Mississippi State University": {
-      "lon": -88.79215023,
-      "lat": 33.45058072
-   },
-   "Missouri University of Science and Technology": {
-      "lon": -91.77539038,
-      "lat": 37.95294592
-   },
-   "Mohave Community College": {
-      "lon": -114.031666,
-      "lat": 35.26928152
-   },
-   "Montana State University - Bozeman": {
-      "lon": -111.1180349,
-      "lat": 45.634789
-   },
-   "Montana State University - Billings": {
-      "lon": -108.5233614,
-      "lat": 45.79549452
-   },
-   "Morehead State University": {
-      "lon": -83.43698563,
-      "lat": 38.18520582
-   },
-   "Mount St. Joseph University": {
-      "lon": -84.63975308,
-      "lat": 39.09360652
-   },
-   "National Louis University": {
-      "lon": -87.62616058,
-      "lat": 41.87857142
-   },
-   "National University": {
-      "lon": -117.2446283,
-      "lat": 32.90850522
-   },
-   "New England College": {
-      "lon": -71.82321218,
-      "lat": 43.17693042
-   },
-   "New England College of Business and Finance": {
-      "lon": -71.05798718,
-      "lat": 42.35230412
-   },
-   "New Jersey Institute of Technology": {
-      "lon": -74.1932889,
-      "lat": 40.736201
-   },
-   "New Mexico State University": {
-      "lon": -106.9569309,
-      "lat": 32.2540949
-   },
-   "The New School": {
-      "lon": -73.99851918,
-      "lat": 40.73413072
-   },
-   "New York University": {
-      "lon": -73.99853688,
-      "lat": 40.72816572
-   },
-   "Nichols College": {
-      "lon": -71.93097688,
-      "lat": 42.04502387
-   },
-   "North Carolina Central University": {
-      "lon": -78.89945028,
-      "lat": 35.97338792
-   },
-   "North Carolina State University": {
-      "lon": -78.66560268,
-      "lat": 35.78413717
-   },
-   "North Dakota State University - Main Campus": {
-      "lon": -96.79947558,
-      "lat": 46.88903582
-   },
-   "North Park University": {
-      "lon": -87.71175318,
-      "lat": 41.97347872
-   },
-   "Northcentral University": {
-      "lon": -117.2162491,
-      "lat": 32.73532452
-   },
-   "Northeastern University": {
-      "lon": -71.09215198,
-      "lat": 42.33790702
-   },
-   "Northern Arizona University": {
-      "lon": -111.709128,
-      "lat": 35.122313
-   },
-   "Northern Kentucky University": {
-      "lon": -84.4670929,
-      "lat": 39.0274392
-   },
-   "Northern Michigan University": {
-      "lon": -87.39764188,
-      "lat": 46.55527697
-   },
-   "NorthWest Arkansas Community College": {
-      "lon": -94.17376558,
-      "lat": 36.35814222
-   },
-   "Northwest Nazarene University": {
-      "lon": -116.5677073,
-      "lat": 43.55892062
-   },
-   "Northwest Technical College": {
-      "lon": -94.85449418,
-      "lat": 47.45220342
-   },
-   "Northwestern State University of Louisiana": {
-      "lon": -93.09539563,
-      "lat": 31.74878092
-   },
-   "Northwestern University": {
-      "lon": -87.68089388,
-      "lat": 42.04905742
-   },
-   "Northwood University": {
-      "lon": -84.27848288,
-      "lat": 43.62891342
-   },
-   "Norwich University": {
-      "lon": -72.65981993,
-      "lat": 44.13702002
-   },
-   "Notre Dame College": {
-      "lon": -81.51509458,
-      "lat": 41.50511977
-   },
-   "Nova Southeastern University": {
-      "lon": -80.24147698,
-      "lat": 26.07746512
-   },
-   "Ocean County College": {
-      "lon": -74.1712493,
-      "lat": 39.999754
-   },
-   "Ohio Christian University": {
-      "lon": -82.90721698,
-      "lat": 39.60777802
-   },
-   "Ohio University - Main Campus": {
-      "lon": -82.09562203,
-      "lat": 39.33294057
-   },
-   "Old Dominion University": {
-      "lon": -76.30487608,
-      "lat": 36.88758302
-   },
-   "Oral Roberts University": {
-      "lon": -95.95682028,
-      "lat": 36.04669347
-   },
-   "Oregon Institute of Technology": {
-      "lon": -121.7877574,
-      "lat": 42.25545992
-   },
-   "Oregon State University": {
-      "lon": -123.2536793,
-      "lat": 44.56318447
-   },
-   "Our Lady of the Lake University": {
-      "lon": -98.54386098,
-      "lat": 29.42427292
-   },
-   "Pace University": {
-      "lon": -74.00616258,
-      "lat": 40.70976947
-   },
-   "Pacific University": {
-      "lon": -123.1108209,
-      "lat": 45.51958832
-   },
-   "Palo Alto College": {
-      "lon": -98.54800328,
-      "lat": 29.32150202
-   },
-   "Park University": {
-      "lon": -94.68046833,
-      "lat": 39.19023927
-   },
-   "Penn Foster Career School": {
-      "lon": -75.67016098,
-      "lat": 41.44613302
-   },
-   "Penn Foster College": {
-      "lon": -111.9001112,
-      "lat": 33.61462472
-   },
-   "Pennsylvania College of Technology": {
-      "lon": -77.02259688,
-      "lat": 41.23121577
-   },
-   "Pennsylvania State University": {
-      "lon": -77.86273158,
-      "lat": 40.79400662
-   },
-   "Pfeiffer University": {
-      "lon": -80.27387333,
-      "lat": 35.47345022
-   },
-   "Philadelphia University": {
-      "lon": -75.19571668,
-      "lat": 40.02187082
-   },
-   "Pima Community College": {
-      "lon": -110.8878693,
-      "lat": 32.22081232
-   },
-   "Pittsburg State University": {
-      "lon": -94.70521108,
-      "lat": 37.38995522
-   },
-   "Pittsburgh Technical College": {
-      "lon": -80.19066958,
-      "lat": 40.42343372
-   },
-   "Portland State University": {
-      "lon": -122.6858649,
-      "lat": 45.50983092
-   },
-   "Purdue University": {
-      "lon": -86.91576833,
-      "lat": 40.42687707
-   },
-   "Queens University of Charlotte": {
-      "lon": -80.83300788,
-      "lat": 35.18686712
-   },
-   "Quinnipiac University": {
-      "lon": -72.89544048,
-      "lat": 41.41744222
-   },
-   "Regis University": {
-      "lon": -105.027109,
-      "lat": 39.78648222
-   },
-   "Rochester Institute of Technology": {
-      "lon": -77.67589108,
-      "lat": 43.08263282
-   },
-   "Roger Williams University": {
-      "lon": -71.26024888,
-      "lat": 41.64934322
-   },
-   "Roosevelt University": {
-      "lon": -87.62620408,
-      "lat": 41.87464682
-   },
-   "Rowan University": {
-      "lon": -75.11938098,
-      "lat": 39.70700902
-   },
-   "Rutgers, The State University of New Jersey": {
-      "lon": -74.44760488,
-      "lat": 40.49740212
-   },
-   "Sacred Heart University": {
-      "lon": -73.24487783,
-      "lat": 41.22227332
-   },
-   "Saint Francis University": {
-      "lon": -78.644632,
-      "lat": 40.498478
-   },
-   "Saint Joseph's University": {
-      "lon": -75.21938798,
-      "lat": 40.00299702
-   },
-   "Saint Louis University-Main Campus": {
-      "lon": -90.23460598,
-      "lat": 38.63524232
-   },
-   "Saint Mary's University of Minnesota": {
-      "lon": -91.69529918,
-      "lat": 44.04158002
-   },
-   "Saint Mary-of-the-Woods College": {
-      "lon": -87.46518098,
-      "lat": 39.50413202
-   },
-   "Saint Thomas University": {
-      "lon": -80.26195138,
-      "lat": 25.92477852
-   },
-   "Saint Xavier University": {
-      "lon": -87.71738018,
-      "lat": 41.70540312
-   },
-   "Salem International University": {
-      "lon": -80.56875953,
-      "lat": 39.28182317
-   },
-   "Salve Regina University": {
-      "lon": -71.30062218,
-      "lat": 41.47103582
-   },
-   "Sam Houston State University": {
-      "lon": -95.54912278,
-      "lat": 30.71392602
-   },
-   "Samford University": {
-      "lon": -86.79244418,
-      "lat": 33.46338362
-   },
-   "San Antonio College": {
-      "lon": -98.49817298,
-      "lat": 29.44483252
-   },
-   "San Juan College": {
-      "lon": -108.1676111,
-      "lat": 36.76851762
-   },
-   "Santa Barbara City College": {
-      "lon": -119.7004414,
-      "lat": 34.40472232
-   },
-   "Savannah College of Art and Design": {
-      "lon": -81.09512198,
-      "lat": 32.07159502
-   },
-   "Seton Hall University": {
-      "lon": -74.24742838,
-      "lat": 40.74117692
-   },
-   "Shenandoah University": {
-      "lon": -78.15967598,
-      "lat": 39.16467062
-   },
-   "Shorter University": {
-      "lon": -85.19308218,
-      "lat": 34.26207312
-   },
-   "Simmons College": {
-      "lon": -71.10128488,
-      "lat": 42.33801712
-   },
-   "South Dakota School of Mines and Technology": {
-      "lon": -103.2062045,
-      "lat": 44.07210972
-   },
-   "South Texas College": {
-      "lon": -98.25494398,
-      "lat": 26.21562292
-   },
-   "Southeast Missouri State University": {
-      "lon": -89.53235328,
-      "lat": 37.31129532
-   },
-   "Southeastern Louisiana University": {
-      "lon": -90.46888508,
-      "lat": 30.51265102
-   },
-   "Southeastern University": {
-      "lon": -77.02083498,
-      "lat": 38.87838202
-   },
-   "Southern Arkansas University Main Campus": {
-      "lon": -93.23700828,
-      "lat": 33.29280092
-   },
-   "Southern Illinois University Carbondale": {
-      "lon": -89.21801793,
-      "lat": 37.71377972
-   },
-   "Southern Methodist University": {
-      "lon": -96.78728238,
-      "lat": 32.84360212
-   },
-   "Southern University and A & M College": {
-      "lon": -91.19859903,
-      "lat": 30.5200242
-   },
-   "Southern Utah University": {
-      "lon": -113.0691511,
-      "lat": 37.67601747
-   },
-   "Southwestern Assemblies of God University": {
-      "lon": -96.85358598,
-      "lat": 32.40303162
-   },
-   "Southwestern College": {
-      "lon": -116.9968121,
-      "lat": 32.63951112
-   },
-   "St. Petersburg College": {
-      "lon": -82.71329763,
-      "lat": 27.89813907
-   },
-   "St. Philip's College": {
-      "lon": -98.45615638,
-      "lat": 29.41272972
-   },
-   "St. John's University": {
-      "lon": -73.79593508,
-      "lat": 40.72289802
-   },
-   "Stanford University": {
-      "lon": -122.1714067,
-      "lat": 37.42645252
-   },
-   "Stark State College": {
-      "lon": -81.44088798,
-      "lat": 40.86879342
-   },
-   "Stratford University": {
-      "lon": -77.21577618,
-      "lat": 38.90605752
-   },
-   "Strayer University": {
-      "lon": -77.03534528,
-      "lat": 38.90351467
-   },
-   "Suffolk University": {
-      "lon": -71.06236618,
-      "lat": 42.35647412
-   },
-   "Sullivan University": {
-      "lon": -85.67182168,
-      "lat": 38.21172742
-   },
-   "SUNY at Albany": {
-      "lon": -73.82395938,
-      "lat": 42.68244292
-   },
-   "SUNY College at Cortland": {
-      "lon": -76.20049,
-      "lat": 42.585547
-   },
-   "SUNY College of Technology at Canton": {
-      "lon": -75.18473878,
-      "lat": 44.60192897
-   },
-   "SUNY College of Technology at Delhi": {
-      "lon": -74.92546178,
-      "lat": 42.26910612
-   },
-   "SUNY Polytechnic Institute": {
-      "lon": -75.23056058,
-      "lat": 43.13394292
-   },
-   "Syracuse University": {
-      "lon": -76.13846308,
-      "lat": 43.03891012
-   },
-   "William Howard Taft University": {
-      "lon": -104.9339542,
-      "lat": 39.70411842
-   },
-   "Tarleton State University": {
-      "lon": -98.21612678,
-      "lat": 32.21366102
-   },
-   "Temple University": {
-      "lon": -75.15918618,
-      "lat": 39.97959522
-   },
-   "Tennessee Technological University": {
-      "lon": -85.50993658,
-      "lat": 36.17428712
-   },
-   "Texas A&M University": {
-      "lon": -96.35913318,
-      "lat": 30.60584402
-   },
-   "Texas A&M University - Commerce": {
-      "lon": -95.91041078,
-      "lat": 33.23406372
-   },
-   "Texas A&M University - Corpus Christi": {
-      "lon": -97.33015713,
-      "lat": 27.71320772
-   },
-   "Texas A&M University - Kingsville": {
-      "lon": -97.88613588,
-      "lat": 27.52556392
-   },
-   "Texas Southern University": {
-      "lon": -95.36113003,
-      "lat": 29.72098367
-   },
-   "Texas State University": {
-      "lon": -97.93765088,
-      "lat": 29.88857852
-   },
-   "Texas Tech University": {
-      "lon": -101.8784791,
-      "lat": 33.58407852
-   },
-   "Texas Tech University Health Sciences Center": {
-      "lon": -101.8931745,
-      "lat": 33.58811372
-   },
-   "Thomas Edison State University": {
-      "lon": -74.76992493,
-      "lat": 40.21928422
-   },
-   "Thomas Jefferson University": {
-      "lon": -75.15956438,
-      "lat": 39.94690397
-   },
-   "Thomas More College": {
-      "lon": -84.56819858,
-      "lat": 39.01942172
-   },
-   "Thomas University": {
-      "lon": -83.96704518,
-      "lat": 30.81451632
-   },
-   "Tiffin University": {
-      "lon": -83.18591248,
-      "lat": 41.11709562
-   },
-   "Towson University": {
-      "lon": -76.60591218,
-      "lat": 39.39335382
-   },
-   "Trevecca Nazarene University": {
-      "lon": -86.75472888,
-      "lat": 36.14366452
-   },
-   "Trident University International": {
-      "lon": -118.033449,
-      "lat": 33.80430792
-   },
-   "Troy University": {
-      "lon": -85.9658508,
-      "lat": 31.7950517
-   },
-   "Truett McConnell University": {
-      "lon": -83.75030158,
-      "lat": 34.59296732
-   },
-   "Ultimate Medical Academy - Clearwater": {
-      "lon": -82.78688048,
-      "lat": 27.96386652
-   },
-   "Union Institute & University": {
-      "lon": -84.50146898,
-      "lat": 39.12583072
-   },
-   "Union University": {
-      "lon": -88.85955998,
-      "lat": 35.68060552
-   },
-   "The University of Alabama": {
-      "lon": -87.54743163,
-      "lat": 33.20817002
-   },
-   "University of Alabama at Birmingham": {
-      "lon": -86.80799938,
-      "lat": 33.50824732
-   },
-   "University of Alabama at Huntsville": {
-      "lon": -86.64254458,
-      "lat": 34.72451902
-   },
-   "University of Alaska Anchorage": {
-      "lon": -149.8196221,
-      "lat": 61.18943322
+      "Lat": 38.94370102,
+      "Lon": -77.09629598,
+      "City": "Washington",
+      "State": "District of Columbia"
+   },
+   "Antioch College": {
+      "Lat": 39.79798562,
+      "Lon": -83.88906758,
+      "City": "Yellow Springs",
+      "State": "Ohio"
    },
    "University of Arizona": {
-      "lon": -110.9522553,
-      "lat": 32.23131122
+      "Lat": 32.23053612,
+      "Lon": -110.9514584,
+      "City": "Tucson",
+      "State": "Arizona"
    },
-   "University of Arkansas at Little Rock": {
-      "lon": -92.34292238,
-      "lat": 34.72019352
+   "Arizona State University": {
+      "Lat": 33.45019112,
+      "Lon": -112.0659264,
+      "City": "Phoenix",
+      "State": "Arizona"
    },
-   "University of Baltimore": {
-      "lon": -76.61770398,
-      "lat": 39.30486822
+   "University of Arkansas": {
+      "Lat": 36.06648342,
+      "Lon": -94.17500408,
+      "City": "Fayetteville",
+      "State": "Arkansas"
    },
-   "University of Bridgeport": {
-      "lon": -73.19150238,
-      "lat": 41.16332612
+   "Assumption College": {
+      "Lat": 42.29336532,
+      "Lon": -71.83031208,
+      "City": "Worcester",
+      "State": "Massachusetts"
+   },
+   "College of the Atlantic": {
+      "Lat": 44.39307502,
+      "Lon": -68.22391598,
+      "City": "Bar Harbor",
+      "State": "Maine"
+   },
+   "Auburn University": {
+      "Lat": 32.59200842,
+      "Lon": -85.49651528,
+      "City": "Auburn",
+      "State": "Alabama"
+   },
+   "Austin College": {
+      "Lat": 33.64491102,
+      "Lon": -96.59620298,
+      "City": "Sherman",
+      "State": "Texas"
+   },
+   "Ball State University": {
+      "Lat": 40.20475382,
+      "Lon": -85.40833498,
+      "City": "Muncie",
+      "State": "Indiana"
+   },
+   "Babson College": {
+      "Lat": 42.29802182,
+      "Lon": -71.26734408,
+      "City": "Babson Park",
+      "State": "Massachusetts"
+   },
+   "Bard College": {
+      "Lat": 42.01904072,
+      "Lon": -73.91140338,
+      "City": "Annandale-On-Hudson",
+      "State": "New York"
+   },
+   "Barnard College": {
+      "Lat": 40.80774842,
+      "Lon": -73.96531218,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Baruch College, City University of New York": {
+      "Lat": 40.73885012,
+      "Lon": -73.98472348,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Bates College": {
+      "Lat": 44.10437262,
+      "Lon": -70.20353548,
+      "City": "Lewiston",
+      "State": "Maine"
+   },
+   "Baylor University": {
+      "Lat": 31.54849202,
+      "Lon": -97.11566358,
+      "City": "Waco",
+      "State": "Texas"
+   },
+   "Belmont University": {
+      "Lat": 36.13154912,
+      "Lon": -86.79541888,
+      "City": "Nashville",
+      "State": "Tennessee"
+   },
+   "Beloit College": {
+      "Lat": 42.50168432,
+      "Lon": -89.03225378,
+      "City": "Beloit",
+      "State": "Wisconsin"
+   },
+   "Bennington College": {
+      "Lat": 42.91786282,
+      "Lon": -73.23923768,
+      "City": "Bennington",
+      "State": "Vermont"
+   },
+   "Bentley University": {
+      "Lat": 42.38434992,
+      "Lon": -71.22302898,
+      "City": "Waltham",
+      "State": "Massachusetts"
+   },
+   "Berea College": {
+      "Lat": 37.57380302,
+      "Lon": -84.28948298,
+      "City": "Berea",
+      "State": "Kentucky"
+   },
+   "Birmingham Southern College": {
+      "Lat": 33.51257102,
+      "Lon": -86.85606998,
+      "City": "Birmingham",
+      "State": "Alabama"
+   },
+   "Boston College": {
+      "Lat": 42.33419982,
+      "Lon": -71.16984348,
+      "City": "Chestnut Hill",
+      "State": "Massachusetts"
+   },
+   "Boston University": {
+      "Lat": 42.34915072,
+      "Lon": -71.10674808,
+      "City": "Boston",
+      "State": "Massachusetts"
+   },
+   "Bowdoin College": {
+      "Lat": 43.90640892,
+      "Lon": -69.96180028,
+      "City": "Brunswick",
+      "State": "Maine"
+   },
+   "Bowling Green State University": {
+      "Lat": 41.37842982,
+      "Lon": -83.63143158,
+      "City": "Bowling Green",
+      "State": "Ohio"
+   },
+   "Bradley University": {
+      "Lat": 40.69639822,
+      "Lon": -89.61663678,
+      "City": "Peoria",
+      "State": "Illinois"
+   },
+   "Brandeis University": {
+      "Lat": 42.36332942,
+      "Lon": -71.26014408,
+      "City": "Waltham",
+      "State": "Massachusetts"
+   },
+   "Brigham Young University": {
+      "Lat": 40.25049452,
+      "Lon": -111.6506646,
+      "City": "Provo",
+      "State": "Utah"
+   },
+   "University of British Columbia": {
+      "Lat": 49.25925622,
+      "Lon": -123.2473429,
+      "City": "Vancouver",
+      "State": "British Columbia"
+   },
+   "Brooklyn College": {
+      "Lat": 40.63048832,
+      "Lon": -73.95438448,
+      "City": "Brooklyn",
+      "State": "New York"
+   },
+   "Brown University": {
+      "Lat": 41.822956,
+      "Lon": -71.4048079,
+      "City": "Providence",
+      "State": "Rhode Island"
+   },
+   "Bryant University": {
+      "Lat": 41.91782657,
+      "Lon": -71.52396423,
+      "City": "Smithfield",
+      "State": "Rhode Island"
+   },
+   "Bryn Mawr College": {
+      "Lat": 40.02675752,
+      "Lon": -75.31658308,
+      "City": "Bryn Mawr",
+      "State": "Pennsylvania"
+   },
+   "Bucknell University": {
+      "Lat": 40.95353372,
+      "Lon": -76.88608108,
+      "City": "Lewisburg",
+      "State": "Pennsylvania"
+   },
+   "Butler University": {
+      "Lat": 39.83977452,
+      "Lon": -86.17253978,
+      "City": "Indianapolis",
+      "State": "Indiana"
+   },
+   "Cal Poly Pomona": {
+      "Lat": 34.05517942,
+      "Lon": -117.8228785,
+      "City": "Pomona",
+      "State": "California"
+   },
+   "Cal Poly San Luis Obispo": {
+      "Lat": 35.30365632,
+      "Lon": -120.6638432,
+      "City": "San Luis Obispo",
+      "State": "California"
+   },
+   "University of California - Berkeley": {
+      "Lat": 37.87055022,
+      "Lon": -122.2598889,
+      "City": "Berkeley",
+      "State": "California"
+   },
+   "University of California - Davis": {
+      "Lat": 38.53688322,
+      "Lon": -121.7630615,
+      "City": "Davis",
+      "State": "California"
+   },
+   "University of California - Irvine": {
+      "Lat": 33.64267012,
+      "Lon": -117.8526493,
+      "City": "Irvine",
+      "State": "California"
    },
    "University of California - Los Angeles": {
-      "lon": -118.4445491,
-      "lat": 34.07160792
+      "Lat": 34.06757202,
+      "Lon": -118.4465301,
+      "City": "Los Angeles",
+      "State": "California"
    },
-   "University of Central Arkansas": {
-      "lon": -92.45560498,
-      "lat": 35.07779802
+   "University of California - Merced": {
+      "Lat": 37.36352582,
+      "Lon": -120.4267492,
+      "City": "Merced",
+      "State": "California"
+   },
+   "University of California - Riverside": {
+      "Lat": 33.97235652,
+      "Lon": -117.3294134,
+      "City": "Riverside",
+      "State": "California"
+   },
+   "University of California - San Diego": {
+      "Lat": 32.87871142,
+      "Lon": -117.2353625,
+      "City": "San Diego",
+      "State": "California"
+   },
+   "University of California - Santa Barbara": {
+      "Lat": 34.41261392,
+      "Lon": -119.850296,
+      "City": "Santa Barbara",
+      "State": "California"
+   },
+   "University of California - Santa Cruz": {
+      "Lat": 36.99003662,
+      "Lon": -122.0622208,
+      "City": "Santa Cruz",
+      "State": "California"
+   },
+   "California Institute of Technology": {
+      "Lat": 34.13630862,
+      "Lon": -118.126618,
+      "City": "Pasadena",
+      "State": "California"
+   },
+   "California Lutheran University": {
+      "Lat": 34.22421672,
+      "Lon": -118.8800255,
+      "City": "Thousand Oaks",
+      "State": "California"
+   },
+   "California State University - Fresno": {
+      "Lat": 36.81201462,
+      "Lon": -119.7474427,
+      "City": "Fresno",
+      "State": "California"
+   },
+   "California State University - Fullerton": {
+      "Lat": 33.88157362,
+      "Lon": -117.8882751,
+      "City": "Fullerton",
+      "State": "California"
+   },
+   "California State University - Long Beach": {
+      "Lat": 33.78247452,
+      "Lon": -118.1154394,
+      "City": "Long Beach",
+      "State": "California"
+   },
+   "California State University - Los Angeles": {
+      "Lat": 34.06543962,
+      "Lon": -118.1694392,
+      "City": "Los Angeles",
+      "State": "California"
+   },
+   "California State University - Monterey Bay": {
+      "Lat": 36.65243902,
+      "Lon": -121.803059,
+      "City": "Marina",
+      "State": "California"
+   },
+   "California State University - Northridge": {
+      "Lat": 34.24124572,
+      "Lon": -118.5294177,
+      "City": "Northridge",
+      "State": "California"
+   },
+   "Carleton College": {
+      "Lat": 44.45995512,
+      "Lon": -93.15743288,
+      "City": "Northfield",
+      "State": "Minnesota"
+   },
+   "Carnegie Mellon University": {
+      "Lat": 40.44211682,
+      "Lon": -79.94480568,
+      "City": "Pittsburgh",
+      "State": "Pennsylvania"
+   },
+   "Carroll College": {
+      "Lat": 46.59938502,
+      "Lon": -112.040229,
+      "City": "Helena",
+      "State": "Montana"
+   },
+   "Case Western Reserve University": {
+      "Lat": 41.50299232,
+      "Lon": -81.60973278,
+      "City": "Cleveland",
+      "State": "Ohio"
+   },
+   "Catholic University of America": {
+      "Lat": 38.93553212,
+      "Lon": -77.00004098,
+      "City": "Washington",
+      "State": "District of Columbia"
+   },
+   "Central Connecticut State University": {
+      "Lat": 41.69190602,
+      "Lon": -72.76551598,
+      "City": "New Britain",
+      "State": "Connecticut"
    },
    "University of Central Florida": {
-      "lon": -81.20489153,
-      "lat": 28.59600177
+      "Lat": 28.60107842,
+      "Lon": -81.20140888,
+      "City": "Orlando",
+      "State": "Florida"
    },
-   "University of Central Missouri": {
-      "lon": -93.74229063,
-      "lat": 38.75891207
+   "Centre College": {
+      "Lat": 37.64437242,
+      "Lon": -84.78338598,
+      "City": "Danville",
+      "State": "Kentucky"
+   },
+   "Champlain College": {
+      "Lat": 44.47176752,
+      "Lon": -73.20548418,
+      "City": "Burlington",
+      "State": "Vermont"
+   },
+   "Chapman University": {
+      "Lat": 33.79199862,
+      "Lon": -117.8526993,
+      "City": "Orange",
+      "State": "California"
+   },
+   "University of Chicago": {
+      "Lat": 41.78725892,
+      "Lon": -87.60006228,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "Christopher Newport University": {
+      "Lat": 37.06059632,
+      "Lon": -76.49182388,
+      "City": "Newport News",
+      "State": "Virginia"
    },
    "University of Cincinnati": {
-      "lon": -84.7120481,
-      "lat": 39.051921
+      "Lat": 39.13157292,
+      "Lon": -84.51629938,
+      "City": "Cincinnati",
+      "State": "Ohio"
    },
-   "University of Colorado at Boulder": {
-      "lon": -105.2672907,
-      "lat": 40.00623202
+   "City College of New York": {
+      "Lat": 40.81869812,
+      "Lon": -73.95062138,
+      "City": "New York City",
+      "State": "New York"
    },
-   "University of Colorado at Colorado Springs": {
-      "lon": -104.7894688,
-      "lat": 38.88763332
+   "Claremont McKenna College": {
+      "Lat": 34.10042772,
+      "Lon": -117.7092709,
+      "City": "Claremont",
+      "State": "California"
    },
-   "University of Colorado Denver": {
-      "lon": -104.8390577,
-      "lat": 39.74382782
+   "Clark University": {
+      "Lat": 42.25082932,
+      "Lon": -71.82607898,
+      "City": "Worcester",
+      "State": "Massachusetts"
+   },
+   "Clarkson University": {
+      "Lat": 44.66241212,
+      "Lon": -74.99989298,
+      "City": "Potsdam",
+      "State": "New York"
+   },
+   "Clemson University": {
+      "Lat": 34.66981792,
+      "Lon": -82.84005688,
+      "City": "Clemson",
+      "State": "South Carolina"
+   },
+   "Coe College": {
+      "Lat": 41.98707932,
+      "Lon": -91.66047768,
+      "City": "Cedar Rapids",
+      "State": "Iowa"
+   },
+   "Colby College": {
+      "Lat": 44.56252012,
+      "Lon": -69.66398518,
+      "City": "Waterville",
+      "State": "Maine"
+   },
+   "Colgate University": {
+      "Lat": 42.81440162,
+      "Lon": -75.54211708,
+      "City": "Hamilton",
+      "State": "New York"
+   },
+   "College of Charleston": {
+      "Lat": 32.78226272,
+      "Lon": -79.93852518,
+      "City": "Charleston",
+      "State": "South Carolina"
+   },
+   "University of Colorado": {
+      "Lat": 40.00623202,
+      "Lon": -105.2672907,
+      "City": "Boulder",
+      "State": "Colorado"
+   },
+   "Colorado College": {
+      "Lat": 38.84524502,
+      "Lon": -104.825743,
+      "City": "Colorado Springs",
+      "State": "Colorado"
+   },
+   "Colorado School of Mines": {
+      "Lat": 39.74966462,
+      "Lon": -105.2239195,
+      "City": "Golden",
+      "State": "Colorado"
+   },
+   "Colorado State University": {
+      "Lat": 40.57208702,
+      "Lon": -105.0878963,
+      "City": "Fort Collins",
+      "State": "Colorado"
+   },
+   "Columbia College Chicago": {
+      "Lat": 41.87287672,
+      "Lon": -87.62579348,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "Columbia University": {
+      "Lat": 40.80618652,
+      "Lon": -73.96392168,
+      "City": "New York City",
+      "State": "New York"
    },
    "University of Connecticut": {
-      "lon": -72.25125288,
-      "lat": 41.80753342
+      "Lat": 41.80639242,
+      "Lon": -72.25532948,
+      "City": "Storrs",
+      "State": "Connecticut"
    },
-   "University of Dallas": {
-      "lon": -96.92236478,
-      "lat": 32.84484012
+   "Connecticut College": {
+      "Lat": 41.37733872,
+      "Lon": -72.10593588,
+      "City": "New London",
+      "State": "Connecticut"
+   },
+   "Cooper Union": {
+      "Lat": 40.72673322,
+      "Lon": -73.99295758,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Cornell College": {
+      "Lat": 41.92560562,
+      "Lon": -91.42669918,
+      "City": "Mt Vernon",
+      "State": "Iowa"
+   },
+   "Cornell University": {
+      "Lat": 42.45210022,
+      "Lon": -76.47485168,
+      "City": "Ithaca",
+      "State": "New York"
+   },
+   "Creighton University": {
+      "Lat": 41.26361902,
+      "Lon": -95.94597358,
+      "City": "Omaha",
+      "State": "Nebraska"
+   },
+   "CUNY System": {
+      "Lat": 40.74928142,
+      "Lon": -73.97476668,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Dartmouth College": {
+      "Lat": 43.70309162,
+      "Lon": -72.29004238,
+      "City": "Hanover",
+      "State": "New Hampshire"
+   },
+   "Davidson College": {
+      "Lat": 35.50038282,
+      "Lon": -80.84812828,
+      "City": "Davidson",
+      "State": "North Carolina"
    },
    "University of Dayton": {
-      "lon": -84.18035488,
-      "lat": 39.73886282
+      "Lat": 39.73844602,
+      "Lon": -84.18304118,
+      "City": "Dayton",
+      "State": "Ohio"
+   },
+   "Deep Springs College": {
+      "Lat": 37.37259602,
+      "Lon": -117.9813538,
+      "City": "Big Pine",
+      "State": "California"
    },
    "University of Delaware": {
-      "lon": -75.76484848,
-      "lat": 39.67909617
+      "Lat": 39.67660142,
+      "Lon": -75.75196038,
+      "City": "Newark",
+      "State": "Delaware"
+   },
+   "Denison University": {
+      "Lat": 40.07267602,
+      "Lon": -82.52399198,
+      "City": "Granville",
+      "State": "Ohio"
    },
    "University of Denver": {
-      "lon": -104.9628894,
-      "lat": 39.67534422
+      "Lat": 39.67526842,
+      "Lon": -104.9632455,
+      "City": "Denver",
+      "State": "Colorado"
    },
-   "The University of Findlay": {
-      "lon": -83.65277258,
-      "lat": 41.05239812
+   "DePaul University": {
+      "Lat": 41.92297562,
+      "Lon": -87.65621098,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "DePauw University": {
+      "Lat": 39.63804532,
+      "Lon": -86.86424358,
+      "City": "Greencastle",
+      "State": "Indiana"
+   },
+   "Dickinson College": {
+      "Lat": 40.20137242,
+      "Lon": -77.19858098,
+      "City": "Carlisle",
+      "State": "Pennsylvania"
+   },
+   "Dominican University of California": {
+      "Lat": 37.97851662,
+      "Lon": -122.5143377,
+      "City": "San Rafael",
+      "State": "California"
+   },
+   "Drew University": {
+      "Lat": 40.75921802,
+      "Lon": -74.42832548,
+      "City": "Madison",
+      "State": "New Jersey"
+   },
+   "Drexel University": {
+      "Lat": 39.95526372,
+      "Lon": -75.19129308,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "Duke University": {
+      "Lat": 35.99505,
+      "Lon": -78.953322,
+      "City": "Durham",
+      "State": "North Carolina"
+   },
+   "Duquesne University": {
+      "Lat": 40.43594592,
+      "Lon": -79.99152178,
+      "City": "Pittsburgh",
+      "State": "Pennsylvania"
+   },
+   "East Carolina University": {
+      "Lat": 35.60416182,
+      "Lon": -77.36591428,
+      "City": "Greenville",
+      "State": "North Carolina"
+   },
+   "Earlham College": {
+      "Lat": 39.81953632,
+      "Lon": -84.91440098,
+      "City": "Richmond",
+      "State": "Indiana"
+   },
+   "Eckerd College": {
+      "Lat": 27.71453702,
+      "Lon": -82.68950898,
+      "City": "St. Petersburg",
+      "State": "Florida"
+   },
+   "Elon University": {
+      "Lat": 36.10352592,
+      "Lon": -79.50523718,
+      "City": "Elon",
+      "State": "North Carolina"
+   },
+   "Elizabethtown College": {
+      "Lat": 40.14897612,
+      "Lon": -76.59114098,
+      "City": "Elizabethtown",
+      "State": "Pennsylvania"
+   },
+   "Embry-Riddle - Daytona Beach": {
+      "Lat": 29.19026802,
+      "Lon": -81.05136778,
+      "City": "Daytona Beach",
+      "State": "Florida"
+   },
+   "Embry-Riddle - Prescott": {
+      "Lat": 34.61475522,
+      "Lon": -112.4521201,
+      "City": "Prescott",
+      "State": "Arizona"
+   },
+   "Emerson College": {
+      "Lat": 42.35068082,
+      "Lon": -71.06700408,
+      "City": "Boston",
+      "State": "Massachusetts"
+   },
+   "Emory University": {
+      "Lat": 33.79117052,
+      "Lon": -84.32534788,
+      "City": "Atlanta",
+      "State": "Georgia"
+   },
+   "Fairfield University": {
+      "Lat": 41.15741492,
+      "Lon": -73.25871148,
+      "City": "Fairfield",
+      "State": "Connecticut"
+   },
+   "Fairleigh Dickinson University": {
+      "Lat": 40.89644382,
+      "Lon": -74.03221298,
+      "City": "Teaneck",
+      "State": "New Jersey"
+   },
+   "Fashion Institute of Technology": {
+      "Lat": 40.74613502,
+      "Lon": -73.99643098,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Fisk University": {
+      "Lat": 36.16589662,
+      "Lon": -86.80498428,
+      "City": "Nashville",
+      "State": "Tennessee"
+   },
+   "Flagler College": {
+      "Lat": 29.89135642,
+      "Lon": -81.31623568,
+      "City": "St. Augustine",
+      "State": "Florida"
    },
    "University of Florida": {
-      "lon": -82.34132478,
-      "lat": 29.64807572
+      "Lat": 29.64228352,
+      "Lon": -82.35627918,
+      "City": "Gainesville",
+      "State": "Florida"
+   },
+   "Florida A&M University": {
+      "Lat": 30.42169202,
+      "Lon": -84.28910208,
+      "City": "Tallahassee",
+      "State": "Florida"
+   },
+   "Florida Atlantic University": {
+      "Lat": 26.37272702,
+      "Lon": -80.10282408,
+      "City": "Boca Raton",
+      "State": "Florida"
+   },
+   "Florida Institute of Technology": {
+      "Lat": 28.06333982,
+      "Lon": -80.62437098,
+      "City": "Melbourne",
+      "State": "Florida"
+   },
+   "Florida International University": {
+      "Lat": 25.75522662,
+      "Lon": -80.37529768,
+      "City": "Miami",
+      "State": "Florida"
+   },
+   "Florida State University": {
+      "Lat": 30.44052882,
+      "Lon": -84.29983788,
+      "City": "Tallahassee",
+      "State": "Florida"
+   },
+   "Fordham University": {
+      "Lat": 40.86069142,
+      "Lon": -73.88704768,
+      "City": "Bronx",
+      "State": "New York"
+   },
+   "Franklin & Marshall College": {
+      "Lat": 40.04617682,
+      "Lon": -76.31925058,
+      "City": "Lancaster",
+      "State": "Pennsylvania"
+   },
+   "Furman University": {
+      "Lat": 34.92235102,
+      "Lon": -82.43961828,
+      "City": "Greenville",
+      "State": "South Carolina"
+   },
+   "George Mason University": {
+      "Lat": 38.83020512,
+      "Lon": -77.31343748,
+      "City": "Fairfax",
+      "State": "Virginia"
+   },
+   "George Washington University": {
+      "Lat": 38.89960887,
+      "Lon": -77.04901268,
+      "City": "Washington",
+      "State": "District of Columbia"
+   },
+   "Georgetown University": {
+      "Lat": 38.90625992,
+      "Lon": -77.07360748,
+      "City": "Washington",
+      "State": "District of Columbia"
    },
    "University of Georgia": {
-      "lon": -83.37437198,
-      "lat": 33.95649902
+      "Lat": 33.94665632,
+      "Lon": -83.37867108,
+      "City": "Athens",
+      "State": "Georgia"
    },
-   "University of Hawaii at Manoa": {
-      "lon": -157.8221612,
-      "lat": 21.29658342
+   "Georgia Institute of Technology": {
+      "Lat": 33.77426882,
+      "Lon": -84.39763398,
+      "City": "Atlanta",
+      "State": "Georgia"
    },
-   "University of Hawaii - West Oahu": {
-      "lon": -158.0574139,
-      "lat": 21.35383892
+   "Georgia State University": {
+      "Lat": 33.75171902,
+      "Lon": -84.38663088,
+      "City": "Atlanta",
+      "State": "Georgia"
+   },
+   "Gettysburg College": {
+      "Lat": 39.83485832,
+      "Lon": -77.23885678,
+      "City": "Gettysburg",
+      "State": "Pennsylvania"
+   },
+   "Goddard College": {
+      "Lat": 44.27762322,
+      "Lon": -72.43944748,
+      "City": "Plainfield",
+      "State": "Vermont"
+   },
+   "Golden Gate University": {
+      "Lat": 37.78794302,
+      "Lon": -122.400331,
+      "City": "San Francisco",
+      "State": "California"
+   },
+   "Gonzaga University": {
+      "Lat": 47.66584002,
+      "Lon": -117.4037339,
+      "City": "Spokane",
+      "State": "Washington"
+   },
+   "Goucher College": {
+      "Lat": 39.40741602,
+      "Lon": -76.59789398,
+      "City": "Baltimore",
+      "State": "Maryland"
+   },
+   "Grinnell College": {
+      "Lat": 41.74770812,
+      "Lon": -92.72147918,
+      "City": "Grinnell",
+      "State": "Iowa"
+   },
+   "Grove City College": {
+      "Lat": 41.15453342,
+      "Lon": -80.07979918,
+      "City": "Grove City",
+      "State": "Pennsylvania"
+   },
+   "Gustavus Adolphus College": {
+      "Lat": 44.32081292,
+      "Lon": -93.97012608,
+      "City": "St. Peter",
+      "State": "Minnesota"
+   },
+   "Hanover College": {
+      "Lat": 38.71790122,
+      "Lon": -85.46371708,
+      "City": "Hanover",
+      "State": "Indiana"
+   },
+   "Hamilton College": {
+      "Lat": 43.05071262,
+      "Lon": -75.40748408,
+      "City": "Clinton",
+      "State": "New York"
+   },
+   "Hampden-Sydney College": {
+      "Lat": 37.23902682,
+      "Lon": -78.46237878,
+      "City": "Hampden Sydney",
+      "State": "Virginia"
+   },
+   "Hampshire College": {
+      "Lat": 42.32272992,
+      "Lon": -72.53204538,
+      "City": "Amherst",
+      "State": "Massachusetts"
+   },
+   "Hampton University": {
+      "Lat": 37.02034902,
+      "Lon": -76.33796168,
+      "City": "Hampton",
+      "State": "Virginia"
+   },
+   "University of Hartford": {
+      "Lat": 41.79725222,
+      "Lon": -72.71515408,
+      "City": "West Hartford",
+      "State": "Connecticut"
+   },
+   "Hartwick College": {
+      "Lat": 42.45600442,
+      "Lon": -75.07423578,
+      "City": "Oneonta",
+      "State": "New York"
+   },
+   "Harvard University": {
+      "Lat": 42.37565392,
+      "Lon": -71.11800908,
+      "City": "Cambridge",
+      "State": "Massachusetts"
+   },
+   "Harvey Mudd College": {
+      "Lat": 34.10473272,
+      "Lon": -117.7118189,
+      "City": "Claremont",
+      "State": "California"
+   },
+   "Haverford College": {
+      "Lat": 40.00530342,
+      "Lon": -75.30666698,
+      "City": "Haverford",
+      "State": "Pennsylvania"
+   },
+   "Hendrix College": {
+      "Lat": 35.09869792,
+      "Lon": -92.44336078,
+      "City": "Conway",
+      "State": "Arkansas"
+   },
+   "High Point University": {
+      "Lat": 35.97188372,
+      "Lon": -79.99638868,
+      "City": "High Point",
+      "State": "North Carolina"
+   },
+   "Hillsdale College": {
+      "Lat": 41.93129242,
+      "Lon": -84.63499938,
+      "City": "Hillsdale",
+      "State": "Michigan"
+   },
+   "Hiram College": {
+      "Lat": 41.30938322,
+      "Lon": -81.14530148,
+      "City": "Hiram",
+      "State": "Ohio"
+   },
+   "Hobart and William Smith Colleges": {
+      "Lat": 42.85780412,
+      "Lon": -76.98583578,
+      "City": "Geneva",
+      "State": "New York"
+   },
+   "Hofstra University": {
+      "Lat": 40.71521862,
+      "Lon": -73.59988258,
+      "City": "Hempstead",
+      "State": "New York"
+   },
+   "Hollins University": {
+      "Lat": 37.35476282,
+      "Lon": -79.94373548,
+      "City": "Roanoke",
+      "State": "Virginia"
+   },
+   "College of the Holy Cross": {
+      "Lat": 42.23653982,
+      "Lon": -71.80659538,
+      "City": "Worcester",
+      "State": "Massachusetts"
+   },
+   "Hope College": {
+      "Lat": 42.78583072,
+      "Lon": -86.10370638,
+      "City": "Holland",
+      "State": "Michigan"
    },
    "University of Houston": {
-      "lon": -95.34147038,
-      "lat": 29.72050987
+      "Lat": 29.71859992,
+      "Lon": -95.34358238,
+      "City": "Houston",
+      "State": "Texas"
    },
-   "University of Houston - Clear Lake": {
-      "lon": -95.10768243,
-      "lat": 29.57659537
+   "Howard University": {
+      "Lat": 38.92133532,
+      "Lon": -77.02078668,
+      "City": "Washington",
+      "State": "District of Columbia"
    },
-   "University of Houston - Victoria": {
-      "lon": -96.97767778,
-      "lat": 28.81489802
+   "Humboldt State University": {
+      "Lat": 40.87392582,
+      "Lon": -124.07917,
+      "City": "Arcata",
+      "State": "California"
    },
-   "University of Idaho": {
-      "lon": -117.0223167,
-      "lat": 46.72755832
+   "University of Illinois - Chicago": {
+      "Lat": 41.86910072,
+      "Lon": -87.66883438,
+      "City": "Chicago",
+      "State": "Illinois"
    },
-   "University of Illinois at Chicago": {
-      "lon": -87.65228578,
-      "lat": 41.87240832
+   "University of Illinois - Urbana-Champaign": {
+      "Lat": 41.87361082,
+      "Lon": -87.65945558,
+      "City": "Urbana-Champaign",
+      "State": "Illinois"
    },
-   "University of Illinois at Springfield": {
-      "lon": -89.61900298,
-      "lat": 39.72767172
+   "Indiana University - Bloomington": {
+      "Lat": 39.17526452,
+      "Lon": -86.51436598,
+      "City": "Bloomington",
+      "State": "Indiana"
    },
-   "University of Illinois at Urbana-Champaign": {
-      "lon": -88.23147258,
-      "lat": 40.10750122
+   "Indiana University of Pennsylvania": {
+      "Lat": 40.61286912,
+      "Lon": -79.16241148,
+      "City": "Indiana",
+      "State": "Pennsylvania"
    },
-   "University of Indianapolis": {
-      "lon": -86.13484808,
-      "lat": 39.70834682
+   "Indiana University-Purdue University Indianapolis": {
+      "Lat": 39.77253422,
+      "Lon": -86.17768828,
+      "City": "Indianapolis",
+      "State": "Indiana"
+   },
+   "Indiana University - South Bend": {
+      "Lat": 41.66078932,
+      "Lon": -86.22106648,
+      "City": "South Bend",
+      "State": "Indiana"
    },
    "University of Iowa": {
-      "lon": -91.53762128,
-      "lat": 41.66112792
+      "Lat": 41.66134732,
+      "Lon": -91.55624878,
+      "City": "Iowa City",
+      "State": "Iowa"
+   },
+   "Iowa State University": {
+      "Lat": 42.02526972,
+      "Lon": -93.64781438,
+      "City": "Ames",
+      "State": "Iowa"
+   },
+   "Illinois Wesleyan University": {
+      "Lat": 40.48954022,
+      "Lon": -88.99200308,
+      "City": "Bloomington",
+      "State": "Illinois"
+   },
+   "Illinois Institute of Technology": {
+      "Lat": 41.83352412,
+      "Lon": -87.62835488,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "Ithaca College": {
+      "Lat": 42.42030902,
+      "Lon": -76.49991298,
+      "City": "Ithaca",
+      "State": "New York"
+   },
+   "James Madison University": {
+      "Lat": 38.43374302,
+      "Lon": -78.87110378,
+      "City": "Harrisonburg",
+      "State": "Virginia"
+   },
+   "Johns Hopkins University": {
+      "Lat": 39.32855232,
+      "Lon": -76.62186668,
+      "City": "Baltimore",
+      "State": "Maryland"
+   },
+   "The Juilliard School": {
+      "Lat": 40.77240972,
+      "Lon": -73.98417758,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Juniata College": {
+      "Lat": 40.49863942,
+      "Lon": -78.01735318,
+      "City": "Huntingdon",
+      "State": "Pennsylvania"
+   },
+   "Kalamazoo College": {
+      "Lat": 42.28868602,
+      "Lon": -85.59949398,
+      "City": "Kalamazoo",
+      "State": "Michigan"
    },
    "University of Kansas": {
-      "lon": -95.24900958,
-      "lat": 38.95709042
+      "Lat": 38.95299492,
+      "Lon": -95.25714508,
+      "City": "Lawrence",
+      "State": "Kansas"
+   },
+   "Kansas State University": {
+      "Lat": 39.19609472,
+      "Lon": -96.58607388,
+      "City": "Manhattan",
+      "State": "Kansas"
+   },
+   "Kent State University": {
+      "Lat": 41.14771392,
+      "Lon": -81.34281388,
+      "City": "Kent",
+      "State": "Ohio"
    },
    "University of Kentucky": {
-      "lon": -84.49824808,
-      "lat": 38.04526762
+      "Lat": 38.02930212,
+      "Lon": -84.50531868,
+      "City": "Lexington",
+      "State": "Kentucky"
    },
-   "University of La Verne": {
-      "lon": -117.7745836,
-      "lat": 34.09950522
+   "Kenyon College": {
+      "Lat": 40.37054752,
+      "Lon": -82.39965688,
+      "City": "Gambier",
+      "State": "Ohio"
    },
-   "University of Louisiana at Monroe": {
-      "lon": -92.07384863,
-      "lat": 32.52728682
+   "Knox College": {
+      "Lat": 40.94054022,
+      "Lon": -90.37321628,
+      "City": "Galesburg",
+      "State": "Illinois"
    },
-   "University of Maine at Augusta": {
-      "lon": -69.79647268,
-      "lat": 44.34065477
+   "Lafayette College": {
+      "Lat": 40.69727122,
+      "Lon": -75.21007878,
+      "City": "Easton",
+      "State": "Pennsylvania"
    },
-   "University of Maine at Fort Kent": {
-      "lon": -68.59065118,
-      "lat": 47.24904417
+   "Lake Forest College": {
+      "Lat": 42.24770902,
+      "Lon": -87.83026198,
+      "City": "Lake Forest",
+      "State": "Illinois"
    },
-   "University of Mary": {
-      "lon": -100.7472498,
-      "lat": 46.72168787
+   "LaSalle University": {
+      "Lat": 40.03725932,
+      "Lon": -75.15799188,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "Lawrence University": {
+      "Lat": 44.25871232,
+      "Lon": -88.39783858,
+      "City": "Appleton",
+      "State": "Wisconsin"
+   },
+   "Lehigh University": {
+      "Lat": 40.60555972,
+      "Lon": -75.37963218,
+      "City": "Bethlehem",
+      "State": "Pennsylvania"
+   },
+   "Lewis & Clark College": {
+      "Lat": 45.45105932,
+      "Lon": -122.6787845,
+      "City": "Portland",
+      "State": "Oregon"
+   },
+   "Linfield College": {
+      "Lat": 45.19925702,
+      "Lon": -123.200573,
+      "City": "McMinnville",
+      "State": "Oregon"
+   },
+   "Louisiana State University": {
+      "Lat": 30.41190892,
+      "Lon": -91.18135128,
+      "City": "Baton Rouge",
+      "State": "Louisiana"
+   },
+   "Loyola University of Chicago": {
+      "Lat": 41.99764802,
+      "Lon": -87.65954108,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "Loyola University - Maryland": {
+      "Lat": 39.34632472,
+      "Lon": -76.61858648,
+      "City": "Baltimore",
+      "State": "Maryland"
+   },
+   "Loyola University - New Orleans": {
+      "Lat": 29.93436702,
+      "Lon": -90.12172718,
+      "City": "New Orleans",
+      "State": "Louisiana"
+   },
+   "Loyola Marymount University": {
+      "Lat": 33.96846932,
+      "Lon": -118.4198459,
+      "City": "Los Angeles",
+      "State": "California"
+   },
+   "Lynchburg College": {
+      "Lat": 37.39925102,
+      "Lon": -79.18450198,
+      "City": "Lynchburg",
+      "State": "Virginia"
+   },
+   "Macalester College": {
+      "Lat": 44.93841412,
+      "Lon": -93.17007838,
+      "City": "St. Paul",
+      "State": "Minnesota"
+   },
+   "University of Maine": {
+      "Lat": 44.89987072,
+      "Lon": -68.66799978,
+      "City": "Orono",
+      "State": "Maine"
+   },
+   "Manhattan College": {
+      "Lat": 40.88861332,
+      "Lon": -73.90241128,
+      "City": "Bronx",
+      "State": "New York"
+   },
+   "Manhattanville College": {
+      "Lat": 41.03058672,
+      "Lon": -73.71724908,
+      "City": "Purchase",
+      "State": "New York"
+   },
+   "Marietta College": {
+      "Lat": 39.41319662,
+      "Lon": -81.45045568,
+      "City": "Marietta",
+      "State": "Ohio"
+   },
+   "Marist College": {
+      "Lat": 41.72110752,
+      "Lon": -73.93546938,
+      "City": "Poughkeepsie",
+      "State": "New York"
+   },
+   "Marlboro College": {
+      "Lat": 42.83770552,
+      "Lon": -72.73610348,
+      "City": "Marlboro",
+      "State": "Vermont"
+   },
+   "Marquette University": {
+      "Lat": 43.03687262,
+      "Lon": -87.93110358,
+      "City": "Milwaukee",
+      "State": "Wisconsin"
+   },
+   "University of Mary Washington": {
+      "Lat": 38.30082132,
+      "Lon": -77.47560768,
+      "City": "Fredericksburg",
+      "State": "Virginia"
+   },
+   "University of Maryland - Baltimore County": {
+      "Lat": 39.25048612,
+      "Lon": -76.70706338,
+      "City": "Baltimore",
+      "State": "Maryland"
    },
    "University of Maryland - College Park": {
-      "lon": -76.94114618,
-      "lat": 38.98466852
+      "Lat": 38.98556932,
+      "Lon": -76.94390328,
+      "City": "College Park",
+      "State": "Maryland"
    },
-   "University of Maryland - University College": {
-      "lon": -76.95534058,
-      "lat": 38.98514952
+   "Marymount Manhattan College": {
+      "Lat": 40.76739292,
+      "Lon": -73.96106878,
+      "City": "New York City",
+      "State": "New York"
    },
-   "University of Massachusetts Amherst": {
-      "lon": -72.52734623,
-      "lat": 42.38590802
+   "University of Massachusetts - Amherst": {
+      "Lat": 42.38980792,
+      "Lon": -72.52806108,
+      "City": "Amherst",
+      "State": "Massachusetts"
    },
    "University of Massachusetts - Boston": {
-      "lon": -71.04934443,
-      "lat": 42.31447037
+      "Lat": 42.31349232,
+      "Lon": -71.03808668,
+      "City": "Boston",
+      "State": "Massachusetts"
    },
-   "University of Massachusetts - Dartmouth": {
-      "lon": -71.00626533,
-      "lat": 41.62669807
+   "Massachusetts Institute of Technology": {
+      "Lat": 42.35874202,
+      "Lon": -71.09550898,
+      "City": "Cambridge",
+      "State": "Massachusetts"
    },
-   "University of Massachusetts - Lowell": {
-      "lon": -71.32607818,
-      "lat": 42.65355432
+   "McGill University": {
+      "Lat": 45.50343572,
+      "Lon": -73.57850008,
+      "City": "Montreal",
+      "State": "Quebec"
    },
-   "University of Memphis": {
-      "lon": -89.93936713,
-      "lat": 35.11758182
+   "Mercer University": {
+      "Lat": 32.82742942,
+      "Lon": -83.65098708,
+      "City": "Macon",
+      "State": "Georgia"
    },
-   "University of Michigan - Ann Arbor": {
-      "lon": -83.73957308,
-      "lat": 42.27669462
+   "Merrimack College": {
+      "Lat": 42.66635592,
+      "Lon": -71.12391948,
+      "City": "North Andover",
+      "State": "Massachusetts"
    },
-   "University of Michigan - Dearborn": {
-      "lon": -83.23243738,
-      "lat": 42.31581732
+   "University of Miami - Florida": {
+      "Lat": 25.71781952,
+      "Lon": -80.27847428,
+      "City": "Coral Gables",
+      "State": "Florida"
    },
-   "University of Michigan - Flint": {
-      "lon": -83.68900243,
-      "lat": 43.01862817
+   "Miami University - Ohio": {
+      "Lat": 39.50918442,
+      "Lon": -84.73222578,
+      "City": "Oxford",
+      "State": "Ohio"
    },
-   "University of Minnesota - Crookston": {
-      "lon": -96.61227633,
-      "lat": 47.79147177
+   "University of Michigan": {
+      "Lat": 42.27669462,
+      "Lon": -83.73957308,
+      "City": "Ann Arbor",
+      "State": "Michigan"
    },
-   "University of Minnesota - Twin Cities": {
-      "lon": -93.23598068,
-      "lat": 44.97454152
+   "Michigan State University": {
+      "Lat": 42.70049902,
+      "Lon": -84.48352088,
+      "City": "East Lansing",
+      "State": "Michigan"
+   },
+   "Michigan Technological University": {
+      "Lat": 47.11470642,
+      "Lon": -88.54710698,
+      "City": "Houghton",
+      "State": "Michigan"
+   },
+   "Middlebury College": {
+      "Lat": 44.00691052,
+      "Lon": -73.17866418,
+      "City": "Middlebury",
+      "State": "Vermont"
+   },
+   "Mills College": {
+      "Lat": 37.77602557,
+      "Lon": -122.1854587,
+      "City": "Oakland",
+      "State": "California"
+   },
+   "Millsaps College": {
+      "Lat": 32.32105202,
+      "Lon": -90.17961128,
+      "City": "Jackson",
+      "State": "Mississippi"
+   },
+   "University of Minnesota": {
+      "Lat": 44.97264102,
+      "Lon": -93.22907748,
+      "City": "Minneapolis",
+      "State": "Minnesota"
+   },
+   "University of Mississippi": {
+      "Lat": 34.36338342,
+      "Lon": -89.53979198,
+      "City": "University",
+      "State": "Mississippi"
+   },
+   "Mississippi State University": {
+      "Lat": 33.45382522,
+      "Lon": -88.79572558,
+      "City": "Mississippi State University",
+      "State": "Mississippi"
    },
    "University of Missouri - Columbia": {
-      "lon": -92.33014998,
-      "lat": 38.94397602
-   },
-   "University of Missouri - St Louis": {
-      "lon": -90.319976,
-      "lat": 38.7154641
+      "Lat": 38.93903182,
+      "Lon": -92.32908648,
+      "City": "Columbia",
+      "State": "Missouri"
    },
    "University of Missouri - Kansas City": {
-      "lon": -94.57762738,
-      "lat": 39.03223462
+      "Lat": 39.03220492,
+      "Lon": -94.57737488,
+      "City": "Kansas City",
+      "State": "Missouri"
    },
-   "The University of Montana": {
-      "lon": -113.9829323,
-      "lat": 46.86262127
+   "Missouri University of Science and Technology": {
+      "Lat": 37.95210202,
+      "Lon": -91.77692168,
+      "City": "Rolla",
+      "State": "Missouri"
    },
-   "University of Nebraska at Kearney": {
-      "lon": -99.09393033,
-      "lat": 40.69928092
+   "Monmouth University": {
+      "Lat": 40.27910672,
+      "Lon": -74.00716038,
+      "City": "West Long Branch",
+      "State": "New Jersey"
    },
-   "University of Nebraska at Omaha": {
-      "lon": -96.01206108,
-      "lat": 41.25677262
+   "University of Montana": {
+      "Lat": 46.85871822,
+      "Lon": -113.9865571,
+      "City": "Missoula",
+      "State": "Montana"
    },
-   "University of Nebraska Medical Center": {
-      "lon": -95.97922038,
-      "lat": 41.25376962
+   "Montclair State University": {
+      "Lat": 40.86313022,
+      "Lon": -74.19990868,
+      "City": "Montclair",
+      "State": "New Jersey"
    },
-   "University of Nebraska - Lincoln": {
-      "lon": -96.70303018,
-      "lat": 40.81671902
+   "Moravian College": {
+      "Lat": 40.62953242,
+      "Lon": -75.38256248,
+      "City": "Bethlehem",
+      "State": "Pennsylvania"
    },
-   "University of Nevada - Reno": {
-      "lon": -119.820721,
-      "lat": 39.54454902
+   "Morehouse College": {
+      "Lat": 33.74460632,
+      "Lon": -84.41521408,
+      "City": "Atlanta",
+      "State": "Georgia"
    },
-   "University of New England": {
-      "lon": -70.39031438,
-      "lat": 43.45737662
+   "Mount Holyoke College": {
+      "Lat": 42.25190452,
+      "Lon": -72.57748838,
+      "City": "South Hadley",
+      "State": "Massachusetts"
+   },
+   "Muhlenberg College": {
+      "Lat": 40.59609702,
+      "Lon": -75.51141648,
+      "City": "Allentown",
+      "State": "Pennsylvania"
+   },
+   "University of Nebraska": {
+      "Lat": 40.81884762,
+      "Lon": -96.70182528,
+      "City": "Lincoln",
+      "State": "Nebraska"
+   },
+   "University of Nevada": {
+      "Lat": 39.54284272,
+      "Lon": -119.817746,
+      "City": "Reno",
+      "State": "Nevada"
+   },
+   "New College of Florida": {
+      "Lat": 27.38347902,
+      "Lon": -82.56005198,
+      "City": "Sarasota",
+      "State": "Florida"
+   },
+   "New England College": {
+      "Lat": 43.17571302,
+      "Lon": -71.82400128,
+      "City": "Henniker",
+      "State": "New Hampshire"
    },
    "University of New Hampshire": {
-      "lon": -70.93380528,
-      "lat": 43.13458697
+      "Lat": 43.13759902,
+      "Lon": -70.93837418,
+      "City": "Durham",
+      "State": "New Hampshire"
+   },
+   "University of New Haven": {
+      "Lat": 41.28935452,
+      "Lon": -72.96299268,
+      "City": "West Haven",
+      "State": "Connecticut"
+   },
+   "The College of New Jersey": {
+      "Lat": 40.26779312,
+      "Lon": -74.77878838,
+      "City": "Ewing Township",
+      "State": "New Jersey"
+   },
+   "New Jersey Institute of Technology": {
+      "Lat": 40.74098552,
+      "Lon": -74.18068988,
+      "City": "Newark",
+      "State": "New Jersey"
+   },
+   "New Mexico Institute of Mining & Technology": {
+      "Lat": 34.06464402,
+      "Lon": -106.90696,
+      "City": "Socorro",
+      "State": "New Mexico"
    },
    "University of New Mexico": {
-      "lon": -106.6211302,
-      "lat": 35.08296972
+      "Lat": 35.08296972,
+      "Lon": -106.6211302,
+      "City": "Albuquerque",
+      "State": "New Mexico"
    },
-   "University of North Alabama": {
-      "lon": -87.68182498,
-      "lat": 34.80649142
+   "University of New Orleans": {
+      "Lat": 30.02730902,
+      "Lon": -90.06727698,
+      "City": "New Orleans",
+      "State": "Louisiana"
    },
-   "University of North Carolina at Charlotte": {
-      "lon": -80.73127828,
-      "lat": 35.30246127
+   "New York University": {
+      "Lat": 40.72816442,
+      "Lon": -73.99780988,
+      "City": "New York City",
+      "State": "New York"
    },
-   "University of North Carolina at Greensboro": {
-      "lon": -79.80938578,
-      "lat": 36.06585622
+   "University of North Carolina - Asheville": {
+      "Lat": 35.61494312,
+      "Lon": -82.56866168,
+      "City": "Asheville",
+      "State": "North Carolina"
    },
-   "University of North Carolina at Wilmington": {
-      "lon": -77.88062898,
-      "lat": 34.22579102
+   "University of North Carolina - Chapel Hill": {
+      "Lat": 35.90356322,
+      "Lon": -79.04826238,
+      "City": "Chapel Hill",
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Charlotte": {
+      "Lat": 35.30574392,
+      "Lon": -80.73651298,
+      "City": "Charlotte",
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Greensboro": {
+      "Lat": 36.06758062,
+      "Lon": -79.81154648,
+      "City": "Greensboro",
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Wilmington": {
+      "Lat": 34.22359102,
+      "Lon": -77.87147558,
+      "City": "Wilmington",
+      "State": "North Carolina"
+   },
+   "North Carolina School of the Arts": {
+      "Lat": 36.07494302,
+      "Lon": -80.23835998,
+      "City": "Winston-Salem",
+      "State": "North Carolina"
+   },
+   "North Carolina State University": {
+      "Lat": 35.78331432,
+      "Lon": -78.68344358,
+      "City": "Raleigh",
+      "State": "North Carolina"
    },
    "University of North Dakota": {
-      "lon": -97.07815038,
-      "lat": 47.92154202
+      "Lat": 47.92154202,
+      "Lon": -97.07815038,
+      "City": "Grand Forks",
+      "State": "North Dakota"
    },
    "University of North Florida": {
-      "lon": -81.51062788,
-      "lat": 30.27157852
+      "Lat": 30.26477142,
+      "Lon": -81.50858038,
+      "City": "Jacksonville",
+      "State": "Florida"
    },
-   "University of North Texas": {
-      "lon": -97.14861048,
-      "lat": 33.20930982
+   "Northeastern University": {
+      "Lat": 42.33845772,
+      "Lon": -71.09052068,
+      "City": "Boston",
+      "State": "Massachusetts"
    },
-   "University of Northern Colorado": {
-      "lon": -104.6870969,
-      "lat": 40.40510212
+   "Northern Arizona University": {
+      "Lat": 35.18173642,
+      "Lon": -111.6563139,
+      "City": "Flagstaff",
+      "State": "Arizona"
    },
-   "University of Northwestern Ohio": {
-      "lon": -84.15024578,
-      "lat": 40.75776612
+   "Northwestern University": {
+      "Lat": 42.05511042,
+      "Lon": -87.67661598,
+      "City": "Evanston",
+      "State": "Illinois"
    },
    "University of Notre Dame": {
-      "lon": -86.24032803,
-      "lat": 41.70163862
+      "Lat": 41.70422262,
+      "Lon": -86.23668778,
+      "City": "Notre Dame",
+      "State": "Indiana"
+   },
+   "Oberlin College": {
+      "Lat": 41.29213402,
+      "Lon": -82.22494908,
+      "City": "Oberlin",
+      "State": "Ohio"
+   },
+   "Occidental College": {
+      "Lat": 34.12601252,
+      "Lon": -118.2118525,
+      "City": "Los Angeles",
+      "State": "California"
+   },
+   "Oglethorpe University": {
+      "Lat": 33.87484672,
+      "Lon": -84.33604438,
+      "City": "Atlanta",
+      "State": "Georgia"
+   },
+   "Ohio University": {
+      "Lat": 39.32300902,
+      "Lon": -82.10273788,
+      "City": "Athens",
+      "State": "Ohio"
+   },
+   "Ohio Northern University": {
+      "Lat": 40.76478652,
+      "Lon": -83.83404668,
+      "City": "Ada",
+      "State": "Ohio"
+   },
+   "Ohio State University": {
+      "Lat": 40.01284152,
+      "Lon": -83.03226328,
+      "City": "Columbus",
+      "State": "Ohio"
+   },
+   "Ohio Wesleyan University": {
+      "Lat": 40.29479042,
+      "Lon": -83.07206048,
+      "City": "Delaware",
+      "State": "Ohio"
    },
    "University of Oklahoma": {
-      "lon": -97.44691258,
-      "lat": 35.20728442
+      "Lat": 35.20454462,
+      "Lon": -97.44706268,
+      "City": "Norman",
+      "State": "Oklahoma"
    },
-   "University of Phoenix": {
-      "lon": -111.9673734,
-      "lat": 33.40072142
+   "Old Dominion University": {
+      "Lat": 36.88420252,
+      "Lon": -76.30811658,
+      "City": "Norfolk",
+      "State": "Virginia"
    },
-   "University of Pittsburgh - Main Campus": {
-      "lon": -79.95450378,
-      "lat": 40.44297922
+   "Olin College": {
+      "Lat": 42.29181812,
+      "Lon": -71.26501428,
+      "City": "Needham",
+      "State": "Massachusetts"
    },
-   "University of Saint Joseph": {
-      "lon": -72.73257988,
-      "lat": 41.78058502
+   "University of Oregon": {
+      "Lat": 44.04348122,
+      "Lon": -123.0739545,
+      "City": "Eugene",
+      "State": "Oregon"
    },
-   "University of Saint Mary": {
-      "lon": -94.90766268,
-      "lat": 39.27695942
+   "Oregon State University": {
+      "Lat": 44.56243162,
+      "Lon": -123.2807932,
+      "City": "Corvallis",
+      "State": "Oregon"
+   },
+   "Pace University": {
+      "Lat": 40.70977072,
+      "Lon": -74.00620568,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "University of the Pacific": {
+      "Lat": 37.97946622,
+      "Lon": -121.3133715,
+      "City": "Stockton",
+      "State": "California"
+   },
+   "Parsons School of Design": {
+      "Lat": 40.73395132,
+      "Lon": -73.99594158,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Penn State": {
+      "Lat": 40.79686432,
+      "Lon": -77.86125738,
+      "City": "State College",
+      "State": "Pennsylvania"
+   },
+   "University of Pennsylvania": {
+      "Lat": 39.95086982,
+      "Lon": -75.19456268,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "Pepperdine University": {
+      "Lat": 34.04005552,
+      "Lon": -118.7109304,
+      "City": "Malibu",
+      "State": "California"
+   },
+   "Philadelphia University": {
+      "Lat": 40.01896922,
+      "Lon": -75.19374478,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "University of Pittsburgh": {
+      "Lat": 40.44300432,
+      "Lon": -79.96218398,
+      "City": "Pittsburgh",
+      "State": "Pennsylvania"
+   },
+   "Pitzer College": {
+      "Lat": 34.10331342,
+      "Lon": -117.7060683,
+      "City": "Claremont",
+      "State": "California"
+   },
+   "Pomona College": {
+      "Lat": 34.09639402,
+      "Lon": -117.713152,
+      "City": "Claremont",
+      "State": "California"
+   },
+   "Pratt Institute": {
+      "Lat": 40.68993172,
+      "Lon": -73.96388598,
+      "City": "Brooklyn",
+      "State": "New York"
+   },
+   "Princeton University": {
+      "Lat": 40.34263982,
+      "Lon": -74.65279708,
+      "City": "Princeton",
+      "State": "New Jersey"
+   },
+   "Providence College": {
+      "Lat": 41.84274352,
+      "Lon": -71.43951428,
+      "City": "Providence",
+      "State": "Rhode Island"
+   },
+   "University of Puget Sound": {
+      "Lat": 47.26041502,
+      "Lon": -122.482804,
+      "City": "Tacoma",
+      "State": "Washington"
+   },
+   "Purdue University": {
+      "Lat": 40.42235642,
+      "Lon": -86.92254358,
+      "City": "West Lafayette",
+      "State": "Indiana"
+   },
+   "Queens University - Kingston, Ontario": {
+      "Lat": 44.22393052,
+      "Lon": -76.49649018,
+      "City": "Kingston",
+      "State": "Ontario"
+   },
+   "Quinnipiac University": {
+      "Lat": 41.41782572,
+      "Lon": -72.89403728,
+      "City": "Hamden",
+      "State": "Connecticut"
+   },
+   "Randolph College": {
+      "Lat": 37.43561502,
+      "Lon": -79.17354598,
+      "City": "Lynchburg",
+      "State": "Virginia"
+   },
+   "Randolph-Macon College": {
+      "Lat": 37.75903042,
+      "Lon": -77.47970078,
+      "City": "Ashland",
+      "State": "Virginia"
+   },
+   "University of Redlands": {
+      "Lat": 34.06169142,
+      "Lon": -117.1645916,
+      "City": "Redlands",
+      "State": "California"
+   },
+   "Reed College": {
+      "Lat": 45.47962922,
+      "Lon": -122.6317214,
+      "City": "Portland",
+      "State": "Oregon"
+   },
+   "Regis University": {
+      "Lat": 39.78801862,
+      "Lon": -105.0311555,
+      "City": "Denver",
+      "State": "Colorado"
+   },
+   "Rensselaer Polytechnic Institute": {
+      "Lat": 42.72882302,
+      "Lon": -73.68015158,
+      "City": "Troy",
+      "State": "New York"
+   },
+   "University of Rhode Island": {
+      "Lat": 41.48471572,
+      "Lon": -71.53220268,
+      "City": "Kingston",
+      "State": "Rhode Island"
+   },
+   "Rhode Island School of Design": {
+      "Lat": 41.82464572,
+      "Lon": -71.40880858,
+      "City": "Providence",
+      "State": "Rhode Island"
+   },
+   "Rhodes College": {
+      "Lat": 35.15373492,
+      "Lon": -89.99063618,
+      "City": "Memphis",
+      "State": "Tennessee"
+   },
+   "Rice University": {
+      "Lat": 29.71923037,
+      "Lon": -95.39762498,
+      "City": "Houston",
+      "State": "Texas"
+   },
+   "University of Richmond": {
+      "Lat": 37.57451912,
+      "Lon": -77.54232338,
+      "City": "Richmond",
+      "State": "Virginia"
+   },
+   "Rider University": {
+      "Lat": 40.27827402,
+      "Lon": -74.73953598,
+      "City": "Lawrenceville",
+      "State": "New Jersey"
+   },
+   "Ripon College": {
+      "Lat": 43.84187272,
+      "Lon": -88.84230848,
+      "City": "Ripon",
+      "State": "Wisconsin"
+   },
+   "University of Rochester": {
+      "Lat": 43.12920412,
+      "Lon": -77.62735228,
+      "City": "Rochester",
+      "State": "New York"
+   },
+   "Rochester Institute of Technology": {
+      "Lat": 43.08475272,
+      "Lon": -77.67186328,
+      "City": "Rochester",
+      "State": "New York"
+   },
+   "Rollins College": {
+      "Lat": 28.59089302,
+      "Lon": -81.34967498,
+      "City": "Winter Park",
+      "State": "Florida"
+   },
+   "Rose-Hulman Institute of Technology": {
+      "Lat": 39.48088502,
+      "Lon": -87.32530328,
+      "City": "Terre Haute",
+      "State": "Indiana"
+   },
+   "Rowan University": {
+      "Lat": 39.70851052,
+      "Lon": -75.12029678,
+      "City": "Camden",
+      "State": "New Jersey"
+   },
+   "Rutgers University": {
+      "Lat": 40.49946962,
+      "Lon": -74.44874808,
+      "City": "New Brunswick",
+      "State": "New Jersey"
+   },
+   "Sacred Heart University": {
+      "Lat": 41.21904122,
+      "Lon": -73.24464928,
+      "City": "Fairfield",
+      "State": "Connecticut"
+   },
+   "College of Saint Benedict and Saint John's University": {
+      "Lat": 45.57833232,
+      "Lon": -94.39498228,
+      "City": "Collegeville",
+      "State": "Minnesota"
+   },
+   "St. Bonaventure University": {
+      "Lat": 42.07706232,
+      "Lon": -78.48423118,
+      "City": "Bonaventure",
+      "State": "New York"
+   },
+   "St. John's College - Maryland": {
+      "Lat": 38.98018312,
+      "Lon": -76.49269098,
+      "City": "Annapolis",
+      "State": "Maryland"
+   },
+   "St. John's College - New Mexico": {
+      "Lat": 35.66644752,
+      "Lon": -105.913914,
+      "City": "Santa Fe",
+      "State": "New Mexico"
+   },
+   "St. John's University (New York)": {
+      "Lat": 40.72289802,
+      "Lon": -73.79593508,
+      "City": "Queens",
+      "State": "New York"
+   },
+   "Saint Joseph's University": {
+      "Lat": 39.99364652,
+      "Lon": -75.24147218,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "St. Lawrence University": {
+      "Lat": 44.58786292,
+      "Lon": -75.16223038,
+      "City": "Canton",
+      "State": "New York"
+   },
+   "Saint Louis University": {
+      "Lat": 38.63411082,
+      "Lon": -90.23517218,
+      "City": "St. Louis",
+      "State": "Missouri"
+   },
+   "Saint Mary's College of California": {
+      "Lat": 37.83999822,
+      "Lon": -122.1114843,
+      "City": "Moraga",
+      "State": "California"
+   },
+   "St. Mary's College of Maryland": {
+      "Lat": 38.18956632,
+      "Lon": -76.43039178,
+      "City": "St Marys City",
+      "State": "Maryland"
+   },
+   "Saint Mary's College - Notre Dame": {
+      "Lat": 41.70595502,
+      "Lon": -86.25809398,
+      "City": "Notre Dame",
+      "State": "Indiana"
+   },
+   "Saint Michael's College": {
+      "Lat": 44.49314802,
+      "Lon": -73.16832718,
+      "City": "Colchester",
+      "State": "Vermont"
+   },
+   "Saint Olaf College": {
+      "Lat": 44.46041912,
+      "Lon": -93.18416568,
+      "City": "Northfield",
+      "State": "Minnesota"
+   },
+   "Salisbury University": {
+      "Lat": 38.34436352,
+      "Lon": -75.60597068,
+      "City": "Salisbury",
+      "State": "Maryland"
+   },
+   "Salve Regina University": {
+      "Lat": 41.47010372,
+      "Lon": -71.30199278,
+      "City": "Newport",
+      "State": "Rhode Island"
+   },
+   "Samford University": {
+      "Lat": 33.46340042,
+      "Lon": -86.79497998,
+      "City": "Homewood",
+      "State": "Alabama"
    },
    "University of San Diego": {
-      "lon": -117.1929169,
-      "lat": 32.77030932
+      "Lat": 32.77056802,
+      "Lon": -117.1895554,
+      "City": "San Diego",
+      "State": "California"
+   },
+   "San Diego State University": {
+      "Lat": 32.77437272,
+      "Lon": -117.0732383,
+      "City": "San Diego",
+      "State": "California"
+   },
+   "San Francisco State University": {
+      "Lat": 37.72054802,
+      "Lon": -122.4795584,
+      "City": "San Francisco",
+      "State": "California"
    },
    "University of San Francisco": {
-      "lon": -122.4517092,
-      "lat": 37.77523812
+      "Lat": 37.77529762,
+      "Lon": -122.452032,
+      "City": "San Francisco",
+      "State": "California"
+   },
+   "San Jose State University": {
+      "Lat": 37.33383842,
+      "Lon": -121.8824205,
+      "City": "San Jose",
+      "State": "California"
+   },
+   "Santa Clara University": {
+      "Lat": 37.34829282,
+      "Lon": -121.9403365,
+      "City": "Santa Clara",
+      "State": "California"
+   },
+   "Sarah Lawrence College": {
+      "Lat": 40.93470342,
+      "Lon": -73.84474638,
+      "City": "Bronxville",
+      "State": "New York"
+   },
+   "Savannah College of Art and Design": {
+      "Lat": 32.07162432,
+      "Lon": -81.09528518,
+      "City": "Savannah",
+      "State": "Georgia"
+   },
+   "School of Visual Arts": {
+      "Lat": 40.73740502,
+      "Lon": -73.98357598,
+      "City": "New York",
+      "State": "New York"
    },
    "University of Scranton": {
-      "lon": -75.65831498,
-      "lat": 41.40425062
+      "Lat": 41.40471272,
+      "Lon": -75.65788198,
+      "City": "Scranton",
+      "State": "Pennsylvania"
    },
-   "University of South Alabama": {
-      "lon": -88.17652248,
-      "lat": 30.69405912
+   "Saint Anselm College": {
+      "Lat": 42.98612332,
+      "Lon": -71.50857968,
+      "City": "Manchester",
+      "State": "New Hampshire"
    },
-   "University of South Carolina - Columbia": {
-      "lon": -81.02886418,
-      "lat": 33.99795372
+   "Scripps College": {
+      "Lat": 34.10258582,
+      "Lon": -117.7115618,
+      "City": "Claremont",
+      "State": "California"
    },
-   "University of South Dakota": {
-      "lon": -96.92727308,
-      "lat": 42.78266342
+   "Seattle University": {
+      "Lat": 47.60787922,
+      "Lon": -122.3190625,
+      "City": "Seattle",
+      "State": "Washington"
+   },
+   "Seton Hall University": {
+      "Lat": 40.74166202,
+      "Lon": -74.24844908,
+      "City": "South Orange",
+      "State": "New Jersey"
+   },
+   "Sewanee: The University of the South": {
+      "Lat": 35.20383102,
+      "Lon": -85.91900958,
+      "City": "Sewanee",
+      "State": "Tennessee"
+   },
+   "Shimer College": {
+      "Lat": 41.83116692,
+      "Lon": -87.62847848,
+      "City": "Chicago",
+      "State": "Illinois"
+   },
+   "Siena College": {
+      "Lat": 42.71710302,
+      "Lon": -73.75354408,
+      "City": "Albany",
+      "State": "New York"
+   },
+   "Simmons College": {
+      "Lat": 42.33771762,
+      "Lon": -71.10200838,
+      "City": "Boston",
+      "State": "Massachusetts"
+   },
+   "Simon's Rock College of Bard": {
+      "Lat": 42.20905302,
+      "Lon": -73.38926998,
+      "City": "Great Barrington",
+      "State": "Massachusetts"
+   },
+   "Skidmore College": {
+      "Lat": 43.09592692,
+      "Lon": -73.78553008,
+      "City": "Saratoga Springs",
+      "State": "New York"
+   },
+   "Smith College": {
+      "Lat": 42.31674672,
+      "Lon": -72.63858308,
+      "City": "Northampton",
+      "State": "Massachusetts"
+   },
+   "Soka University of America": {
+      "Lat": 33.55348532,
+      "Lon": -117.7366786,
+      "City": "Aliso Viejo",
+      "State": "California"
+   },
+   "Sonoma State University": {
+      "Lat": 38.33803762,
+      "Lon": -122.6755302,
+      "City": "Rohnert Park",
+      "State": "California"
+   },
+   "University of South Carolina": {
+      "Lat": 33.99476302,
+      "Lon": -81.02877658,
+      "City": "Columbia",
+      "State": "South Carolina"
    },
    "University of South Florida": {
-      "lon": -82.41341793,
-      "lat": 28.06591417
+      "Lat": 28.05735412,
+      "Lon": -82.41520288,
+      "City": "Tampa",
+      "State": "Florida"
    },
    "University of Southern California": {
-      "lon": -118.2840021,
-      "lat": 34.0239147
+      "Lat": 34.02100292,
+      "Lon": -118.286466,
+      "City": "Los Angeles",
+      "State": "California"
    },
-   "University of Southern Indiana": {
-      "lon": -87.67740558,
-      "lat": 37.96001882
+   "Southern Methodist University": {
+      "Lat": 32.83986882,
+      "Lon": -96.78586648,
+      "City": "Dallas",
+      "State": "Texas"
    },
-   "University of Southern Mississippi": {
-      "lon": -89.33391248,
-      "lat": 31.32694072
+   "Southwestern University": {
+      "Lat": 30.63357612,
+      "Lon": -97.66647578,
+      "City": "Georgetown",
+      "State": "Texas"
    },
-   "University of St. Francis": {
-      "lon": -88.09978698,
-      "lat": 41.53316502
+   "Spelman College": {
+      "Lat": 33.74501072,
+      "Lon": -84.41364238,
+      "City": "Atlanta",
+      "State": "Georgia"
    },
-   "University of St. Thomas": {
-      "lon": -93.19106288,
-      "lat": 44.94277312
+   "Stanford University": {
+      "Lat": 37.42612552,
+      "Lon": -122.171068,
+      "City": "Stanford",
+      "State": "California"
    },
-   "The University of Tennessee - Chattanooga": {
-      "lon": -85.30112338,
-      "lat": 35.04442512
+   "Stephens College": {
+      "Lat": 38.94989762,
+      "Lon": -92.32407588,
+      "City": "Columbia",
+      "State": "Missouri"
    },
-   "The University of Tennessee - Knoxville": {
-      "lon": -83.93080538,
-      "lat": 35.95305232
+   "Stetson University": {
+      "Lat": 29.03431502,
+      "Lon": -81.30285358,
+      "City": "DeLand",
+      "State": "Florida"
    },
-   "The University of Tennessee - Martin": {
-      "lon": -88.8934435,
-      "lat": 36.3404657
+   "Stevens Institute of Technology": {
+      "Lat": 40.74372972,
+      "Lon": -74.02683478,
+      "City": "Hoboken",
+      "State": "New Jersey"
    },
-   "The University of Texas Rio Grande Valley": {
-      "lon": -98.17443158,
-      "lat": 26.30500142
+   "Stevenson University": {
+      "Lat": 39.42001312,
+      "Lon": -76.70313688,
+      "City": "Stevenson",
+      "State": "Maryland"
    },
-   "The University of Texas at Arlington": {
-      "lon": -97.11631638,
-      "lat": 32.72791052
+   "Stonehill College": {
+      "Lat": 42.05766632,
+      "Lon": -71.08197658,
+      "City": "North Easton",
+      "State": "Massachusetts"
    },
-   "University of Texas at Austin": {
-      "lon": -97.73020418,
-      "lat": 30.28368672
+   "SUNY - General": {
+      "Lat": 40.65389682,
+      "Lon": -73.94708298,
+      "City": "Brooklyn",
+      "State": "New York"
+   },
+   "SUNY at Albany": {
+      "Lat": 42.686248,
+      "Lon": -73.822895,
+      "City": "Albany",
+      "State": "New York"
+   },
+   "SUNY at Binghamton": {
+      "Lat": 42.08800632,
+      "Lon": -75.97105388,
+      "City": "Binghamton",
+      "State": "New York"
+   },
+   "SUNY at Buffalo": {
+      "Lat": 42.99946032,
+      "Lon": -78.79031868,
+      "City": "Buffalo",
+      "State": "New York"
+   },
+   "SUNY at Geneseo": {
+      "Lat": 42.79474302,
+      "Lon": -77.82505188,
+      "City": "Geneseo",
+      "State": "New York"
+   },
+   "SUNY at Purchase": {
+      "Lat": 41.04529952,
+      "Lon": -73.69911508,
+      "City": "Purchase",
+      "State": "New York"
+   },
+   "SUNY at Stony Brook": {
+      "Lat": 40.91102712,
+      "Lon": -73.12473788,
+      "City": "Stony Brook",
+      "State": "New York"
+   },
+   "Susquehanna University": {
+      "Lat": 40.79567312,
+      "Lon": -76.87605458,
+      "City": "Selinsgrove",
+      "State": "Pennsylvania"
+   },
+   "Swarthmore College": {
+      "Lat": 39.90549152,
+      "Lon": -75.35699728,
+      "City": "Swarthmore",
+      "State": "Pennsylvania"
+   },
+   "Sweet Briar College": {
+      "Lat": 37.55629882,
+      "Lon": -79.08421338,
+      "City": "Sweet Briar",
+      "State": "Virginia"
+   },
+   "Syracuse University": {
+      "Lat": 43.03780442,
+      "Lon": -76.13646478,
+      "City": "Syracuse",
+      "State": "New York"
+   },
+   "University of Tampa": {
+      "Lat": 27.94613912,
+      "Lon": -82.46852068,
+      "City": "Tampa",
+      "State": "Florida"
+   },
+   "Temple University": {
+      "Lat": 39.97959522,
+      "Lon": -75.15918618,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
+   },
+   "University of Tennessee": {
+      "Lat": 35.95305232,
+      "Lon": -83.93080538,
+      "City": "Knoxville",
+      "State": "Tennessee"
+   },
+   "The University of Texas at Austin": {
+      "Lat": 30.28356952,
+      "Lon": -97.73540568,
+      "City": "Austin",
+      "State": "Texas"
    },
    "The University of Texas at Dallas": {
-      "lon": -96.74980288,
-      "lat": 32.97695427
+      "Lat": 32.98441292,
+      "Lon": -96.75144828,
+      "City": "Richardson",
+      "State": "Texas"
    },
-   "The University of Texas at El Paso": {
-      "lon": -106.5059706,
-      "lat": 31.76950542
+   "Texas A&M University": {
+      "Lat": 30.61726602,
+      "Lon": -96.33792598,
+      "City": "Fort Worth",
+      "State": "Texas"
    },
-   "The University of Texas Medical Branch": {
-      "lon": -94.77739078,
-      "lat": 29.30944452
+   "TCU": {
+      "Lat": 32.70818102,
+      "Lon": -97.36414398,
+      "City": "Fort Worth",
+      "State": "Texas"
    },
-   "The University of Texas of the Permian Basin": {
-      "lon": -102.323177,
-      "lat": 31.87964782
+   "Texas Tech University": {
+      "Lat": 33.58291012,
+      "Lon": -101.8796312,
+      "City": "Lubbock",
+      "State": "Texas"
    },
-   "University of the Cumberlands": {
-      "lon": -84.16464458,
-      "lat": 36.73535322
+   "Thomas Aquinas College - California": {
+      "Lat": 34.42797512,
+      "Lon": -119.0901445,
+      "City": "Santa Paula",
+      "State": "California"
    },
-   "University of the Southwest": {
-      "lon": -103.1962263,
-      "lat": 32.77369832
+   "University of Toronto": {
+      "Lat": 43.66154272,
+      "Lon": -79.39700538,
+      "City": "Toronto",
+      "State": "Ontario"
    },
-   "University of Toledo": {
-      "lon": -83.61322818,
-      "lat": 41.66029502
+   "Towson University": {
+      "Lat": 39.39244712,
+      "Lon": -76.61053838,
+      "City": "Towson",
+      "State": "Maryland"
+   },
+   "Trinity College (Connecticut)": {
+      "Lat": 41.74658422,
+      "Lon": -72.69168348,
+      "City": "Hartford",
+      "State": "Connecticut"
+   },
+   "Trinity University (Texas)": {
+      "Lat": 29.46049542,
+      "Lon": -98.48451118,
+      "City": "San Antonio",
+      "State": "Texas"
+   },
+   "Truman State University": {
+      "Lat": 40.18450832,
+      "Lon": -92.58272138,
+      "City": "Kirksville",
+      "State": "Missouri"
+   },
+   "Tufts University": {
+      "Lat": 42.40613532,
+      "Lon": -71.12037218,
+      "City": "Medford",
+      "State": "Massachusetts"
+   },
+   "Tulane University": {
+      "Lat": 29.95409702,
+      "Lon": -90.07720608,
+      "City": "New Orleans",
+      "State": "louisiana"
    },
    "University of Tulsa": {
-      "lon": -95.94811858,
-      "lat": 36.14766162
+      "Lat": 36.15063892,
+      "Lon": -95.94734898,
+      "City": "Tulsa",
+      "State": "Oklahoma"
    },
-   "University of Valley Forge": {
-      "lon": -75.55023138,
-      "lat": 40.11772642
+   "Tuskegee University": {
+      "Lat": 32.42932902,
+      "Lon": -85.70863428,
+      "City": "Tuskegee",
+      "State": "Alabama"
    },
-   "University of Virginia": {
-      "lon": -78.50421298,
-      "lat": 38.03521487
+   "Union College - New York": {
+      "Lat": 42.81566802,
+      "Lon": -73.93115428,
+      "City": "Schenectady",
+      "State": "New York"
    },
-   "University of Washington": {
-      "lon": -122.4359086,
-      "lat": 47.4955511
+   "United States Air Force Academy": {
+      "Lat": 38.99696042,
+      "Lon": -104.8626666,
+      "City": "U.S. Air Force Academy",
+      "State": "Colorado"
    },
-   "University of West Alabama": {
-      "lon": -88.18426828,
-      "lat": 32.59355802
+   "United States Coast Guard Academy": {
+      "Lat": 41.37241342,
+      "Lon": -72.10060378,
+      "City": "New London",
+      "State": "Connecticut"
    },
-   "The University of West Florida": {
-      "lon": -87.21952448,
-      "lat": 30.54172547
+   "United States Merchant Marine Academy": {
+      "Lat": 40.81161382,
+      "Lon": -73.76389928,
+      "City": "Kings Point",
+      "State": "New York"
    },
-   "University of West Georgia": {
-      "lon": -85.10473213,
-      "lat": 33.57009502
+   "United States Military Academy": {
+      "Lat": 41.39048822,
+      "Lon": -73.96385228,
+      "City": "West Point",
+      "State": "New York"
    },
-   "University of Wisconsin - Madison": {
-      "lon": -89.40505218,
-      "lat": 43.07329902
+   "United States Naval Academy": {
+      "Lat": 38.98071682,
+      "Lon": -76.48528948,
+      "City": "Annapolis",
+      "State": "Maryland"
    },
-   "University of Wisconsin - Green Bay": {
-      "lon": -87.93093388,
-      "lat": 44.53247872
+   "University of the Sciences in Philadelphia": {
+      "Lat": 39.94548092,
+      "Lon": -75.20844688,
+      "City": "Philadelphia",
+      "State": "Pennsylvania"
    },
-   "University of Wisconsin - La Crosse": {
-      "lon": -91.23065443,
-      "lat": 43.81146712
+   "Ursinus College": {
+      "Lat": 40.19016092,
+      "Lon": -75.45720778,
+      "City": "Collegeville",
+      "State": "Pennsylvania"
    },
-   "University of Wisconsin - Oshkosh": {
-      "lon": -88.55222358,
-      "lat": 44.02425672
-   },
-   "University of Wisconsin - Platteville": {
-      "lon": -90.48631588,
-      "lat": 42.73246192
-   },
-   "University of Wisconsin - Stout": {
-      "lon": -91.93080598,
-      "lat": 44.88726102
-   },
-   "University of Wisconsin - Superior": {
-      "lon": -92.08887538,
-      "lat": 46.71924352
-   },
-   "University of Wyoming": {
-      "lon": -105.5857277,
-      "lat": 41.31241102
-   },
-   "Upper Iowa University": {
-      "lon": -91.80119078,
-      "lat": 42.83973022
-   },
-   "Utah State University": {
-      "lon": -111.8100619,
-      "lat": 41.7411063
-   },
-   "Utica College": {
-      "lon": -75.27252158,
-      "lat": 43.09401012
-   },
-   "Valdosta State University": {
-      "lon": -83.29056318,
-      "lat": 30.84776622
-   },
-   "Valley City State University": {
-      "lon": -98.00527548,
-      "lat": 46.91711242
-   },
-   "Vanguard University of Southern California": {
-      "lon": -117.9034896,
-      "lat": 33.65883452
-   },
-   "Vaughn College of Aeronautics and Technology": {
-      "lon": -73.88375588,
-      "lat": 40.76656132
-   },
-   "Villanova University": {
-      "lon": -75.34575688,
-      "lat": 40.03563562
-   },
-   "Virginia Polytechnic Institute and State University": {
-      "lon": -80.42511778,
-      "lat": 37.22770462
-   },
-   "Walden University": {
-      "lon": -93.26082088,
-      "lat": 44.97839492
-   },
-   "Waldorf College": {
-      "lon": -93.64102693,
-      "lat": 43.26093742
-   },
-   "Walsh College of Accountancy and Business Administration": {
-      "lon": -83.14787113,
-      "lat": 42.57252307
-   },
-   "Washington State University": {
-      "lon": -117.1555611,
-      "lat": 46.73057352
-   },
-   "Wayland Baptist University": {
-      "lon": -101.728316,
-      "lat": 34.18536402
-   },
-   "Weber State University": {
-      "lon": -111.9498816,
-      "lat": 41.19367632
-   },
-   "Webster University": {
-      "lon": -90.34669998,
-      "lat": 38.58925302
-   },
-   "West Chester University of Pennsylvania": {
-      "lon": -75.6052499,
-      "lat": 39.939981
-   },
-   "West Texas A&M University": {
-      "lon": -101.9171747,
-      "lat": 34.97847962
-   },
-   "Western Carolina University": {
-      "lon": -82.56655048,
-      "lat": 35.60088012
-   },
-   "Western Governors University": {
-      "lon": -111.871217,
-      "lat": 40.68345692
-   },
-   "Western Illinois University": {
-      "lon": -90.68310168,
-      "lat": 40.46121817
-   },
-   "Western International University": {
-      "lon": -111.9658735,
-      "lat": 33.40186207
-   },
-   "Western Kentucky University": {
-      "lon": -86.45754738,
-      "lat": 36.98305482
-   },
-   "Western Michigan University": {
-      "lon": -85.61357938,
-      "lat": 42.28379032
-   },
-   "Western New England University": {
-      "lon": -72.52395513,
-      "lat": 42.11205662
-   },
-   "Western Wyoming Community College": {
-      "lon": -109.2344349,
-      "lat": 41.58512692
-   },
-   "Westfield State University": {
-      "lon": -72.79608938,
-      "lat": 42.13039722
-   },
-   "Wheeling Jesuit University": {
-      "lon": -80.69256498,
-      "lat": 40.06656602
-   },
-   "Widener University": {
-      "lon": -75.35899348,
-      "lat": 39.86021392
-   },
-   "Wilkes University": {
-      "lon": -75.89004088,
-      "lat": 41.24305492
-   },
-   "Wilmington University": {
-      "lon": -75.62206928,
-      "lat": 39.64830492
-   },
-   "Winston-Salem State University": {
-      "lon": -80.22701378,
-      "lat": 36.08773562
-   },
-   "Worcester Polytechnic Institute": {
-      "lon": -71.81203973,
-      "lat": 42.27286582
-   },
-   "Youngstown State University": {
-      "lon": -80.64815798,
-      "lat": 41.10565402
-   },
-   "West Virginia University": {
-      "lon": -79.97718268,
-      "lat": 39.64683232
+   "Ursuline College": {
+      "Lat": 41.49248422,
+      "Lon": -81.46637628,
+      "City": "Pepper Pike",
+      "State": "Ohio"
    },
    "Valparaiso University": {
-      "lon": -87.04372808,
-      "lat": 41.46192192
+      "Lat": 41.46259042,
+      "Lon": -87.04523838,
+      "City": "Valparaiso",
+      "State": "Indiana"
    },
-   "University of Wisconsin - Milwaukee": {
-      "lon": -88.070876,
-      "lat": 42.9208158
+   "Vanderbilt University": {
+      "Lat": 36.14335442,
+      "Lon": -86.80400408,
+      "City": "Nashville",
+      "State": "Tennessee"
    },
-   "University of Nevada - Las Vegas": {
-      "lon": -115.1402229,
-      "lat": 36.10396582
+   "Vassar College": {
+      "Lat": 41.68469802,
+      "Lon": -73.89869198,
+      "City": "Poughkeepsie",
+      "State": "New York"
    },
-   "University of North Carolina at Chapel Hill": {
-      "lon": -79.04826238,
-      "lat": 35.90356322
+   "University of Vermont": {
+      "Lat": 44.47650382,
+      "Lon": -73.19781268,
+      "City": "Burlington",
+      "State": "Vermont"
    },
-   "Northern Illinois University": {
-      "lon": -88.76539083,
-      "lat": 41.93330097
+   "Villanova University": {
+      "Lat": 40.03570702,
+      "Lon": -75.34492898,
+      "City": "Villanova",
+      "State": "Pennsylvania"
    },
-   "Plymouth State University": {
-      "lon": -71.68961538,
-      "lat": 43.75812917
+   "University of Virginia": {
+      "Lat": 38.03220392,
+      "Lon": -78.50932618,
+      "City": "Charlottesville",
+      "State": "Virginia"
    },
-   "Saint Joseph's College of Maine": {
-      "lon": -70.48306,
-      "lat": 43.82727
+   "Virginia Commonwealth University": {
+      "Lat": 37.54763822,
+      "Lon": -77.45477758,
+      "City": "Richmond",
+      "State": "Virginia"
    },
-   "South Dakota State University": {
-      "lon": -96.78251,
-      "lat": 44.31998
+   "Virginia Tech": {
+      "Lat": 37.22703532,
+      "Lon": -80.42476568,
+      "City": "Blacksburg",
+      "State": "Virginia"
    },
-   "Southern Illinois University Edwardsville": {
-      "lon": -89.95657268,
-      "lat": 38.77511242
+   "Virginia Wesleyan College": {
+      "Lat": 36.86982652,
+      "Lon": -76.18810128,
+      "City": "Norfolk",
+      "State": "Virginia"
    },
-   "University of Maine at Machias": {
-      "lon": -67.45786,
-      "lat": 44.71036
+   "Wabash College": {
+      "Lat": 40.03646212,
+      "Lon": -86.90800418,
+      "City": "Crawfordsville",
+      "State": "Indiana"
+   },
+   "Wagner College": {
+      "Lat": 40.61324492,
+      "Lon": -74.09221998,
+      "City": "Staten Island",
+      "State": "New York"
+   },
+   "Wake Forest University": {
+      "Lat": 36.13390052,
+      "Lon": -80.27769148,
+      "City": "Winston-Salem",
+      "State": "North Carolina"
+   },
+   "Warren Wilson College": {
+      "Lat": 35.60978402,
+      "Lon": -82.44363498,
+      "City": "Swannanoa",
+      "State": "North Carolina"
+   },
+   "University of Washington": {
+      "Lat": 47.65398612,
+      "Lon": -122.3048689,
+      "City": "Seattle",
+      "State": "Washington"
+   },
+   "Washington and Lee University": {
+      "Lat": 37.78913712,
+      "Lon": -79.44630528,
+      "City": "Lexington",
+      "State": "West Virginia"
+   },
+   "Washington College": {
+      "Lat": 39.21666452,
+      "Lon": -76.07056208,
+      "City": "Chestertown",
+      "State": "Maryland"
+   },
+   "Washington State University": {
+      "Lat": 46.73057352,
+      "Lon": -117.1555611,
+      "City": "Pullman",
+      "State": "Washington"
+   },
+   "Washington University in St. Louis": {
+      "Lat": 38.64744052,
+      "Lon": -90.31214518,
+      "City": "St Louis",
+      "State": "Missouri"
+   },
+   "University of Waterloo": {
+      "Lat": 43.47093642,
+      "Lon": -80.54620658,
+      "City": "Waterloo",
+      "State": "Ontario"
+   },
+   "Webb Institute": {
+      "Lat": 40.88310172,
+      "Lon": -73.64622308,
+      "City": "Glen Cove",
+      "State": "New York"
+   },
+   "Wellesley College": {
+      "Lat": 42.29222432,
+      "Lon": -71.30727668,
+      "City": "Wellesley",
+      "State": "Massachusetts"
+   },
+   "Wells College": {
+      "Lat": 42.74384732,
+      "Lon": -76.69576418,
+      "City": "Aurora",
+      "State": "New York"
+   },
+   "Wesleyan College": {
+      "Lat": 32.87322822,
+      "Lon": -83.71382588,
+      "City": "Maycon",
+      "State": "Georgia"
+   },
+   "Wesleyan University": {
+      "Lat": 41.55526142,
+      "Lon": -72.65825308,
+      "City": "Middletown",
+      "State": "Connecticut"
+   },
+   "West Virginia University": {
+      "Lat": 39.63479062,
+      "Lon": -79.95728478,
+      "City": "Morgantown",
+      "State": "West Virginia"
+   },
+   "Western Michigan University": {
+      "Lat": 42.28238462,
+      "Lon": -85.61159968,
+      "City": "Kalamazoo",
+      "State": "Michigan"
+   },
+   "Western Washington University": {
+      "Lat": 48.73215892,
+      "Lon": -122.4886507,
+      "City": "Bellingham",
+      "State": "Washington"
+   },
+   "Westminster College - Pennsylvania": {
+      "Lat": 41.11851002,
+      "Lon": -80.33363498,
+      "City": "New Wilmington",
+      "State": "Pennsylvania"
+   },
+   "Wheaton College - Illinois": {
+      "Lat": 41.86698102,
+      "Lon": -88.10097098,
+      "City": "Wheaton",
+      "State": "Illinois"
+   },
+   "Wheaton College - Massachusetts": {
+      "Lat": 41.96468842,
+      "Lon": -71.18557308,
+      "City": "Norton",
+      "State": "Massachusetts"
+   },
+   "Whitman College": {
+      "Lat": 46.06921622,
+      "Lon": -118.3316039,
+      "City": "Walla Walla",
+      "State": "Washington"
+   },
+   "Whittier College": {
+      "Lat": 33.97744422,
+      "Lon": -118.0336332,
+      "City": "Whittier",
+      "State": "California"
+   },
+   "College of William and Mary": {
+      "Lat": 37.27032502,
+      "Lon": -76.71472698,
+      "City": "Williamsburg",
+      "State": "Virginia"
+   },
+   "Willamette University": {
+      "Lat": 44.93462192,
+      "Lon": -123.0332088,
+      "City": "Salem",
+      "State": "Oregon"
+   },
+   "William Jewell College": {
+      "Lat": 39.24596292,
+      "Lon": -94.41346598,
+      "City": "Liberty",
+      "State": "Missouri"
+   },
+   "Williams College": {
+      "Lat": 42.71145482,
+      "Lon": -73.20437038,
+      "City": "Williamstown",
+      "State": "Massachusetts"
+   },
+   "University of Wisconsin": {
+      "Lat": 43.07524302,
+      "Lon": -89.41383648,
+      "City": "Madison",
+      "State": "Wisconsin"
+   },
+   "Wittenberg University": {
+      "Lat": 39.93520062,
+      "Lon": -83.81525188,
+      "City": "Springfield",
+      "State": "Ohio"
+   },
+   "Wofford College": {
+      "Lat": 34.95671672,
+      "Lon": -81.93583918,
+      "City": "Spartanburg",
+      "State": "South Carolina"
+   },
+   "College of Wooster": {
+      "Lat": 40.80970112,
+      "Lon": -81.93496768,
+      "City": "Wooster",
+      "State": "Ohio"
+   },
+   "Worcester Polytechnic Institute": {
+      "Lat": 42.27328832,
+      "Lon": -71.80768798,
+      "City": "Worcester",
+      "State": "Massachusetts"
+   },
+   "Wright State University": {
+      "Lat": 39.78013532,
+      "Lon": -84.06492878,
+      "City": "Dayton",
+      "State": "Ohio"
+   },
+   "University of Wyoming": {
+      "Lat": 41.31352642,
+      "Lon": -105.5679234,
+      "City": "Laramie",
+      "State": "Wyoming"
+   },
+   "Yale University": {
+      "Lat": 41.31497542,
+      "Lon": -72.92369208,
+      "City": "New Haven",
+      "State": "Connecticut"
+   },
+   "Yeshiva University": {
+      "Lat": 40.84913622,
+      "Lon": -73.93045578,
+      "City": "New York City",
+      "State": "New York"
+   },
+   "Xavier University": {
+      "Lat": 39.14827972,
+      "Lon": -84.47512148,
+      "City": "Cincinnati",
+      "State": "Ohio"
+   },
+   "University of Alberta": {
+      "Lat": 53.52186992,
+      "Lon": -113.5276676,
+      "City": "Edmonton",
+      "State": "Alberta"
+   },
+   "McMaster University": {
+      "Lat": 43.25953002,
+      "Lon": -79.92057438,
+      "City": "Hamilton",
+      "State": "Ontario"
+   },
+   "Western University": {
+      "Lat": 43.00824812,
+      "Lon": -81.27508258,
+      "City": "London",
+      "State": "Ontario"
+   },
+   "University of Calgary": {
+      "Lat": 51.07681092,
+      "Lon": -114.1371497,
+      "City": "Calgary",
+      "State": "Alberta"
+   },
+   "Universite de Montreal": {
+      "Lat": 45.50426662,
+      "Lon": -73.61510818,
+      "City": "Montreal",
+      "State": "Quebec"
+   },
+   "Simon Fraser University": {
+      "Lat": 49.27674472,
+      "Lon": -122.9212323,
+      "City": "Burnaby",
+      "State": "British Columbia"
+   },
+   "Dalhousie University": {
+      "Lat": 44.63523222,
+      "Lon": -63.59300448,
+      "City": "Halifax",
+      "State": "Nova Scotia"
+   },
+   "University of Ottawa": {
+      "Lat": 45.42175742,
+      "Lon": -75.68448188,
+      "City": "Ottawa",
+      "State": "Ontario"
+   },
+   "University of Victoria": {
+      "Lat": 48.46205772,
+      "Lon": -123.3130425,
+      "City": "Victoria",
+      "State": "British Columbia"
+   },
+   "Laval University": {
+      "Lat": 46.78039732,
+      "Lon": -71.27609138,
+      "City": "Ville de Québec",
+      "State": "Quebec"
+   },
+   "Concordia University": {
+      "Lat": 45.56884222,
+      "Lon": -122.6382364,
+      "City": "Portland",
+      "State": "Oregon"
+   },
+   "York University": {
+      "Lat": 43.77210452,
+      "Lon": -79.50321738,
+      "City": "Toronto",
+      "State": "Ontario"
+   },
+   "University of Saskatchewan": {
+      "Lat": 52.13205132,
+      "Lon": -106.6327072,
+      "City": "Saskatoon",
+      "State": "Saskatchewan"
+   },
+   "University of Guelph": {
+      "Lat": 43.53075052,
+      "Lon": -80.22821028,
+      "City": "Guelph",
+      "State": "Ontario"
+   },
+   "Carleton University": {
+      "Lat": 45.38623222,
+      "Lon": -75.69736918,
+      "City": "Ottawa",
+      "State": "Ontario"
+   },
+   "University of Manitoba": {
+      "Lat": 49.80615182,
+      "Lon": -97.13797488,
+      "City": "Winnipeg",
+      "State": "Manitoba"
+   },
+   "Memorial University Of Newfoundland": {
+      "Lat": 47.57244852,
+      "Lon": -52.73425428,
+      "City": "St. John's",
+      "State": "Newfoundland"
+   },
+   "Universite de Sherbrooke": {
+      "Lat": 45.37778212,
+      "Lon": -71.93067898,
+      "City": "Sherbrooke",
+      "State": "Quebec"
+   },
+   "University of Windsor": {
+      "Lat": 42.30633512,
+      "Lon": -83.06981718,
+      "City": "Windsor",
+      "State": "Ontario"
+   },
+   "Ryerson University": {
+      "Lat": 43.65630952,
+      "Lon": -79.38015068,
+      "City": "Toronto",
+      "State": "Ontario"
    }
 }

@@ -87,7 +87,7 @@ def submit():
             return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
         print(USERDATA[session['user']]["confirmed"])
         return confirm()
-    return main()
+    return register()
 
 @app.route("/account")
 def account():
@@ -102,7 +102,7 @@ def send_confirmation():
         msg = Message("Confirm your account",
                     sender="kjhscollegeindex@gmail.com",
                     body = session["name"][0] + ",\n\nThank you for signing up at College Index!\nHere is your confirmation code: " + code + "\n\nThanks,\nBen Darnell",
-                    recipients=["benjamindarnell00@gmail.com"])
+                    recipients=[USERDATA[session['user']]["email"]])
         mail.send(msg)
         return confirm()
     return main()
@@ -123,5 +123,5 @@ def confirm():
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     #context = ('local.crt', 'local.key') # certificate and key files
-    app.run(debug=True, host="192.168.43.253") #,ssl_context=context)
-    #app.run(debug=True)
+    #app.run(debug=True, host="192.168.2.101") #,ssl_context=context)
+    app.run(debug=True)
