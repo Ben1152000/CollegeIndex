@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session, flash, url_for
+from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
 import os, json, re, flask_sijax
 from resources import *
@@ -23,7 +23,7 @@ flask_sijax.Sijax(app)
 
 # Open json files
 USERDATA = json.load(open('users.json'))
-SCHOOLDATA = json.load(open('static/data/schools.json'))
+SCHOOLDATA = json.load(open('data/schools.json'))
 
 @app.route("/")
 def main():
@@ -119,6 +119,15 @@ def confirm():
             return render_template('confirm.html', session=session, error=1)
         return render_template('confirm.html', session=session, error=0)
     return main()
+
+@app.route("/newschool", methods=['GET', 'POST'])
+def newschool():
+    return render_template('newschool.html', session=session)
+
+@app.route('/data/<path:filepath>')
+@nocache
+def data(filepath):
+    return send_from_directory('data', filepath)
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)

@@ -1,5 +1,8 @@
-from flask import Flask, session, url_for
+from flask import Flask, session, url_for, make_response
 import json, hashlib, codecs, re
+from functools import wraps, update_wrapper
+from datetime import datetime
+
 
 # md5 hashing on plaintext input
 def hash(string):
@@ -59,3 +62,14 @@ def search(key, array):
         if key.lower() in item.lower():
             results.append(item)
     return results
+
+def nocache(view):
+    @wraps(view)
+    def no_cache(*args, **kwargs):
+        response = make_response(view(*args, **kwargs))
+        response.headers['Last-Modified'] = datetime.now()
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '-1'
+        return response
+    return update_wrapper(no_cache, view)

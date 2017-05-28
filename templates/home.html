@@ -13,53 +13,64 @@
 
 {% block body %}
   <div id="map" class="marketing"></div>
-  <meta id="schools" data="{{schools}}">
   <script>
     function initMap(schools) {
       var json = (function () {
-          var json = null;
-          $.ajax({
-              'async': false,
-              'global': false,
-              'url': "/static/data/schools.json",
-              'dataType': "json",
-              'success': function (data) {
-                  json = data;
-              }
-          });
-          return json;
-      })(); 
-      var center = {lat: 40.8199, lng: -96.7018};
-      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false});
-      var infowindow = new google.maps.InfoWindow(); /* SINGLE */
-      function placeMarker( school ) {
-        var latLng = new google.maps.LatLng(json[school]["Lat"], json[school]["Lon"]);
-        var iconBase = 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png';
-        var icon = {
-          url: iconBase, // url
-          scaledSize: new google.maps.Size(16, 30), // scaled size
-          origin: new google.maps.Point(0, 0), // origin
-          anchor: new google.maps.Point(8, 30) // anchor
-        };
+        var json = null;
+        $.ajax({
+          'async': false,
+          'global': false,
+          'url': "/data/schools.json",
+          'dataType': "json",
+          'success': function (data) {
+            json = data;
+          }
+        });
+        return json;
+      })();
+
+      function placeMarker( school, schools ) {
+        var latLng = new google.maps.LatLng(schools[school]["Lat"], schools[school]["Lon"]);
+        if (Object.keys(schools[school]["Reviews"]).length == 0) {
+          var iconBase = 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png';
+          var icon = {
+            url: iconBase, // url
+            scaledSize: new google.maps.Size(14, 26), // scaled size
+            origin: new google.maps.Point(0, 0), // origin
+            anchor: new google.maps.Point(7, 26) // anchor
+          };
+        } else {
+          var iconBase = '/static/mapicon.png';
+          var icon = {
+            url: iconBase, // url
+            scaledSize: new google.maps.Size(20, 36), // scaled size
+            origin: new google.maps.Point(0, 0), // origin
+            anchor: new google.maps.Point(10, 36) // anchor
+          };
+        }
         var marker = new google.maps.Marker({
           position : latLng,
           map      : map,
           icon     : icon,
         });
-        google.maps.event.addListener(marker, 'click', function(){
+        google.maps.event.addListener(marker, 'click', function() {
           infowindow.close(); // Close previously opened infowindow
-          infowindow.setContent('<a class="schoolLink" style="text-align: center" id="' + school + '">' + school + '<br>' + json[school]["City"] + ', ' + json[school]["State"] + '</a>');
+          infowindow.setContent('<a class="schoolLink" style="text-align: center" id="' + school + '">' + school + '<br>' + schools[school]["City"] + ', ' + schools[school]["State"] + '</a>');
           infowindow.open(map, marker);
-          
         });
       }
+      
+      var center = {lat: 40.8199, lng: -96.7018};
+      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false});
+      var infowindow = new google.maps.InfoWindow(); /* SINGLE */
+      
       for (var school in json) {
-        placeMarker( school );
+        placeMarker( school, json );
       };
     }
   </script>
   <script async defer 
-    src="https://maps.googleapis.com/maps/api/js?v=3.14&key=AIzaSyB65Hg1ByHjRCA3riW0ShafytFRCSUOm6U&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB65Hg1ByHjRCA3riW0ShafytFRCSUOm6U&callback=initMap">
   </script>
 
   <!-- Description Divider -->
@@ -84,11 +95,14 @@
 
           // Read search query:
           var searchstring = $('#query').focus().val();
+          if (searchstring.length == 0) {
+            return false;
+          }
           $("#query").closest('form').find("input[type=text], textarea").val(""); // empty query
           var searchresults = '<h3 style="margin: 40px 0px 10px 0px !important;">Results for "' + searchstring + '":</h3><br>';
-          
+
           // Read school data:
-          $.getJSON( "static/data/schools.json", function( data ) {
+          $.getJSON( "/data/schools.json", function( data ) {
             var results = {};
             var counter = 0;
 
@@ -148,8 +162,62 @@
         $(document).on('click', "a.schoolLink", function(event) { 
           event.preventDefault(event); 
           var schoolname = event.target.id;
-          var result = "<h3 style='margin: 40px 0px 0px 0px !important;'>" + schoolname + "</h3><br>";
-          result = result + "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit'>Submit a review of this school</a></p>";
+          var result = "<h2 style='margin: 40px 0px 0px 0px !important;'>" + schoolname + "</h2><br>";
+          
+          var schools = (function () {
+            var json = null;
+            $.ajax({
+              'async': false,
+              'global': false,
+              'url': "/data/schools.json",
+              'dataType': "json",
+              'success': function (data) {
+                json = data;
+              }
+            });
+            return json;
+          })();
+          
+          if (Object.keys(schools[schoolname]["Reviews"]).length == 0) {
+            result += "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit'>Submit a review of this school</a></p>";
+          } else {
+            var taste = 0;
+            var texture = 0;
+            var tummyfeel = 0;
+            var reviewcount = 0;
+            for (var review in schools[schoolname]["Reviews"]) {
+              taste += schools[schoolname]["Reviews"][review]["Taste"];
+              texture += schools[schoolname]["Reviews"][review]["Texture"];
+              tummyfeel += schools[schoolname]["Reviews"][review]["Tummy Feel"];
+              reviewcount++;
+            }
+            taste /= reviewcount;
+            texture /= reviewcount;
+            tummyfeel /= reviewcount;
+            result += "\
+              <div style='margin: 10px 0px 10px 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
+                <h3 style='margin: 0px 0px 10px 0px !important'>Stats:</h3>\
+                <p style='margin: 0px !important'>Taste (quality of academics): " + taste + "</p>\
+                <p style='margin: 0px !important'>Texture (quality of life): " + texture + "</p>\
+                <p style='margin: 0px !important'>Tummy Feel (general rating): " + tummyfeel + "</p>\
+              </div>";
+              
+            for (var review in schools[schoolname]["Reviews"]) {
+              result += "\
+              <br>\
+              <div style='height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
+                <h3 style='margin: 0px !important'>" + review + "&nbsp(4):</h3>\
+                <p style='margin: 10px 0px 0px 0px !important'>\"" + schools[schoolname]["Reviews"][review]["Review"] + "\"</p>\
+              </div>\
+              ";
+            }
+            result += "\
+            <p style='margin: 30px 0px 0px 0px !important'>\
+              <a href='/submit'>Submit a review of this school</a>\
+            </p>\
+            ";
+          }
+          
           var $elem = $('#center');
           $elem.empty();
           $elem.append(result);

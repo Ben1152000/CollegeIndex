@@ -8,7 +8,7 @@
     {% endif %}
     <form class="form-signin" action="{{ url_for('submit') }}" method="post">
       <div id="name" class="container" style="margin-bottom: 40px">
-        <p style="line-height: 10pt">Which college did you visit? (<a href="/" target="_blank">Not on the list?</a>)</p>
+        <p style="line-height: 10pt">Which college did you visit? (<a href="/newschool">Not on the list?</a>)</p>
         <select type="rating" name="taste" class="form-control">
           {% for item in data %}
           <option value="{{ item }}">{{ item }}</option>
