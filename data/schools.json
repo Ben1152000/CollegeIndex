@@ -1,4439 +1,3463 @@
 {
-   "University of Miami - Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-80.27847428,
-      "Lat":25.71781952,
-      "State":"Florida",
-      "City":"Coral Gables"
-   },
-   "George Mason University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.31343748,
-      "Lat":38.83020512,
-      "State":"Virginia",
-      "City":"Fairfax"
-   },
-   "Yeshiva University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.93045578,
-      "Lat":40.84913622,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Sewanee: The University of the South":{
-      "Reviews":{
-
-      },
-      "Lon":-85.91900958,
-      "Lat":35.20383102,
-      "State":"Tennessee",
-      "City":"Sewanee"
-   },
-   "Wright State University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.06492878,
-      "Lat":39.78013532,
-      "State":"Ohio",
-      "City":"Dayton"
-   },
-   "University of Delaware":{
-      "Reviews":{
-
-      },
-      "Lon":-75.75196038,
-      "Lat":39.67660142,
-      "State":"Delaware",
-      "City":"Newark"
-   },
-   "Linfield College":{
-      "Reviews":{
-
-      },
-      "Lon":-123.200573,
-      "Lat":45.19925702,
-      "State":"Oregon",
-      "City":"McMinnville"
-   },
-   "Worcester Polytechnic Institute":{
-      "Reviews":{
-
-      },
-      "Lon":-71.80768798,
-      "Lat":42.27328832,
-      "State":"Massachusetts",
-      "City":"Worcester"
-   },
-   "Hobart and William Smith Colleges":{
-      "Reviews":{
-
-      },
-      "Lon":-76.98583578,
-      "Lat":42.85780412,
-      "State":"New York",
-      "City":"Geneva"
-   },
-   "University of Maryland - College Park":{
-      "Reviews":{
-
-      },
-      "Lon":-76.94390328,
-      "Lat":38.98556932,
-      "State":"Maryland",
-      "City":"College Park"
-   },
-   "Hope College":{
-      "Reviews":{
-
-      },
-      "Lon":-86.10370638,
-      "Lat":42.78583072,
-      "State":"Michigan",
-      "City":"Holland"
-   },
-   "Arizona State University":{
-      "Reviews":{
-
-      },
-      "Lon":-112.0659264,
-      "Lat":33.45019112,
-      "State":"Arizona",
-      "City":"Phoenix"
-   },
-   "Northeastern University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.09052068,
-      "Lat":42.33845772,
-      "State":"Massachusetts",
-      "City":"Boston"
-   },
-   "Marymount Manhattan College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.96106878,
-      "Lat":40.76739292,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Hampden-Sydney College":{
-      "Reviews":{
-
-      },
-      "Lon":-78.46237878,
-      "Lat":37.23902682,
-      "State":"Virginia",
-      "City":"Hampden Sydney"
-   },
-   "Rider University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.73953598,
-      "Lat":40.27827402,
-      "State":"New Jersey",
-      "City":"Lawrenceville"
-   },
-   "Pratt Institute":{
-      "Reviews":{
-
-      },
-      "Lon":-73.96388598,
-      "Lat":40.68993172,
-      "State":"New York",
-      "City":"Brooklyn"
-   },
-   "Sarah Lawrence College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.84474638,
-      "Lat":40.93470342,
-      "State":"New York",
-      "City":"Bronxville"
-   },
-   "Agnes Scott College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.29590268,
-      "Lat":33.76787362,
-      "State":"Georgia",
-      "City":"Decatur"
-   },
-   "North Carolina State University":{
-      "Reviews":{
-
-      },
-      "Lon":-78.68344358,
-      "Lat":35.78331432,
-      "State":"North Carolina",
-      "City":"Raleigh"
-   },
-   "University of Illinois - Chicago":{
-      "Reviews":{
-
-      },
-      "Lon":-87.66883438,
-      "Lat":41.86910072,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "Carnegie Mellon University":{
-      "Reviews":{
-         "Ben1152000": {
-            "Taste":3,
-            "Texture":5,
-            "Tummy Feel":8
+   "Adelphi University": {
+      "City": "Garden City",
+      "Lat": 40.71837902,
+      "Lon": -73.65306058,
+      "Reviews": {
+         "Ben": {
+            "Base Rating": 1,
+            "Ratings": {},
+            "Review": "",
+            "Taste": 1,
+            "Texture": 1,
+            "Tummy Feel": 1
          }
       },
-      "Lon":-79.94480568,
-      "Lat":40.44211682,
-      "State":"Pennsylvania",
-      "City":"Pittsburgh"
-   },
-   "Southwestern University":{
-      "Reviews":{
-
-      },
-      "Lon":-97.66647578,
-      "Lat":30.63357612,
-      "State":"Texas",
-      "City":"Georgetown"
-   },
-   "University of Kentucky":{
-      "Reviews":{
-
-      },
-      "Lon":-84.50531868,
-      "Lat":38.02930212,
-      "State":"Kentucky",
-      "City":"Lexington"
-   },
-   "Kenyon College":{
-      "Reviews":{
-
-      },
-      "Lon":-82.39965688,
-      "Lat":40.37054752,
-      "State":"Ohio",
-      "City":"Gambier"
-   },
-   "Hampshire College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.53204538,
-      "Lat":42.32272992,
-      "State":"Massachusetts",
-      "City":"Amherst"
-   },
-   "Regis University":{
-      "Reviews":{
-
-      },
-      "Lon":-105.0311555,
-      "Lat":39.78801862,
-      "State":"Colorado",
-      "City":"Denver"
-   },
-   "Albright College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.91197798,
-      "Lat":40.36015372,
-      "State":"Pennsylvania",
-      "City":"Reading"
-   },
-   "Salve Regina University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.30199278,
-      "Lat":41.47010372,
-      "State":"Rhode Island",
-      "City":"Newport"
-   },
-   "Randolph College":{
-      "Reviews":{
-
-      },
-      "Lon":-79.17354598,
-      "Lat":37.43561502,
-      "State":"Virginia",
-      "City":"Lynchburg"
-   },
-   "Franklin & Marshall College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.31925058,
-      "Lat":40.04617682,
-      "State":"Pennsylvania",
-      "City":"Lancaster"
-   },
-   "University of British Columbia":{
-      "Reviews":{
-
-      },
-      "Lon":-123.2473429,
-      "Lat":49.25925622,
-      "State":"British Columbia",
-      "City":"Vancouver"
-   },
-   "Manhattan College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.90241128,
-      "Lat":40.88861332,
-      "State":"New York",
-      "City":"Bronx"
-   },
-   "University of Southern California":{
-      "Reviews":{
-
-      },
-      "Lon":-118.286466,
-      "Lat":34.02100292,
-      "State":"California",
-      "City":"Los Angeles"
-   },
-   "University of Georgia":{
-      "Reviews":{
-
-      },
-      "Lon":-83.37867108,
-      "Lat":33.94665632,
-      "State":"Georgia",
-      "City":"Athens"
-   },
-   "Seton Hall University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.24844908,
-      "Lat":40.74166202,
-      "State":"New Jersey",
-      "City":"South Orange"
-   },
-   "Connecticut College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.10593588,
-      "Lat":41.37733872,
-      "State":"Connecticut",
-      "City":"New London"
-   },
-   "Eckerd College":{
-      "Reviews":{
-
-      },
-      "Lon":-82.68950898,
-      "Lat":27.71453702,
-      "State":"Florida",
-      "City":"St. Petersburg"
-   },
-   "Grove City College":{
-      "Reviews":{
-
-      },
-      "Lon":-80.07979918,
-      "Lat":41.15453342,
-      "State":"Pennsylvania",
-      "City":"Grove City"
-   },
-   "Baruch College, City University of New York":{
-      "Reviews":{
-
-      },
-      "Lon":-73.98472348,
-      "Lat":40.73885012,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "University of Alabama":{
-      "Reviews":{
-
-      },
-      "Lon":-87.54049078,
-      "Lat":33.21267432,
-      "State":"Alabama",
-      "City":"Tuscaloosa"
-   },
-   "University of Michigan":{
-      "Reviews":{
-
-      },
-      "Lon":-83.73957308,
-      "Lat":42.27669462,
-      "State":"Michigan",
-      "City":"Ann Arbor"
-   },
-   "Philadelphia University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.19374478,
-      "Lat":40.01896922,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "City College of New York":{
-      "Reviews":{
-
-      },
-      "Lon":-73.95062138,
-      "Lat":40.81869812,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Saint Mary's College - Notre Dame":{
-      "Reviews":{
-
-      },
-      "Lon":-86.25809398,
-      "Lat":41.70595502,
-      "State":"Indiana",
-      "City":"Notre Dame"
-   },
-   "Susquehanna University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.87605458,
-      "Lat":40.79567312,
-      "State":"Pennsylvania",
-      "City":"Selinsgrove"
-   },
-   "Ryerson University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.38015068,
-      "Lat":43.65630952,
-      "State":"Ontario",
-      "City":"Toronto"
-   },
-   "SUNY at Buffalo":{
-      "Reviews":{
-
-      },
-      "Lon":-78.79031868,
-      "Lat":42.99946032,
-      "State":"New York",
-      "City":"Buffalo"
-   },
-   "Indiana University - South Bend":{
-      "Reviews":{
-
-      },
-      "Lon":-86.22106648,
-      "Lat":41.66078932,
-      "State":"Indiana",
-      "City":"South Bend"
-   },
-   "Westminster College - Pennsylvania":{
-      "Reviews":{
-
-      },
-      "Lon":-80.33363498,
-      "Lat":41.11851002,
-      "State":"Pennsylvania",
-      "City":"New Wilmington"
-   },
-   "Simmons College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.10200838,
-      "Lat":42.33771762,
-      "State":"Massachusetts",
-      "City":"Boston"
-   },
-   "United States Air Force Academy":{
-      "Reviews":{
-
-      },
-      "Lon":-104.8626666,
-      "Lat":38.99696042,
-      "State":"Colorado",
-      "City":"U.S. Air Force Academy"
-   },
-   "Hamilton College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.40748408,
-      "Lat":43.05071262,
-      "State":"New York",
-      "City":"Clinton"
-   },
-   "Drexel University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.19129308,
-      "Lat":39.95526372,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "University of Rochester":{
-      "Reviews":{
-
-      },
-      "Lon":-77.62735228,
-      "Lat":43.12920412,
-      "State":"New York",
-      "City":"Rochester"
-   },
-   "American University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.09629598,
-      "Lat":38.94370102,
-      "State":"District of Columbia",
-      "City":"Washington"
-   },
-   "University of San Diego":{
-      "Reviews":{
-
-      },
-      "Lon":-117.1895554,
-      "Lat":32.77056802,
-      "State":"California",
-      "City":"San Diego"
-   },
-   "Saint Anselm College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.50857968,
-      "Lat":42.98612332,
-      "State":"New Hampshire",
-      "City":"Manchester"
-   },
-   "University of Alabama Huntsville":{
-      "Reviews":{
-
-      },
-      "Lon":-86.64104458,
-      "Lat":34.72517402,
-      "State":"Alabama",
-      "City":"Huntsville"
-   },
-   "University of Tulsa":{
-      "Reviews":{
-
-      },
-      "Lon":-95.94734898,
-      "Lat":36.15063892,
-      "State":"Oklahoma",
-      "City":"Tulsa"
-   },
-   "Loyola University - Maryland":{
-      "Reviews":{
-
-      },
-      "Lon":-76.61858648,
-      "Lat":39.34632472,
-      "State":"Maryland",
-      "City":"Baltimore"
-   },
-   "Syracuse University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.13646478,
-      "Lat":43.03780442,
-      "State":"New York",
-      "City":"Syracuse"
-   },
-   "University of Victoria":{
-      "Reviews":{
-
-      },
-      "Lon":-123.3130425,
-      "Lat":48.46205772,
-      "State":"British Columbia",
-      "City":"Victoria"
-   },
-   "Savannah College of Art and Design":{
-      "Reviews":{
-
-      },
-      "Lon":-81.09528518,
-      "Lat":32.07162432,
-      "State":"Georgia",
-      "City":"Savannah"
-   },
-   "University of California - San Diego":{
-      "Reviews":{
-
-      },
-      "Lon":-117.2353625,
-      "Lat":32.87871142,
-      "State":"California",
-      "City":"San Diego"
-   },
-   "Sweet Briar College":{
-      "Reviews":{
-
-      },
-      "Lon":-79.08421338,
-      "Lat":37.55629882,
-      "State":"Virginia",
-      "City":"Sweet Briar"
-   },
-   "Fashion Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-73.99643098,
-      "Lat":40.74613502,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "University of Massachusetts - Boston":{
-      "Reviews":{
-
-      },
-      "Lon":-71.03808668,
-      "Lat":42.31349232,
-      "State":"Massachusetts",
-      "City":"Boston"
-   },
-   "Brooklyn College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.95438448,
-      "Lat":40.63048832,
-      "State":"New York",
-      "City":"Brooklyn"
-   },
-   "Fordham University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.88704768,
-      "Lat":40.86069142,
-      "State":"New York",
-      "City":"Bronx"
-   },
-   "Saint Louis University":{
-      "Reviews":{
-
-      },
-      "Lon":-90.23517218,
-      "Lat":38.63411082,
-      "State":"Missouri",
-      "City":"St. Louis"
-   },
-   "Dalhousie University":{
-      "Reviews":{
-
-      },
-      "Lon":-63.59300448,
-      "Lat":44.63523222,
-      "State":"Nova Scotia",
-      "City":"Halifax"
-   },
-   "Parsons School of Design":{
-      "Reviews":{
-
-      },
-      "Lon":-73.99594158,
-      "Lat":40.73395132,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Colorado State University":{
-      "Reviews":{
-
-      },
-      "Lon":-105.0878963,
-      "Lat":40.57208702,
-      "State":"Colorado",
-      "City":"Fort Collins"
-   },
-   "Golden Gate University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.400331,
-      "Lat":37.78794302,
-      "State":"California",
-      "City":"San Francisco"
-   },
-   "Providence College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.43951428,
-      "Lat":41.84274352,
-      "State":"Rhode Island",
-      "City":"Providence"
-   },
-   "Monmouth University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.00716038,
-      "Lat":40.27910672,
-      "State":"New Jersey",
-      "City":"West Long Branch"
-   },
-   "Wabash College":{
-      "Reviews":{
-
-      },
-      "Lon":-86.90800418,
-      "Lat":40.03646212,
-      "State":"Indiana",
-      "City":"Crawfordsville"
-   },
-   "Whitman College":{
-      "Reviews":{
-
-      },
-      "Lon":-118.3316039,
-      "Lat":46.06921622,
-      "State":"Washington",
-      "City":"Walla Walla"
-   },
-   "University of New Orleans":{
-      "Reviews":{
-
-      },
-      "Lon":-90.06727698,
-      "Lat":30.02730902,
-      "State":"Louisiana",
-      "City":"New Orleans"
-   },
-   "University of Scranton":{
-      "Reviews":{
-
-      },
-      "Lon":-75.65788198,
-      "Lat":41.40471272,
-      "State":"Pennsylvania",
-      "City":"Scranton"
-   },
-   "Towson University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.61053838,
-      "Lat":39.39244712,
-      "State":"Maryland",
-      "City":"Towson"
-   },
-   "Belmont University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.79541888,
-      "Lat":36.13154912,
-      "State":"Tennessee",
-      "City":"Nashville"
-   },
-   "University of Windsor":{
-      "Reviews":{
-
-      },
-      "Lon":-83.06981718,
-      "Lat":42.30633512,
-      "State":"Ontario",
-      "City":"Windsor"
-   },
-   "Elon University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.50523718,
-      "Lat":36.10352592,
-      "State":"North Carolina",
-      "City":"Elon"
-   },
-   "Sacred Heart University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.24464928,
-      "Lat":41.21904122,
-      "State":"Connecticut",
-      "City":"Fairfield"
-   },
-   "Tuskegee University":{
-      "Reviews":{
-
-      },
-      "Lon":-85.70863428,
-      "Lat":32.42932902,
-      "State":"Alabama",
-      "City":"Tuskegee"
-   },
-   "Indiana University - Bloomington":{
-      "Reviews":{
-
-      },
-      "Lon":-86.51436598,
-      "Lat":39.17526452,
-      "State":"Indiana",
-      "City":"Bloomington"
-   },
-   "University of Mary Washington":{
-      "Reviews":{
-
-      },
-      "Lon":-77.47560768,
-      "Lat":38.30082132,
-      "State":"Virginia",
-      "City":"Fredericksburg"
-   },
-   "Mills College":{
-      "Reviews":{
-
-      },
-      "Lon":-122.1854587,
-      "Lat":37.77602557,
-      "State":"California",
-      "City":"Oakland"
-   },
-   "Bryant University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.52396423,
-      "Lat":41.91782657,
-      "State":"Rhode Island",
-      "City":"Smithfield"
-   },
-   "North Carolina School of the Arts":{
-      "Reviews":{
-
-      },
-      "Lon":-80.23835998,
-      "Lat":36.07494302,
-      "State":"North Carolina",
-      "City":"Winston-Salem"
-   },
-   "Cooper Union":{
-      "Reviews":{
-
-      },
-      "Lon":-73.99295758,
-      "Lat":40.72673322,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "University of Guelph":{
-      "Reviews":{
-
-      },
-      "Lon":-80.22821028,
-      "Lat":43.53075052,
-      "State":"Ontario",
-      "City":"Guelph"
-   },
-   "Boston College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.16984348,
-      "Lat":42.33419982,
-      "State":"Massachusetts",
-      "City":"Chestnut Hill"
-   },
-   "Moravian College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.38256248,
-      "Lat":40.62953242,
-      "State":"Pennsylvania",
-      "City":"Bethlehem"
-   },
-   "Duke University":{
-      "Reviews":{
-
-      },
-      "Lon":-78.953322,
-      "Lat":35.99505,
-      "State":"North Carolina",
-      "City":"Durham"
-   },
-   "University of Nevada":{
-      "Reviews":{
-
-      },
-      "Lon":-119.817746,
-      "Lat":39.54284272,
-      "State":"Nevada",
-      "City":"Reno"
-   },
-   "Creighton University":{
-      "Reviews":{
-
-      },
-      "Lon":-95.94597358,
-      "Lat":41.26361902,
-      "State":"Nebraska",
-      "City":"Omaha"
-   },
-   "University of North Dakota":{
-      "Reviews":{
-
-      },
-      "Lon":-97.07815038,
-      "Lat":47.92154202,
-      "State":"North Dakota",
-      "City":"Grand Forks"
-   },
-   "University of Notre Dame":{
-      "Reviews":{
-
-      },
-      "Lon":-86.23668778,
-      "Lat":41.70422262,
-      "State":"Indiana",
-      "City":"Notre Dame"
-   },
-   "University of California - Santa Barbara":{
-      "Reviews":{
-         "Ben1152000": {
-            "Taste":3,
-            "Texture":5,
-            "Tummy Feel":8
-         }
-      },
-      "Lon":-119.850296,
-      "Lat":34.41261392,
-      "State":"California",
-      "City":"Santa Barbara"
-   },
-   "University of New Haven":{
-      "Reviews":{
-
-      },
-      "Lon":-72.96299268,
-      "Lat":41.28935452,
-      "State":"Connecticut",
-      "City":"West Haven"
-   },
-   "Penn State":{
-      "Reviews":{
-
-      },
-      "Lon":-77.86125738,
-      "Lat":40.79686432,
-      "State":"Pennsylvania",
-      "City":"State College"
-   },
-   "Centre College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.78338598,
-      "Lat":37.64437242,
-      "State":"Kentucky",
-      "City":"Danville"
-   },
-   "University of Massachusetts - Amherst":{
-      "Reviews":{
-
-      },
-      "Lon":-72.52806108,
-      "Lat":42.38980792,
-      "State":"Massachusetts",
-      "City":"Amherst"
-   },
-   "University of Tampa":{
-      "Reviews":{
-
-      },
-      "Lon":-82.46852068,
-      "Lat":27.94613912,
-      "State":"Florida",
-      "City":"Tampa"
-   },
-   "Indiana University-Purdue University Indianapolis":{
-      "Reviews":{
-
-      },
-      "Lon":-86.17768828,
-      "Lat":39.77253422,
-      "State":"Indiana",
-      "City":"Indianapolis"
-   },
-   "Cornell University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.47485168,
-      "Lat":42.45210022,
-      "State":"New York",
-      "City":"Ithaca"
-   },
-   "Rose-Hulman Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-87.32530328,
-      "Lat":39.48088502,
-      "State":"Indiana",
-      "City":"Terre Haute"
-   },
-   "Skidmore College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.78553008,
-      "Lat":43.09592692,
-      "State":"New York",
-      "City":"Saratoga Springs"
-   },
-   "Sonoma State University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.6755302,
-      "Lat":38.33803762,
-      "State":"California",
-      "City":"Rohnert Park"
-   },
-   "Saint Olaf College":{
-      "Reviews":{
-
-      },
-      "Lon":-93.18416568,
-      "Lat":44.46041912,
-      "State":"Minnesota",
-      "City":"Northfield"
-   },
-   "United States Military Academy":{
-      "Reviews":{
-
-      },
-      "Lon":-73.96385228,
-      "Lat":41.39048822,
-      "State":"New York",
-      "City":"West Point"
-   },
-   "Colby College":{
-      "Reviews":{
-
-      },
-      "Lon":-69.66398518,
-      "Lat":44.56252012,
-      "State":"Maine",
-      "City":"Waterville"
-   },
-   "Bowling Green State University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.63143158,
-      "Lat":41.37842982,
-      "State":"Ohio",
-      "City":"Bowling Green"
-   },
-   "Florida Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-80.62437098,
-      "Lat":28.06333982,
-      "State":"Florida",
-      "City":"Melbourne"
-   },
-   "Rice University":{
-      "Reviews":{
-
-      },
-      "Lon":-95.39762498,
-      "Lat":29.71923037,
-      "State":"Texas",
-      "City":"Houston"
-   },
-   "College of the Holy Cross":{
-      "Reviews":{
-
-      },
-      "Lon":-71.80659538,
-      "Lat":42.23653982,
-      "State":"Massachusetts",
-      "City":"Worcester"
-   },
-   "Colorado School of Mines":{
-      "Reviews":{
-
-      },
-      "Lon":-105.2239195,
-      "Lat":39.74966462,
-      "State":"Colorado",
-      "City":"Golden"
-   },
-   "Brigham Young University":{
-      "Reviews":{
-
-      },
-      "Lon":-111.6506646,
-      "Lat":40.25049452,
-      "State":"Utah",
-      "City":"Provo"
-   },
-   "University of California - Merced":{
-      "Reviews":{
-
-      },
-      "Lon":-120.4267492,
-      "Lat":37.36352582,
-      "State":"California",
-      "City":"Merced"
-   },
-   "Miami University - Ohio":{
-      "Reviews":{
-
-      },
-      "Lon":-84.73222578,
-      "Lat":39.50918442,
-      "State":"Ohio",
-      "City":"Oxford"
-   },
-   "St. John's College - Maryland":{
-      "Reviews":{
-
-      },
-      "Lon":-76.49269098,
-      "Lat":38.98018312,
-      "State":"Maryland",
-      "City":"Annapolis"
-   },
-   "Johns Hopkins University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.62186668,
-      "Lat":39.32855232,
-      "State":"Maryland",
-      "City":"Baltimore"
-   },
-   "Lewis & Clark College":{
-      "Reviews":{
-
-      },
-      "Lon":-122.6787845,
-      "Lat":45.45105932,
-      "State":"Oregon",
-      "City":"Portland"
-   },
-   "The Juilliard School":{
-      "Reviews":{
-
-      },
-      "Lon":-73.98417758,
-      "Lat":40.77240972,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Clemson University":{
-      "Reviews":{
-
-      },
-      "Lon":-82.84005688,
-      "Lat":34.66981792,
-      "State":"South Carolina",
-      "City":"Clemson"
-   },
-   "Embry-Riddle - Daytona Beach":{
-      "Reviews":{
-
-      },
-      "Lon":-81.05136778,
-      "Lat":29.19026802,
-      "State":"Florida",
-      "City":"Daytona Beach"
-   },
-   "Elizabethtown College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.59114098,
-      "Lat":40.14897612,
-      "State":"Pennsylvania",
-      "City":"Elizabethtown"
-   },
-   "SUNY at Binghamton":{
-      "Reviews":{
-
-      },
-      "Lon":-75.97105388,
-      "Lat":42.08800632,
-      "State":"New York",
-      "City":"Binghamton"
-   },
-   "University of Dayton":{
-      "Reviews":{
-
-      },
-      "Lon":-84.18304118,
-      "Lat":39.73844602,
-      "State":"Ohio",
-      "City":"Dayton"
-   },
-   "Hiram College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.14530148,
-      "Lat":41.30938322,
-      "State":"Ohio",
-      "City":"Hiram"
-   },
-   "University of Colorado":{
-      "Reviews":{
-
-      },
-      "Lon":-105.2672907,
-      "Lat":40.00623202,
-      "State":"Colorado",
-      "City":"Boulder"
-   },
-   "Washington State University":{
-      "Reviews":{
-
-      },
-      "Lon":-117.1555611,
-      "Lat":46.73057352,
-      "State":"Washington",
-      "City":"Pullman"
-   },
-   "University of Kansas":{
-      "Reviews":{
-
-      },
-      "Lon":-95.25714508,
-      "Lat":38.95299492,
-      "State":"Kansas",
-      "City":"Lawrence"
-   },
-   "University of Washington":{
-      "Reviews":{
-
-      },
-      "Lon":-122.3048689,
-      "Lat":47.65398612,
-      "State":"Washington",
-      "City":"Seattle"
-   },
-   "Old Dominion University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.30811658,
-      "Lat":36.88420252,
-      "State":"Virginia",
-      "City":"Norfolk"
-   },
-   "Universite de Sherbrooke":{
-      "Reviews":{
-
-      },
-      "Lon":-71.93067898,
-      "Lat":45.37778212,
-      "State":"Quebec",
-      "City":"Sherbrooke"
-   },
-   "Carleton University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.69736918,
-      "Lat":45.38623222,
-      "State":"Ontario",
-      "City":"Ottawa"
-   },
-   "University of Vermont":{
-      "Reviews":{
-
-      },
-      "Lon":-73.19781268,
-      "Lat":44.47650382,
-      "State":"Vermont",
-      "City":"Burlington"
-   },
-   "Austin College":{
-      "Reviews":{
-
-      },
-      "Lon":-96.59620298,
-      "Lat":33.64491102,
-      "State":"Texas",
-      "City":"Sherman"
-   },
-   "Ohio Northern University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.83404668,
-      "Lat":40.76478652,
-      "State":"Ohio",
-      "City":"Ada"
-   },
-   "Florida State University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.29983788,
-      "Lat":30.44052882,
-      "State":"Florida",
-      "City":"Tallahassee"
-   },
-   "College of Charleston":{
-      "Reviews":{
-
-      },
-      "Lon":-79.93852518,
-      "Lat":32.78226272,
-      "State":"South Carolina",
-      "City":"Charleston"
-   },
-   "Drew University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.42832548,
-      "Lat":40.75921802,
-      "State":"New Jersey",
-      "City":"Madison"
-   },
-   "California Lutheran University":{
-      "Reviews":{
-
-      },
-      "Lon":-118.8800255,
-      "Lat":34.22421672,
-      "State":"California",
-      "City":"Thousand Oaks"
-   },
-   "Emory University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.32534788,
-      "Lat":33.79117052,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Clarkson University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.99989298,
-      "Lat":44.66241212,
-      "State":"New York",
-      "City":"Potsdam"
-   },
-   "United States Coast Guard Academy":{
-      "Reviews":{
-
-      },
-      "Lon":-72.10060378,
-      "Lat":41.37241342,
-      "State":"Connecticut",
-      "City":"New London"
-   },
-   "University of Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-82.35627918,
-      "Lat":29.64228352,
-      "State":"Florida",
-      "City":"Gainesville"
-   },
-   "Adelphi University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.65306058,
-      "Lat":40.71837902,
-      "State":"New York",
-      "City":"Garden City"
-   },
-   "Marist College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.93546938,
-      "Lat":41.72110752,
-      "State":"New York",
-      "City":"Poughkeepsie"
-   },
-   "Baylor University":{
-      "Reviews":{
-
-      },
-      "Lon":-97.11566358,
-      "Lat":31.54849202,
-      "State":"Texas",
-      "City":"Waco"
-   },
-   "New Mexico Institute of Mining & Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-106.90696,
-      "Lat":34.06464402,
-      "State":"New Mexico",
-      "City":"Socorro"
-   },
-   "Gustavus Adolphus College":{
-      "Reviews":{
-
-      },
-      "Lon":-93.97012608,
-      "Lat":44.32081292,
-      "State":"Minnesota",
-      "City":"St. Peter"
-   },
-   "Clark University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.82607898,
-      "Lat":42.25082932,
-      "State":"Massachusetts",
-      "City":"Worcester"
-   },
-   "University of Wisconsin":{
-      "Reviews":{
-
-      },
-      "Lon":-89.41383648,
-      "Lat":43.07524302,
-      "State":"Wisconsin",
-      "City":"Madison"
-   },
-   "Massachusetts Institute of Technology":{
-      "Reviews":{
-         "Ben1152000": {
-            "Taste":3,
-            "Texture":5,
-            "Tummy Feel":8
-         }
-      },
-      "Lon":-71.09550898,
-      "Lat":42.35874202,
-      "State":"Massachusetts",
-      "City":"Cambridge"
-   },
-   "Wofford College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.93583918,
-      "Lat":34.95671672,
-      "State":"South Carolina",
-      "City":"Spartanburg"
-   },
-   "Lawrence University":{
-      "Reviews":{
-
-      },
-      "Lon":-88.39783858,
-      "Lat":44.25871232,
-      "State":"Wisconsin",
-      "City":"Appleton"
-   },
-   "Villanova University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.34492898,
-      "Lat":40.03570702,
-      "State":"Pennsylvania",
-      "City":"Villanova"
-   },
-   "Texas Christian University":{
-      "Reviews":{
-
-      },
-      "Lon":-97.36414398,
-      "Lat":32.70818102,
-      "State":"Texas",
-      "City":"Fort Worth"
-   },
-   "Bard College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.91140338,
-      "Lat":42.01904072,
-      "State":"New York",
-      "City":"Annandale-On-Hudson"
-   },
-   "SUNY at Albany":{
-      "Reviews":{
-
-      },
-      "Lon":-73.822895,
-      "Lat":42.686248,
-      "State":"New York",
-      "City":"Albany"
-   },
-   "SUNY at Geneseo":{
-      "Reviews":{
-
-      },
-      "Lon":-77.82505188,
-      "Lat":42.79474302,
-      "State":"New York",
-      "City":"Geneseo"
-   },
-   "Wesleyan College":{
-      "Reviews":{
-
-      },
-      "Lon":-83.71382588,
-      "Lat":32.87322822,
-      "State":"Georgia",
-      "City":"Maycon"
-   },
-   "Universite de Montreal":{
-      "Reviews":{
-
-      },
-      "Lon":-73.61510818,
-      "Lat":45.50426662,
-      "State":"Quebec",
-      "City":"Montreal"
-   },
-   "Furman University":{
-      "Reviews":{
-
-      },
-      "Lon":-82.43961828,
-      "Lat":34.92235102,
-      "State":"South Carolina",
-      "City":"Greenville"
-   },
-   "University of Saskatchewan":{
-      "Reviews":{
-
-      },
-      "Lon":-106.6327072,
-      "Lat":52.13205132,
-      "State":"Saskatchewan",
-      "City":"Saskatoon"
-   },
-   "Western Washington University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.4886507,
-      "Lat":48.73215892,
-      "State":"Washington",
-      "City":"Bellingham"
-   },
-   "Randolph-Macon College":{
-      "Reviews":{
-
-      },
-      "Lon":-77.47970078,
-      "Lat":37.75903042,
-      "State":"Virginia",
-      "City":"Ashland"
-   },
-   "Oregon State University":{
-      "Reviews":{
-
-      },
-      "Lon":-123.2807932,
-      "Lat":44.56243162,
-      "State":"Oregon",
-      "City":"Corvallis"
-   },
-   "University of Hartford":{
-      "Reviews":{
-
-      },
-      "Lon":-72.71515408,
-      "Lat":41.79725222,
-      "State":"Connecticut",
-      "City":"West Hartford"
-   },
-   "Warren Wilson College":{
-      "Reviews":{
-
-      },
-      "Lon":-82.44363498,
-      "Lat":35.60978402,
-      "State":"North Carolina",
-      "City":"Swannanoa"
-   },
-   "Humboldt State University":{
-      "Reviews":{
-
-      },
-      "Lon":-124.07917,
-      "Lat":40.87392582,
-      "State":"California",
-      "City":"Arcata"
-   },
-   "Western Michigan University":{
-      "Reviews":{
-
-      },
-      "Lon":-85.61159968,
-      "Lat":42.28238462,
-      "State":"Michigan",
-      "City":"Kalamazoo"
-   },
-   "Ohio University":{
-      "Reviews":{
-
-      },
-      "Lon":-82.10273788,
-      "Lat":39.32300902,
-      "State":"Ohio",
-      "City":"Athens"
-   },
-   "Rutgers University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.44874808,
-      "Lat":40.49946962,
-      "State":"New Jersey",
-      "City":"New Brunswick"
-   },
-   "Samford University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.79497998,
-      "Lat":33.46340042,
-      "State":"Alabama",
-      "City":"Homewood"
-   },
-   "Wells College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.69576418,
-      "Lat":42.74384732,
-      "State":"New York",
-      "City":"Aurora"
-   },
-   "Thomas Aquinas College - California":{
-      "Reviews":{
-
-      },
-      "Lon":-119.0901445,
-      "Lat":34.42797512,
-      "State":"California",
-      "City":"Santa Paula"
-   },
-   "Wesleyan University":{
-      "Reviews":{
-
-      },
-      "Lon":-72.65825308,
-      "Lat":41.55526142,
-      "State":"Connecticut",
-      "City":"Middletown"
-   },
-   "Iowa State University":{
-      "Reviews":{
-
-      },
-      "Lon":-93.64781438,
-      "Lat":42.02526972,
-      "State":"Iowa",
-      "City":"Ames"
-   },
-   "Texas A&M University":{
-      "Reviews":{
-
-      },
-      "Lon":-96.33792598,
-      "Lat":30.61726602,
-      "State":"Texas",
-      "City":"Fort Worth"
-   },
-   "Juniata College":{
-      "Reviews":{
-
-      },
-      "Lon":-78.01735318,
-      "Lat":40.49863942,
-      "State":"Pennsylvania",
-      "City":"Huntingdon"
-   },
-   "University of Pennsylvania":{
-      "Reviews":{
-
-      },
-      "Lon":-75.19456268,
-      "Lat":39.95086982,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "University of California - Santa Cruz":{
-      "Reviews":{
-
-      },
-      "Lon":-122.0622208,
-      "Lat":36.99003662,
-      "State":"California",
-      "City":"Santa Cruz"
-   },
-   "Brown University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.4048079,
-      "Lat":41.822956,
-      "State":"Rhode Island",
-      "City":"Providence"
-   },
-   "Bradley University":{
-      "Reviews":{
-
-      },
-      "Lon":-89.61663678,
-      "Lat":40.69639822,
-      "State":"Illinois",
-      "City":"Peoria"
-   },
-   "University of Oklahoma":{
-      "Reviews":{
-
-      },
-      "Lon":-97.44706268,
-      "Lat":35.20454462,
-      "State":"Oklahoma",
-      "City":"Norman"
-   },
-   "California State University - Fresno":{
-      "Reviews":{
-
-      },
-      "Lon":-119.7474427,
-      "Lat":36.81201462,
-      "State":"California",
-      "City":"Fresno"
-   },
-   "University of Wyoming":{
-      "Reviews":{
-
-      },
-      "Lon":-105.5679234,
-      "Lat":41.31352642,
-      "State":"Wyoming",
-      "City":"Laramie"
-   },
-   "University of Pittsburgh":{
-      "Reviews":{
-
-      },
-      "Lon":-79.96218398,
-      "Lat":40.44300432,
-      "State":"Pennsylvania",
-      "City":"Pittsburgh"
-   },
-   "Georgia Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-84.39763398,
-      "Lat":33.77426882,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Purdue University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.92254358,
-      "Lat":40.42235642,
-      "State":"Indiana",
-      "City":"West Lafayette"
-   },
-   "Macalester College":{
-      "Reviews":{
-
-      },
-      "Lon":-93.17007838,
-      "Lat":44.93841412,
-      "State":"Minnesota",
-      "City":"St. Paul"
-   },
-   "Babson College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.26734408,
-      "Lat":42.29802182,
-      "State":"Massachusetts",
-      "City":"Babson Park"
-   },
-   "McGill University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.57850008,
-      "Lat":45.50343572,
-      "State":"Quebec",
-      "City":"Montreal"
-   },
-   "Marlboro College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.73610348,
-      "Lat":42.83770552,
-      "State":"Vermont",
-      "City":"Marlboro"
-   },
-   "Memorial University Of Newfoundland":{
-      "Reviews":{
-
-      },
-      "Lon":-52.73425428,
-      "Lat":47.57244852,
-      "State":"Newfoundland",
-      "City":"St. John's"
-   },
-   "Lehigh University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.37963218,
-      "Lat":40.60555972,
-      "State":"Pennsylvania",
-      "City":"Bethlehem"
-   },
-   "Bucknell University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.88608108,
-      "Lat":40.95353372,
-      "State":"Pennsylvania",
-      "City":"Lewisburg"
-   },
-   "Cornell College":{
-      "Reviews":{
-
-      },
-      "Lon":-91.42669918,
-      "Lat":41.92560562,
-      "State":"Iowa",
-      "City":"Mt Vernon"
-   },
-   "University of Illinois - Urbana-Champaign":{
-      "Reviews":{
-
-      },
-      "Lon":-87.65945558,
-      "Lat":41.87361082,
-      "State":"Illinois",
-      "City":"Urbana-Champaign"
-   },
-   "Truman State University":{
-      "Reviews":{
-
-      },
-      "Lon":-92.58272138,
-      "Lat":40.18450832,
-      "State":"Missouri",
-      "City":"Kirksville"
-   },
-   "Wittenberg University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.81525188,
-      "Lat":39.93520062,
-      "State":"Ohio",
-      "City":"Springfield"
-   },
-   "Millsaps College":{
-      "Reviews":{
-
-      },
-      "Lon":-90.17961128,
-      "Lat":32.32105202,
-      "State":"Mississippi",
-      "City":"Jackson"
-   },
-   "Willamette University":{
-      "Reviews":{
-
-      },
-      "Lon":-123.0332088,
-      "Lat":44.93462192,
-      "State":"Oregon",
-      "City":"Salem"
-   },
-   "Shimer College":{
-      "Reviews":{
-
-      },
-      "Lon":-87.62847848,
-      "Lat":41.83116692,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "University of California - Irvine":{
-      "Reviews":{
-
-      },
-      "Lon":-117.8526493,
-      "Lat":33.64267012,
-      "State":"California",
-      "City":"Irvine"
-   },
-   "University of Cincinnati":{
-      "Reviews":{
-
-      },
-      "Lon":-84.51629938,
-      "Lat":39.13157292,
-      "State":"Ohio",
-      "City":"Cincinnati"
-   },
-   "Chapman University":{
-      "Reviews":{
-
-      },
-      "Lon":-117.8526993,
-      "Lat":33.79199862,
-      "State":"California",
-      "City":"Orange"
-   },
-   "Beloit College":{
-      "Reviews":{
-
-      },
-      "Lon":-89.03225378,
-      "Lat":42.50168432,
-      "State":"Wisconsin",
-      "City":"Beloit"
-   },
-   "Louisiana State University":{
-      "Reviews":{
-
-      },
-      "Lon":-91.18135128,
-      "Lat":30.41190892,
-      "State":"Louisiana",
-      "City":"Baton Rouge"
-   },
-   "Reed College":{
-      "Reviews":{
-
-      },
-      "Lon":-122.6317214,
-      "Lat":45.47962922,
-      "State":"Oregon",
-      "City":"Portland"
-   },
-   "Emerson College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.06700408,
-      "Lat":42.35068082,
-      "State":"Massachusetts",
-      "City":"Boston"
-   },
-   "University of Alberta":{
-      "Reviews":{
-
-      },
-      "Lon":-113.5276676,
-      "Lat":53.52186992,
-      "State":"Alberta",
-      "City":"Edmonton"
-   },
-   "University of Virginia":{
-      "Reviews":{
-
-      },
-      "Lon":-78.50932618,
-      "Lat":38.03220392,
-      "State":"Virginia",
-      "City":"Charlottesville"
-   },
-   "Kent State University":{
-      "Reviews":{
-
-      },
-      "Lon":-81.34281388,
-      "Lat":41.14771392,
-      "State":"Ohio",
-      "City":"Kent"
-   },
-   "Bryn Mawr College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.31658308,
-      "Lat":40.02675752,
-      "State":"Pennsylvania",
-      "City":"Bryn Mawr"
-   },
-   "St. John's University (New York)":{
-      "Reviews":{
-
-      },
-      "Lon":-73.79593508,
-      "Lat":40.72289802,
-      "State":"New York",
-      "City":"Queens"
-   },
-   "College of William and Mary":{
-      "Reviews":{
-
-      },
-      "Lon":-76.71472698,
-      "Lat":37.27032502,
-      "State":"Virginia",
-      "City":"Williamsburg"
-   },
-   "Kalamazoo College":{
-      "Reviews":{
-
-      },
-      "Lon":-85.59949398,
-      "Lat":42.28868602,
-      "State":"Michigan",
-      "City":"Kalamazoo"
-   },
-   "San Diego State University":{
-      "Reviews":{
-
-      },
-      "Lon":-117.0732383,
-      "Lat":32.77437272,
-      "State":"California",
-      "City":"San Diego"
-   },
-   "Columbia University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.96392168,
-      "Lat":40.80618652,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "CUNY System":{
-      "Reviews":{
-
-      },
-      "Lon":-73.97476668,
-      "Lat":40.74928142,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "SUNY at Purchase":{
-      "Reviews":{
-         
-      },
-      "Lon":-73.69911508,
-      "Lat":41.04529952,
-      "State":"New York",
-      "City":"Purchase"
-   },
-   "Bentley University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.22302898,
-      "Lat":42.38434992,
-      "State":"Massachusetts",
-      "City":"Waltham"
-   },
-   "Stevenson University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.70313688,
-      "Lat":39.42001312,
-      "State":"Maryland",
-      "City":"Stevenson"
-   },
-   "Middlebury College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.17866418,
-      "Lat":44.00691052,
-      "State":"Vermont",
-      "City":"Middlebury"
-   },
-   "Claremont McKenna College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.7092709,
-      "Lat":34.10042772,
-      "State":"California",
-      "City":"Claremont"
-   },
-   "Bates College":{
-      "Reviews":{
-
-      },
-      "Lon":-70.20353548,
-      "Lat":44.10437262,
-      "State":"Maine",
-      "City":"Lewiston"
-   },
-   "University of California - Davis":{
-      "Reviews":{
-
-      },
-      "Lon":-121.7630615,
-      "Lat":38.53688322,
-      "State":"California",
-      "City":"Davis"
-   },
-   "School of Visual Arts":{
-      "Reviews":{
-
-      },
-      "Lon":-73.98357598,
-      "Lat":40.73740502,
-      "State":"New York",
-      "City":"New York"
-   },
-   "Spelman College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.41364238,
-      "Lat":33.74501072,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Wake Forest University":{
-      "Reviews":{
-
-      },
-      "Lon":-80.27769148,
-      "Lat":36.13390052,
-      "State":"North Carolina",
-      "City":"Winston-Salem"
-   },
-   "Dartmouth College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.29004238,
-      "Lat":43.70309162,
-      "State":"New Hampshire",
-      "City":"Hanover"
-   },
-   "Christopher Newport University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.49182388,
-      "Lat":37.06059632,
-      "State":"Virginia",
-      "City":"Newport News"
-   },
-   "Mercer University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.65098708,
-      "Lat":32.82742942,
-      "State":"Georgia",
-      "City":"Macon"
-   },
-   "University of Maryland - Baltimore County":{
-      "Reviews":{
-
-      },
-      "Lon":-76.70706338,
-      "Lat":39.25048612,
-      "State":"Maryland",
-      "City":"Baltimore"
-   },
-   "New England College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.82400128,
-      "Lat":43.17571302,
-      "State":"New Hampshire",
-      "City":"Henniker"
-   },
-   "Howard University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.02078668,
-      "Lat":38.92133532,
-      "State":"District of Columbia",
-      "City":"Washington"
-   },
-   "Coe College":{
-      "Reviews":{
-
-      },
-      "Lon":-91.66047768,
-      "Lat":41.98707932,
-      "State":"Iowa",
-      "City":"Cedar Rapids"
-   },
-   "University of North Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-81.50858038,
-      "Lat":30.26477142,
-      "State":"Florida",
-      "City":"Jacksonville"
-   },
-   "Stephens College":{
-      "Reviews":{
-
-      },
-      "Lon":-92.32407588,
-      "Lat":38.94989762,
-      "State":"Missouri",
-      "City":"Columbia"
-   },
-   "Catholic University of America":{
-      "Reviews":{
-
-      },
-      "Lon":-77.00004098,
-      "Lat":38.93553212,
-      "State":"District of Columbia",
-      "City":"Washington"
-   },
-   "Marquette University":{
-      "Reviews":{
-
-      },
-      "Lon":-87.93110358,
-      "Lat":43.03687262,
-      "State":"Wisconsin",
-      "City":"Milwaukee"
-   },
-   "Queens University - Kingston, Ontario":{
-      "Reviews":{
-
-      },
-      "Lon":-76.49649018,
-      "Lat":44.22393052,
-      "State":"Ontario",
-      "City":"Kingston"
-   },
-   "University of San Francisco":{
-      "Reviews":{
-
-      },
-      "Lon":-122.452032,
-      "Lat":37.77529762,
-      "State":"California",
-      "City":"San Francisco"
-   },
-   "Boston University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.10674808,
-      "Lat":42.34915072,
-      "State":"Massachusetts",
-      "City":"Boston"
-   },
-   "University of Alabama Birmingham":{
-      "Reviews":{
-
-      },
-      "Lon":-86.80779368,
-      "Lat":33.50077372,
-      "State":"Alabama",
-      "City":"Birmingham"
-   },
-   "Wagner College":{
-      "Reviews":{
-
-      },
-      "Lon":-74.09221998,
-      "Lat":40.61324492,
-      "State":"New York",
-      "City":"Staten Island"
-   },
-   "University of Richmond":{
-      "Reviews":{
-
-      },
-      "Lon":-77.54232338,
-      "Lat":37.57451912,
-      "State":"Virginia",
-      "City":"Richmond"
-   },
-   "Rollins College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.34967498,
-      "Lat":28.59089302,
-      "State":"Florida",
-      "City":"Winter Park"
-   },
-   "High Point University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.99638868,
-      "Lat":35.97188372,
-      "State":"North Carolina",
-      "City":"High Point"
-   },
-   "University of Manitoba":{
-      "Reviews":{
-
-      },
-      "Lon":-97.13797488,
-      "Lat":49.80615182,
-      "State":"Manitoba",
-      "City":"Winnipeg"
-   },
-   "Western University":{
-      "Reviews":{
-
-      },
-      "Lon":-81.27508258,
-      "Lat":43.00824812,
-      "State":"Ontario",
-      "City":"London"
-   },
-   "College of Wooster":{
-      "Reviews":{
-
-      },
-      "Lon":-81.93496768,
-      "Lat":40.80970112,
-      "State":"Ohio",
-      "City":"Wooster"
-   },
-   "Tulane University":{
-      "Reviews":{
-
-      },
-      "Lon":-90.07720608,
-      "Lat":29.95409702,
-      "State":"louisiana",
-      "City":"New Orleans"
-   },
-   "Central Connecticut State University":{
-      "Reviews":{
-
-      },
-      "Lon":-72.76551598,
-      "Lat":41.69190602,
-      "State":"Connecticut",
-      "City":"New Britain"
-   },
-   "Butler University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.17253978,
-      "Lat":39.83977452,
-      "State":"Indiana",
-      "City":"Indianapolis"
-   },
-   "Montclair State University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.19990868,
-      "Lat":40.86313022,
-      "State":"New Jersey",
-      "City":"Montclair"
-   },
-   "Ripon College":{
-      "Reviews":{
-
-      },
-      "Lon":-88.84230848,
-      "Lat":43.84187272,
-      "State":"Wisconsin",
-      "City":"Ripon"
-   },
-   "University of Maine":{
-      "Reviews":{
-
-      },
-      "Lon":-68.66799978,
-      "Lat":44.89987072,
-      "State":"Maine",
-      "City":"Orono"
-   },
-   "Simon Fraser University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.9212323,
-      "Lat":49.27674472,
-      "State":"British Columbia",
-      "City":"Burnaby"
-   },
-   "Florida International University":{
-      "Reviews":{
-
-      },
-      "Lon":-80.37529768,
-      "Lat":25.75522662,
-      "State":"Florida",
-      "City":"Miami"
-   },
-   "University of Puget Sound":{
-      "Reviews":{
-
-      },
-      "Lon":-122.482804,
-      "Lat":47.26041502,
-      "State":"Washington",
-      "City":"Tacoma"
-   },
-   "Haverford College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.30666698,
-      "Lat":40.00530342,
-      "State":"Pennsylvania",
-      "City":"Haverford"
-   },
-   "Pitzer College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.7060683,
-      "Lat":34.10331342,
-      "State":"California",
-      "City":"Claremont"
-   },
-   "Lynchburg College":{
-      "Reviews":{
-
-      },
-      "Lon":-79.18450198,
-      "Lat":37.39925102,
-      "State":"Virginia",
-      "City":"Lynchburg"
-   },
-   "University of New Hampshire":{
-      "Reviews":{
-
-      },
-      "Lon":-70.93837418,
-      "Lat":43.13759902,
-      "State":"New Hampshire",
-      "City":"Durham"
-   },
-   "University of Houston":{
-      "Reviews":{
-
-      },
-      "Lon":-95.34358238,
-      "Lat":29.71859992,
-      "State":"Texas",
-      "City":"Houston"
-   },
-   "Rensselaer Polytechnic Institute":{
-      "Reviews":{
-
-      },
-      "Lon":-73.68015158,
-      "Lat":42.72882302,
-      "State":"New York",
-      "City":"Troy"
-   },
-   "University of Missouri - Columbia":{
-      "Reviews":{
-
-      },
-      "Lon":-92.32908648,
-      "Lat":38.93903182,
-      "State":"Missouri",
-      "City":"Columbia"
-   },
-   "West Virginia University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.95728478,
-      "Lat":39.63479062,
-      "State":"West Virginia",
-      "City":"Morgantown"
-   },
-   "University of Tennessee":{
-      "Reviews":{
-
-      },
-      "Lon":-83.93080538,
-      "Lat":35.95305232,
-      "State":"Tennessee",
-      "City":"Knoxville"
-   },
-   "University of the Pacific":{
-      "Reviews":{
-
-      },
-      "Lon":-121.3133715,
-      "Lat":37.97946622,
-      "State":"California",
-      "City":"Stockton"
-   },
-   "Saint Mary's College of California":{
-      "Reviews":{
-
-      },
-      "Lon":-122.1114843,
-      "Lat":37.83999822,
-      "State":"California",
-      "City":"Moraga"
-   },
-   "The University of Texas at Dallas":{
-      "Reviews":{
-
-      },
-      "Lon":-96.75144828,
-      "Lat":32.98441292,
-      "State":"Texas",
-      "City":"Richardson"
-   },
-   "DePaul University":{
-      "Reviews":{
-
-      },
-      "Lon":-87.65621098,
-      "Lat":41.92297562,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "Goddard College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.43944748,
-      "Lat":44.27762322,
-      "State":"Vermont",
-      "City":"Plainfield"
-   },
-   "Alfred University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.78896718,
-      "Lat":42.25188912,
-      "State":"New York",
-      "City":"Alfred"
-   },
-   "University of Redlands":{
-      "Reviews":{
-
-      },
-      "Lon":-117.1645916,
-      "Lat":34.06169142,
-      "State":"California",
-      "City":"Redlands"
-   },
-   "Saint Joseph's University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.24147218,
-      "Lat":39.99364652,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "Hendrix College":{
-      "Reviews":{
-
-      },
-      "Lon":-92.44336078,
-      "Lat":35.09869792,
-      "State":"Arkansas",
-      "City":"Conway"
-   },
-   "Columbia College Chicago":{
-      "Reviews":{
-
-      },
-      "Lon":-87.62579348,
-      "Lat":41.87287672,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "Stetson University":{
-      "Reviews":{
-
-      },
-      "Lon":-81.30285358,
-      "Lat":29.03431502,
-      "State":"Florida",
-      "City":"DeLand"
-   },
-   "Washington and Lee University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.44630528,
-      "Lat":37.78913712,
-      "State":"West Virginia",
-      "City":"Lexington"
-   },
-   "University of Missouri - Kansas City":{
-      "Reviews":{
-
-      },
-      "Lon":-94.57737488,
-      "Lat":39.03220492,
-      "State":"Missouri",
-      "City":"Kansas City"
-   },
-   "University of Mississippi":{
-      "Reviews":{
-
-      },
-      "Lon":-89.53979198,
-      "Lat":34.36338342,
-      "State":"Mississippi",
-      "City":"University"
-   },
-   "William Jewell College":{
-      "Reviews":{
-
-      },
-      "Lon":-94.41346598,
-      "Lat":39.24596292,
-      "State":"Missouri",
-      "City":"Liberty"
-   },
-   "University of Arizona":{
-      "Reviews":{
-
-      },
-      "Lon":-110.9514584,
-      "Lat":32.23053612,
-      "State":"Arizona",
-      "City":"Tucson"
-   },
-   "College of the Atlantic":{
-      "Reviews":{
-
-      },
-      "Lon":-68.22391598,
-      "Lat":44.39307502,
-      "State":"Maine",
-      "City":"Bar Harbor"
-   },
-   "University of Rhode Island":{
-      "Reviews":{
-
-      },
-      "Lon":-71.53220268,
-      "Lat":41.48471572,
-      "State":"Rhode Island",
-      "City":"Kingston"
-   },
-   "University of California - Riverside":{
-      "Reviews":{
-
-      },
-      "Lon":-117.3294134,
-      "Lat":33.97235652,
-      "State":"California",
-      "City":"Riverside"
-   },
-   "Carroll College":{
-      "Reviews":{
-
-      },
-      "Lon":-112.040229,
-      "Lat":46.59938502,
-      "State":"Montana",
-      "City":"Helena"
-   },
-   "Duquesne University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.99152178,
-      "Lat":40.43594592,
-      "State":"Pennsylvania",
-      "City":"Pittsburgh"
-   },
-   "California State University - Los Angeles":{
-      "Reviews":{
-
-      },
-      "Lon":-118.1694392,
-      "Lat":34.06543962,
-      "State":"California",
-      "City":"Los Angeles"
-   },
-   "Michigan Technological University":{
-      "Reviews":{
-
-      },
-      "Lon":-88.54710698,
-      "Lat":47.11470642,
-      "State":"Michigan",
-      "City":"Houghton"
-   },
-   "Loyola University - New Orleans":{
-      "Reviews":{
-
-      },
-      "Lon":-90.12172718,
-      "Lat":29.93436702,
-      "State":"Louisiana",
-      "City":"New Orleans"
-   },
-   "St. John's College - New Mexico":{
-      "Reviews":{
-
-      },
-      "Lon":-105.913914,
-      "Lat":35.66644752,
-      "State":"New Mexico",
-      "City":"Santa Fe"
-   },
-   "DePauw University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.86424358,
-      "Lat":39.63804532,
-      "State":"Indiana",
-      "City":"Greencastle"
-   },
-   "Wheaton College - Massachusetts":{
-      "Reviews":{
-
-      },
-      "Lon":-71.18557308,
-      "Lat":41.96468842,
-      "State":"Massachusetts",
-      "City":"Norton"
-   },
-   "Rochester Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-77.67186328,
-      "Lat":43.08475272,
-      "State":"New York",
-      "City":"Rochester"
-   },
-   "Hollins University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.94373548,
-      "Lat":37.35476282,
-      "State":"Virginia",
-      "City":"Roanoke"
-   },
-   "Union College - New York":{
-      "Reviews":{
-
-      },
-      "Lon":-73.93115428,
-      "Lat":42.81566802,
-      "State":"New York",
-      "City":"Schenectady"
-   },
-   "Xavier University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.47512148,
-      "Lat":39.14827972,
-      "State":"Ohio",
-      "City":"Cincinnati"
-   },
-   "Carleton College":{
-      "Reviews":{
-
-      },
-      "Lon":-93.15743288,
-      "Lat":44.45995512,
-      "State":"Minnesota",
-      "City":"Northfield"
-   },
-   "Yale University":{
-      "Reviews":{
-
-      },
-      "Lon":-72.92369208,
-      "Lat":41.31497542,
-      "State":"Connecticut",
-      "City":"New Haven"
-   },
-   "Vanderbilt University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.80400408,
-      "Lat":36.14335442,
-      "State":"Tennessee",
-      "City":"Nashville"
-   },
-   "Northern Arizona University":{
-      "Reviews":{
-
-      },
-      "Lon":-111.6563139,
-      "Lat":35.18173642,
-      "State":"Arizona",
-      "City":"Flagstaff"
-   },
-   "Northwestern University":{
-      "Reviews":{
-
-      },
-      "Lon":-87.67661598,
-      "Lat":42.05511042,
-      "State":"Illinois",
-      "City":"Evanston"
-   },
-   "Laval University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.27609138,
-      "Lat":46.78039732,
-      "State":"Quebec",
-      "City":"Ville de Qu\u00e9bec"
-   },
-   "Indiana University of Pennsylvania":{
-      "Reviews":{
-
-      },
-      "Lon":-79.16241148,
-      "Lat":40.61286912,
-      "State":"Pennsylvania",
-      "City":"Indiana"
-   },
-   "Loyola Marymount University":{
-      "Reviews":{
-
-      },
-      "Lon":-118.4198459,
-      "Lat":33.96846932,
-      "State":"California",
-      "City":"Los Angeles"
-   },
-   "Trinity University (Texas)":{
-      "Reviews":{
-
-      },
-      "Lon":-98.48451118,
-      "Lat":29.46049542,
-      "State":"Texas",
-      "City":"San Antonio"
-   },
-   "Bowdoin College":{
-      "Reviews":{
-
-      },
-      "Lon":-69.96180028,
-      "Lat":43.90640892,
-      "State":"Maine",
-      "City":"Brunswick"
-   },
-   "Rhodes College":{
-      "Reviews":{
-
-      },
-      "Lon":-89.99063618,
-      "Lat":35.15373492,
-      "State":"Tennessee",
-      "City":"Memphis"
-   },
-   "University of Nebraska":{
-      "Reviews":{
-
-      },
-      "Lon":-96.70182528,
-      "Lat":40.81884762,
-      "State":"Nebraska",
-      "City":"Lincoln"
-   },
-   "University of North Carolina - Greensboro":{
-      "Reviews":{
-
-      },
-      "Lon":-79.81154648,
-      "Lat":36.06758062,
-      "State":"North Carolina",
-      "City":"Greensboro"
-   },
-   "Illinois Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-87.62835488,
-      "Lat":41.83352412,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "Illinois Wesleyan University":{
-      "Reviews":{
-
-      },
-      "Lon":-88.99200308,
-      "Lat":40.48954022,
-      "State":"Illinois",
-      "City":"Bloomington"
-   },
-   "St. Bonaventure University":{
-      "Reviews":{
-
-      },
-      "Lon":-78.48423118,
-      "Lat":42.07706232,
-      "State":"New York",
-      "City":"Bonaventure"
-   },
-   "Case Western Reserve University":{
-      "Reviews":{
-
-      },
-      "Lon":-81.60973278,
-      "Lat":41.50299232,
-      "State":"Ohio",
-      "City":"Cleveland"
-   },
-   "SUNY - General":{
-      "Reviews":{
-
-      },
-      "Lon":-73.94708298,
-      "Lat":40.65389682,
-      "State":"New York",
-      "City":"Brooklyn"
-   },
-   "Wellesley College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.30727668,
-      "Lat":42.29222432,
-      "State":"Massachusetts",
-      "City":"Wellesley"
-   },
-   "California State University - Northridge":{
-      "Reviews":{
-
-      },
-      "Lon":-118.5294177,
-      "Lat":34.24124572,
-      "State":"California",
-      "City":"Northridge"
-   },
-   "University of Minnesota":{
-      "Reviews":{
-
-      },
-      "Lon":-93.22907748,
-      "Lat":44.97264102,
-      "State":"Minnesota",
-      "City":"Minneapolis"
-   },
-   "University of Ottawa":{
-      "Reviews":{
-
-      },
-      "Lon":-75.68448188,
-      "Lat":45.42175742,
-      "State":"Ontario",
-      "City":"Ottawa"
-   },
-   "Southern Methodist University":{
-      "Reviews":{
-
-      },
-      "Lon":-96.78586648,
-      "Lat":32.83986882,
-      "State":"Texas",
-      "City":"Dallas"
-   },
-   "Ohio Wesleyan University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.07206048,
-      "Lat":40.29479042,
-      "State":"Ohio",
-      "City":"Delaware"
-   },
-   "Texas Tech University":{
-      "Reviews":{
-
-      },
-      "Lon":-101.8796312,
-      "Lat":33.58291012,
-      "State":"Texas",
-      "City":"Lubbock"
-   },
-   "Tufts University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.12037218,
-      "Lat":42.40613532,
-      "State":"Massachusetts",
-      "City":"Medford"
-   },
-   "Birmingham Southern College":{
-      "Reviews":{
-
-      },
-      "Lon":-86.85606998,
-      "Lat":33.51257102,
-      "State":"Alabama",
-      "City":"Birmingham"
-   },
-   "Colgate University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.54211708,
-      "Lat":42.81440162,
-      "State":"New York",
-      "City":"Hamilton"
-   },
-   "Seattle University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.3190625,
-      "Lat":47.60787922,
-      "State":"Washington",
-      "City":"Seattle"
-   },
-   "Harvard University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.11800908,
-      "Lat":42.37565392,
-      "State":"Massachusetts",
-      "City":"Cambridge"
-   },
-   "Hofstra University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.59988258,
-      "Lat":40.71521862,
-      "State":"New York",
-      "City":"Hempstead"
-   },
-   "Earlham College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.91440098,
-      "Lat":39.81953632,
-      "State":"Indiana",
-      "City":"Richmond"
-   },
-   "Auburn University":{
-      "Reviews":{
-
-      },
-      "Lon":-85.49651528,
-      "Lat":32.59200842,
-      "State":"Alabama",
-      "City":"Auburn"
-   },
-   "University of Iowa":{
-      "Reviews":{
-
-      },
-      "Lon":-91.55624878,
-      "Lat":41.66134732,
-      "State":"Iowa",
-      "City":"Iowa City"
-   },
-   "Manhattanville College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.71724908,
-      "Lat":41.03058672,
-      "State":"New York",
-      "City":"Purchase"
-   },
-   "Fairleigh Dickinson University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.03221298,
-      "Lat":40.89644382,
-      "State":"New Jersey",
-      "City":"Teaneck"
-   },
-   "Quinnipiac University":{
-      "Reviews":{
-
-      },
-      "Lon":-72.89403728,
-      "Lat":41.41782572,
-      "State":"Connecticut",
-      "City":"Hamden"
-   },
-   "The University of Texas at Austin":{
-      "Reviews":{
-
-      },
-      "Lon":-97.73540568,
-      "Lat":30.28356952,
-      "State":"Texas",
-      "City":"Austin"
-   },
-   "United States Naval Academy":{
-      "Reviews":{
-
-      },
-      "Lon":-76.48528948,
-      "Lat":38.98071682,
-      "State":"Maryland",
-      "City":"Annapolis"
-   },
-   "University of Oregon":{
-      "Reviews":{
-
-      },
-      "Lon":-123.0739545,
-      "Lat":44.04348122,
-      "State":"Oregon",
-      "City":"Eugene"
-   },
-   "Pepperdine University":{
-      "Reviews":{
-
-      },
-      "Lon":-118.7109304,
-      "Lat":34.04005552,
-      "State":"California",
-      "City":"Malibu"
-   },
-   "Virginia Commonwealth University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.45477758,
-      "Lat":37.54763822,
-      "State":"Virginia",
-      "City":"Richmond"
-   },
-   "American International College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.55849298,
-      "Lat":42.11150402,
-      "State":"Massachusetts",
-      "City":"Springfield"
-   },
-   "Flagler College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.31623568,
-      "Lat":29.89135642,
-      "State":"Florida",
-      "City":"St. Augustine"
-   },
-   "University of Calgary":{
-      "Reviews":{
-
-      },
-      "Lon":-114.1371497,
-      "Lat":51.07681092,
-      "State":"Alberta",
-      "City":"Calgary"
-   },
-   "St. Mary's College of Maryland":{
-      "Reviews":{
-
-      },
-      "Lon":-76.43039178,
-      "Lat":38.18956632,
-      "State":"Maryland",
-      "City":"St Marys City"
-   },
-   "Embry-Riddle - Prescott":{
-      "Reviews":{
-
-      },
-      "Lon":-112.4521201,
-      "Lat":34.61475522,
-      "State":"Arizona",
-      "City":"Prescott"
-   },
-   "SUNY at Stony Brook":{
-      "Reviews":{
-
-      },
-      "Lon":-73.12473788,
-      "Lat":40.91102712,
-      "State":"New York",
-      "City":"Stony Brook"
-   },
-   "Pomona College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.713152,
-      "Lat":34.09639402,
-      "State":"California",
-      "City":"Claremont"
-   },
-   "Florida A&M University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.28910208,
-      "Lat":30.42169202,
-      "State":"Florida",
-      "City":"Tallahassee"
-   },
-   "Trinity College (Connecticut)":{
-      "Reviews":{
-
-      },
-      "Lon":-72.69168348,
-      "Lat":41.74658422,
-      "State":"Connecticut",
-      "City":"Hartford"
-   },
-   "Ursinus College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.45720778,
-      "Lat":40.19016092,
-      "State":"Pennsylvania",
-      "City":"Collegeville"
-   },
-   "Webb Institute":{
-      "Reviews":{
-
-      },
-      "Lon":-73.64622308,
-      "Lat":40.88310172,
-      "State":"New York",
-      "City":"Glen Cove"
-   },
-   "College of Saint Benedict and Saint John's University":{
-      "Reviews":{
-
-      },
-      "Lon":-94.39498228,
-      "Lat":45.57833232,
-      "State":"Minnesota",
-      "City":"Collegeville"
-   },
-   "Santa Clara University":{
-      "Reviews":{
-
-      },
-      "Lon":-121.9403365,
-      "Lat":37.34829282,
-      "State":"California",
-      "City":"Santa Clara"
-   },
-   "Gonzaga University":{
-      "Reviews":{
-
-      },
-      "Lon":-117.4037339,
-      "Lat":47.66584002,
-      "State":"Washington",
-      "City":"Spokane"
-   },
-   "Georgia State University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.38663088,
-      "Lat":33.75171902,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Salisbury University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.60597068,
-      "Lat":38.34436352,
-      "State":"Maryland",
-      "City":"Salisbury"
-   },
-   "California State University - Long Beach":{
-      "Reviews":{
-
-      },
-      "Lon":-118.1154394,
-      "Lat":33.78247452,
-      "State":"California",
-      "City":"Long Beach"
-   },
-   "James Madison University":{
-      "Reviews":{
-
-      },
-      "Lon":-78.87110378,
-      "Lat":38.43374302,
-      "State":"Virginia",
-      "City":"Harrisonburg"
-   },
-   "Lafayette College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.21007878,
-      "Lat":40.69727122,
-      "State":"Pennsylvania",
-      "City":"Easton"
-   },
-   "Michigan State University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.48352088,
-      "Lat":42.70049902,
-      "State":"Michigan",
-      "City":"East Lansing"
-   },
-   "Hillsdale College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.63499938,
-      "Lat":41.93129242,
-      "State":"Michigan",
-      "City":"Hillsdale"
-   },
-   "Cal Poly Pomona":{
-      "Reviews":{
-
-      },
-      "Lon":-117.8228785,
-      "Lat":34.05517942,
-      "State":"California",
-      "City":"Pomona"
-   },
-   "Washington University in St. Louis":{
-      "Reviews":{
-
-      },
-      "Lon":-90.31214518,
-      "Lat":38.64744052,
-      "State":"Missouri",
-      "City":"St Louis"
-   },
-   "Olin College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.26501428,
-      "Lat":42.29181812,
-      "State":"Massachusetts",
-      "City":"Needham"
-   },
-   "Oberlin College":{
-      "Reviews":{
-
-      },
-      "Lon":-82.22494908,
-      "Lat":41.29213402,
-      "State":"Ohio",
-      "City":"Oberlin"
-   },
-   "University of Denver":{
-      "Reviews":{
-
-      },
-      "Lon":-104.9632455,
-      "Lat":39.67526842,
-      "State":"Colorado",
-      "City":"Denver"
-   },
-   "Dominican University of California":{
-      "Reviews":{
-
-      },
-      "Lon":-122.5143377,
-      "Lat":37.97851662,
-      "State":"California",
-      "City":"San Rafael"
-   },
-   "Colorado College":{
-      "Reviews":{
-
-      },
-      "Lon":-104.825743,
-      "Lat":38.84524502,
-      "State":"Colorado",
-      "City":"Colorado Springs"
-   },
-   "San Jose State University":{
-      "Reviews":{
-
-      },
-      "Lon":-121.8824205,
-      "Lat":37.33383842,
-      "State":"California",
-      "City":"San Jose"
-   },
-   "New College of Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-82.56005198,
-      "Lat":27.38347902,
-      "State":"Florida",
-      "City":"Sarasota"
-   },
-   "Ball State University":{
-      "Reviews":{
-
-      },
-      "Lon":-85.40833498,
-      "Lat":40.20475382,
-      "State":"Indiana",
-      "City":"Muncie"
-   },
-   "Harvey Mudd College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.7118189,
-      "Lat":34.10473272,
-      "State":"California",
-      "City":"Claremont"
-   },
-   "Davidson College":{
-      "Reviews":{
-
-      },
-      "Lon":-80.84812828,
-      "Lat":35.50038282,
-      "State":"North Carolina",
-      "City":"Davidson"
-   },
-   "Williams College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.20437038,
-      "Lat":42.71145482,
-      "State":"Massachusetts",
-      "City":"Williamstown"
-   },
-   "United States Merchant Marine Academy":{
-      "Reviews":{
-
-      },
-      "Lon":-73.76389928,
-      "Lat":40.81161382,
-      "State":"New York",
-      "City":"Kings Point"
-   },
-   "Denison University":{
-      "Reviews":{
-
-      },
-      "Lon":-82.52399198,
-      "Lat":40.07267602,
-      "State":"Ohio",
-      "City":"Granville"
-   },
-   "University of Waterloo":{
-      "Reviews":{
-
-      },
-      "Lon":-80.54620658,
-      "Lat":43.47093642,
-      "State":"Ontario",
-      "City":"Waterloo"
-   },
-   "University of Chicago":{
-      "Reviews":{
-
-      },
-      "Lon":-87.60006228,
-      "Lat":41.78725892,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "University of North Carolina - Chapel Hill":{
-      "Reviews":{
-
-      },
-      "Lon":-79.04826238,
-      "Lat":35.90356322,
-      "State":"North Carolina",
-      "City":"Chapel Hill"
-   },
-   "Florida Atlantic University":{
-      "Reviews":{
-
-      },
-      "Lon":-80.10282408,
-      "Lat":26.37272702,
-      "State":"Florida",
-      "City":"Boca Raton"
-   },
-   "Pace University":{
-      "Reviews":{
-
-      },
-      "Lon":-74.00620568,
-      "Lat":40.70977072,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "California State University - Fullerton":{
-      "Reviews":{
-
-      },
-      "Lon":-117.8882751,
-      "Lat":33.88157362,
-      "State":"California",
-      "City":"Fullerton"
-   },
-   "Georgetown University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.07360748,
-      "Lat":38.90625992,
-      "State":"District of Columbia",
-      "City":"Washington"
-   },
-   "Ohio State University":{
-      "Reviews":{
-
-      },
-      "Lon":-83.03226328,
-      "Lat":40.01284152,
-      "State":"Ohio",
-      "City":"Columbus"
-   },
-   "East Carolina University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.36591428,
-      "Lat":35.60416182,
-      "State":"North Carolina",
-      "City":"Greenville"
-   },
-   "New York University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.99780988,
-      "Lat":40.72816442,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "Swarthmore College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.35699728,
-      "Lat":39.90549152,
-      "State":"Pennsylvania",
-      "City":"Swarthmore"
-   },
-   "Bennington College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.23923768,
-      "Lat":42.91786282,
-      "State":"Vermont",
-      "City":"Bennington"
-   },
-   "Hampton University":{
-      "Reviews":{
-
-      },
-      "Lon":-76.33796168,
-      "Lat":37.02034902,
-      "State":"Virginia",
-      "City":"Hampton"
-   },
-   "McMaster University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.92057438,
-      "Lat":43.25953002,
-      "State":"Ontario",
-      "City":"Hamilton"
-   },
-   "Scripps College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.7115618,
-      "Lat":34.10258582,
-      "State":"California",
-      "City":"Claremont"
-   },
-   "University of California - Berkeley":{
-      "Reviews":{
-
-      },
-      "Lon":-122.2598889,
-      "Lat":37.87055022,
-      "State":"California",
-      "City":"Berkeley"
-   },
-   "Fisk University":{
-      "Reviews":{
-
-      },
-      "Lon":-86.80498428,
-      "Lat":36.16589662,
-      "State":"Tennessee",
-      "City":"Nashville"
-   },
-   "Kansas State University":{
-      "Reviews":{
-
-      },
-      "Lon":-96.58607388,
-      "Lat":39.19609472,
-      "State":"Kansas",
-      "City":"Manhattan"
-   },
-   "University of Central Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-81.20140888,
-      "Lat":28.60107842,
-      "State":"Florida",
-      "City":"Orlando"
-   },
-   "Goucher College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.59789398,
-      "Lat":39.40741602,
-      "State":"Maryland",
-      "City":"Baltimore"
-   },
-   "Siena College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.75354408,
-      "Lat":42.71710302,
-      "State":"New York",
-      "City":"Albany"
-   },
-   "Merrimack College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.12391948,
-      "Lat":42.66635592,
-      "State":"Massachusetts",
-      "City":"North Andover"
-   },
-   "Washington College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.07056208,
-      "Lat":39.21666452,
-      "State":"Maryland",
-      "City":"Chestertown"
-   },
-   "Ursuline College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.46637628,
-      "Lat":41.49248422,
-      "State":"Ohio",
-      "City":"Pepper Pike"
-   },
-   "The College of New Jersey":{
-      "Reviews":{
-
-      },
-      "Lon":-74.77878838,
-      "Lat":40.26779312,
-      "State":"New Jersey",
-      "City":"Ewing Township"
-   },
-   "Knox College":{
-      "Reviews":{
-
-      },
-      "Lon":-90.37321628,
-      "Lat":40.94054022,
-      "State":"Illinois",
-      "City":"Galesburg"
-   },
-   "Rowan University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.12029678,
-      "Lat":39.70851052,
-      "State":"New Jersey",
-      "City":"Camden"
-   },
-   "Occidental College":{
-      "Reviews":{
-
-      },
-      "Lon":-118.2118525,
-      "Lat":34.12601252,
-      "State":"California",
-      "City":"Los Angeles"
-   },
-   "LaSalle University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.15799188,
-      "Lat":40.03725932,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "Lake Forest College":{
-      "Reviews":{
-
-      },
-      "Lon":-87.83026198,
-      "Lat":42.24770902,
-      "State":"Illinois",
-      "City":"Lake Forest"
-   },
-   "University of North Carolina - Asheville":{
-      "Reviews":{
-
-      },
-      "Lon":-82.56866168,
-      "Lat":35.61494312,
-      "State":"North Carolina",
-      "City":"Asheville"
-   },
-   "Antioch College":{
-      "Reviews":{
-
-      },
-      "Lon":-83.88906758,
-      "Lat":39.79798562,
-      "State":"Ohio",
-      "City":"Yellow Springs"
-   },
-   "Assumption College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.83031208,
-      "Lat":42.29336532,
-      "State":"Massachusetts",
-      "City":"Worcester"
-   },
-   "University of New Mexico":{
-      "Reviews":{
-
-      },
-      "Lon":-106.6211302,
-      "Lat":35.08296972,
-      "State":"New Mexico",
-      "City":"Albuquerque"
-   },
-   "University of California - Los Angeles":{
-      "Reviews":{
-
-      },
-      "Lon":-118.4465301,
-      "Lat":34.06757202,
-      "State":"California",
-      "City":"Los Angeles"
-   },
-   "Virginia Tech":{
-      "Reviews":{
-
-      },
-      "Lon":-80.42476568,
-      "Lat":37.22703532,
-      "State":"Virginia",
-      "City":"Blacksburg"
-   },
-   "George Washington University":{
-      "Reviews":{
-
-      },
-      "Lon":-77.04901268,
-      "Lat":38.89960887,
-      "State":"District of Columbia",
-      "City":"Washington"
-   },
-   "University of South Florida":{
-      "Reviews":{
-
-      },
-      "Lon":-82.41520288,
-      "Lat":28.05735412,
-      "State":"Florida",
-      "City":"Tampa"
-   },
-   "Concordia University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.6382364,
-      "Lat":45.56884222,
-      "State":"Oregon",
-      "City":"Portland"
-   },
-   "Muhlenberg College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.51141648,
-      "Lat":40.59609702,
-      "State":"Pennsylvania",
-      "City":"Allentown"
-   },
-   "Ithaca College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.49991298,
-      "Lat":42.42030902,
-      "State":"New York",
-      "City":"Ithaca"
-   },
-   "University of North Carolina - Wilmington":{
-      "Reviews":{
-
-      },
-      "Lon":-77.87147558,
-      "Lat":34.22359102,
-      "State":"North Carolina",
-      "City":"Wilmington"
-   },
-   "Loyola University of Chicago":{
-      "Reviews":{
-
-      },
-      "Lon":-87.65954108,
-      "Lat":41.99764802,
-      "State":"Illinois",
-      "City":"Chicago"
-   },
-   "University of Arkansas":{
-      "Reviews":{
-
-      },
-      "Lon":-94.17500408,
-      "Lat":36.06648342,
-      "State":"Arkansas",
-      "City":"Fayetteville"
-   },
-   "Oglethorpe University":{
-      "Reviews":{
-
-      },
-      "Lon":-84.33604438,
-      "Lat":33.87484672,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Berea College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.28948298,
-      "Lat":37.57380302,
-      "State":"Kentucky",
-      "City":"Berea"
-   },
-   "Allegheny College":{
-      "Reviews":{
-
-      },
-      "Lon":-80.14629838,
-      "Lat":41.64800002,
-      "State":"Pennsylvania",
-      "City":"Meadville"
-   },
-   "Soka University of America":{
-      "Reviews":{
-
-      },
-      "Lon":-117.7366786,
-      "Lat":33.55348532,
-      "State":"California",
-      "City":"Aliso Viejo"
-   },
-   "University of North Carolina - Charlotte":{
-      "Reviews":{
-
-      },
-      "Lon":-80.73651298,
-      "Lat":35.30574392,
-      "State":"North Carolina",
-      "City":"Charlotte"
-   },
-   "Smith College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.63858308,
-      "Lat":42.31674672,
-      "State":"Massachusetts",
-      "City":"Northampton"
-   },
-   "Barnard College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.96531218,
-      "Lat":40.80774842,
-      "State":"New York",
-      "City":"New York City"
-   },
-   "University of the Sciences in Philadelphia":{
-      "Reviews":{
-
-      },
-      "Lon":-75.20844688,
-      "Lat":39.94548092,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "University of South Carolina":{
-      "Reviews":{
-
-      },
-      "Lon":-81.02877658,
-      "Lat":33.99476302,
-      "State":"South Carolina",
-      "City":"Columbia"
-   },
-   "Virginia Wesleyan College":{
-      "Reviews":{
-
-      },
-      "Lon":-76.18810128,
-      "Lat":36.86982652,
-      "State":"Virginia",
-      "City":"Norfolk"
-   },
-   "Champlain College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.20548418,
-      "Lat":44.47176752,
-      "State":"Vermont",
-      "City":"Burlington"
-   },
-   "Hartwick College":{
-      "Reviews":{
-
-      },
-      "Lon":-75.07423578,
-      "Lat":42.45600442,
-      "State":"New York",
-      "City":"Oneonta"
-   },
-   "Rhode Island School of Design":{
-      "Reviews":{
-
-      },
-      "Lon":-71.40880858,
-      "Lat":41.82464572,
-      "State":"Rhode Island",
-      "City":"Providence"
-   },
-   "Hanover College":{
-      "Reviews":{
-
-      },
-      "Lon":-85.46371708,
-      "Lat":38.71790122,
-      "State":"Indiana",
-      "City":"Hanover"
-   },
-   "Mount Holyoke College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.57748838,
-      "Lat":42.25190452,
-      "State":"Massachusetts",
-      "City":"South Hadley"
-   },
-   "Vassar College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.89869198,
-      "Lat":41.68469802,
-      "State":"New York",
-      "City":"Poughkeepsie"
-   },
-   "Marietta College":{
-      "Reviews":{
-
-      },
-      "Lon":-81.45045568,
-      "Lat":39.41319662,
-      "State":"Ohio",
-      "City":"Marietta"
-   },
-   "Stevens Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-74.02683478,
-      "Lat":40.74372972,
-      "State":"New Jersey",
-      "City":"Hoboken"
-   },
-   "Cal Poly San Luis Obispo":{
-      "Reviews":{
-
-      },
-      "Lon":-120.6638432,
-      "Lat":35.30365632,
-      "State":"California",
-      "City":"San Luis Obispo"
-   },
-   "Deep Springs College":{
-      "Reviews":{
-
-      },
-      "Lon":-117.9813538,
-      "Lat":37.37259602,
-      "State":"California",
-      "City":"Big Pine"
-   },
-   "Stonehill College":{
-      "Reviews":{
-
-      },
-      "Lon":-71.08197658,
-      "Lat":42.05766632,
-      "State":"Massachusetts",
-      "City":"North Easton"
-   },
-   "Fairfield University":{
-      "Reviews":{
-
-      },
-      "Lon":-73.25871148,
-      "Lat":41.15741492,
-      "State":"Connecticut",
-      "City":"Fairfield"
-   },
-   "Dickinson College":{
-      "Reviews":{
-
-      },
-      "Lon":-77.19858098,
-      "Lat":40.20137242,
-      "State":"Pennsylvania",
-      "City":"Carlisle"
-   },
-   "Wheaton College - Illinois":{
-      "Reviews":{
-
-      },
-      "Lon":-88.10097098,
-      "Lat":41.86698102,
-      "State":"Illinois",
-      "City":"Wheaton"
-   },
-   "Valparaiso University":{
-      "Reviews":{
-
-      },
-      "Lon":-87.04523838,
-      "Lat":41.46259042,
-      "State":"Indiana",
-      "City":"Valparaiso"
-   },
-   "Whittier College":{
-      "Reviews":{
-
-      },
-      "Lon":-118.0336332,
-      "Lat":33.97744422,
-      "State":"California",
-      "City":"Whittier"
-   },
-   "Temple University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.15918618,
-      "Lat":39.97959522,
-      "State":"Pennsylvania",
-      "City":"Philadelphia"
-   },
-   "University of Toronto":{
-      "Reviews":{
-
-      },
-      "Lon":-79.39700538,
-      "Lat":43.66154272,
-      "State":"Ontario",
-      "City":"Toronto"
-   },
-   "San Francisco State University":{
-      "Reviews":{
-
-      },
-      "Lon":-122.4795584,
-      "Lat":37.72054802,
-      "State":"California",
-      "City":"San Francisco"
-   },
-   "California State University - Monterey Bay":{
-      "Reviews":{
-
-      },
-      "Lon":-121.803059,
-      "Lat":36.65243902,
-      "State":"California",
-      "City":"Marina"
-   },
-   "University of Connecticut":{
-      "Reviews":{
-
-      },
-      "Lon":-72.25532948,
-      "Lat":41.80639242,
-      "State":"Connecticut",
-      "City":"Storrs"
-   },
-   "University of Montana":{
-      "Reviews":{
-
-      },
-      "Lon":-113.9865571,
-      "Lat":46.85871822,
-      "State":"Montana",
-      "City":"Missoula"
-   },
-   "Albion College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.74652648,
-      "Lat":42.24265742,
-      "State":"Michigan",
-      "City":"Albion"
-   },
-   "Missouri University of Science and Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-91.77692168,
-      "Lat":37.95210202,
-      "State":"Missouri",
-      "City":"Rolla"
-   },
-   "New Jersey Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-74.18068988,
-      "Lat":40.74098552,
-      "State":"New Jersey",
-      "City":"Newark"
-   },
-   "Saint Michael's College":{
-      "Reviews":{
-
-      },
-      "Lon":-73.16832718,
-      "Lat":44.49314802,
-      "State":"Vermont",
-      "City":"Colchester"
-   },
-   "York University":{
-      "Reviews":{
-
-      },
-      "Lon":-79.50321738,
-      "Lat":43.77210452,
-      "State":"Ontario",
-      "City":"Toronto"
-   },
-   "Princeton University":{
-      "Reviews":{
-         "Ben1152000": {
-            "Taste":3,
-            "Texture":5,
-            "Tummy Feel":8,
-            "Review":"Fusce laoreet, arcu et tincidunt volutpat, dolor ligula consectetur tellus, eget mollis lacus velit vitae ligula. Maecenas pharetra turpis vitae mi blandit, nec mollis augue lacinia. Donec mollis, nisl vel egestas mattis, ligula lorem rhoncus orci, in bibendum ipsum eros sed est. Nullam commodo dolor sed dapibus fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean elementum eleifend enim gravida mollis. Pellentesque sed porta est, et semper tellus. In posuere, lorem nec sagittis eleifend, diam tellus finibus elit, eget consectetur nunc nunc sed odio."
-         },
-         "Yarentur": {
-            "Taste":6,
-            "Texture":4,
-            "Tummy Feel":6,
-            "Review":"This school was DA BOMB!"
-         }
-      },
-      "Lon":-74.65279708,
-      "Lat":40.34263982,
-      "State":"New Jersey",
-      "City":"Princeton"
-   },
-   "Stanford University":{
-      "Reviews":{
-         "Ben1152000": {
-            "Taste":3,
-            "Texture":5,
-            "Tummy Feel":8
-         }
-      },
-      "Lon":-122.171068,
-      "Lat":37.42612552,
-      "State":"California",
-      "City":"Stanford"
-   },
-   "Grinnell College":{
-      "Reviews":{
-
-      },
-      "Lon":-92.72147918,
-      "Lat":41.74770812,
-      "State":"Iowa",
-      "City":"Grinnell"
-   },
-   "Morehouse College":{
-      "Reviews":{
-
-      },
-      "Lon":-84.41521408,
-      "Lat":33.74460632,
-      "State":"Georgia",
-      "City":"Atlanta"
-   },
-   "Simon's Rock College of Bard":{
-      "Reviews":{
-
-      },
-      "Lon":-73.38926998,
-      "Lat":42.20905302,
-      "State":"Massachusetts",
-      "City":"Great Barrington"
-   },
-   "Gettysburg College":{
-      "Reviews":{
-
-      },
-      "Lon":-77.23885678,
-      "Lat":39.83485832,
-      "State":"Pennsylvania",
-      "City":"Gettysburg"
-   },
-   "St. Lawrence University":{
-      "Reviews":{
-
-      },
-      "Lon":-75.16223038,
-      "Lat":44.58786292,
-      "State":"New York",
-      "City":"Canton"
-   },
-   "Mississippi State University":{
-      "Reviews":{
-
-      },
-      "Lon":-88.79572558,
-      "Lat":33.45382522,
-      "State":"Mississippi",
-      "City":"Mississippi State University"
-   },
-   "California Institute of Technology":{
-      "Reviews":{
-
-      },
-      "Lon":-118.126618,
-      "Lat":34.13630862,
-      "State":"California",
-      "City":"Pasadena"
-   },
-   "Amherst College":{
-      "Reviews":{
-
-      },
-      "Lon":-72.51835178,
-      "Lat":42.36956142,
-      "State":"Massachusetts",
-      "City":"Amherst"
-   },
-   "Brandeis University":{
-      "Reviews":{
-
-      },
-      "Lon":-71.26014408,
-      "Lat":42.36332942,
-      "State":"Massachusetts",
-      "City":"Waltham"
-   },
-   "Hebrew University of Jerusalem": {
-      "Lat": 31.79320882,
-      "Lon": 35.24005192,
-      "City": "Jerusalem",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Tel Aviv University": {
-      "Lat": 32.11196512,
-      "Lon": 34.80303872,
-      "City": "Tel Aviv",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Technion - Israel Institute of Technology": {
-      "Lat": 32.77542932,
-      "Lon": 35.02177812,
-      "City": "Haifa",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Weizmann Institute of Science": {
-      "Lat": 31.90240512,
-      "Lon": 34.80668252,
-      "City": "Rehovot",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Ben-Gurion University of the Negev": {
-      "Lat": 31.26086902,
-      "Lon": 34.80011202,
-      "City": "Beer Sheva",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "University of Haifa": {
-      "Lat": 32.76008062,
-      "Lon": 35.01816942,
-      "City": "Haifa",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Bar-Ilan University": {
-      "Lat": 32.06784992,
-      "Lon": 34.84173862,
-      "City": "Ramat-Gan",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "The Interdisciplinary Center": {
-      "Lat": 32.17476402,
-      "Lon": 34.83488502,
-      "City": "Herzliya",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Bezalel Academy of Arts and Design": {
-      "Lat": 32.17476402,
-      "Lon": 34.83488502,
-      "City": "Mount Scopus",
-      "State": "Israel",
-      "Reviews": {
-
-      }
-   },
-   "Lander Institute": {
-      "Lat": 31.96838902,
-      "Lon": 34.77143822,
-      "City": "Givat Shaul",
-      "State": "Israel",
-      "Reviews": {
-
-      }
+      "State": "New York"
+   },
+   "Agnes Scott College": {
+      "City": "Decatur",
+      "Lat": 33.76787362,
+      "Lon": -84.29590268,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Albion College": {
+      "City": "Albion",
+      "Lat": 42.24265742,
+      "Lon": -84.74652648,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Albright College": {
+      "City": "Reading",
+      "Lat": 40.36015372,
+      "Lon": -75.91197798,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Alfred University": {
+      "City": "Alfred",
+      "Lat": 42.25188912,
+      "Lon": -77.78896718,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Allegheny College": {
+      "City": "Meadville",
+      "Lat": 41.64800002,
+      "Lon": -80.14629838,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "American International College": {
+      "City": "Springfield",
+      "Lat": 42.11150402,
+      "Lon": -72.55849298,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "American University": {
+      "City": "Washington",
+      "Lat": 38.94370102,
+      "Lon": -77.09629598,
+      "Reviews": {},
+      "State": "District of Columbia"
+   },
+   "Amherst College": {
+      "City": "Amherst",
+      "Lat": 42.36956142,
+      "Lon": -72.51835178,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Antioch College": {
+      "City": "Yellow Springs",
+      "Lat": 39.79798562,
+      "Lon": -83.88906758,
+      "Reviews": {},
+      "State": "Ohio"
    },
    "Ariel University": {
+      "City": "Ariel",
       "Lat": 32.10256002,
       "Lon": 35.20648702,
-      "City": "Ariel",
-      "State": "Israel",
-      "Reviews": {
-
-      }
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Arizona State University": {
+      "City": "Phoenix",
+      "Lat": 33.45019112,
+      "Lon": -112.0659264,
+      "Reviews": {},
+      "State": "Arizona"
+   },
+   "Assumption College": {
+      "City": "Worcester",
+      "Lat": 42.29336532,
+      "Lon": -71.83031208,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Auburn University": {
+      "City": "Auburn",
+      "Lat": 32.59200842,
+      "Lon": -85.49651528,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "Austin College": {
+      "City": "Sherman",
+      "Lat": 33.64491102,
+      "Lon": -96.59620298,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Babson College": {
+      "City": "Babson Park",
+      "Lat": 42.29802182,
+      "Lon": -71.26734408,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Ball State University": {
+      "City": "Muncie",
+      "Lat": 40.20475382,
+      "Lon": -85.40833498,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Bar-Ilan University": {
+      "City": "Ramat-Gan",
+      "Lat": 32.06784992,
+      "Lon": 34.84173862,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Bard College": {
+      "City": "Annandale-On-Hudson",
+      "Lat": 42.01904072,
+      "Lon": -73.91140338,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Barnard College": {
+      "City": "New York City",
+      "Lat": 40.80774842,
+      "Lon": -73.96531218,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Baruch College, City University of New York": {
+      "City": "New York City",
+      "Lat": 40.73885012,
+      "Lon": -73.98472348,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Bates College": {
+      "City": "Lewiston",
+      "Lat": 44.10437262,
+      "Lon": -70.20353548,
+      "Reviews": {},
+      "State": "Maine"
+   },
+   "Baylor University": {
+      "City": "Waco",
+      "Lat": 31.54849202,
+      "Lon": -97.11566358,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Belmont University": {
+      "City": "Nashville",
+      "Lat": 36.13154912,
+      "Lon": -86.79541888,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "Beloit College": {
+      "City": "Beloit",
+      "Lat": 42.50168432,
+      "Lon": -89.03225378,
+      "Reviews": {},
+      "State": "Wisconsin"
+   },
+   "Ben-Gurion University of the Negev": {
+      "City": "Beer Sheva",
+      "Lat": 31.26086902,
+      "Lon": 34.80011202,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Bennington College": {
+      "City": "Bennington",
+      "Lat": 42.91786282,
+      "Lon": -73.23923768,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Bentley University": {
+      "City": "Waltham",
+      "Lat": 42.38434992,
+      "Lon": -71.22302898,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Berea College": {
+      "City": "Berea",
+      "Lat": 37.57380302,
+      "Lon": -84.28948298,
+      "Reviews": {},
+      "State": "Kentucky"
+   },
+   "Bezalel Academy of Arts and Design": {
+      "City": "Mount Scopus",
+      "Lat": 32.17476402,
+      "Lon": 34.83488502,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Birmingham Southern College": {
+      "City": "Birmingham",
+      "Lat": 33.51257102,
+      "Lon": -86.85606998,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "Boston College": {
+      "City": "Chestnut Hill",
+      "Lat": 42.33419982,
+      "Lon": -71.16984348,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Boston University": {
+      "City": "Boston",
+      "Lat": 42.34915072,
+      "Lon": -71.10674808,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Bowdoin College": {
+      "City": "Brunswick",
+      "Lat": 43.90640892,
+      "Lon": -69.96180028,
+      "Reviews": {},
+      "State": "Maine"
+   },
+   "Bowling Green State University": {
+      "City": "Bowling Green",
+      "Lat": 41.37842982,
+      "Lon": -83.63143158,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Bradley University": {
+      "City": "Peoria",
+      "Lat": 40.69639822,
+      "Lon": -89.61663678,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Brandeis University": {
+      "City": "Waltham",
+      "Lat": 42.36332942,
+      "Lon": -71.26014408,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Brigham Young University": {
+      "City": "Provo",
+      "Lat": 40.25049452,
+      "Lon": -111.6506646,
+      "Reviews": {},
+      "State": "Utah"
+   },
+   "Brooklyn College": {
+      "City": "Brooklyn",
+      "Lat": 40.63048832,
+      "Lon": -73.95438448,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Brown University": {
+      "City": "Providence",
+      "Lat": 41.822956,
+      "Lon": -71.4048079,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "Bryant University": {
+      "City": "Smithfield",
+      "Lat": 41.91782657,
+      "Lon": -71.52396423,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "Bryn Mawr College": {
+      "City": "Bryn Mawr",
+      "Lat": 40.02675752,
+      "Lon": -75.31658308,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Bucknell University": {
+      "City": "Lewisburg",
+      "Lat": 40.95353372,
+      "Lon": -76.88608108,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Butler University": {
+      "City": "Indianapolis",
+      "Lat": 39.83977452,
+      "Lon": -86.17253978,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "CUNY System": {
+      "City": "New York City",
+      "Lat": 40.74928142,
+      "Lon": -73.97476668,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Cal Poly Pomona": {
+      "City": "Pomona",
+      "Lat": 34.05517942,
+      "Lon": -117.8228785,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Cal Poly San Luis Obispo": {
+      "City": "San Luis Obispo",
+      "Lat": 35.30365632,
+      "Lon": -120.6638432,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California Institute of Technology": {
+      "City": "Pasadena",
+      "Lat": 34.13630862,
+      "Lon": -118.126618,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California Lutheran University": {
+      "City": "Thousand Oaks",
+      "Lat": 34.22421672,
+      "Lon": -118.8800255,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Fresno": {
+      "City": "Fresno",
+      "Lat": 36.81201462,
+      "Lon": -119.7474427,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Fullerton": {
+      "City": "Fullerton",
+      "Lat": 33.88157362,
+      "Lon": -117.8882751,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Long Beach": {
+      "City": "Long Beach",
+      "Lat": 33.78247452,
+      "Lon": -118.1154394,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Los Angeles": {
+      "City": "Los Angeles",
+      "Lat": 34.06543962,
+      "Lon": -118.1694392,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Monterey Bay": {
+      "City": "Marina",
+      "Lat": 36.65243902,
+      "Lon": -121.803059,
+      "Reviews": {},
+      "State": "California"
+   },
+   "California State University - Northridge": {
+      "City": "Northridge",
+      "Lat": 34.24124572,
+      "Lon": -118.5294177,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Carleton College": {
+      "City": "Northfield",
+      "Lat": 44.45995512,
+      "Lon": -93.15743288,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "Carleton University": {
+      "City": "Ottawa",
+      "Lat": 45.38623222,
+      "Lon": -75.69736918,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "Carnegie Mellon University": {
+      "City": "Pittsburgh",
+      "Lat": 40.44211682,
+      "Lon": -79.94480568,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Carroll College": {
+      "City": "Helena",
+      "Lat": 46.59938502,
+      "Lon": -112.040229,
+      "Reviews": {},
+      "State": "Montana"
+   },
+   "Case Western Reserve University": {
+      "City": "Cleveland",
+      "Lat": 41.50299232,
+      "Lon": -81.60973278,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Catholic University of America": {
+      "City": "Washington",
+      "Lat": 38.93553212,
+      "Lon": -77.00004098,
+      "Reviews": {},
+      "State": "District of Columbia"
+   },
+   "Central Connecticut State University": {
+      "City": "New Britain",
+      "Lat": 41.69190602,
+      "Lon": -72.76551598,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Centre College": {
+      "City": "Danville",
+      "Lat": 37.64437242,
+      "Lon": -84.78338598,
+      "Reviews": {},
+      "State": "Kentucky"
+   },
+   "Champlain College": {
+      "City": "Burlington",
+      "Lat": 44.47176752,
+      "Lon": -73.20548418,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Chapman University": {
+      "City": "Orange",
+      "Lat": 33.79199862,
+      "Lon": -117.8526993,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Christopher Newport University": {
+      "City": "Newport News",
+      "Lat": 37.06059632,
+      "Lon": -76.49182388,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "City College of New York": {
+      "City": "New York City",
+      "Lat": 40.81869812,
+      "Lon": -73.95062138,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Claremont McKenna College": {
+      "City": "Claremont",
+      "Lat": 34.10042772,
+      "Lon": -117.7092709,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Clark University": {
+      "City": "Worcester",
+      "Lat": 42.25082932,
+      "Lon": -71.82607898,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Clarkson University": {
+      "City": "Potsdam",
+      "Lat": 44.66241212,
+      "Lon": -74.99989298,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Clemson University": {
+      "City": "Clemson",
+      "Lat": 34.66981792,
+      "Lon": -82.84005688,
+      "Reviews": {},
+      "State": "South Carolina"
+   },
+   "Coe College": {
+      "City": "Cedar Rapids",
+      "Lat": 41.98707932,
+      "Lon": -91.66047768,
+      "Reviews": {},
+      "State": "Iowa"
+   },
+   "Colby College": {
+      "City": "Waterville",
+      "Lat": 44.56252012,
+      "Lon": -69.66398518,
+      "Reviews": {},
+      "State": "Maine"
+   },
+   "Colgate University": {
+      "City": "Hamilton",
+      "Lat": 42.81440162,
+      "Lon": -75.54211708,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "College of Charleston": {
+      "City": "Charleston",
+      "Lat": 32.78226272,
+      "Lon": -79.93852518,
+      "Reviews": {},
+      "State": "South Carolina"
+   },
+   "College of Saint Benedict and Saint John's University": {
+      "City": "Collegeville",
+      "Lat": 45.57833232,
+      "Lon": -94.39498228,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "College of William and Mary": {
+      "City": "Williamsburg",
+      "Lat": 37.27032502,
+      "Lon": -76.71472698,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "College of Wooster": {
+      "City": "Wooster",
+      "Lat": 40.80970112,
+      "Lon": -81.93496768,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "College of the Atlantic": {
+      "City": "Bar Harbor",
+      "Lat": 44.39307502,
+      "Lon": -68.22391598,
+      "Reviews": {},
+      "State": "Maine"
+   },
+   "College of the Holy Cross": {
+      "City": "Worcester",
+      "Lat": 42.23653982,
+      "Lon": -71.80659538,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Colorado College": {
+      "City": "Colorado Springs",
+      "Lat": 38.84524502,
+      "Lon": -104.825743,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "Colorado School of Mines": {
+      "City": "Golden",
+      "Lat": 39.74966462,
+      "Lon": -105.2239195,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "Colorado State University": {
+      "City": "Fort Collins",
+      "Lat": 40.57208702,
+      "Lon": -105.0878963,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "Columbia College Chicago": {
+      "City": "Chicago",
+      "Lat": 41.87287672,
+      "Lon": -87.62579348,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Columbia University": {
+      "City": "New York City",
+      "Lat": 40.80618652,
+      "Lon": -73.96392168,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Concordia University": {
+      "City": "Portland",
+      "Lat": 45.56884222,
+      "Lon": -122.6382364,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "Connecticut College": {
+      "City": "New London",
+      "Lat": 41.37733872,
+      "Lon": -72.10593588,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Cooper Union": {
+      "City": "New York City",
+      "Lat": 40.72673322,
+      "Lon": -73.99295758,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Cornell College": {
+      "City": "Mt Vernon",
+      "Lat": 41.92560562,
+      "Lon": -91.42669918,
+      "Reviews": {},
+      "State": "Iowa"
+   },
+   "Cornell University": {
+      "City": "Ithaca",
+      "Lat": 42.45210022,
+      "Lon": -76.47485168,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Creighton University": {
+      "City": "Omaha",
+      "Lat": 41.26361902,
+      "Lon": -95.94597358,
+      "Reviews": {},
+      "State": "Nebraska"
+   },
+   "Dalhousie University": {
+      "City": "Halifax",
+      "Lat": 44.63523222,
+      "Lon": -63.59300448,
+      "Reviews": {},
+      "State": "Nova Scotia"
+   },
+   "Dartmouth College": {
+      "City": "Hanover",
+      "Lat": 43.70309162,
+      "Lon": -72.29004238,
+      "Reviews": {},
+      "State": "New Hampshire"
+   },
+   "Davidson College": {
+      "City": "Davidson",
+      "Lat": 35.50038282,
+      "Lon": -80.84812828,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "DePaul University": {
+      "City": "Chicago",
+      "Lat": 41.92297562,
+      "Lon": -87.65621098,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "DePauw University": {
+      "City": "Greencastle",
+      "Lat": 39.63804532,
+      "Lon": -86.86424358,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Deep Springs College": {
+      "City": "Big Pine",
+      "Lat": 37.37259602,
+      "Lon": -117.9813538,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Denison University": {
+      "City": "Granville",
+      "Lat": 40.07267602,
+      "Lon": -82.52399198,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Dickinson College": {
+      "City": "Carlisle",
+      "Lat": 40.20137242,
+      "Lon": -77.19858098,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Dominican University of California": {
+      "City": "San Rafael",
+      "Lat": 37.97851662,
+      "Lon": -122.5143377,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Drew University": {
+      "City": "Madison",
+      "Lat": 40.75921802,
+      "Lon": -74.42832548,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Drexel University": {
+      "City": "Philadelphia",
+      "Lat": 39.95526372,
+      "Lon": -75.19129308,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Duke University": {
+      "City": "Durham",
+      "Lat": 35.99505,
+      "Lon": -78.953322,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Duquesne University": {
+      "City": "Pittsburgh",
+      "Lat": 40.43594592,
+      "Lon": -79.99152178,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Earlham College": {
+      "City": "Richmond",
+      "Lat": 39.81953632,
+      "Lon": -84.91440098,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "East Carolina University": {
+      "City": "Greenville",
+      "Lat": 35.60416182,
+      "Lon": -77.36591428,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Eckerd College": {
+      "City": "St. Petersburg",
+      "Lat": 27.71453702,
+      "Lon": -82.68950898,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Elizabethtown College": {
+      "City": "Elizabethtown",
+      "Lat": 40.14897612,
+      "Lon": -76.59114098,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Elon University": {
+      "City": "Elon",
+      "Lat": 36.10352592,
+      "Lon": -79.50523718,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Embry-Riddle - Daytona Beach": {
+      "City": "Daytona Beach",
+      "Lat": 29.19026802,
+      "Lon": -81.05136778,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Embry-Riddle - Prescott": {
+      "City": "Prescott",
+      "Lat": 34.61475522,
+      "Lon": -112.4521201,
+      "Reviews": {},
+      "State": "Arizona"
+   },
+   "Emerson College": {
+      "City": "Boston",
+      "Lat": 42.35068082,
+      "Lon": -71.06700408,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Emory University": {
+      "City": "Atlanta",
+      "Lat": 33.79117052,
+      "Lon": -84.32534788,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Fairfield University": {
+      "City": "Fairfield",
+      "Lat": 41.15741492,
+      "Lon": -73.25871148,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Fairleigh Dickinson University": {
+      "City": "Teaneck",
+      "Lat": 40.89644382,
+      "Lon": -74.03221298,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Fashion Institute of Technology": {
+      "City": "New York City",
+      "Lat": 40.74613502,
+      "Lon": -73.99643098,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Fisk University": {
+      "City": "Nashville",
+      "Lat": 36.16589662,
+      "Lon": -86.80498428,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "Flagler College": {
+      "City": "St. Augustine",
+      "Lat": 29.89135642,
+      "Lon": -81.31623568,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Florida A&M University": {
+      "City": "Tallahassee",
+      "Lat": 30.42169202,
+      "Lon": -84.28910208,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Florida Atlantic University": {
+      "City": "Boca Raton",
+      "Lat": 26.37272702,
+      "Lon": -80.10282408,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Florida Institute of Technology": {
+      "City": "Melbourne",
+      "Lat": 28.06333982,
+      "Lon": -80.62437098,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Florida International University": {
+      "City": "Miami",
+      "Lat": 25.75522662,
+      "Lon": -80.37529768,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Florida State University": {
+      "City": "Tallahassee",
+      "Lat": 30.44052882,
+      "Lon": -84.29983788,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Fordham University": {
+      "City": "Bronx",
+      "Lat": 40.86069142,
+      "Lon": -73.88704768,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Franklin & Marshall College": {
+      "City": "Lancaster",
+      "Lat": 40.04617682,
+      "Lon": -76.31925058,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Furman University": {
+      "City": "Greenville",
+      "Lat": 34.92235102,
+      "Lon": -82.43961828,
+      "Reviews": {},
+      "State": "South Carolina"
+   },
+   "George Mason University": {
+      "City": "Fairfax",
+      "Lat": 38.83020512,
+      "Lon": -77.31343748,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "George Washington University": {
+      "City": "Washington",
+      "Lat": 38.89960887,
+      "Lon": -77.04901268,
+      "Reviews": {},
+      "State": "District of Columbia"
+   },
+   "Georgetown University": {
+      "City": "Washington",
+      "Lat": 38.90625992,
+      "Lon": -77.07360748,
+      "Reviews": {},
+      "State": "District of Columbia"
+   },
+   "Georgia Institute of Technology": {
+      "City": "Atlanta",
+      "Lat": 33.77426882,
+      "Lon": -84.39763398,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Georgia State University": {
+      "City": "Atlanta",
+      "Lat": 33.75171902,
+      "Lon": -84.38663088,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Gettysburg College": {
+      "City": "Gettysburg",
+      "Lat": 39.83485832,
+      "Lon": -77.23885678,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Goddard College": {
+      "City": "Plainfield",
+      "Lat": 44.27762322,
+      "Lon": -72.43944748,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Golden Gate University": {
+      "City": "San Francisco",
+      "Lat": 37.78794302,
+      "Lon": -122.400331,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Gonzaga University": {
+      "City": "Spokane",
+      "Lat": 47.66584002,
+      "Lon": -117.4037339,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "Goucher College": {
+      "City": "Baltimore",
+      "Lat": 39.40741602,
+      "Lon": -76.59789398,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Grinnell College": {
+      "City": "Grinnell",
+      "Lat": 41.74770812,
+      "Lon": -92.72147918,
+      "Reviews": {},
+      "State": "Iowa"
+   },
+   "Grove City College": {
+      "City": "Grove City",
+      "Lat": 41.15453342,
+      "Lon": -80.07979918,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Gustavus Adolphus College": {
+      "City": "St. Peter",
+      "Lat": 44.32081292,
+      "Lon": -93.97012608,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "Hamilton College": {
+      "City": "Clinton",
+      "Lat": 43.05071262,
+      "Lon": -75.40748408,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Hampden-Sydney College": {
+      "City": "Hampden Sydney",
+      "Lat": 37.23902682,
+      "Lon": -78.46237878,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Hampshire College": {
+      "City": "Amherst",
+      "Lat": 42.32272992,
+      "Lon": -72.53204538,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Hampton University": {
+      "City": "Hampton",
+      "Lat": 37.02034902,
+      "Lon": -76.33796168,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Hanover College": {
+      "City": "Hanover",
+      "Lat": 38.71790122,
+      "Lon": -85.46371708,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Hartwick College": {
+      "City": "Oneonta",
+      "Lat": 42.45600442,
+      "Lon": -75.07423578,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Harvard University": {
+      "City": "Cambridge",
+      "Lat": 42.37565392,
+      "Lon": -71.11800908,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Harvey Mudd College": {
+      "City": "Claremont",
+      "Lat": 34.10473272,
+      "Lon": -117.7118189,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Haverford College": {
+      "City": "Haverford",
+      "Lat": 40.00530342,
+      "Lon": -75.30666698,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Hebrew University of Jerusalem": {
+      "City": "Jerusalem",
+      "Lat": 31.79320882,
+      "Lon": 35.24005192,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Hendrix College": {
+      "City": "Conway",
+      "Lat": 35.09869792,
+      "Lon": -92.44336078,
+      "Reviews": {},
+      "State": "Arkansas"
+   },
+   "High Point University": {
+      "City": "High Point",
+      "Lat": 35.97188372,
+      "Lon": -79.99638868,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Hillsdale College": {
+      "City": "Hillsdale",
+      "Lat": 41.93129242,
+      "Lon": -84.63499938,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Hiram College": {
+      "City": "Hiram",
+      "Lat": 41.30938322,
+      "Lon": -81.14530148,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Hobart and William Smith Colleges": {
+      "City": "Geneva",
+      "Lat": 42.85780412,
+      "Lon": -76.98583578,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Hofstra University": {
+      "City": "Hempstead",
+      "Lat": 40.71521862,
+      "Lon": -73.59988258,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Hollins University": {
+      "City": "Roanoke",
+      "Lat": 37.35476282,
+      "Lon": -79.94373548,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Hope College": {
+      "City": "Holland",
+      "Lat": 42.78583072,
+      "Lon": -86.10370638,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Howard University": {
+      "City": "Washington",
+      "Lat": 38.92133532,
+      "Lon": -77.02078668,
+      "Reviews": {},
+      "State": "District of Columbia"
+   },
+   "Humboldt State University": {
+      "City": "Arcata",
+      "Lat": 40.87392582,
+      "Lon": -124.07917,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Illinois Institute of Technology": {
+      "City": "Chicago",
+      "Lat": 41.83352412,
+      "Lon": -87.62835488,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Illinois Wesleyan University": {
+      "City": "Bloomington",
+      "Lat": 40.48954022,
+      "Lon": -88.99200308,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Indiana University - Bloomington": {
+      "City": "Bloomington",
+      "Lat": 39.17526452,
+      "Lon": -86.51436598,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Indiana University - South Bend": {
+      "City": "South Bend",
+      "Lat": 41.66078932,
+      "Lon": -86.22106648,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Indiana University of Pennsylvania": {
+      "City": "Indiana",
+      "Lat": 40.61286912,
+      "Lon": -79.16241148,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Indiana University-Purdue University Indianapolis": {
+      "City": "Indianapolis",
+      "Lat": 39.77253422,
+      "Lon": -86.17768828,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Iowa State University": {
+      "City": "Ames",
+      "Lat": 42.02526972,
+      "Lon": -93.64781438,
+      "Reviews": {},
+      "State": "Iowa"
+   },
+   "Ithaca College": {
+      "City": "Ithaca",
+      "Lat": 42.42030902,
+      "Lon": -76.49991298,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "James Madison University": {
+      "City": "Harrisonburg",
+      "Lat": 38.43374302,
+      "Lon": -78.87110378,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Johns Hopkins University": {
+      "City": "Baltimore",
+      "Lat": 39.32855232,
+      "Lon": -76.62186668,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Juniata College": {
+      "City": "Huntingdon",
+      "Lat": 40.49863942,
+      "Lon": -78.01735318,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Kalamazoo College": {
+      "City": "Kalamazoo",
+      "Lat": 42.28868602,
+      "Lon": -85.59949398,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Kansas State University": {
+      "City": "Manhattan",
+      "Lat": 39.19609472,
+      "Lon": -96.58607388,
+      "Reviews": {},
+      "State": "Kansas"
+   },
+   "Kent State University": {
+      "City": "Kent",
+      "Lat": 41.14771392,
+      "Lon": -81.34281388,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Kenyon College": {
+      "City": "Gambier",
+      "Lat": 40.37054752,
+      "Lon": -82.39965688,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Knox College": {
+      "City": "Galesburg",
+      "Lat": 40.94054022,
+      "Lon": -90.37321628,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "LaSalle University": {
+      "City": "Philadelphia",
+      "Lat": 40.03725932,
+      "Lon": -75.15799188,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Lafayette College": {
+      "City": "Easton",
+      "Lat": 40.69727122,
+      "Lon": -75.21007878,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Lake Forest College": {
+      "City": "Lake Forest",
+      "Lat": 42.24770902,
+      "Lon": -87.83026198,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Lander Institute": {
+      "City": "Givat Shaul",
+      "Lat": 31.96838902,
+      "Lon": 34.77143822,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Laval University": {
+      "City": "Ville de Qu\u00e9bec",
+      "Lat": 46.78039732,
+      "Lon": -71.27609138,
+      "Reviews": {},
+      "State": "Quebec"
+   },
+   "Lawrence University": {
+      "City": "Appleton",
+      "Lat": 44.25871232,
+      "Lon": -88.39783858,
+      "Reviews": {},
+      "State": "Wisconsin"
+   },
+   "Lehigh University": {
+      "City": "Bethlehem",
+      "Lat": 40.60555972,
+      "Lon": -75.37963218,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Lewis & Clark College": {
+      "City": "Portland",
+      "Lat": 45.45105932,
+      "Lon": -122.6787845,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "Linfield College": {
+      "City": "McMinnville",
+      "Lat": 45.19925702,
+      "Lon": -123.200573,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "Louisiana State University": {
+      "City": "Baton Rouge",
+      "Lat": 30.41190892,
+      "Lon": -91.18135128,
+      "Reviews": {},
+      "State": "Louisiana"
+   },
+   "Loyola Marymount University": {
+      "City": "Los Angeles",
+      "Lat": 33.96846932,
+      "Lon": -118.4198459,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Loyola University - Maryland": {
+      "City": "Baltimore",
+      "Lat": 39.34632472,
+      "Lon": -76.61858648,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Loyola University - New Orleans": {
+      "City": "New Orleans",
+      "Lat": 29.93436702,
+      "Lon": -90.12172718,
+      "Reviews": {},
+      "State": "Louisiana"
+   },
+   "Loyola University of Chicago": {
+      "City": "Chicago",
+      "Lat": 41.99764802,
+      "Lon": -87.65954108,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Lynchburg College": {
+      "City": "Lynchburg",
+      "Lat": 37.39925102,
+      "Lon": -79.18450198,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Macalester College": {
+      "City": "St. Paul",
+      "Lat": 44.93841412,
+      "Lon": -93.17007838,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "Manhattan College": {
+      "City": "Bronx",
+      "Lat": 40.88861332,
+      "Lon": -73.90241128,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Manhattanville College": {
+      "City": "Purchase",
+      "Lat": 41.03058672,
+      "Lon": -73.71724908,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Marietta College": {
+      "City": "Marietta",
+      "Lat": 39.41319662,
+      "Lon": -81.45045568,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Marist College": {
+      "City": "Poughkeepsie",
+      "Lat": 41.72110752,
+      "Lon": -73.93546938,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Marlboro College": {
+      "City": "Marlboro",
+      "Lat": 42.83770552,
+      "Lon": -72.73610348,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Marquette University": {
+      "City": "Milwaukee",
+      "Lat": 43.03687262,
+      "Lon": -87.93110358,
+      "Reviews": {},
+      "State": "Wisconsin"
+   },
+   "Marymount Manhattan College": {
+      "City": "New York City",
+      "Lat": 40.76739292,
+      "Lon": -73.96106878,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Massachusetts Institute of Technology": {
+      "City": "Cambridge",
+      "Lat": 42.35874202,
+      "Lon": -71.09550898,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "McGill University": {
+      "City": "Montreal",
+      "Lat": 45.50343572,
+      "Lon": -73.57850008,
+      "Reviews": {},
+      "State": "Quebec"
+   },
+   "McMaster University": {
+      "City": "Hamilton",
+      "Lat": 43.25953002,
+      "Lon": -79.92057438,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "Memorial University Of Newfoundland": {
+      "City": "St. John's",
+      "Lat": 47.57244852,
+      "Lon": -52.73425428,
+      "Reviews": {},
+      "State": "Newfoundland"
+   },
+   "Mercer University": {
+      "City": "Macon",
+      "Lat": 32.82742942,
+      "Lon": -83.65098708,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Merrimack College": {
+      "City": "North Andover",
+      "Lat": 42.66635592,
+      "Lon": -71.12391948,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Miami University - Ohio": {
+      "City": "Oxford",
+      "Lat": 39.50918442,
+      "Lon": -84.73222578,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Michigan State University": {
+      "City": "East Lansing",
+      "Lat": 42.70049902,
+      "Lon": -84.48352088,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Michigan Technological University": {
+      "City": "Houghton",
+      "Lat": 47.11470642,
+      "Lon": -88.54710698,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Middlebury College": {
+      "City": "Middlebury",
+      "Lat": 44.00691052,
+      "Lon": -73.17866418,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Mills College": {
+      "City": "Oakland",
+      "Lat": 37.77602557,
+      "Lon": -122.1854587,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Millsaps College": {
+      "City": "Jackson",
+      "Lat": 32.32105202,
+      "Lon": -90.17961128,
+      "Reviews": {},
+      "State": "Mississippi"
+   },
+   "Mississippi State University": {
+      "City": "Mississippi State University",
+      "Lat": 33.45382522,
+      "Lon": -88.79572558,
+      "Reviews": {},
+      "State": "Mississippi"
+   },
+   "Missouri University of Science and Technology": {
+      "City": "Rolla",
+      "Lat": 37.95210202,
+      "Lon": -91.77692168,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Monmouth University": {
+      "City": "West Long Branch",
+      "Lat": 40.27910672,
+      "Lon": -74.00716038,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Montclair State University": {
+      "City": "Montclair",
+      "Lat": 40.86313022,
+      "Lon": -74.19990868,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Moravian College": {
+      "City": "Bethlehem",
+      "Lat": 40.62953242,
+      "Lon": -75.38256248,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Morehouse College": {
+      "City": "Atlanta",
+      "Lat": 33.74460632,
+      "Lon": -84.41521408,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Mount Holyoke College": {
+      "City": "South Hadley",
+      "Lat": 42.25190452,
+      "Lon": -72.57748838,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Muhlenberg College": {
+      "City": "Allentown",
+      "Lat": 40.59609702,
+      "Lon": -75.51141648,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "New College of Florida": {
+      "City": "Sarasota",
+      "Lat": 27.38347902,
+      "Lon": -82.56005198,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "New England College": {
+      "City": "Henniker",
+      "Lat": 43.17571302,
+      "Lon": -71.82400128,
+      "Reviews": {},
+      "State": "New Hampshire"
+   },
+   "New Jersey Institute of Technology": {
+      "City": "Newark",
+      "Lat": 40.74098552,
+      "Lon": -74.18068988,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "New Mexico Institute of Mining & Technology": {
+      "City": "Socorro",
+      "Lat": 34.06464402,
+      "Lon": -106.90696,
+      "Reviews": {},
+      "State": "New Mexico"
+   },
+   "New York University": {
+      "City": "New York City",
+      "Lat": 40.72816442,
+      "Lon": -73.99780988,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "North Carolina School of the Arts": {
+      "City": "Winston-Salem",
+      "Lat": 36.07494302,
+      "Lon": -80.23835998,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "North Carolina State University": {
+      "City": "Raleigh",
+      "Lat": 35.78331432,
+      "Lon": -78.68344358,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Northeastern University": {
+      "City": "Boston",
+      "Lat": 42.33845772,
+      "Lon": -71.09052068,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Northern Arizona University": {
+      "City": "Flagstaff",
+      "Lat": 35.18173642,
+      "Lon": -111.6563139,
+      "Reviews": {},
+      "State": "Arizona"
+   },
+   "Northwestern University": {
+      "City": "Evanston",
+      "Lat": 42.05511042,
+      "Lon": -87.67661598,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Oberlin College": {
+      "City": "Oberlin",
+      "Lat": 41.29213402,
+      "Lon": -82.22494908,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Occidental College": {
+      "City": "Los Angeles",
+      "Lat": 34.12601252,
+      "Lon": -118.2118525,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Oglethorpe University": {
+      "City": "Atlanta",
+      "Lat": 33.87484672,
+      "Lon": -84.33604438,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Ohio Northern University": {
+      "City": "Ada",
+      "Lat": 40.76478652,
+      "Lon": -83.83404668,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Ohio State University": {
+      "City": "Columbus",
+      "Lat": 40.01284152,
+      "Lon": -83.03226328,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Ohio University": {
+      "City": "Athens",
+      "Lat": 39.32300902,
+      "Lon": -82.10273788,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Ohio Wesleyan University": {
+      "City": "Delaware",
+      "Lat": 40.29479042,
+      "Lon": -83.07206048,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Old Dominion University": {
+      "City": "Norfolk",
+      "Lat": 36.88420252,
+      "Lon": -76.30811658,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Olin College": {
+      "City": "Needham",
+      "Lat": 42.29181812,
+      "Lon": -71.26501428,
+      "Reviews": {},
+      "State": "Massachusetts"
    },
    "Open University of Israel": {
+      "City": "Ra'anana",
       "Lat": 32.18723902,
       "Lon": 34.88633602,
-      "City": "Ra'anana",
-      "State": "Israel",
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Oregon State University": {
+      "City": "Corvallis",
+      "Lat": 44.56243162,
+      "Lon": -123.2807932,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "Pace University": {
+      "City": "New York City",
+      "Lat": 40.70977072,
+      "Lon": -74.00620568,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Parsons School of Design": {
+      "City": "New York City",
+      "Lat": 40.73395132,
+      "Lon": -73.99594158,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Penn State": {
+      "City": "State College",
+      "Lat": 40.79686432,
+      "Lon": -77.86125738,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Pepperdine University": {
+      "City": "Malibu",
+      "Lat": 34.04005552,
+      "Lon": -118.7109304,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Philadelphia University": {
+      "City": "Philadelphia",
+      "Lat": 40.01896922,
+      "Lon": -75.19374478,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Pitzer College": {
+      "City": "Claremont",
+      "Lat": 34.10331342,
+      "Lon": -117.7060683,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Pomona College": {
+      "City": "Claremont",
+      "Lat": 34.09639402,
+      "Lon": -117.713152,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Pratt Institute": {
+      "City": "Brooklyn",
+      "Lat": 40.68993172,
+      "Lon": -73.96388598,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Princeton University": {
+      "City": "Princeton",
+      "Lat": 40.34263982,
+      "Lon": -74.65279708,
       "Reviews": {
-
-      }
+         "Ben": {
+            "Base Rating": 3,
+            "Ratings": {
+               "Ben1152000": 1,
+               "Martin": 1
+            },
+            "Review": "It was a nice school, but there were many too few potatoes.",
+            "Taste": 5,
+            "Texture": 6,
+            "Tummy Feel": 3
+         },
+         "Ben1152000": {
+            "Base Rating": 3,
+            "Ratings": {
+               "Ben": 1
+            },
+            "Review": "Fusce laoreet, arcu et tincidunt volutpat, dolor ligula consectetur tellus, eget mollis lacus velit vitae ligula. Maecenas pharetra turpis vitae mi blandit, nec mollis augue lacinia. Donec mollis, nisl vel egestas mattis, ligula lorem rhoncus orci, in bibendum ipsum eros sed est. Nullam commodo dolor sed dapibus fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean elementum eleifend enim gravida mollis. Pellentesque sed porta est, et semper tellus. In posuere, lorem nec sagittis eleifend, diam tellus finibus elit, eget consectetur nunc nunc sed odio.",
+            "Taste": 6,
+            "Texture": 1,
+            "Tummy Feel": 9
+         }
+      },
+      "State": "New Jersey"
+   },
+   "Providence College": {
+      "City": "Providence",
+      "Lat": 41.84274352,
+      "Lon": -71.43951428,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "Purdue University": {
+      "City": "West Lafayette",
+      "Lat": 40.42235642,
+      "Lon": -86.92254358,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Queens University - Kingston, Ontario": {
+      "City": "Kingston",
+      "Lat": 44.22393052,
+      "Lon": -76.49649018,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "Quinnipiac University": {
+      "City": "Hamden",
+      "Lat": 41.41782572,
+      "Lon": -72.89403728,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Randolph College": {
+      "City": "Lynchburg",
+      "Lat": 37.43561502,
+      "Lon": -79.17354598,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Randolph-Macon College": {
+      "City": "Ashland",
+      "Lat": 37.75903042,
+      "Lon": -77.47970078,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Reed College": {
+      "City": "Portland",
+      "Lat": 45.47962922,
+      "Lon": -122.6317214,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "Regis University": {
+      "City": "Denver",
+      "Lat": 39.78801862,
+      "Lon": -105.0311555,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "Rensselaer Polytechnic Institute": {
+      "City": "Troy",
+      "Lat": 42.72882302,
+      "Lon": -73.68015158,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Rhode Island School of Design": {
+      "City": "Providence",
+      "Lat": 41.82464572,
+      "Lon": -71.40880858,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "Rhodes College": {
+      "City": "Memphis",
+      "Lat": 35.15373492,
+      "Lon": -89.99063618,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "Rice University": {
+      "City": "Houston",
+      "Lat": 29.71923037,
+      "Lon": -95.39762498,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Rider University": {
+      "City": "Lawrenceville",
+      "Lat": 40.27827402,
+      "Lon": -74.73953598,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Ripon College": {
+      "City": "Ripon",
+      "Lat": 43.84187272,
+      "Lon": -88.84230848,
+      "Reviews": {},
+      "State": "Wisconsin"
+   },
+   "Rochester Institute of Technology": {
+      "City": "Rochester",
+      "Lat": 43.08475272,
+      "Lon": -77.67186328,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Rollins College": {
+      "City": "Winter Park",
+      "Lat": 28.59089302,
+      "Lon": -81.34967498,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Rose-Hulman Institute of Technology": {
+      "City": "Terre Haute",
+      "Lat": 39.48088502,
+      "Lon": -87.32530328,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Rowan University": {
+      "City": "Camden",
+      "Lat": 39.70851052,
+      "Lon": -75.12029678,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Rutgers University": {
+      "City": "New Brunswick",
+      "Lat": 40.49946962,
+      "Lon": -74.44874808,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Ryerson University": {
+      "City": "Toronto",
+      "Lat": 43.65630952,
+      "Lon": -79.38015068,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "SUNY - General": {
+      "City": "Brooklyn",
+      "Lat": 40.65389682,
+      "Lon": -73.94708298,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Albany": {
+      "City": "Albany",
+      "Lat": 42.686248,
+      "Lon": -73.822895,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Binghamton": {
+      "City": "Binghamton",
+      "Lat": 42.08800632,
+      "Lon": -75.97105388,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Buffalo": {
+      "City": "Buffalo",
+      "Lat": 42.99946032,
+      "Lon": -78.79031868,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Geneseo": {
+      "City": "Geneseo",
+      "Lat": 42.79474302,
+      "Lon": -77.82505188,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Purchase": {
+      "City": "Purchase",
+      "Lat": 41.04529952,
+      "Lon": -73.69911508,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "SUNY at Stony Brook": {
+      "City": "Stony Brook",
+      "Lat": 40.91102712,
+      "Lon": -73.12473788,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Sacred Heart University": {
+      "City": "Fairfield",
+      "Lat": 41.21904122,
+      "Lon": -73.24464928,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Saint Anselm College": {
+      "City": "Manchester",
+      "Lat": 42.98612332,
+      "Lon": -71.50857968,
+      "Reviews": {},
+      "State": "New Hampshire"
+   },
+   "Saint Joseph's University": {
+      "City": "Philadelphia",
+      "Lat": 39.99364652,
+      "Lon": -75.24147218,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Saint Louis University": {
+      "City": "St. Louis",
+      "Lat": 38.63411082,
+      "Lon": -90.23517218,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Saint Mary's College - Notre Dame": {
+      "City": "Notre Dame",
+      "Lat": 41.70595502,
+      "Lon": -86.25809398,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Saint Mary's College of California": {
+      "City": "Moraga",
+      "Lat": 37.83999822,
+      "Lon": -122.1114843,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Saint Michael's College": {
+      "City": "Colchester",
+      "Lat": 44.49314802,
+      "Lon": -73.16832718,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "Saint Olaf College": {
+      "City": "Northfield",
+      "Lat": 44.46041912,
+      "Lon": -93.18416568,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "Salisbury University": {
+      "City": "Salisbury",
+      "Lat": 38.34436352,
+      "Lon": -75.60597068,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Salve Regina University": {
+      "City": "Newport",
+      "Lat": 41.47010372,
+      "Lon": -71.30199278,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "Samford University": {
+      "City": "Homewood",
+      "Lat": 33.46340042,
+      "Lon": -86.79497998,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "San Diego State University": {
+      "City": "San Diego",
+      "Lat": 32.77437272,
+      "Lon": -117.0732383,
+      "Reviews": {},
+      "State": "California"
+   },
+   "San Francisco State University": {
+      "City": "San Francisco",
+      "Lat": 37.72054802,
+      "Lon": -122.4795584,
+      "Reviews": {},
+      "State": "California"
+   },
+   "San Jose State University": {
+      "City": "San Jose",
+      "Lat": 37.33383842,
+      "Lon": -121.8824205,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Santa Clara University": {
+      "City": "Santa Clara",
+      "Lat": 37.34829282,
+      "Lon": -121.9403365,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Sarah Lawrence College": {
+      "City": "Bronxville",
+      "Lat": 40.93470342,
+      "Lon": -73.84474638,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Savannah College of Art and Design": {
+      "City": "Savannah",
+      "Lat": 32.07162432,
+      "Lon": -81.09528518,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "School of Visual Arts": {
+      "City": "New York",
+      "Lat": 40.73740502,
+      "Lon": -73.98357598,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Scripps College": {
+      "City": "Claremont",
+      "Lat": 34.10258582,
+      "Lon": -117.7115618,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Seattle University": {
+      "City": "Seattle",
+      "Lat": 47.60787922,
+      "Lon": -122.3190625,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "Seton Hall University": {
+      "City": "South Orange",
+      "Lat": 40.74166202,
+      "Lon": -74.24844908,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Sewanee: The University of the South": {
+      "City": "Sewanee",
+      "Lat": 35.20383102,
+      "Lon": -85.91900958,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "Shimer College": {
+      "City": "Chicago",
+      "Lat": 41.83116692,
+      "Lon": -87.62847848,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Siena College": {
+      "City": "Albany",
+      "Lat": 42.71710302,
+      "Lon": -73.75354408,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Simmons College": {
+      "City": "Boston",
+      "Lat": 42.33771762,
+      "Lon": -71.10200838,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Simon Fraser University": {
+      "City": "Burnaby",
+      "Lat": 49.27674472,
+      "Lon": -122.9212323,
+      "Reviews": {},
+      "State": "British Columbia"
+   },
+   "Simon's Rock College of Bard": {
+      "City": "Great Barrington",
+      "Lat": 42.20905302,
+      "Lon": -73.38926998,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Skidmore College": {
+      "City": "Saratoga Springs",
+      "Lat": 43.09592692,
+      "Lon": -73.78553008,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Smith College": {
+      "City": "Northampton",
+      "Lat": 42.31674672,
+      "Lon": -72.63858308,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Soka University of America": {
+      "City": "Aliso Viejo",
+      "Lat": 33.55348532,
+      "Lon": -117.7366786,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Sonoma State University": {
+      "City": "Rohnert Park",
+      "Lat": 38.33803762,
+      "Lon": -122.6755302,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Southern Methodist University": {
+      "City": "Dallas",
+      "Lat": 32.83986882,
+      "Lon": -96.78586648,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Southwestern University": {
+      "City": "Georgetown",
+      "Lat": 30.63357612,
+      "Lon": -97.66647578,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Spelman College": {
+      "City": "Atlanta",
+      "Lat": 33.74501072,
+      "Lon": -84.41364238,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "St. Bonaventure University": {
+      "City": "Bonaventure",
+      "Lat": 42.07706232,
+      "Lon": -78.48423118,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "St. John's College - Maryland": {
+      "City": "Annapolis",
+      "Lat": 38.98018312,
+      "Lon": -76.49269098,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "St. John's College - New Mexico": {
+      "City": "Santa Fe",
+      "Lat": 35.66644752,
+      "Lon": -105.913914,
+      "Reviews": {},
+      "State": "New Mexico"
+   },
+   "St. John's University (New York)": {
+      "City": "Queens",
+      "Lat": 40.72289802,
+      "Lon": -73.79593508,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "St. Lawrence University": {
+      "City": "Canton",
+      "Lat": 44.58786292,
+      "Lon": -75.16223038,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "St. Mary's College of Maryland": {
+      "City": "St Marys City",
+      "Lat": 38.18956632,
+      "Lon": -76.43039178,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Stanford University": {
+      "City": "Stanford",
+      "Lat": 37.42612552,
+      "Lon": -122.171068,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Stephens College": {
+      "City": "Columbia",
+      "Lat": 38.94989762,
+      "Lon": -92.32407588,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Stetson University": {
+      "City": "DeLand",
+      "Lat": 29.03431502,
+      "Lon": -81.30285358,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "Stevens Institute of Technology": {
+      "City": "Hoboken",
+      "Lat": 40.74372972,
+      "Lon": -74.02683478,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "Stevenson University": {
+      "City": "Stevenson",
+      "Lat": 39.42001312,
+      "Lon": -76.70313688,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Stonehill College": {
+      "City": "North Easton",
+      "Lat": 42.05766632,
+      "Lon": -71.08197658,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Susquehanna University": {
+      "City": "Selinsgrove",
+      "Lat": 40.79567312,
+      "Lon": -76.87605458,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Swarthmore College": {
+      "City": "Swarthmore",
+      "Lat": 39.90549152,
+      "Lon": -75.35699728,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Sweet Briar College": {
+      "City": "Sweet Briar",
+      "Lat": 37.55629882,
+      "Lon": -79.08421338,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Syracuse University": {
+      "City": "Syracuse",
+      "Lat": 43.03780442,
+      "Lon": -76.13646478,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Technion - Israel Institute of Technology": {
+      "City": "Haifa",
+      "Lat": 32.77542932,
+      "Lon": 35.02177812,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Tel Aviv University": {
+      "City": "Tel Aviv",
+      "Lat": 32.11196512,
+      "Lon": 34.80303872,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Temple University": {
+      "City": "Philadelphia",
+      "Lat": 39.97959522,
+      "Lon": -75.15918618,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Texas A&M University": {
+      "City": "Fort Worth",
+      "Lat": 30.61726602,
+      "Lon": -96.33792598,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Texas Christian University": {
+      "City": "Fort Worth",
+      "Lat": 32.70818102,
+      "Lon": -97.36414398,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Texas Tech University": {
+      "City": "Lubbock",
+      "Lat": 33.58291012,
+      "Lon": -101.8796312,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "The College of New Jersey": {
+      "City": "Ewing Township",
+      "Lat": 40.26779312,
+      "Lon": -74.77878838,
+      "Reviews": {},
+      "State": "New Jersey"
+   },
+   "The Interdisciplinary Center": {
+      "City": "Herzliya",
+      "Lat": 32.17476402,
+      "Lon": 34.83488502,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "The Juilliard School": {
+      "City": "New York City",
+      "Lat": 40.77240972,
+      "Lon": -73.98417758,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "The University of Texas at Austin": {
+      "City": "Austin",
+      "Lat": 30.28356952,
+      "Lon": -97.73540568,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "The University of Texas at Dallas": {
+      "City": "Richardson",
+      "Lat": 32.98441292,
+      "Lon": -96.75144828,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Thomas Aquinas College - California": {
+      "City": "Santa Paula",
+      "Lat": 34.42797512,
+      "Lon": -119.0901445,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Towson University": {
+      "City": "Towson",
+      "Lat": 39.39244712,
+      "Lon": -76.61053838,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Trinity College (Connecticut)": {
+      "City": "Hartford",
+      "Lat": 41.74658422,
+      "Lon": -72.69168348,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Trinity University (Texas)": {
+      "City": "San Antonio",
+      "Lat": 29.46049542,
+      "Lon": -98.48451118,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "Truman State University": {
+      "City": "Kirksville",
+      "Lat": 40.18450832,
+      "Lon": -92.58272138,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Tufts University": {
+      "City": "Medford",
+      "Lat": 42.40613532,
+      "Lon": -71.12037218,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Tulane University": {
+      "City": "New Orleans",
+      "Lat": 29.95409702,
+      "Lon": -90.07720608,
+      "Reviews": {},
+      "State": "louisiana"
+   },
+   "Tuskegee University": {
+      "City": "Tuskegee",
+      "Lat": 32.42932902,
+      "Lon": -85.70863428,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "Union College - New York": {
+      "City": "Schenectady",
+      "Lat": 42.81566802,
+      "Lon": -73.93115428,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "United States Air Force Academy": {
+      "City": "U.S. Air Force Academy",
+      "Lat": 38.99696042,
+      "Lon": -104.8626666,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "United States Coast Guard Academy": {
+      "City": "New London",
+      "Lat": 41.37241342,
+      "Lon": -72.10060378,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "United States Merchant Marine Academy": {
+      "City": "Kings Point",
+      "Lat": 40.81161382,
+      "Lon": -73.76389928,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "United States Military Academy": {
+      "City": "West Point",
+      "Lat": 41.39048822,
+      "Lon": -73.96385228,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "United States Naval Academy": {
+      "City": "Annapolis",
+      "Lat": 38.98071682,
+      "Lon": -76.48528948,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Universite de Montreal": {
+      "City": "Montreal",
+      "Lat": 45.50426662,
+      "Lon": -73.61510818,
+      "Reviews": {},
+      "State": "Quebec"
+   },
+   "Universite de Sherbrooke": {
+      "City": "Sherbrooke",
+      "Lat": 45.37778212,
+      "Lon": -71.93067898,
+      "Reviews": {},
+      "State": "Quebec"
+   },
+   "University of Alabama": {
+      "City": "Tuscaloosa",
+      "Lat": 33.21267432,
+      "Lon": -87.54049078,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "University of Alabama Birmingham": {
+      "City": "Birmingham",
+      "Lat": 33.50077372,
+      "Lon": -86.80779368,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "University of Alabama Huntsville": {
+      "City": "Huntsville",
+      "Lat": 34.72517402,
+      "Lon": -86.64104458,
+      "Reviews": {},
+      "State": "Alabama"
+   },
+   "University of Alberta": {
+      "City": "Edmonton",
+      "Lat": 53.52186992,
+      "Lon": -113.5276676,
+      "Reviews": {},
+      "State": "Alberta"
+   },
+   "University of Arizona": {
+      "City": "Tucson",
+      "Lat": 32.23053612,
+      "Lon": -110.9514584,
+      "Reviews": {},
+      "State": "Arizona"
+   },
+   "University of Arkansas": {
+      "City": "Fayetteville",
+      "Lat": 36.06648342,
+      "Lon": -94.17500408,
+      "Reviews": {},
+      "State": "Arkansas"
+   },
+   "University of British Columbia": {
+      "City": "Vancouver",
+      "Lat": 49.25925622,
+      "Lon": -123.2473429,
+      "Reviews": {},
+      "State": "British Columbia"
+   },
+   "University of Calgary": {
+      "City": "Calgary",
+      "Lat": 51.07681092,
+      "Lon": -114.1371497,
+      "Reviews": {},
+      "State": "Alberta"
+   },
+   "University of California - Berkeley": {
+      "City": "Berkeley",
+      "Lat": 37.87055022,
+      "Lon": -122.2598889,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Davis": {
+      "City": "Davis",
+      "Lat": 38.53688322,
+      "Lon": -121.7630615,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Irvine": {
+      "City": "Irvine",
+      "Lat": 33.64267012,
+      "Lon": -117.8526493,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Los Angeles": {
+      "City": "Los Angeles",
+      "Lat": 34.06757202,
+      "Lon": -118.4465301,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Merced": {
+      "City": "Merced",
+      "Lat": 37.36352582,
+      "Lon": -120.4267492,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Riverside": {
+      "City": "Riverside",
+      "Lat": 33.97235652,
+      "Lon": -117.3294134,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - San Diego": {
+      "City": "San Diego",
+      "Lat": 32.87871142,
+      "Lon": -117.2353625,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Santa Barbara": {
+      "City": "Santa Barbara",
+      "Lat": 34.41261392,
+      "Lon": -119.850296,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of California - Santa Cruz": {
+      "City": "Santa Cruz",
+      "Lat": 36.99003662,
+      "Lon": -122.0622208,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of Central Florida": {
+      "City": "Orlando",
+      "Lat": 28.60107842,
+      "Lon": -81.20140888,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Chicago": {
+      "City": "Chicago",
+      "Lat": 41.78725892,
+      "Lon": -87.60006228,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "University of Cincinnati": {
+      "City": "Cincinnati",
+      "Lat": 39.13157292,
+      "Lon": -84.51629938,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "University of Colorado": {
+      "City": "Boulder",
+      "Lat": 40.00623202,
+      "Lon": -105.2672907,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "University of Connecticut": {
+      "City": "Storrs",
+      "Lat": 41.80639242,
+      "Lon": -72.25532948,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "University of Dayton": {
+      "City": "Dayton",
+      "Lat": 39.73844602,
+      "Lon": -84.18304118,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "University of Delaware": {
+      "City": "Newark",
+      "Lat": 39.67660142,
+      "Lon": -75.75196038,
+      "Reviews": {},
+      "State": "Delaware"
+   },
+   "University of Denver": {
+      "City": "Denver",
+      "Lat": 39.67526842,
+      "Lon": -104.9632455,
+      "Reviews": {},
+      "State": "Colorado"
+   },
+   "University of Florida": {
+      "City": "Gainesville",
+      "Lat": 29.64228352,
+      "Lon": -82.35627918,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Georgia": {
+      "City": "Athens",
+      "Lat": 33.94665632,
+      "Lon": -83.37867108,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "University of Guelph": {
+      "City": "Guelph",
+      "Lat": 43.53075052,
+      "Lon": -80.22821028,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "University of Haifa": {
+      "City": "Haifa",
+      "Lat": 32.76008062,
+      "Lon": 35.01816942,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "University of Hartford": {
+      "City": "West Hartford",
+      "Lat": 41.79725222,
+      "Lon": -72.71515408,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "University of Houston": {
+      "City": "Houston",
+      "Lat": 29.71859992,
+      "Lon": -95.34358238,
+      "Reviews": {},
+      "State": "Texas"
+   },
+   "University of Illinois - Chicago": {
+      "City": "Chicago",
+      "Lat": 41.86910072,
+      "Lon": -87.66883438,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "University of Illinois - Urbana-Champaign": {
+      "City": "Urbana-Champaign",
+      "Lat": 41.87361082,
+      "Lon": -87.65945558,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "University of Iowa": {
+      "City": "Iowa City",
+      "Lat": 41.66134732,
+      "Lon": -91.55624878,
+      "Reviews": {},
+      "State": "Iowa"
+   },
+   "University of Kansas": {
+      "City": "Lawrence",
+      "Lat": 38.95299492,
+      "Lon": -95.25714508,
+      "Reviews": {},
+      "State": "Kansas"
+   },
+   "University of Kentucky": {
+      "City": "Lexington",
+      "Lat": 38.02930212,
+      "Lon": -84.50531868,
+      "Reviews": {},
+      "State": "Kentucky"
+   },
+   "University of Maine": {
+      "City": "Orono",
+      "Lat": 44.89987072,
+      "Lon": -68.66799978,
+      "Reviews": {},
+      "State": "Maine"
+   },
+   "University of Manitoba": {
+      "City": "Winnipeg",
+      "Lat": 49.80615182,
+      "Lon": -97.13797488,
+      "Reviews": {},
+      "State": "Manitoba"
+   },
+   "University of Mary Washington": {
+      "City": "Fredericksburg",
+      "Lat": 38.30082132,
+      "Lon": -77.47560768,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "University of Maryland - Baltimore County": {
+      "City": "Baltimore",
+      "Lat": 39.25048612,
+      "Lon": -76.70706338,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "University of Maryland - College Park": {
+      "City": "College Park",
+      "Lat": 38.98556932,
+      "Lon": -76.94390328,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "University of Massachusetts - Amherst": {
+      "City": "Amherst",
+      "Lat": 42.38980792,
+      "Lon": -72.52806108,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "University of Massachusetts - Boston": {
+      "City": "Boston",
+      "Lat": 42.31349232,
+      "Lon": -71.03808668,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "University of Miami - Florida": {
+      "City": "Coral Gables",
+      "Lat": 25.71781952,
+      "Lon": -80.27847428,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Michigan": {
+      "City": "Ann Arbor",
+      "Lat": 42.27669462,
+      "Lon": -83.73957308,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "University of Minnesota": {
+      "City": "Minneapolis",
+      "Lat": 44.97264102,
+      "Lon": -93.22907748,
+      "Reviews": {},
+      "State": "Minnesota"
+   },
+   "University of Mississippi": {
+      "City": "University",
+      "Lat": 34.36338342,
+      "Lon": -89.53979198,
+      "Reviews": {},
+      "State": "Mississippi"
+   },
+   "University of Missouri - Columbia": {
+      "City": "Columbia",
+      "Lat": 38.93903182,
+      "Lon": -92.32908648,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "University of Missouri - Kansas City": {
+      "City": "Kansas City",
+      "Lat": 39.03220492,
+      "Lon": -94.57737488,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "University of Montana": {
+      "City": "Missoula",
+      "Lat": 46.85871822,
+      "Lon": -113.9865571,
+      "Reviews": {},
+      "State": "Montana"
+   },
+   "University of Nebraska": {
+      "City": "Lincoln",
+      "Lat": 40.81884762,
+      "Lon": -96.70182528,
+      "Reviews": {},
+      "State": "Nebraska"
+   },
+   "University of Nevada": {
+      "City": "Reno",
+      "Lat": 39.54284272,
+      "Lon": -119.817746,
+      "Reviews": {},
+      "State": "Nevada"
+   },
+   "University of New Hampshire": {
+      "City": "Durham",
+      "Lat": 43.13759902,
+      "Lon": -70.93837418,
+      "Reviews": {},
+      "State": "New Hampshire"
+   },
+   "University of New Haven": {
+      "City": "West Haven",
+      "Lat": 41.28935452,
+      "Lon": -72.96299268,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "University of New Mexico": {
+      "City": "Albuquerque",
+      "Lat": 35.08296972,
+      "Lon": -106.6211302,
+      "Reviews": {},
+      "State": "New Mexico"
+   },
+   "University of New Orleans": {
+      "City": "New Orleans",
+      "Lat": 30.02730902,
+      "Lon": -90.06727698,
+      "Reviews": {},
+      "State": "Louisiana"
+   },
+   "University of North Carolina - Asheville": {
+      "City": "Asheville",
+      "Lat": 35.61494312,
+      "Lon": -82.56866168,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Chapel Hill": {
+      "City": "Chapel Hill",
+      "Lat": 35.90356322,
+      "Lon": -79.04826238,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Charlotte": {
+      "City": "Charlotte",
+      "Lat": 35.30574392,
+      "Lon": -80.73651298,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Greensboro": {
+      "City": "Greensboro",
+      "Lat": 36.06758062,
+      "Lon": -79.81154648,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "University of North Carolina - Wilmington": {
+      "City": "Wilmington",
+      "Lat": 34.22359102,
+      "Lon": -77.87147558,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "University of North Dakota": {
+      "City": "Grand Forks",
+      "Lat": 47.92154202,
+      "Lon": -97.07815038,
+      "Reviews": {},
+      "State": "North Dakota"
+   },
+   "University of North Florida": {
+      "City": "Jacksonville",
+      "Lat": 30.26477142,
+      "Lon": -81.50858038,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Notre Dame": {
+      "City": "Notre Dame",
+      "Lat": 41.70422262,
+      "Lon": -86.23668778,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "University of Oklahoma": {
+      "City": "Norman",
+      "Lat": 35.20454462,
+      "Lon": -97.44706268,
+      "Reviews": {},
+      "State": "Oklahoma"
+   },
+   "University of Oregon": {
+      "City": "Eugene",
+      "Lat": 44.04348122,
+      "Lon": -123.0739545,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "University of Ottawa": {
+      "City": "Ottawa",
+      "Lat": 45.42175742,
+      "Lon": -75.68448188,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "University of Pennsylvania": {
+      "City": "Philadelphia",
+      "Lat": 39.95086982,
+      "Lon": -75.19456268,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "University of Pittsburgh": {
+      "City": "Pittsburgh",
+      "Lat": 40.44300432,
+      "Lon": -79.96218398,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "University of Puget Sound": {
+      "City": "Tacoma",
+      "Lat": 47.26041502,
+      "Lon": -122.482804,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "University of Redlands": {
+      "City": "Redlands",
+      "Lat": 34.06169142,
+      "Lon": -117.1645916,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of Rhode Island": {
+      "City": "Kingston",
+      "Lat": 41.48471572,
+      "Lon": -71.53220268,
+      "Reviews": {},
+      "State": "Rhode Island"
+   },
+   "University of Richmond": {
+      "City": "Richmond",
+      "Lat": 37.57451912,
+      "Lon": -77.54232338,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "University of Rochester": {
+      "City": "Rochester",
+      "Lat": 43.12920412,
+      "Lon": -77.62735228,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "University of San Diego": {
+      "City": "San Diego",
+      "Lat": 32.77056802,
+      "Lon": -117.1895554,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of San Francisco": {
+      "City": "San Francisco",
+      "Lat": 37.77529762,
+      "Lon": -122.452032,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of Saskatchewan": {
+      "City": "Saskatoon",
+      "Lat": 52.13205132,
+      "Lon": -106.6327072,
+      "Reviews": {},
+      "State": "Saskatchewan"
+   },
+   "University of Scranton": {
+      "City": "Scranton",
+      "Lat": 41.40471272,
+      "Lon": -75.65788198,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "University of South Carolina": {
+      "City": "Columbia",
+      "Lat": 33.99476302,
+      "Lon": -81.02877658,
+      "Reviews": {},
+      "State": "South Carolina"
+   },
+   "University of South Florida": {
+      "City": "Tampa",
+      "Lat": 28.05735412,
+      "Lon": -82.41520288,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Southern California": {
+      "City": "Los Angeles",
+      "Lat": 34.02100292,
+      "Lon": -118.286466,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of Tampa": {
+      "City": "Tampa",
+      "Lat": 27.94613912,
+      "Lon": -82.46852068,
+      "Reviews": {},
+      "State": "Florida"
+   },
+   "University of Tennessee": {
+      "City": "Knoxville",
+      "Lat": 35.95305232,
+      "Lon": -83.93080538,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "University of Toronto": {
+      "City": "Toronto",
+      "Lat": 43.66154272,
+      "Lon": -79.39700538,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "University of Tulsa": {
+      "City": "Tulsa",
+      "Lat": 36.15063892,
+      "Lon": -95.94734898,
+      "Reviews": {},
+      "State": "Oklahoma"
+   },
+   "University of Vermont": {
+      "City": "Burlington",
+      "Lat": 44.47650382,
+      "Lon": -73.19781268,
+      "Reviews": {},
+      "State": "Vermont"
+   },
+   "University of Victoria": {
+      "City": "Victoria",
+      "Lat": 48.46205772,
+      "Lon": -123.3130425,
+      "Reviews": {},
+      "State": "British Columbia"
+   },
+   "University of Virginia": {
+      "City": "Charlottesville",
+      "Lat": 38.03220392,
+      "Lon": -78.50932618,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "University of Washington": {
+      "City": "Seattle",
+      "Lat": 47.65398612,
+      "Lon": -122.3048689,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "University of Waterloo": {
+      "City": "Waterloo",
+      "Lat": 43.47093642,
+      "Lon": -80.54620658,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "University of Windsor": {
+      "City": "Windsor",
+      "Lat": 42.30633512,
+      "Lon": -83.06981718,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "University of Wisconsin": {
+      "City": "Madison",
+      "Lat": 43.07524302,
+      "Lon": -89.41383648,
+      "Reviews": {},
+      "State": "Wisconsin"
+   },
+   "University of Wyoming": {
+      "City": "Laramie",
+      "Lat": 41.31352642,
+      "Lon": -105.5679234,
+      "Reviews": {},
+      "State": "Wyoming"
+   },
+   "University of the Pacific": {
+      "City": "Stockton",
+      "Lat": 37.97946622,
+      "Lon": -121.3133715,
+      "Reviews": {},
+      "State": "California"
+   },
+   "University of the Sciences in Philadelphia": {
+      "City": "Philadelphia",
+      "Lat": 39.94548092,
+      "Lon": -75.20844688,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Ursinus College": {
+      "City": "Collegeville",
+      "Lat": 40.19016092,
+      "Lon": -75.45720778,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Ursuline College": {
+      "City": "Pepper Pike",
+      "Lat": 41.49248422,
+      "Lon": -81.46637628,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Valparaiso University": {
+      "City": "Valparaiso",
+      "Lat": 41.46259042,
+      "Lon": -87.04523838,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Vanderbilt University": {
+      "City": "Nashville",
+      "Lat": 36.14335442,
+      "Lon": -86.80400408,
+      "Reviews": {},
+      "State": "Tennessee"
+   },
+   "Vassar College": {
+      "City": "Poughkeepsie",
+      "Lat": 41.68469802,
+      "Lon": -73.89869198,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Villanova University": {
+      "City": "Villanova",
+      "Lat": 40.03570702,
+      "Lon": -75.34492898,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Virginia Commonwealth University": {
+      "City": "Richmond",
+      "Lat": 37.54763822,
+      "Lon": -77.45477758,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Virginia Tech": {
+      "City": "Blacksburg",
+      "Lat": 37.22703532,
+      "Lon": -80.42476568,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Virginia Wesleyan College": {
+      "City": "Norfolk",
+      "Lat": 36.86982652,
+      "Lon": -76.18810128,
+      "Reviews": {},
+      "State": "Virginia"
+   },
+   "Wabash College": {
+      "City": "Crawfordsville",
+      "Lat": 40.03646212,
+      "Lon": -86.90800418,
+      "Reviews": {},
+      "State": "Indiana"
+   },
+   "Wagner College": {
+      "City": "Staten Island",
+      "Lat": 40.61324492,
+      "Lon": -74.09221998,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Wake Forest University": {
+      "City": "Winston-Salem",
+      "Lat": 36.13390052,
+      "Lon": -80.27769148,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Warren Wilson College": {
+      "City": "Swannanoa",
+      "Lat": 35.60978402,
+      "Lon": -82.44363498,
+      "Reviews": {},
+      "State": "North Carolina"
+   },
+   "Washington College": {
+      "City": "Chestertown",
+      "Lat": 39.21666452,
+      "Lon": -76.07056208,
+      "Reviews": {},
+      "State": "Maryland"
+   },
+   "Washington State University": {
+      "City": "Pullman",
+      "Lat": 46.73057352,
+      "Lon": -117.1555611,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "Washington University in St. Louis": {
+      "City": "St Louis",
+      "Lat": 38.64744052,
+      "Lon": -90.31214518,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Washington and Lee University": {
+      "City": "Lexington",
+      "Lat": 37.78913712,
+      "Lon": -79.44630528,
+      "Reviews": {},
+      "State": "West Virginia"
+   },
+   "Webb Institute": {
+      "City": "Glen Cove",
+      "Lat": 40.88310172,
+      "Lon": -73.64622308,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Weizmann Institute of Science": {
+      "City": "Rehovot",
+      "Lat": 31.90240512,
+      "Lon": 34.80668252,
+      "Reviews": {},
+      "State": "Israel"
+   },
+   "Wellesley College": {
+      "City": "Wellesley",
+      "Lat": 42.29222432,
+      "Lon": -71.30727668,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Wells College": {
+      "City": "Aurora",
+      "Lat": 42.74384732,
+      "Lon": -76.69576418,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "Wesleyan College": {
+      "City": "Maycon",
+      "Lat": 32.87322822,
+      "Lon": -83.71382588,
+      "Reviews": {},
+      "State": "Georgia"
+   },
+   "Wesleyan University": {
+      "City": "Middletown",
+      "Lat": 41.55526142,
+      "Lon": -72.65825308,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "West Virginia University": {
+      "City": "Morgantown",
+      "Lat": 39.63479062,
+      "Lon": -79.95728478,
+      "Reviews": {},
+      "State": "West Virginia"
+   },
+   "Western Michigan University": {
+      "City": "Kalamazoo",
+      "Lat": 42.28238462,
+      "Lon": -85.61159968,
+      "Reviews": {},
+      "State": "Michigan"
+   },
+   "Western University": {
+      "City": "London",
+      "Lat": 43.00824812,
+      "Lon": -81.27508258,
+      "Reviews": {},
+      "State": "Ontario"
+   },
+   "Western Washington University": {
+      "City": "Bellingham",
+      "Lat": 48.73215892,
+      "Lon": -122.4886507,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "Westminster College - Pennsylvania": {
+      "City": "New Wilmington",
+      "Lat": 41.11851002,
+      "Lon": -80.33363498,
+      "Reviews": {},
+      "State": "Pennsylvania"
+   },
+   "Wheaton College - Illinois": {
+      "City": "Wheaton",
+      "Lat": 41.86698102,
+      "Lon": -88.10097098,
+      "Reviews": {},
+      "State": "Illinois"
+   },
+   "Wheaton College - Massachusetts": {
+      "City": "Norton",
+      "Lat": 41.96468842,
+      "Lon": -71.18557308,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Whitman College": {
+      "City": "Walla Walla",
+      "Lat": 46.06921622,
+      "Lon": -118.3316039,
+      "Reviews": {},
+      "State": "Washington"
+   },
+   "Whittier College": {
+      "City": "Whittier",
+      "Lat": 33.97744422,
+      "Lon": -118.0336332,
+      "Reviews": {},
+      "State": "California"
+   },
+   "Willamette University": {
+      "City": "Salem",
+      "Lat": 44.93462192,
+      "Lon": -123.0332088,
+      "Reviews": {},
+      "State": "Oregon"
+   },
+   "William Jewell College": {
+      "City": "Liberty",
+      "Lat": 39.24596292,
+      "Lon": -94.41346598,
+      "Reviews": {},
+      "State": "Missouri"
+   },
+   "Williams College": {
+      "City": "Williamstown",
+      "Lat": 42.71145482,
+      "Lon": -73.20437038,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Wittenberg University": {
+      "City": "Springfield",
+      "Lat": 39.93520062,
+      "Lon": -83.81525188,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Wofford College": {
+      "City": "Spartanburg",
+      "Lat": 34.95671672,
+      "Lon": -81.93583918,
+      "Reviews": {},
+      "State": "South Carolina"
+   },
+   "Worcester Polytechnic Institute": {
+      "City": "Worcester",
+      "Lat": 42.27328832,
+      "Lon": -71.80768798,
+      "Reviews": {},
+      "State": "Massachusetts"
+   },
+   "Wright State University": {
+      "City": "Dayton",
+      "Lat": 39.78013532,
+      "Lon": -84.06492878,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Xavier University": {
+      "City": "Cincinnati",
+      "Lat": 39.14827972,
+      "Lon": -84.47512148,
+      "Reviews": {},
+      "State": "Ohio"
+   },
+   "Yale University": {
+      "City": "New Haven",
+      "Lat": 41.31497542,
+      "Lon": -72.92369208,
+      "Reviews": {},
+      "State": "Connecticut"
+   },
+   "Yeshiva University": {
+      "City": "New York City",
+      "Lat": 40.84913622,
+      "Lon": -73.93045578,
+      "Reviews": {},
+      "State": "New York"
+   },
+   "York University": {
+      "City": "Toronto",
+      "Lat": 43.77210452,
+      "Lon": -79.50321738,
+      "Reviews": {},
+      "State": "Ontario"
    }
 }

@@ -125,7 +125,7 @@
               if (results.hasOwnProperty(result)) numresults++;
             }
 
-            // Display Results:
+            // Display Search Results:
             var counter = 0;
             for (var result in results) {
               if (counter > 0) {
@@ -195,18 +195,26 @@
             texture /= reviewcount;
             tummyfeel /= reviewcount;
             result += "\
-              <div style='margin: 10px 0px 10px 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
+              <div style='margin: 10px 0px 0px 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
                 <h3 style='margin: 0px 0px 10px 0px !important'>Stats:</h3>\
-                <p style='margin: 0px !important'>Taste (quality of academics): " + taste + "</p>\
-                <p style='margin: 0px !important'>Texture (quality of life): " + texture + "</p>\
-                <p style='margin: 0px !important'>Tummy Feel (general rating): " + tummyfeel + "</p>\
+                <p style='margin: 0px !important'>Taste (quality of academics): " + Math.round(taste * 10) / 10 + "</p>\
+                <p style='margin: 0px !important'>Texture (quality of life): " + Math.round(texture * 10) / 10 + "</p>\
+                <p style='margin: 0px !important'>Tummy Feel (general rating): " + Math.round(tummyfeel * 10) / 10 + "</p>\
               </div>";
               
             for (var review in schools[schoolname]["Reviews"]) {
+              var overallrating = schools[schoolname]["Reviews"][review]["Base Rating"];
+              for (var rating in schools[schoolname]["Reviews"][review]["Ratings"]) {
+                console.log(rating)
+                overallrating += schools[schoolname]["Reviews"][review]["Ratings"][rating];
+              }
               result += "\
               <br>\
-              <div style='height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
-                <h3 style='margin: 0px !important'>" + review + "&nbsp(4):</h3>\
+              <div style='margin: 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
+                <h3 style='margin: 0px !important'>" + review + "&nbsp;\
+                  ({% if session.get('user') %}<a class='upvote' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9650;</a>{% endif %} " + overallrating + 
+                  " {% if session.get('user') %}<a class='downvote' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9660;</a>{% endif %}):\
+                </h3>\
                 <p style='margin: 10px 0px 0px 0px !important'>\"" + schools[schoolname]["Reviews"][review]["Review"] + "\"</p>\
               </div>\
               ";
@@ -223,6 +231,45 @@
           $elem.append(result);
           $('#submain').scrollView();
           return false;
+        });
+
+        //Upvote
+        $(document).on('click', "a.upvote", function(event) { 
+          var data = JSON.parse(event.target.id);
+          var schools = (function () {
+            var json = null;
+            $.ajax({
+              'async': false,
+              'global': false,
+              'url': "/data/schools.json",
+              'dataType': "json",
+              'success': function (data) {
+                json = data;
+              }
+            });
+            return json;
+          })();
+          for (var review in schools[data["School"]]["Reviews"][data["User"]]["Ratings"]) {
+            console.log(review);
+          }
+        });
+
+        //Downvote
+        $(document).on('click', "a.downvote", function(event) { 
+          var data = JSON.parse(event.target.id);
+          var schools = (function () {
+            var json = null;
+            $.ajax({
+              'async': false,
+              'global': false,
+              'url': "/data/schools.json",
+              'dataType': "json",
+              'success': function (data) {
+                json = data;
+              }
+            });
+            return json;
+          })();
         });
 
         // Scroll to div:

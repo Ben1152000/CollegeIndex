@@ -2,7 +2,7 @@
 
 {% block body %}
   <div class="jumbotron">
-    <h2>Sign Up</h2>
+    <h2>Add School</h2>
     <br>
     {% if error==1 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Passwords do not match.</div>
@@ -22,20 +22,21 @@
     <form class="form-signin" action="{{ url_for('register') }}" method="post">
       <br>
       
-      <label for="inputName" class="sr-only">Username</label>
+      <label for="schoolName" class="sr-only">School Name</label>
       <input type="name" name="schoolName" id="schoolName" class="form-control" placeholder="School Name" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
       <br>
-      <label for="inputName" class="sr-only">Username</label>
-      <input type="address" name="inputAddress" id="inputAddress" class="form-control" placeholder="Address" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
+      <label for="inputAddress" class="sr-only">Street Address</label>
+      <input type="address" name="inputAddress" id="inputAddress" class="form-control" placeholder="Street Address" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
       <br>
       <div class="row">
         <div class="col-sm-6">
-          <label for="firstName" class="sr-only" style="width: 50%">First Name</label>
-          <input type="city" name="firstName" id="firstName" class="form-control" placeholder="First Name" required autofocus>
+          <label for="inputCity" class="sr-only" style="width: 50%">City</label>
+          <input type="city" name="inputCity" id="inputCity" class="form-control" placeholder="City" required autofocus>
           <br>
         </div>
         <div class="col-sm-6">
           <select type="rating" name="taste" class="form-control">
+            <option value="State/Province">State/Province</option>
             <option value="Alabama">Alabama</option><option value="Alaska">Alaska</option>
             <option value="Alberta">Alberta</option><option value="American Samoa">American Samoa</option>
             <option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option>

@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
-import os, json, re, flask_sijax
+import os, json, re, flask_sijax, math
 from resources import *
 
 
@@ -61,7 +61,6 @@ def login():
         if username in USERDATA.keys() and USERDATA[username]["password"] == password:
             session['user'] = username
             session['name'] = USERDATA[username]["name"]
-            flash("Logged In!")
             return main()
         return render_template('login.html', session=session, error=True)
     return render_template('login.html', session=session, error=False)
@@ -80,9 +79,14 @@ def logout():
 def submit():
     if isLoggedIn(session):
         if USERDATA[session['user']]["confirmed"] == True:
-            print("YEY")
             if request.method == 'POST':
-                name = request.form.get('name')
+                school = request.form.get('name')
+                name = session['user']
+                ratings = [int(request.form.get('taste')), int(request.form.get('texture')), int(request.form.get('tummy feel'))]
+                review = request.form.get('review')
+                base = math.floor(level(name, SCHOOLDATA))
+                SCHOOLDATA[school]["Reviews"][name] = {"Taste": ratings[0], "Texture": ratings[1], "Tummy Feel": ratings[2], "Review": review, "Base Rating": base, "Ratings": {}}
+                write(SCHOOLDATA, "data/schools.json")
                 return render_template('thanks.html', session=session)
             return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
         print(USERDATA[session['user']]["confirmed"])
@@ -132,5 +136,5 @@ def data(filepath):
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
     #context = ('local.crt', 'local.key') # certificate and key files
-    #app.run(debug=True, host="192.168.2.101") #,ssl_context=context)
+    #app.run(debug=True, host="192.168.1.247") #,ssl_context=context)
     app.run(debug=True)

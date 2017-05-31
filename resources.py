@@ -18,7 +18,7 @@ def isLoggedIn(session):
 
 # write USERDATA to users.json
 def write(data, filename):
-    json.dump(data, open(filename, 'w'))
+    json.dump(data, open(filename, 'w'), sort_keys=True, indent=3)
 
 # convert register response into dictionary
 def parseData(form): # turn response into dict
@@ -63,6 +63,19 @@ def search(key, array):
             results.append(item)
     return results
 
+# Calculate user ranking:
+def level(user, schooldata):
+    ranking = 0
+    for school in schooldata:
+        for review in schooldata[school]["Reviews"]:
+            if review == user:
+                for rating in schooldata[school]["Reviews"][review]["Ratings"]:
+                    ranking += schooldata[school]["Reviews"][review]["Ratings"][rating]
+    print(ranking)
+    print((2*ranking+(1/4))**(1/2)-(1/2))
+    return (2*ranking+(1/4))**(1/2)-(1/2)
+
+# Stop caching Schools.json
 def nocache(view):
     @wraps(view)
     def no_cache(*args, **kwargs):
