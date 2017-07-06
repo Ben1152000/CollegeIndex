@@ -54,6 +54,17 @@ def verify_registration(data, userdata): # 0 means successful, positive integers
         print("register: return-code 0")
         return 0
 
+def verify_submission(text): # 0 means successful, positive integers represent error codes  
+    if len(text) < 100:
+        print("register: return-code 1.0")
+        return 1
+    elif len(text.split()) > 150:
+        print("register: return-code 2.0")
+        return 2
+    else:
+        print("register: return-code 0")
+        return 0
+
 # College Search Algorithm
 def search(key, array):
     results = []

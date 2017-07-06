@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
-import os, json, re, flask_sijax, math, sqlite3, geocoder
+import os, json, re, flask_sijax, math, sqlite3
+from geocoder import google
 from resources import *
 
 app = Flask(__name__)
@@ -88,14 +89,19 @@ def submit():
     if isLoggedIn(session):
         if USERDATA[session['user']]["confirmed"] == True:
             if request.method == 'POST':
-                school = request.form.get('name')
-                name = session['user']
-                ratings = [int(request.form.get('taste')), int(request.form.get('texture')), int(request.form.get('tummy feel'))]
-                review = FILTER.clean(request.form.get('review')) # Hit it with dat filter
-                base = math.floor(level(name, SCHOOLDATA))
-                SCHOOLDATA[school]["Reviews"][name] = {"Taste": ratings[0], "Texture": ratings[1], "Tummy Feel": ratings[2], "Review": review, "Base Rating": base, "Ratings": { name: 1 }}
-                write(SCHOOLDATA, "data/schools.json")
-                return render_template('thanks.html', session=session)
+                text = request.form.get('review')
+                result = verify_submission(text)
+                if result != 0:
+                    return render_template('submit.html', session=session, error=result)
+                else:
+                    school = request.form.get('name')
+                    name = session['user']
+                    ratings = [int(request.form.get('taste')), int(request.form.get('texture')), int(request.form.get('tummy feel'))]
+                    review = FILTER.clean(request.form.get('review')) # Hit it with dat filter
+                    base = math.floor(level(name, SCHOOLDATA))
+                    SCHOOLDATA[school]["Reviews"][name] = {"Taste": ratings[0], "Texture": ratings[1], "Tummy Feel": ratings[2], "Review": review, "Base Rating": base, "Ratings": { name: 1 }}
+                    write(SCHOOLDATA, "data/schools.json")
+                    return render_template('thanks.html', session=session)
             return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
         print(USERDATA[session['user']]["confirmed"])
         return confirm()
@@ -104,7 +110,6 @@ def submit():
 @app.route("/account")
 def account():
     if isLoggedIn(session):
-        
         userlevel = math.floor(level(session['user'], SCHOOLDATA))
         print("Level = " + str(userlevel))
         progress = (level(session['user'], SCHOOLDATA) - userlevel) * 100 + 0.1
@@ -138,8 +143,16 @@ def confirm():
 
 @app.route("/newschool", methods=['GET', 'POST'])
 def newschool():
-    
-    return render_template('newschool.html', session=session)
+    if isLoggedIn(session):
+        if request.method == 'POST':
+            name = request.form.get("schoolName")
+            address = request.form.get("inputAddress")
+            city = request.form.get("inputCity")
+            state = request.form.get("inputState")
+            fullAddress = address + ", " + city + ", " + state
+            print(google(fullAddress, key='AIzaSyBWRB04fCBWdDPeFJa5ujOZw8QwXQxqTR0').latlng)
+        return render_template('newschool.html', session=session)
+    return register()
 
 @app.route('/data/<path:filepath>')
 @nocache # stops data caching

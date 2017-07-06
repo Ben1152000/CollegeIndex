@@ -2,10 +2,14 @@
 
 {% block body %}
   <div class="jumbotron">
-    <h2 style="margin-bottom: 50px">Submit Review</h2>
-    {% if error %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid Login Credentials.</div>
+    <h2>Submit Review</h2>
+    <br>
+    {% if error==1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Text must be at least 100 characters.</div>
+    {% elif error==2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">150 word limit.</div>
     {% endif %}
+    <br>
     <form class="form-signin" action="{{ url_for('submit') }}" method="post">
       <div id="name" class="container" style="margin-bottom: 40px">
         <p style="line-height: 10pt">Which college did you visit? (<a href="/newschool">Not on the list?</a>)</p>

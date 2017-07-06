@@ -19,8 +19,8 @@
     {% elif error==4.3 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Password must be at least 6 characters.</div>
     {% endif %}
+    <br>
     <form class="form-signin" action="{{ url_for('register') }}" method="post">
-      <br>
       <div class="row">
         <div class="col-sm-6">
           <label for="firstName" class="sr-only" style="width: 50%">First Name</label>

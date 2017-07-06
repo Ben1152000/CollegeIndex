@@ -9,22 +9,22 @@
     {% elif error==2 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username taken.</div>
     {% endif %}
-    <form class="form-signin" action="{{ url_for('register') }}" method="post">
+    <form class="form-signin" action="{{ url_for('newschool') }}" method="post">
       <br>
       <label for="schoolName" class="sr-only">School Name</label>
-      <input type="name" name="schoolName" id="schoolName" class="form-control" placeholder="School Name" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
+      <input type="name" name="schoolName" id="schoolName" class="form-control" placeholder="School Name" pattern="^\w+.+$" title="Invalid Name." required autofocus>
       <br>
       <label for="inputAddress" class="sr-only">Street Address</label>
-      <input type="address" name="inputAddress" id="inputAddress" class="form-control" placeholder="Street Address" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
+      <input type="address" name="inputAddress" id="inputAddress" class="form-control" placeholder="Street Address" pattern="^\w+.+$" title="Invalid Address." required autofocus>
       <br>
       <div class="row">
         <div class="col-sm-6">
           <label for="inputCity" class="sr-only" style="width: 50%">City</label>
-          <input type="city" name="inputCity" id="inputCity" class="form-control" placeholder="City" required autofocus>
+          <input type="city" name="inputCity" id="inputCity" class="form-control" placeholder="City" pattern="^\w+.+$" title="Invalid City." required autofocus>
           <br>
         </div>
         <div class="col-sm-6">
-          <select type="rating" name="taste" class="form-control">
+          <select type="rating" name="inputState" class="form-control">
             <option value="State/Province">State/Province</option>
             <option value="Alabama">Alabama</option><option value="Alaska">Alaska</option>
             <option value="Alberta">Alberta</option><option value="American Samoa">American Samoa</option>
