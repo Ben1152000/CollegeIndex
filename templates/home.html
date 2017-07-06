@@ -8,6 +8,7 @@
       transform: translate(-50%, -50%);
       display: block;
     }
+    .selected {color: orangered !important}
   </style>
 {% endblock %}
 
@@ -88,7 +89,7 @@
       </form>
     </div>
     <script>
-      // Search Result Page
+      // Display Search Result Page
       $(document).ready(function() {
         $("#querybutton").click(function(event) {
           event.preventDefault(event);
@@ -158,7 +159,7 @@
           return false;
         });
 
-        // Individual School Page
+        // Display Individual School Page
         $(document).on('click', "a.schoolLink", function(event) { 
           event.preventDefault(event); 
           var schoolname = event.target.id;
@@ -201,21 +202,62 @@
                 <p style='margin: 0px !important'>Texture (quality of life): " + Math.round(texture * 10) / 10 + "</p>\
                 <p style='margin: 0px !important'>Tummy Feel (general rating): " + Math.round(tummyfeel * 10) / 10 + "</p>\
               </div>";
-              
-            for (var review in schools[schoolname]["Reviews"]) {
-              var overallrating = schools[schoolname]["Reviews"][review]["Base Rating"];
-              for (var rating in schools[schoolname]["Reviews"][review]["Ratings"]) {
-                console.log(rating)
-                overallrating += schools[schoolname]["Reviews"][review]["Ratings"][rating];
+            
+            var reviews = schools[schoolname]["Reviews"];
+
+            // Find overall ratings of reviews
+            for (var review in reviews) {
+              var overallrating = reviews[review]["Base Rating"];
+              for (var rating in reviews[review]["Ratings"]) {
+                overallrating += reviews[review]["Ratings"][rating];
               }
+              reviews[review]["Overall Rating"] = overallrating;
+            }
+
+            // Create list of ratings
+            var reviewdict = {};
+            for (var review in reviews) {
+              reviewdict[review] = reviews[review]["Overall Rating"];
+            }
+
+            // Sort items by overall rating
+            var items = Object.keys(reviewdict).map(function(key) {
+                return [key, reviewdict[key]];
+            });
+            items.sort(function(first, second) {
+                return second[1] - first[1];
+            });
+            revieworder = []
+            for (var idx in items) {
+              revieworder.push(items[idx][0])
+            }
+            
+            // Build list in html
+            for (var item in revieworder) {
+              var review = revieworder[item]
+              var rating = reviews[review]["Overall Rating"];
+              // Create variable storing the user's current vote (up or down)
+              var user = $( "meta[name=user]" ).attr("content");
+              var currentvote = 0;
+              if (user != "None") {
+                currentvote = reviews[review]["Ratings"][user];
+                if (currentvote == null) {currentvote = 0;}
+              }
+              // Define class of arrows based on user's current vote
+              var upstate = "";
+              var downstate = "";
+              if (currentvote == 1) {upstate = "selected" + " "}
+              if (currentvote == -1) {downstate = "selected" + " "}
+              // Define html review
               result += "\
               <br>\
               <div style='margin: 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
                 <h3 style='margin: 0px !important'>" + review + "&nbsp;\
-                  ({% if session.get('user') %}<a class='upvote' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9650;</a>{% endif %} " + overallrating + 
-                  " {% if session.get('user') %}<a class='downvote' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9660;</a>{% endif %}):\
+                  ({% if session.get('user') %}<a class='" + upstate + "upvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9650;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('register') }}\">&#9650;</a>{% endif %} " + 
+                  "<span id='" + review + "'>" + rating + "</span>" + 
+                  " {% if session.get('user') %}<a class='" + downstate + "downvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9660;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('register') }}\">&#9660;</a>{% endif %}):\
                 </h3>\
-                <p style='margin: 10px 0px 0px 0px !important'>\"" + schools[schoolname]["Reviews"][review]["Review"] + "\"</p>\
+                <p style='margin: 10px 0px 0px 0px !important'>\"" + reviews[review]["Review"] + "\"</p>\
               </div>\
               ";
             }
@@ -233,43 +275,69 @@
           return false;
         });
 
-        //Upvote
+        // Upvote
         $(document).on('click', "a.upvote", function(event) { 
-          var data = JSON.parse(event.target.id);
-          var schools = (function () {
-            var json = null;
-            $.ajax({
-              'async': false,
-              'global': false,
-              'url': "/data/schools.json",
-              'dataType': "json",
-              'success': function (data) {
-                json = data;
+          var id = event.target.id;
+          var data = JSON.parse(id);
+          $.ajax({
+            url: "/upvote", 
+            data: data,
+            type: "POST",
+            success: function () {
+              // Update value:
+              var oldvalue = $( "#" + data["Review"] ).text();
+              var schools = (function () {
+                var json = null;
+                $.ajax({ 'async': false, 'global': false, 'url': "/data/schools.json", 'dataType': "json", 'success': function (data) { json = data; } });
+                return json;
+              })();
+              var review = schools[data["School"]]["Reviews"][data["Review"]]
+              var newvalue = review["Base Rating"];
+              for (var rating in review["Ratings"]) {
+                newvalue += review["Ratings"][rating];
               }
-            });
-            return json;
-          })();
-          for (var review in schools[data["School"]]["Reviews"][data["User"]]["Ratings"]) {
-            console.log(review);
-          }
+              $( "#" + data["Review"] ).text(newvalue);
+              if (newvalue > oldvalue) {
+                $( "a.upvote.author" + data["Review"] ).addClass( "selected" )
+                $( "a.downvote.author" + data["Review"] ).removeClass( "selected" )
+              } else {
+                $( "a.upvote.author" + data["Review"] ).removeClass( "selected" )
+                $( "a.downvote.author" + data["Review"] ).removeClass( "selected" )
+              }
+            }
+          })
         });
 
-        //Downvote
+        // Downvote
         $(document).on('click', "a.downvote", function(event) { 
           var data = JSON.parse(event.target.id);
-          var schools = (function () {
-            var json = null;
-            $.ajax({
-              'async': false,
-              'global': false,
-              'url': "/data/schools.json",
-              'dataType': "json",
-              'success': function (data) {
-                json = data;
+          $.ajax({
+            url: "/downvote", 
+            data: data,
+            type: "POST",
+            success: function () {
+              // Update value:
+              var oldvalue = $( "#" + data["Review"] ).text();
+              var schools = (function () {
+                var json = null;
+                $.ajax({ 'async': false, 'global': false, 'url': "/data/schools.json", 'dataType': "json", 'success': function (data) { json = data; } });
+                return json;
+              })();
+              var review = schools[data["School"]]["Reviews"][data["Review"]]
+              var newvalue = review["Base Rating"];
+              for (var rating in review["Ratings"]) {
+                newvalue += review["Ratings"][rating];
               }
-            });
-            return json;
-          })();
+              $( "#" + data["Review"] ).text(newvalue);
+              if (newvalue > oldvalue) {
+                $( "a.downvote.author" + data["Review"] ).removeClass( "selected" )
+                $( "a.upvote.author" + data["Review"] ).removeClass( "selected" )
+              } else {
+                $( "a.downvote.author" + data["Review"] ).addClass( "selected" )
+                $( "a.upvote.author" + data["Review"] ).removeClass( "selected" )
+              }
+            }
+          })
         });
 
         // Scroll to div:

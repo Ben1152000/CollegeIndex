@@ -1,1 +1,35 @@
-{"Jaked": {"username": "Jaked", "name": ["Jake", "Darnell"], "administrator": false, "password": "41f04b0d21089289fe393642ab2c9817", "confirmed": true, "email": "benjamindarnell00@gmail.com"}}
+{
+   "Billton": {
+      "administrator": false,
+      "confirmed": false,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Bill",
+         "Billington"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "1ec565414206d89b1481e1e3bff4cb2b"
+   },
+   "Sully": {
+      "administrator": false,
+      "confirmed": false,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Ben",
+         "Darnell"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "49bb9538f1f1e49eded9d8b907c71d15"
+   },
+   "Test": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Test",
+         "Test"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "df20ed8ce447017389c0cc20858cecdb"
+   }
+}

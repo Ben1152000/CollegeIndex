@@ -1,10 +1,70 @@
 {% extends 'base.html' %}
 
+{% block style %}
+  <style>
+    .chart {
+        position:relative;
+        width: 150px; height: 150px;
+        margin: 30px auto;
+    }
+    canvas {
+        display: block;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .level {
+        color:#555;
+        display:block;
+        line-height:150px;
+        text-align:center;
+        width:150px;
+        font-family:sans-serif;
+        font-size:24px;
+        font-weight:100;
+    }
+  </style>
+{% endblock %}
+
 {% block body %}
   <div class="jumbotron" style="padding: 40px 20px">
-    <h2>My Account<h2><br>
+    <h2>My Account<h2>
     <div>
-      <p style="font-size: 18px">Username: <b>{{session['user']}}</b></p>
+      {% if session.get('user') %}
+        <div class="chart" id="graph" data-percent="{{progress}}"><span class="level" id="level">Lvl: {{level}}</span></div>
+      {% endif %}
+      <script>
+        var el = document.getElementById('graph'); // get canvas
+        var options = {
+            percent:  el.getAttribute('data-percent') || 25,
+            size: el.getAttribute('data-size') || 150,
+            lineWidth: el.getAttribute('data-line') || 20,
+            rotate: el.getAttribute('data-rotate') || 0
+        }
+        var canvas = document.createElement('canvas'); 
+        if (typeof(G_vmlCanvasManager) !== 'undefined') {
+            G_vmlCanvasManager.initElement(canvas);
+        }
+        var ctx = canvas.getContext('2d');
+        canvas.width = canvas.height = options.size;
+        el.appendChild(canvas);
+        ctx.translate(options.size / 2, options.size / 2); // change center
+        ctx.rotate((-1 / 2 + options.rotate / 180) * Math.PI); // rotate -90 deg
+        //imd = ctx.getImageData(0, 0, 240, 240);
+        var radius = (options.size - options.lineWidth) / 2;
+        var drawCircle = function(color, lineWidth, percent) {
+            percent = Math.min(Math.max(0, percent || 1), 1);
+            ctx.beginPath();
+            ctx.arc(0, 0, radius, 0, Math.PI * 2 * percent, false);
+            ctx.strokeStyle = color;
+                ctx.lineCap = 'round'; // butt, round or square
+            ctx.lineWidth = lineWidth
+            ctx.stroke();
+        };
+        drawCircle('#dddddd', options.lineWidth, 100 / 100);
+        drawCircle('#555555', options.lineWidth, options.percent / 100);
+      </script>
+      <p style="margin-top: 20px; font-size: 18px">Username: <b>{{session['user']}}</b></p>
       <p style="font-size: 18px">First Name: <b>{{session['name'][0]}}</b></p>
       <p style="font-size: 18px">Last Name: <b>{{session['name'][1]}}</b></p>
       <br>

@@ -6,7 +6,20 @@
       "Reviews": {
          "Ben": {
             "Base Rating": 1,
-            "Ratings": {},
+            "Ratings": {
+               "Billton": 1
+            },
+            "Review": "",
+            "Taste": 1,
+            "Texture": 1,
+            "Tummy Feel": 1
+         },
+         "Test": {
+            "Base Rating": 0,
+            "Ratings": {
+               "Billton": 1,
+               "Test": 1
+            },
             "Review": "",
             "Taste": 1,
             "Texture": 1,
@@ -33,7 +46,19 @@
       "City": "Reading",
       "Lat": 40.36015372,
       "Lon": -75.91197798,
-      "Reviews": {},
+      "Reviews": {
+         "Test": {
+            "Base Rating": 0,
+            "Ratings": {
+               "Shane": -1,
+               "Test": -1
+            },
+            "Review": "Hello, world. I am FREDMAGGEDON.",
+            "Taste": 1,
+            "Texture": 1,
+            "Tummy Feel": 1
+         }
+      },
       "State": "Pennsylvania"
    },
    "Alfred University": {
@@ -1756,12 +1781,24 @@
          "Ben1152000": {
             "Base Rating": 3,
             "Ratings": {
-               "Ben": 1
+               "Ben": 1,
+               "Billton": -1
             },
             "Review": "Fusce laoreet, arcu et tincidunt volutpat, dolor ligula consectetur tellus, eget mollis lacus velit vitae ligula. Maecenas pharetra turpis vitae mi blandit, nec mollis augue lacinia. Donec mollis, nisl vel egestas mattis, ligula lorem rhoncus orci, in bibendum ipsum eros sed est. Nullam commodo dolor sed dapibus fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean elementum eleifend enim gravida mollis. Pellentesque sed porta est, et semper tellus. In posuere, lorem nec sagittis eleifend, diam tellus finibus elit, eget consectetur nunc nunc sed odio.",
             "Taste": 6,
             "Texture": 1,
             "Tummy Feel": 9
+         },
+         "Test": {
+            "Base Rating": 0,
+            "Ratings": {
+               "Billton": 1,
+               "Test": 1
+            },
+            "Review": "sdf",
+            "Taste": 1,
+            "Texture": 1,
+            "Tummy Feel": 1
          }
       },
       "State": "New Jersey"

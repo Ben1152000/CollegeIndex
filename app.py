@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
-import os, json, re, flask_sijax, math
+import os, json, re, flask_sijax, math, sqlite3, geocoder
 from resources import *
-
 
 app = Flask(__name__)
 
@@ -25,6 +24,12 @@ flask_sijax.Sijax(app)
 USERDATA = json.load(open('users.json'))
 SCHOOLDATA = json.load(open('data/schools.json'))
 
+# Set up SQL Database
+CONNECT = sqlite3.connect('data/schools.db', timeout=20)
+
+# Create profanity filter
+FILTER = ProfanitiesFilter()
+
 @app.route("/")
 def main():
     return render_template('home.html', session=session)
@@ -45,11 +50,14 @@ def register():
         if result != 0:
             return render_template('register.html', session=session, error=result)
         else:
-            if "verify" in data: del data["verify"]
-            USERDATA[data["username"]] = data
-            write(USERDATA, 'users.json')
+            # Tell session that user is logged in:
+            print(data, data["username"])
             session['user'] = data["username"]
             session['name'] = data["name"]
+            if "verify" in data: del data["verify"] # Don't store the verified password!
+            if "username" in data: del data["username"] # Username is key, not value
+            USERDATA[session['user']] = data # Add user data to file
+            write(USERDATA, 'users.json')
             return main()
     return render_template('register.html', session=session, error=0)
 
@@ -83,9 +91,9 @@ def submit():
                 school = request.form.get('name')
                 name = session['user']
                 ratings = [int(request.form.get('taste')), int(request.form.get('texture')), int(request.form.get('tummy feel'))]
-                review = request.form.get('review')
+                review = FILTER.clean(request.form.get('review')) # Hit it with dat filter
                 base = math.floor(level(name, SCHOOLDATA))
-                SCHOOLDATA[school]["Reviews"][name] = {"Taste": ratings[0], "Texture": ratings[1], "Tummy Feel": ratings[2], "Review": review, "Base Rating": base, "Ratings": {}}
+                SCHOOLDATA[school]["Reviews"][name] = {"Taste": ratings[0], "Texture": ratings[1], "Tummy Feel": ratings[2], "Review": review, "Base Rating": base, "Ratings": { name: 1 }}
                 write(SCHOOLDATA, "data/schools.json")
                 return render_template('thanks.html', session=session)
             return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
@@ -96,7 +104,11 @@ def submit():
 @app.route("/account")
 def account():
     if isLoggedIn(session):
-        return render_template('account.html', session=session)
+        
+        userlevel = math.floor(level(session['user'], SCHOOLDATA))
+        print("Level = " + str(userlevel))
+        progress = (level(session['user'], SCHOOLDATA) - userlevel) * 100 + 0.1
+        return render_template('account.html', session=session, level=userlevel, progress=progress)
     return main()
 
 @app.route("/send-confirmation")
@@ -116,7 +128,7 @@ def confirm():
     if isLoggedIn(session):
         if request.method == 'POST':
             username = session['user']
-            if request.form.get('confirmCode') == hash(USERDATA[session['user']]["username"])[:5]:
+            if request.form.get('confirmCode') == hash(session['user'])[:5]:
                 USERDATA[session['user']]["confirmed"] = True
                 write(USERDATA, "users.json")
                 return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
@@ -126,15 +138,41 @@ def confirm():
 
 @app.route("/newschool", methods=['GET', 'POST'])
 def newschool():
+    
     return render_template('newschool.html', session=session)
 
 @app.route('/data/<path:filepath>')
-@nocache
+@nocache # stops data caching
 def data(filepath):
     return send_from_directory('data', filepath)
 
+@app.route('/downvote', methods=['POST'])
+def downvote():
+    school = request.form["School"]
+    user = request.form["User"]
+    author = request.form["Review"]
+    if user in SCHOOLDATA[school]["Reviews"][author]["Ratings"] and SCHOOLDATA[school]["Reviews"][author]["Ratings"][user] == -1:
+        del SCHOOLDATA[school]["Reviews"][author]["Ratings"][user]
+    else:
+        SCHOOLDATA[school]["Reviews"][author]["Ratings"][user] = -1
+    write(SCHOOLDATA, "data/schools.json")
+    return json.dumps({})
+
+@app.route('/upvote', methods=['POST'])
+def upvote():
+    school = request.form["School"]
+    user = request.form["User"]
+    author = request.form["Review"]
+    if user in SCHOOLDATA[school]["Reviews"][author]["Ratings"] and SCHOOLDATA[school]["Reviews"][author]["Ratings"][user] == 1:
+        del SCHOOLDATA[school]["Reviews"][author]["Ratings"][user]
+    else:
+        SCHOOLDATA[school]["Reviews"][author]["Ratings"][user] = 1
+    write(SCHOOLDATA, "data/schools.json")
+    return json.dumps({})
+
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    #context = ('local.crt', 'local.key') # certificate and key files
-    #app.run(debug=True, host="192.168.1.247") #,ssl_context=context)
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False, host="127.0.0.1") # change use_reloader to True when running
+    CONNECT.commit() # save and close sqlite server
+    CONNECT.close()
+    

@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon_16.ico') }}">
     <link rel="icon" href="{{ url_for('static', filename='favicon_32.ico') }}">
     <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+    <meta name="user" content="{{ session.get('user') }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/static/js-cookie/src/js.cookie.js"></script>
     <style>
@@ -76,10 +77,9 @@
           font-size: 14pt !important;
       }
       div {
-          background-size: cover;
-          background-attachment: fixed;
+          background-size: cover; /* This is for the options on the settings page */
       }
-      .copy-left {
+      .copy-left { /* This class reverses any text */
           display: inline-block;
           text-align: right;
           margin: 0px;

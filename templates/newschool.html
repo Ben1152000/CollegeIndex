@@ -8,20 +8,9 @@
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Passwords do not match.</div>
     {% elif error==2 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username taken.</div>
-    {% elif error==3 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Sorry, registration is not open at this time.</div>
-    {% elif error==4 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid First/Last Name. Begin name with a capital.</div>
-    {% elif error==4.1 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username must contain only letters, numbers, dashes, or underscores.</div>
-    {% elif error==4.2 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid email address.</div>
-    {% elif error==4.3 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Password must be at least 6 characters.</div>
     {% endif %}
     <form class="form-signin" action="{{ url_for('register') }}" method="post">
       <br>
-      
       <label for="schoolName" class="sr-only">School Name</label>
       <input type="name" name="schoolName" id="schoolName" class="form-control" placeholder="School Name" pattern="^[\w|-]+$" title="Must contain only letters, numbers, dashes, or underscores." required autofocus>
       <br>
@@ -47,6 +36,7 @@
             <option value="Guam">Guam</option><option value="Hawaii">Hawaii</option>
             <option value="Idaho">Idaho</option><option value="Illinois">Illinois</option>
             <option value="Indiana">Indiana</option><option value="Iowa">Iowa</option>
+            <option value="Israel">Israel</option>
             <option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option>
             <option value="Louisiana">Louisiana</option><option value="Maine">Maine</option>
             <option value="Manitoba">Manitoba</option><option value="Maryland">Maryland</option>
@@ -70,7 +60,7 @@
             <option value="Vermont">Vermont</option><option value="Virginia">Virginia</option>
             <option value="Washington">Washington</option><option value="West Virginia">West Virginia</option>
             <option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option>
-            <option value="Yukon">Yukon</option><option value="Israel">Israel</option>
+            <option value="Yukon">Yukon</option>
           </select>
           <br>
         </div>
