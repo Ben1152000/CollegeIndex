@@ -31,9 +31,13 @@ CONNECT = sqlite3.connect('data/schools.db', timeout=20)
 # Create profanity filter
 FILTER = ProfanitiesFilter()
 
+# Read API Keys
+MAPKEY = open("APIkeys.txt").read().split()[0]
+GEOKEY = open("APIkeys.txt").read().split()[1]
+
 @app.route("/")
 def main():
-    return render_template('home.html', session=session)
+    return render_template('home.html', session=session, key=MAPKEY)
 
 @app.route("/about")
 def about():
@@ -150,7 +154,7 @@ def newschool():
             city = request.form.get("inputCity")
             state = request.form.get("inputState")
             fullAddress = address + ", " + city + ", " + state
-            print(google(fullAddress, key='AIzaSyBWRB04fCBWdDPeFJa5ujOZw8QwXQxqTR0').latlng)
+            print(google(fullAddress, key=GEOKEY).latlng)
         return render_template('newschool.html', session=session)
     return register()
 
