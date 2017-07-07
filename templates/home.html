@@ -62,13 +62,42 @@
       }
       
       var center = {lat: 40.8199, lng: -96.7018};
-      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false});
+      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false, disableDefaultUI: true});
       var infowindow = new google.maps.InfoWindow(); /* SINGLE */
       
       for (var school in json) {
         placeMarker( school, json );
       };
+
+      // Apply new JSON when the user chooses to hide/show features.
+      map.setOptions({styles: styles['silver']});
     }
+
+    var styles = {
+      default: null,
+      silver: [
+        {elementType: 'geometry.fill',stylers: [{color: '#eeeeee'}]},
+        {elementType: 'geometry.stroke',stylers: [{color: '#aaaaaa'}]},
+        {elementType: 'labels.icon',stylers: [{visibility: 'off'}]},
+        {elementType: 'labels.text.fill',stylers: [{color: '#616161'}]},
+        {elementType: 'labels.text.stroke',stylers: [{color: '#eeeeee'}]},
+        {featureType: 'administrative.land_parcel',elementType: 'labels.text.fill',stylers: [{color: '#bdbdbd'}]},
+        {featureType: 'landscape.man_made',elementType: 'geometry',stylers: [{color: '#e0e0e0'}]},
+        {featureType: 'landscape.natural.terrain',elementType: 'geometry',stylers: [{color: '#e0d0c8'}]},
+        {featureType: 'poi',stylers: [{visibility: 'off'}]},
+        {featureType: 'road',elementType: 'geometry',stylers: [{color: '#ffffff'}]},
+        {featureType: 'road.arterial',elementType: 'labels.text.fill',stylers: [{color: '#757575'}]},
+        {featureType: 'road.highway',elementType: 'geometry',stylers: [{color: '#cccccc'}]},
+        {featureType: 'road',elementType: 'labels.text',stylers: [{visibility: 'off'}]},
+        {featureType: 'transit',elementType: 'labels.icon',stylers: [{visibility: 'off'}]},
+        {featureType: 'transit',elementType: 'labels.icon',stylers: [{visibility: 'off'}]},
+        {featureType: 'transit.line',elementType: 'geometry',stylers: [{color: '#d5d5d5'}]},
+        {featureType: 'transit.station',elementType: 'geometry',stylers: [{color: '#dddddd'}]},
+        {featureType: 'water',elementType: 'geometry',stylers: [{color: '#66ccff'}]},
+        {featureType: 'water',elementType: 'labels.text.fill',stylers: [{color: '#2883B0'}]}
+      ],
+    };
+
   </script>
   <script async defer 
     src="https://maps.googleapis.com/maps/api/js?key={{ key }}&callback=initMap">

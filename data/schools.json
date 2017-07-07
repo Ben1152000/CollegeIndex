@@ -49,8 +49,7 @@
          "Test": {
             "Base Rating": 0,
             "Ratings": {
-               "Shane": -1,
-               "Test": -1
+               "Shane": -1
             },
             "Review": "Hello, world. I am FREDMAGGEDON.",
             "Taste": 1,
@@ -1236,6 +1235,13 @@
       "Reviews": {},
       "State": "Kansas"
    },
+   "Kehillah Jewish High School": {
+      "City": "Palo Alto",
+      "Lat": 37.4248425,
+      "Lon": -122.1045644,
+      "Reviews": {},
+      "State": "California"
+   },
    "Kent State University": {
       "City": "Kent",
       "Lat": 41.14771392,
@@ -1770,7 +1776,8 @@
             "Base Rating": 3,
             "Ratings": {
                "Ben1152000": 1,
-               "Martin": 1
+               "Martin": 1,
+               "Sully": 1
             },
             "Review": "It was a nice school, but there were many too few potatoes.",
             "Taste": 5,
@@ -1781,7 +1788,8 @@
             "Base Rating": 3,
             "Ratings": {
                "Ben": 1,
-               "Billton": -1
+               "Billton": -1,
+               "Sully": 1
             },
             "Review": "Fusce laoreet, arcu et tincidunt volutpat, dolor ligula consectetur tellus, eget mollis lacus velit vitae ligula. Maecenas pharetra turpis vitae mi blandit, nec mollis augue lacinia. Donec mollis, nisl vel egestas mattis, ligula lorem rhoncus orci, in bibendum ipsum eros sed est. Nullam commodo dolor sed dapibus fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean elementum eleifend enim gravida mollis. Pellentesque sed porta est, et semper tellus. In posuere, lorem nec sagittis eleifend, diam tellus finibus elit, eget consectetur nunc nunc sed odio.",
             "Taste": 6,
@@ -1792,7 +1800,7 @@
             "Base Rating": 0,
             "Ratings": {
                "Billton": 1,
-               "Test": 1
+               "Sully": -1
             },
             "Review": "sdf",
             "Taste": 1,

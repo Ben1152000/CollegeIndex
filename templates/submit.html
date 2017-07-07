@@ -5,13 +5,11 @@
     <h2>Submit Review</h2>
     <br>
     {% if error==1 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Text must be at least 100 characters.</div>
-    {% elif error==2 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">150 word limit.</div>
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Dude. You can write <i>at least</i> 10 words.</div>
     {% endif %}
     <br>
     <form class="form-signin" action="{{ url_for('submit') }}" method="post">
-      <div id="name" class="container" style="margin-bottom: 40px">
+      <div id="name" class="container" style="margin-bottom: 20px">
         <p style="line-height: 10pt">Which college did you visit? (<a href="/newschool">Not on the list?</a>)</p>
         <select type="name" name="name" class="form-control">
           {% for item in data %}
@@ -19,7 +17,7 @@
           {% endfor %}
         </select>
       </div>
-      <div id="ratings" class="container" style="margin-bottom: 40px">
+      <div id="ratings" class="container" style="margin-bottom: 20px">
         <h3 style="margin-bottom: 20px">Ratings: (Required)</h3>
         <div class="col-sm-4">
           <p style="line-height: 10pt">Taste:</p>
@@ -55,10 +53,28 @@
           </select>
         </div>
       </div>
-      <div id="responses" class="container" style="margin-bottom: 40px">
+      <div id="responses" class="container" style="margin-bottom: 20px">
         <h3 style="margin-bottom: 20px">Review: (Required)</h3>
         <p style="text-align: left">Please provide a short summary of the college's highlights, lowlights, traits, and features. How did you feel about visiting the college? Would you recommend others visit? (150 words max.)</p>
-        <textarea name="review" rows=8 class="form-control" style="width: 100%;"></textarea>
+        <textarea id="review" name="review" rows=8 class="form-control" style="width: 100%;"></textarea>
+        <p style="font-size: 12pt !important; margin-top: 6px">Words used: <span id="display_count">0</span></p>
+        <script> // Manage word count
+          $(document).ready(function() {
+            $("#review").on('keyup', function() {
+              var limit = 150; var words = 0;
+              if (this.value.match(/\S+/g) != null) {
+                words = this.value.match(/\S+/g).length;
+              }
+              if (words > limit) {
+                var trimmed = $(this).val().split(/\s+/, limit).join(" "); // Split the string on first 200 words and rejoin on spaces
+                $(this).val(trimmed + " "); // Add a space at the end to keep new typing making new words
+              }
+              else {
+                $('#display_count').text(words);
+              }
+            });
+          }); 
+        </script>
       </div>
       <!--
       <div id="responses" class="container" style="margin-bottom: 40px">

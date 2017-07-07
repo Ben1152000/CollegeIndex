@@ -6,11 +6,16 @@ from resources import *
 
 app = Flask(__name__)
 
+# Read API Keys
+MAPKEY = open("APIkeys.txt").read().split()[0]
+GEOKEY = open("APIkeys.txt").read().split()[1]
+EMAILPASS = open("APIkeys.txt").read().split()[2]
+
 # Configure Email Server
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'kjhscollegeindex@gmail.com'
-app.config['MAIL_PASSWORD'] = 'GoRams!!'
+app.config['MAIL_PASSWORD'] = EMAILPASS
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
@@ -30,10 +35,6 @@ CONNECT = sqlite3.connect('data/schools.db', timeout=20)
 
 # Create profanity filter
 FILTER = ProfanitiesFilter()
-
-# Read API Keys
-MAPKEY = open("APIkeys.txt").read().split()[0]
-GEOKEY = open("APIkeys.txt").read().split()[1]
 
 @app.route("/")
 def main():
@@ -129,7 +130,7 @@ def send_confirmation():
                     body = session["name"][0] + ",\n\nThank you for signing up at College Index!\nHere is your confirmation code: " + code + "\n\nThanks,\nBen Darnell",
                     recipients=[USERDATA[session['user']]["email"]])
         mail.send(msg)
-        return confirm()
+        return render_template('confirm.html', session=session, error=0)
     return main()
 
 @app.route("/confirm", methods=['GET', 'POST'])
@@ -142,7 +143,7 @@ def confirm():
                 write(USERDATA, "users.json")
                 return render_template('submit.html', session=session, data=sorted(SCHOOLDATA.keys()))
             return render_template('confirm.html', session=session, error=1)
-        return render_template('confirm.html', session=session, error=0)
+        return send_confirmation()
     return main()
 
 @app.route("/newschool", methods=['GET', 'POST'])
@@ -154,7 +155,10 @@ def newschool():
             city = request.form.get("inputCity")
             state = request.form.get("inputState")
             fullAddress = address + ", " + city + ", " + state
-            print(google(fullAddress, key=GEOKEY).latlng)
+            latlng = google(fullAddress, key=GEOKEY).latlng
+            print({"City": city, "State": state, "Lat": latlng[0], "Lon": latlng[1], "Reviews": {}})
+            SCHOOLDATA[name] = {"City": city, "State": state, "Lat": latlng[0], "Lon": latlng[1], "Reviews": {}}
+            write(SCHOOLDATA, "data/schools.json")
         return render_template('newschool.html', session=session)
     return register()
 
