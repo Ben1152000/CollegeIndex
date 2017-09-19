@@ -94,10 +94,11 @@ def submit():
     if isLoggedIn(session):
         if USERDATA[session['user']]["confirmed"] == True:
             if request.method == 'POST':
+                school = request.form.get('name')
                 text = request.form.get('review')
-                result = verify_submission(text)
+                result = verify_submission(school, text)
                 if result != 0:
-                    return render_template('submit.html', session=session, error=result)
+                    return render_template('submit.html', session=session, error=result, data=sorted(SCHOOLDATA.keys()))
                 else:
                     school = request.form.get('name')
                     name = session['user']
@@ -150,6 +151,8 @@ def confirm():
 def newschool():
     if isLoggedIn(session):
         if request.method == 'POST':
+            if True: # Feature temporarily disabled
+                return render_template('newschool.html', session=session, error=1)
             name = request.form.get("schoolName")
             address = request.form.get("inputAddress")
             city = request.form.get("inputCity")
@@ -193,7 +196,5 @@ def upvote():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True, use_reloader=False, host="127.0.0.1") # change use_reloader to True when running
-    CONNECT.commit() # save and close sqlite server
-    CONNECT.close()
+    app.run(debug=True, use_reloader=False, host="192.168.1.19", port="5000") # change use_reloader to True when running
     

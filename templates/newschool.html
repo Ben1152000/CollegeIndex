@@ -5,9 +5,11 @@
     <h2>Add School</h2>
     <br>
     {% if error==1 %}
-      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Passwords do not match.</div>
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Feature temporarily disabled. Contact me at <a href="mailto:kjhscollegeindex@gmail.com">kjhscollegeindex@gmail.com</a>.</div>
     {% elif error==2 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Username taken.</div>
+    {% else %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Feature temporarily disabled. Contact me at <a href="mailto:kjhscollegeindex@gmail.com">kjhscollegeindex@gmail.com</a>.</div>
     {% endif %}
     <form class="form-signin" action="{{ url_for('newschool') }}" method="post">
       <br>
@@ -66,7 +68,7 @@
         </div>
       </div>
       <br><br>
-      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Add school</button>
     </form>
   </div>
 {% endblock %}

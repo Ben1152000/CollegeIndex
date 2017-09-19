@@ -6,15 +6,37 @@
     <br>
     {% if error==1 %}
       <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Dude. You can write <i>at least</i> 10 words.</div>
+    {% elif error==2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Please select a school.</div>
     {% endif %}
     <br>
     <form class="form-signin" action="{{ url_for('submit') }}" method="post">
       <div id="name" class="container" style="margin-bottom: 20px">
         <p style="line-height: 10pt">Which college did you visit? (<a href="/newschool">Not on the list?</a>)</p>
         <select type="name" name="name" class="form-control">
+          <option id="Option: default" value="default" selected="true" disabled="disabled">Select a School</option>
           {% for item in data %}
-          <option value="{{ item }}">{{ item }}</option>
+          <option id="Option: {{ item }}" value="{{ item }}">{{ item }}</option>
           {% endfor %}
+          <script>
+            /**
+            * Get the value of a querystring
+            * @param  {String} field The field to get the value of
+            * @param  {String} url   The URL to get the value from (optional)
+            * @return {String}       The field value
+            */
+            var getQueryString = function ( field, url ) {
+                var href = url ? url : window.location.href;
+                var reg = new RegExp( '[?]' + field + '=([^#]*)', 'i' );
+                var string = reg.exec(href);
+                return string ? string[1] : null;
+            };
+            //alert("Option: " + getQueryString("school") + " Option: " + decodeURIComponent(getQueryString("school")))
+            var opt = document.getElementById("Option: " + decodeURIComponent(getQueryString("school")));
+            if (opt != null) {
+              opt.selected = true;
+            }
+          </script>
         </select>
       </div>
       <div id="ratings" class="container" style="margin-bottom: 20px">

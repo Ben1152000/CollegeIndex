@@ -34,20 +34,34 @@
         var latLng = new google.maps.LatLng(schools[school]["Lat"], schools[school]["Lon"]);
         if (Object.keys(schools[school]["Reviews"]).length == 0) {
           var iconBase = 'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png';
+          var baseScale = 0.6
           var icon = {
             url: iconBase, // url
-            scaledSize: new google.maps.Size(14, 26), // scaled size
+            scaledSize: new google.maps.Size(baseScale * 20, baseScale * 36), // scaled size
             origin: new google.maps.Point(0, 0), // origin
-            anchor: new google.maps.Point(7, 26) // anchor
+            anchor: new google.maps.Point(baseScale * 10, baseScale * 36) // anchor
           };
         } else {
-          var iconBase = '/static/mapicon.png';
-          var icon = {
-            url: iconBase, // url
-            scaledSize: new google.maps.Size(20, 36), // scaled size
-            origin: new google.maps.Point(0, 0), // origin
-            anchor: new google.maps.Point(10, 36) // anchor
-          };
+          if (Object.keys(schools[school]["Reviews"]).indexOf($( "meta[name=user]" ).attr("content")) >= 0) {
+            var iconBase = '/static/mapiconplus.png';
+            var baseScale = 1.1
+            var icon = {
+              url: iconBase, // url
+              scaledSize: new google.maps.Size(baseScale * 20, baseScale * 36), // scaled size
+              origin: new google.maps.Point(0, 0), // origin
+              anchor: new google.maps.Point(baseScale * 10, baseScale * 36) // anchor
+            };
+          } else {
+            var iconBase = '/static/mapicon.png';
+            var baseScale = 1.1
+            var icon = {
+              url: iconBase, // url
+              scaledSize: new google.maps.Size(baseScale * 20, baseScale * 36), // scaled size
+              origin: new google.maps.Point(0, 0), // origin
+              anchor: new google.maps.Point(baseScale * 10, baseScale * 36) // anchor
+            };
+          }
+          
         }
         var marker = new google.maps.Marker({
           position : latLng,
@@ -62,9 +76,9 @@
       }
       
       var center = {lat: 40.8199, lng: -96.7018};
-      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false, disableDefaultUI: true});
+      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: center, streetViewControl: false, mapTypeControl: false, navigationControl: false, fullscreenControl: false});
       var infowindow = new google.maps.InfoWindow(); /* SINGLE */
-      
+
       for (var school in json) {
         placeMarker( school, json );
       };
@@ -137,6 +151,32 @@
             var counter = 0;
 
             // Load Dictionary:
+            
+            // Perfect match:
+            for (var key in data) {
+              if (counter == 100) {
+                break;
+              }
+              if (data.hasOwnProperty(key)) { // this will check if key is owned by data object and not by any of it's ancestors
+                if (key.toLowerCase() == searchstring.toLowerCase()) {
+                  results[key] = data[key];
+                  counter++;
+                }
+              }
+            }
+            // Match beginning:
+            for (var key in data) {
+              if (counter == 100) {
+                break;
+              }
+              if (data.hasOwnProperty(key)) { // this will check if key is owned by data object and not by any of it's ancestors
+                if (key.toLowerCase().indexOf(searchstring.toLowerCase()) == 0) {
+                  results[key] = data[key];
+                  counter++;
+                }
+              }
+            }
+            // Any match:
             for (var key in data) {
               if (counter == 100) {
                 break;
@@ -209,7 +249,7 @@
           })();
           
           if (Object.keys(schools[schoolname]["Reviews"]).length == 0) {
-            result += "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit'>Submit a review of this school</a></p>";
+            result += "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit?school=" + schoolname + "'>Submit a review of this school</a></p>";
           } else {
             var taste = 0;
             var texture = 0;
@@ -292,7 +332,7 @@
             }
             result += "\
             <p style='margin: 30px 0px 0px 0px !important'>\
-              <a href='/submit'>Submit a review of this school</a>\
+              <a href='/submit?school=" + schoolname + "'>Submit a review of this school</a>\
             </p>\
             ";
           }

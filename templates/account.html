@@ -31,7 +31,7 @@
     <h2>My Account<h2>
     <div>
       {% if session.get('user') %}
-        <div class="chart" id="graph" data-percent="{{progress}}"><span class="level" id="level">Lvl: {{level}}</span></div>
+        <div title="{{progress|round}}% Progress" class="chart" id="graph" data-percent="{{progress}}"><span class="level" id="level">Lvl: {{level}}</span></div>
       {% endif %}
       <script>
         var el = document.getElementById('graph'); // get canvas
