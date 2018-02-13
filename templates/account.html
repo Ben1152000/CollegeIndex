@@ -31,7 +31,7 @@
     <h2>My Account<h2>
     <div>
       {% if session.get('user') %}
-        <div title="{{progress|round}}% Progress" class="chart" id="graph" data-percent="{{progress}}"><span class="level" id="level">Lvl: {{level}}</span></div>
+        <div title="{{progress|round}}% Progress to Level {{level + 1}}" class="chart" id="graph" data-percent="{{progress}}"><span class="level" id="level">Lvl: {{level}}</span></div>
       {% endif %}
       <script>
         var el = document.getElementById('graph'); // get canvas
@@ -64,6 +64,7 @@
         drawCircle('#dddddd', options.lineWidth, 100 / 100);
         drawCircle('#555555', options.lineWidth, options.percent / 100);
       </script>
+      <p style="font-size: 18px; line-height: 25px">Raise your level by submitting quality <a href="/submit">reviews.</a></p>
       <p style="margin-top: 20px; font-size: 18px">Username: <b>{{session['user']}}</b></p>
       <p style="font-size: 18px">First Name: <b>{{session['name'][0]}}</b></p>
       <p style="font-size: 18px">Last Name: <b>{{session['name'][1]}}</b></p>

@@ -1811,7 +1811,7 @@
             "Ratings": {
                "Billton": 1,
                "Sully": -1,
-               "Test": 1
+               "Test": -1
             },
             "Review": "sdf",
             "Taste": 1,

@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
-import os, json, re, flask_sijax, math, sqlite3
+import os, json, re, flask_sijax, math, sqlite3, subprocess
 from geocoder import google
 from resources import *
 
@@ -196,5 +196,6 @@ def upvote():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True, use_reloader=False, host="192.168.1.19", port="5000") # change use_reloader to True when running
+    host = str(subprocess.check_output(['ipconfig', 'getifaddr', 'en0']))[2:-3] # change host to equal "localhost" when offline
+    app.run(debug=True, use_reloader=False, host=host, port="5000") # change use_reloader to True when running
     

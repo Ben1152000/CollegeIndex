@@ -123,7 +123,7 @@ Module that provides a class that filters profanities
 by leoluk
 """
 class ProfanitiesFilter(object):
-    def __init__(self, ignore_case=True, replacements="$@%-?!", 
+    def __init__(self, ignore_case=True, replacements="#$@%*?!", 
                  complete=True, inside_words=False):
         """
         Inits the profanity filter.

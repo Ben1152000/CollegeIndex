@@ -249,7 +249,8 @@
           })();
           
           if (Object.keys(schools[schoolname]["Reviews"]).length == 0) {
-            result += "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit?school=" + schoolname + "'>Submit a review of this school</a></p>";
+            //console.log()
+            result += "<p style='margin: 0px 0px 0px 0px !important'>No Reviews Found</p><p><a href='/submit?school=" + schoolname.replace("'", "%27") + "'>Submit a review of this school</a></p>";
           } else {
             var taste = 0;
             var texture = 0;
@@ -322,9 +323,9 @@
               <br>\
               <div style='margin: 0px !important; height: 100%; border-radius: 6px; padding: 20px; background-color: #dddddd'>\
                 <h3 style='margin: 0px !important'>" + review + "&nbsp;\
-                  ({% if session.get('user') %}<a class='" + upstate + "upvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9650;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('register') }}\">&#9650;</a>{% endif %} " + 
+                  ({% if session.get('user') %}<a class='" + upstate + "upvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9650;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('login') }}\">&#9650;</a>{% endif %} " + 
                   "<span id='" + review + "'>" + rating + "</span>" + 
-                  " {% if session.get('user') %}<a class='" + downstate + "downvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9660;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('register') }}\">&#9660;</a>{% endif %}):\
+                  " {% if session.get('user') %}<a class='" + downstate + "downvote author" + review + "' id='{\"School\": \"" + schoolname + "\", \"User\": \"" + "{{ session.get('user') }}\", \"Review\": \"" + review + "\"}' style='text-decoration: none; cursor: pointer;'>&#9660;</a>{% else %}<a style='text-decoration: none;' href=\"{{ url_for('login') }}\">&#9660;</a>{% endif %}):\
                 </h3>\
                 <p style='margin: 10px 0px 0px 0px !important'>\"" + reviews[review]["Review"] + "\"</p>\
               </div>\
@@ -414,7 +415,7 @@
           return this.each(function () {
             $('html, body').animate({
               scrollTop: $(this).offset().top
-            }, 1000);
+            }, 600);
           });
         }
       });
