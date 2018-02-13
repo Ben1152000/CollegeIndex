@@ -81,4 +81,3 @@ Werkzeug==0.12.1
 widgetsnbextension==1.2.6
 wrapt==1.10.11
 yarg==0.1.9
-web: gunicorn app:app
