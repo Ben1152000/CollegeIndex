@@ -1,0 +1,68 @@
+{
+   "Billton": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Bill",
+         "Billington"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "1ec565414206d89b1481e1e3bff4cb2b"
+   },
+   "Grrw": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "ben.yeffet@gmail.com",
+      "name": [
+         "Ben",
+         "Y"
+      ],
+      "non-unique": "cynvagrkg",
+      "password": "a04b275122d1baae1037502dfe534517"
+   },
+   "Sully": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Ben",
+         "Darnell"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "49bb9538f1f1e49eded9d8b907c71d15"
+   },
+   "Test": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "benjamindarnell00@gmail.com",
+      "name": [
+         "Test",
+         "Test"
+      ],
+      "non-unique": "cnffjbeq",
+      "password": "df20ed8ce447017389c0cc20858cecdb"
+   },
+   "geg": {
+      "administrator": false,
+      "confirmed": false,
+      "email": "gege@mmm.com",
+      "name": [
+         "geg",
+         "grer"
+      ],
+      "non-unique": "yyyyyy",
+      "password": "fe62ee6b1099cb6189462c27798b1d32"
+   },
+   "kajksdjfkl": {
+      "administrator": false,
+      "confirmed": true,
+      "email": "jacobdarnell02@gmail.com",
+      "name": [
+         "cat",
+         "daj"
+      ],
+      "non-unique": "Fubhg3692",
+      "password": "8eefb90544e728886c5c6c6863e17fcb"
+   }
+}
