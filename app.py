@@ -194,8 +194,8 @@ def upvote():
     write(SCHOOLDATA, "data/schools.json")
     return json.dumps({})
 
+app.secret_key = os.urandom(12)
 if __name__ == "__main__":
-    app.secret_key = os.urandom(12)
     host = str(subprocess.check_output(['ipconfig', 'getifaddr', 'en0']))[2:-3] # change host to equal "localhost" when offline
     app.run(debug=True, use_reloader=False, host=host, port="5000") # change use_reloader to True when running
     
