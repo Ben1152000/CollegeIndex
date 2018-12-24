@@ -3,25 +3,25 @@
 {% block style %}
   <style>
     .chart {
-        position:relative;
+        position: relative;
         width: 150px; height: 150px;
         margin: 30px auto;
     }
     canvas {
         display: block;
-        position:absolute;
+        position: absolute;
         top:0;
         left:0;
     }
     .level {
-        color:#555;
-        display:block;
-        line-height:150px;
-        text-align:center;
-        width:150px;
-        font-family:sans-serif;
-        font-size:24px;
-        font-weight:100;
+        color: #555;
+        display: block;
+        line-height: 150px;
+        text-align: center;
+        width: 150px;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 100;
     }
   </style>
 {% endblock %}
@@ -64,10 +64,13 @@
         drawCircle('#dddddd', options.lineWidth, 100 / 100);
         drawCircle('#555555', options.lineWidth, options.percent / 100);
       </script>
-      <p style="font-size: 18px; line-height: 25px">Raise your level by submitting quality <a href="/submit">reviews.</a></p>
-      <p style="margin-top: 20px; font-size: 18px">Username: <b>{{session['user']}}</b></p>
-      <p style="font-size: 18px">First Name: <b>{{session['name'][0]}}</b></p>
-      <p style="font-size: 18px">Last Name: <b>{{session['name'][1]}}</b></p>
+      <p style="line-height: 25px">Raise your level by submitting quality <a href="/submit">reviews.</a></p>
+      <p style="margin-top: 20px">Username: <b>{{session['user']}}</b></p>
+      <p>First Name: <b>{{session['name'][0]}}</b></p>
+      <p>Last Name: <b>{{session['name'][1]}}</b></p>
+      <p>Email: <b>{{session['email']}}</b></p>
+      <p style="margin-top: 25px"><a href="{{ url_for('change_email') }}">Change Email</a></p>
+      <p><a href="{{ url_for('change_pswd') }}">Change Password</a></p>
       <br>
       <p style="font-size: 18px; line-height: 25px">If you desire to change any of this information, please let me know at: <a href="mailto:kjhscollegeindex@gmail.com">kjhscollegeindex@gmail.com</a></p>
     </div>

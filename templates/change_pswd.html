@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <h2>Change Password</h2>
+    <br>
+    {% if error==1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Passwords do not match.</div>
+    {% elif error==2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Password must be at least 6 characters.</div>
+    {% endif %}
+    <br>
+    <form class="form-signin" action="{{ url_for('change_pswd') }}" method="post">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" pattern=".{6,}" title="Must be at least 6 characters." required>
+      <br>
+      <label for="verifyPassword" class="sr-only">Verify Password</label>
+      <input type="password" name="verifyPassword" id="verifyPassword" class="form-control" placeholder="Retype password" pattern=".{6,}" title="Must be at least 6 characters." required>
+      <br><br>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </form>
+  </div>
+{% endblock %}

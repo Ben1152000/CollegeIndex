@@ -60,6 +60,7 @@ def register():
             print(data, data["username"])
             session['user'] = data["username"]
             session['name'] = data["name"]
+            session['email'] = data["email"]
             if "verify" in data: del data["verify"] # Don't store the verified password!
             if "username" in data: del data["username"] # Username is key, not value
             USERDATA[session['user']] = data # Add user data to file
@@ -75,6 +76,7 @@ def login():
         if username in USERDATA.keys() and USERDATA[username]["password"] == password:
             session['user'] = username
             session['name'] = USERDATA[username]["name"]
+            session['email'] = USERDATA[username]["email"]
             return main()
         return render_template('login.html', session=session, error=True)
     return render_template('login.html', session=session, error=False)
@@ -117,9 +119,47 @@ def submit():
 def account():
     if isLoggedIn(session):
         userlevel = math.floor(level(session['user'], SCHOOLDATA))
-        print("Level = " + str(userlevel))
+        #print("Level = " + str(userlevel))
         progress = (level(session['user'], SCHOOLDATA) - userlevel) * 100 + 0.1
         return render_template('account.html', session=session, level=userlevel, progress=progress)
+    return main()
+
+@app.route("/change_email", methods=['GET', 'POST'])
+def change_email():
+    if isLoggedIn(session):
+        if request.method == 'POST':
+            data = {
+                "email": request.form.get('inputEmail'),
+                "verify": request.form.get('verifyEmail'),
+            }
+            result = verify_email_change(data, USERDATA)
+            if result != 0:
+                return render_template('change_email.html', session=session, error=result)
+            # Tell session that user is logged in:
+            session['email'] = data["email"]
+            USERDATA[session['user']]['email'] = data["email"] # Add user data to file
+            USERDATA[session['user']]['confirmed'] = False
+            write(USERDATA, 'users.json')
+            return account()
+        return render_template('change_email.html', session=session, error=0)
+    return main()
+
+@app.route("/change_pswd", methods=['GET', 'POST'])
+def change_pswd():
+    if isLoggedIn(session):
+        if request.method == 'POST':
+            data = {
+                "password": request.form.get('inputPassword'),
+                "verify": request.form.get('verifyPassword'),
+            }
+            result = verify_password_change(data, USERDATA)
+            if result != 0:
+                return render_template('change_pswd.html', session=session, error=result)
+            # Tell session that user is logged in:
+            USERDATA[session['user']]['password'] = hashNsalt(data["password"], session['user']) # Add user data to file
+            write(USERDATA, 'users.json')
+            return account()
+        return render_template('change_pswd.html', session=session, error=0)
     return main()
 
 @app.route("/send-confirmation")

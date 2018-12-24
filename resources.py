@@ -54,6 +54,30 @@ def verify_registration(data, userdata): # 0 means successful, positive integers
         print("register: return-code 0")
         return 0
 
+# verify email change
+def verify_email_change(data, userdata): # 0 means successful, positive integers represent error codes  
+    if data["email"] != data["verify"]:
+        print("register: return-code 1.0")
+        return 1
+    elif not re.match("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", data["email"]):
+        print("register: return-code 2.0")
+        return 2
+    else:
+        print("register: return-code 0")
+        return 0
+
+# verify password change
+def verify_password_change(data, userdata): # 0 means successful, positive integers represent error codes  
+    if data["password"] != data["verify"]:
+        print("register: return-code 1.0")
+        return 1
+    elif not re.match(".{6,}", data["password"]):
+        print("register: return-code 2.0")
+        return 2
+    else:
+        print("register: return-code 0")
+        return 0
+
 def verify_submission(school, text): # 0 means successful, positive integers represent error codes  
     if school == None:
         print("register: return-code 2.0")

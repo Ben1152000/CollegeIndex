@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <h2>Change Email</h2>
+    <br>
+    {% if error==1 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Emails do not match.</div>
+    {% elif error==2 %}
+      <div class="alert alert-danger" role="alert" style="width: 50%; margin: 0 auto; padding: 5px">Invalid email address.</div>
+    {% endif %}
+    <br>
+    <form class="form-signin" action="{{ url_for('change_email') }}" method="post">
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" title="Valid email address." required autofocus>
+      <br>
+      <label for="verifyEmail" class="sr-only">Verify Email address</label>
+      <input type="email" name="verifyEmail" id="verifyEmail" class="form-control" placeholder="Retype Email address" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" title="Valid email address." required autofocus>
+      <br><br>
+      <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </form>
+  </div>
+{% endblock %}
