@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, session, flash, url_for, send_from_directory
 from flask_mail import Mail, Message
-import os, json, re, flask_sijax, math, sqlite3, subprocess
+import os, json, re, flask_sijax, math, subprocess
 from geocoder import google
 from resources import *
 
@@ -31,7 +31,7 @@ USERDATA = json.load(open('users.json'))
 SCHOOLDATA = json.load(open('data/schools.json'))
 
 # Set up SQL Database
-CONNECT = sqlite3.connect('data/schools.db', timeout=20)
+#CONNECT = sqlite3.connect('data/schools.db', timeout=20)
 
 # Create profanity filter
 FILTER = ProfanitiesFilter()
